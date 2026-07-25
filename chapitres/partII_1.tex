@@ -1,34 +1,46 @@
 \subsection{Traitement audiovisuel}
 
-Les tâches qui peuvent être automatisées sur une vidéo sont multiples : reconnaissance de locuteurs, segmentation audio, reconnaissance de visages, identification et classification d'objets, transcription audio, transcription de textes... Nous nous concentrons ici sur la segmentation temporelle, nous l'avons dit, c'est-à-dire sur la manière dont on peut automatiser la division d'une vidéo en différentes séquences, à partir de l'image et non du son. Nous analyserons ainsi les projets effectués dans ce domaine. Nos recherches ont montré que les études sur le sujet restent cantonnées aux expérimentations scientifiques et qu'elles n'ont pa été appliquées, à notre connaissance au domaine des humanités numériques. Nous établirons aini un état des lieux de ces expérimentations, afin de proposer la mise en place d'un tel processus en contexte patrimonial. 
-on veut faire deux choses : segmenter les séquences et les décrire : mots-clés, classification... 
+ dans la première sous partie : considérations technique : intégrer les contraintes du corpus et voir comment ils s’y inscrivent 
+ 
+"However, while shotboundary detection is certainly useful, reliably being able to de-tect scene boundaries would be an incredible technical feat, whichwould create tremendous potential for semantic and narrative anal-ysis of video and film material" \footcite{bhargav2019}
+
+Les tâches automatiques pouvant être appliquées à l’audiovisuel sont multiples avec d’un côté les tâches pouvant être appliquées à l’image, et de l’autre, les tâches pouvant être appliquées au son. Citons par exemple la reconnaissance de locuteurs, la segmentation, transcription et classification audio, la reconnaissance de visages, l’identification et la classification d'objets, la transcription de textes dans l’image...  
+
+Nous nous concentrerons dans cette partie sur la mise en place d’un processus de segmentation temporelle de l’image en différentes séquences, puis de leur indexation. En effet, chez Skinsoft, le besoin de segmentation est issu d’un corpus d’archives audiovisuelles muettes, de rushes, que la segmentation permettrait de diviser en séquences thématiques afin de les rendre intelligibles. Bien que la segmentation est souvent la condition préalable à un objectif de segmentation, par exemple, la vidéo doit être segmentée avant de pouvoir en extraire le contenu automatiquement (personnes, objets...), il s’agit ici d’une fonctionnalité à part entière à laquelle pourra être combinée une indexation.  
+
+Très important : la définition des séquences comme quoi ce sont des segments pas seulement syntaxiques mais surtout sémantiques : donc il faut non seulement les segmenter mais aussi en extraire le sens. : doit être le fil conducteur de ma partie  justifier davantage le choix des outils : Les institutions patrimoniales n'ont pas de GPU dédiés ni d'infrastructure cloud. Cela conditionne directement le choix des outils : un modèle léger comme PySceneDetect ou 2SDS sera préférable à ViViT ou TDSNet dans ce contexte, même si ces derniers sont plus performants. Attard et Seychell (2025) montrent que les architectures séparées et légères donnent de meilleurs résultats pratiques que les modèles multimodaux complexes 
+
+les archives ne peuvent pas être envoyées vers des services cloud pour des raisons de droits de propriété intellectuelle et de sécurité des données. L'algorithme doit être déployé localement dans l'infrastructure de l'application Skinsoft. C'est une contrainte technique majeure qui doit apparaître dans ta sous-partie car elle élimine d'emblée certaines solutions (APIs cloud comme AWS Rekognition ou Google Video Intelligence) et oriente vers des solutions déployables en local. 
+
+Nos recherches ont montré que les études sur le sujet restent cantonnées aux expérimentations scientifiques et qu'elles n'ont pas été appliquées, à notre connaissance, au domaine des humanités numériques. Nous établirons ainsi un état des lieux de ces expérimentations, afin de proposer la mise en place d'un tel processus dans un contexte de gestion de collections audiovisuelles patrimoniales.  
+
+De plus, la segmentation des archives audiovisuelles n’est jamais mise en place de manière isolée, puisqu’elle est plutôt la première étape d’un processus global. Ainsi, nous intègrerons également un processus automatique afin de pouvoir les décrire et les indexer au sein d’un système de gestion des collections.  
 
 Les chercheurs qui analysent les objets visuels s'attachent de plus en plus à l'analyse vidéo car la détection du mouvement aide d'autres tâches d'analyse automatique de détection et de reconnaissance d'objets.  \footcite{brostow2009}
-Les technologies appliquées à l'analyse de contenus vidéo et audio, comprenant la computer vision et la reconnaissance de discours automatique (ASR) sont désignées sous le terme de Audiovisual Processing (AVP). \footcite{noord2021}
-aussi désigné sous les termes suivants : Audiovisual Processing technologies, Automatic Metadata Extraction, Metadata Generation Mechanisms, Machine Learning Applications for Visual/Audio Data Annotation.
- 
-De plus, les outils de traitement audiovisuel, appliqués à un grand nombre de données permettent de passer du "close" au "distant" viewing. \footcite{noord2021} En effet, au lieu d'analyser quelques archives audiovisuelles de manière isolée, les chercheurs/archivistes auraient l'opportunité d'obtenir une vue d'ensemble sur les données et d'en observer les tendances. L'application du traitement audiovisuel permet donc de changer notre rapport aux archives audiovisuelles. 
+
 
 \subsubsection{Machine learning et deep learning}
 
-Passage de l'analyse descriptive, à l'analyse prédictive : (computer vision > machine learning)
-L'analyse predictive est plutot bien adaptée à l'audiovisuel 
+Les technologies appliquées à l'analyse de contenus vidéo et audio, comprenant la computer vision et la reconnaissance de discours automatique (ASR) sont désignées sous le terme de Audiovisual Processing (AVP). \footcite{noord2021}
+aussi désigné sous les termes suivants : Audiovisual Processing technologies, Automatic Metadata Extraction, Metadata Generation Mechanisms, Machine Learning Applications for Visual/Audio Data Annotation.
 
-Ces technologies reposent sur le machine learning, l'apprentissage machine, qui désigne un domaine de l'intelligence artificielle regroupant les techniques, méthodes et processus nécessaires afin de rendre une machine ou un système informatique plus intelligent. \footcite{zotero-item-584} Le machine learning désigne donc l'entraînement d'une machine à pouvoir "raisonner" à partir d'un jeu de données. Les techniques de traitement audiovisuels auraient ainsi besoin d'être entrainées sur des données, ici patrimoniales, afin de produire une analyse pertinente. 
+L’avantage de ces technologies est le suivant : appliquées à un grand nombre de données, elles permettent de passer du "close" au "distant" viewing, c’est-à-dire d’une vue des données rapprochée, réduite, à une vue d’ensemble. \footcite{noord2021} Ainsi, l’automatisation permettrait de passer de l’analyse manuelle de certaines archives audiovisuelles, à une vue d'ensemble sur les données afin d'en observer les tendances globales. L'application du traitement audiovisuel permettrait donc de changer notre rapport aux archives audiovisuelles.  
 
-Les technologies de traitement audiovisuel utilisent pour la plupart, une méthoe d'apprentissage machine, celle de l'apprentissge profond, fondée sur la mise en place de réseaux de neurones en pluieurs couches. Mais cette méthode requiert un nombre de paramètres important et un large jeu de données d'entraînement. \footcite{pattichis2023}
+L’application des technologies d’intelligence artificielle au domaine des images (images fixe ou vidéo) est désignée sous le terme de computer vision, ou de vision par ordinateur. Le terme définit un sous-domaine d’application de l’intelligence artificielle qui permet d’entraîner un système d’intelligence artificielle à l’analyse des images fixes ou en mouvement \footcite{stryker2025} La vision par ordinateur s’appuie largement sur des modèles de machine learning, l’apprentissage machine, qui désigne une branche de l'intelligence artificielle regroupant les techniques, méthodes et processus nécessaires afin de rendre une machine ou un système informatique plus intelligent. \footcite{zotero-item-584} Le machine learning permet d’entraîner des algorithmes capables d’apprendre à partir de données d’entraînement, pour ensuite prédire ou prendre des décisions sur de nouvelles données. \footcite{zotero-item-702} La vision par ordinateur s’appuie sur l’apprentissage machine précisément pour sa capacité à entraîner des systèmes à prédire. En effet, les corpus d’images fixes et d’images en mouvement sont des phénomènes complexes à appréhender pour des algorithmes, contrairement à des données statistiques et mathématiques. La nature de ces corpus les rend imprévisibles autant dans leur forme que dans leur contenu. Les algorithmes d’intelligence artificielle ne peuvent donc pas seulement réaliser une analyse prédictive de ce type de corpus, définie par des critères mathématiques. \footcite{mahony2020} Les corpus audiovisuels nécessitent une analyse prédictive, que les algorithmes sont entraînés à réaliser via des méthodes de machine learning. \footcite{mahony2020} 
 
-Pourquoi le deep learning ?
+De plus, la plupart de ces corpus sont d’une taille conséquente, forçant ainsi la mise en place d'algorithmes de prédiction, puisque l’entraînement machine ne peut pas être mis en place sur l’ensemble des données mais seulement sur un échantillon donné. 
 
-Analyse descriptive : 
-définit un modèle mathématique qui décrit le phénomène à observer. Hypothèses formulées selon les tendances observées sur les données et validation de ces hypothèses en les comparant avec les résultats réels. mais modèle risqué car dépend des analyses humaines : oublis possibles, dépend des connaissances de celui qui fait les hypothèses, impossible de tout observer et tout prédire. \footcite{mahony2020}
+Pour des tâches telles que la segmentation en différentes séquences, qui implique l’analyse du contenu de l’image, sont utilisés des modèles d’intelligence artificielle reposant sur des réseaux de neurones, et notamment des réseaux de neurones profonds. \footcite{norindr2023} La méthode de mise en place de ces réseaux de neurones profonds en plusieurs couches, est désignée sous le terme de deep learning, apprentissage profond, une sous-catégorie du machine learning. Le deep learning est basé sur des réseaux de neurones artificiels inspirés du fonctionnement du cerveau humain. Les neurones sont en réalité des cellules de calcul organisées en différentes couches qui interagissent les unes avec les autres afin de s’adapter aux données reçues, et de prendre une décision quelconque. Davantage entrainé que programmé, un modèle fondé sur l’apprentissage profond permet d’agir sans supervision humaine, améliorant ainsi le rapport cout-efficacité. \footcite{mahony2020}  Il suffit presque de fournir au modèle quelques images annotées, et le réseau de neurones permet au modèle de repérer lui-même les caractéristiques qu’il doit analyser sur de nouvelles données. \footcite{mahony2020} Par rapport aux techniques traditionnelles de vision par ordinateur, le deep learning permet d’obtenir une plus grande précision dans les tâches d'analyse audiovisuelle telles que la classification d'images, la segmentation, la détection d'objets. \footcite{mahony2020} 
 
-Analyse prédictive : 
-modèle qui minimise l'écart entre le résultat réel et le résultat prédit. Le machine learning fait de l'analyse prédictive. \footcite{mahony2020}
+Au sein des réseaux de neurones, le type de réseau spécifiquement employé dans le domaine de la computer vision pour la classification d’images et la reconnaissance d’objets, est celui le réseau de neurones convolutifs (CNN). Appliqués à des corpus d’images, les CNN peuvent par exemple analyser une image selon une hiérarchie de caractéristiques afin d’en extraire les couleurs et les contours. \footcite{brachmann2017}. Les taches que permettent les CNN sont plutôt bien adaptées à l’image fixe, puisqu’ils extraient des éléments fixes de l’image.  
 
-le deep learning est basé ur des réseaux de neurones artificiels inspirés du fonctionnement du cerveau humain. Les neurones sont en réalité des cellules de calcul qi interagissent les uns avec les utres afin de prendre uen décision. L'apprentissage profond permet à une machine d'apprendre à travers différentes couches de neurones sans supervisins humaine. Il suscite un intérêt croissant puisque l'interaction entre les cellules de calcul permettent une meilleure adaptabilité aux données. \footcite{mahony2020} Cette méthode d'apprentissage améliore aussi le rapport cout-efficacité. Les réseaux de neurones (CNN) sont entraînés plutot que programmés. Nécessitent moins de réglages et d'analyses humaine et grande flexibilité. les algorithmes de vision par ordinateur sont plus spécifiques à un domaine particulier. \footcite{mahony2020}
+Néanmoins, d’autres modèles issus du deep learning tels que les transformers s’avèrent davantage efficace sur des tâches dédiées à l’image en mouvement, dont fait partie la segmentation. Contrairement aux CNN, les transformers fonctionnent sur un mécanisme d’auto-attention qui leur permet de détecter les relations et dépendances entre les données. \footcite{bergmann2025} Tandis que les CNN analysent les données de manière sérielle, sans prendre en compte les interdépendances qui les régissent, les transformers examinent simultanément les données dans leur ensemble et décident de se concentrer sur certaines étapes de chacune d'entre elles. \footcite{bergmann2025} Les CNN ne permettent pas, par exemple, de discerner les “dépendances à longue portée” telles que les corrélations entre les pixels entre différentes images qui ne seraient pas voisins. \footcite{bergmann2025} Ainsi, ils seraient davantage adaptés à l’analyse d’images en mouvement puisqu’ils prendraient en compte les relations entre les images, tandis que les CNN seraient davantage adaptés aux images fixes.  Idéalement, la mise en place d’une segmentation automatique des archives audiovisuelles doit donc être fondée sur une architecture de type transformers.  
 
-La vision par ordinateur est davantage utilisée pour décrire des caractéristiques à partir de la détection d'objets, et ainsi faire de la classification d'images. Mais il faut choisir en amont quelles caractéristiques l'algorithme doit choisir dans l'image. S'il y a beaucoup de caractéristques à extraire, le processus devient fastidieux et demande beaucou de supervision. Avec le deep learning, on fournit seulement quelques images annotées et les réseaux de neurones repèrent eux-mêmes les caractéristiques à extraire par rapport aux obejts observés.\footcite{mahony2020}
+Toutefois, dans un contexte patrimonial, avec des ressources limitées, ces algorithmes fondés sur l’intelligence artificielle possèdent leur lot de limites. Premièrement, les réseaux de neurones sont conçus comme des boites noires, ne permettant pas d’interpréter les analyses qui sont produites. \footcite{brachmann2017}  En effet, une fois entraînés, il est difficile d’en modifier les paramètres puisqu’ils sont entremêlés entre les différentes cellules de calcul. La réflexion produite est ainsi difficile à comprendre et à exposer. \footcite{mahony2020} Deuxièmement, les algorithmes de type transformers sont complexes et restent difficiles à adapter à un corpus audiovisuel lui-même complexe. \footcite{yuan2025}. Ils demandent également de grandes puissances de calcul et un temps de paramétrage important, ce qui les rend inadaptés à des contextes de gestion de collections patrimoniales. De plus, ils requièrent un grand nombre de paramètres issu d’un large jeu de données d’entraînement afin d’éviter un trop grand nombre de biais.  \footcite{pattichis2023} 
+
+
+
+
 
 % TODO: \usepackage{graphicx} required
 \begin{figure}
@@ -39,113 +51,86 @@ La vision par ordinateur est davantage utilisée pour décrire des caractéristi
 \end{figure}
 
 
-Par rapport aux technique traditionnelles de vision par ordinateur, le deep learning permet d'avoir une plus grande précision dans les tâches d'analyse audiovisuelle telles que la classification d'images, la segmentation, le détection d'objets. \footcite{mahony2020}
-risque des CNN : surapprentissage, difficle de modifier les paramètre uen fois qu'il est entraîné car miliers de paramètres entremêlés entre les cellecules de calcul. boite noires \footcite{mahony2020}
-l'apprentissage automatique clasique, computer vision : transparence, les paramètres peuvent être ajustés manuellement et facilement. \footcite{mahony2020}
+
 
 Les approches hybrides : un algorithme de vision par ordinateur peut détecter des caractéristiques qui peuvent ensuite être transmies à des réseaux de neurones profonds pour la classification. 
 
 Mais tout dépend de la tâche à effectuer : peut être effectué à partir de la computer vision si c'est juste un seuil à calculer.
 
-Les modèles multimodaux qui combinent audio et vidéo (vivit-ast) ne donnent pas les meilleurs résultats. Il faudrait donc adopter des architectures plus simples, qui demandent moins de calcul d'usage et qui séparent les pipelines. \footcite{attard2025}
-
-Dans le deep learning : comparer les CNN et les transformers : 
-
-CNN :  réseau de neurones convolutif 
-
-Outils de classification : 
-"modèles de programmation puissants permettant notamment la reconnaissance d’images en attribuant automatiquement à chaque image fournie en entrée, une étiquette correspondant à sa classe d’appartenance."\footcite{robert2026}
-l'un des principaux cas d'usages des CNN est la "reconnaissance d'images". "Dans une moindre mesure, on les utilise aussi pour l’analyse vidéo.". \footcite{robert2026}
-
-Description du fonctionnement d'un CNN appliqué à un corpus d'images : « CNNs learn a hierarchy of filters, which are applied to an input image in order to extract meaningful information from the input. [...] CNNs tend to learn features that resemble Gabor-like edge detectors and color-opponent filters at lower layers [...]. On higher layers of the CNNs, features capture more abstract image content by integrating the lower-layer features. » \footcite{brachmann2017}. A relier avec ResNet : même fonctionnement. 
-
-limite des CNN pour l'analyse de l'esthétisme des images : « While hand-crafted features allow to quantify which feature contributes the most to an aesthetic rating, this interpretability is lost with generic features. [...] Deep neural networks and generic features basically represent a black-box approach that lacks this kind of interpretability. » \footcite{brachmann2017}
-
-Transformer : 
-
-"La fonctionnalité centrale des modèles transformers est leur mécanisme d’auto-attention, dont ils tirent leur incroyable capacité à détecter les relations (ou dépendances) entre les différentes partie d’une entrée. Contrairement aux architectures RNN et CNN qui l’ont précédée, l’architecture de type transformer utilise uniquement des couches d’attention et des couches de propagation standard." \footcite{bergmann2025}
-Les RNN et CNN analyse les données de façon "sérielle" \footcite{bergmann2025}, dans un ordre donné, les empêchant ainsi de saisir les "dépendances à longue portée". \footcite{bergmann2025}
-les tranformers : "Les mécanismes d’attention, quant à eux, examinent simultanément les séquences dans leur intégralité et décident de la manière et du moment où il convient de se concentrer sur certaines étapes de chaque séquence.", "En plus d’améliorer considérablement la capacité à comprendre les dépendances à longue portée, cette qualité des transformeurs permet également la parallélisation, qui consiste à réaliser plusieurs étapes de calcul simultanément, au lieu de les sérialiser." \footcite{bergmann2025}
-
-"Les transformeurs offrent également certains avantages par rapport aux réseaux de neurones, en particulier pour les données visuelles. Intrinsèquement locaux, les CNN utilisent des convolutions pour traiter successivement les sous-ensembles de données d’entrée.
-Par conséquent, les CNN peinent à discerner les dépendances à longue portée, telles que les corrélations entre les mots (dans un texte) ou les pixels (dans une image) qui ne sont pas voisins. Les mécanismes d’attention n’ont pas cette limitation." \footcite{bergmann2025}
-
-Les modèles fondés sur les mécanismes d'auto attention capturent mieux les relations entre images mais leur complexité les rend difficilement applicables à des vidéos complexes elles mêmes.\footcite{yuan2025}
-
-segmentation sémantique vidéo adaptative TDNet et TDSNet 
-low parameter models 
-
-outils : 
-shot boundary detection : pyscene detect, 2SDS + amaliajs
-framework de computer vision : diginpix, detectron, imageJ
-modèles d'action reconigtion standards : TSN, slowfast
-
 
 transition vers la prochaine sous partie : parler des données d'entrainement (cf fichier IAvideo pattichis)
 
 Toutes les tâches automatiques qui peuvent être appliquées à la vidéo nécessitent un entraînement multimodal : 
-entrainemen multimodal :  When we refer to multimodal or cross-modal learning, we are referring to learning using video, audio and/or text. These approaches generalize to a greater variety of visual tasks including action step localization, action segmentation, text-to-video retrieval, video captioning. \footcite{schiappa2023}
+entrainement multimodal :  When we refer to multimodal or cross-modal learning, we are referring to learning using video, audio and/or text. These approaches generalize to a greater variety of visual tasks including action step localization, action segmentation, text-to-video retrieval, video captioning. \footcite{schiappa2023}
 
 
-\subsubsection{outils et modèles disponibles}
-Analyse sémantique vs analyse syntaxique : 
+\subsubsection{Outils et modèles disponibles}
 
-citer diginpix 
+Différents projets ont tenté de mettre en place des algorithmes de segmentation vidéo. Bien que ces projets ne soient pas appliqués à des archives audiovisuelles, mais des corpus de vidéos moins spécifiques, il est tout de même intéressant d’en analyser la structure pour éventuellement les implémenter dans un contexte patrimonial. De plus, il est intéressant de comprendre sur quelles technologies s’appuient ces algorithmes. En effet, face aux limites de sréseaux euronaux et des algorithmes fondés sur le mécanisme d'auto attention, nous tenterons d'analyser des architectures plus simples et également plus fiables afin de les appliquer aux archives. 
+Les modèles de détection neuronaux sont entrainés sur des datasets de clips courts. Or, la réalité audiovisuelle est bien différente. \footcite{pattichis2023} Des approches algorithmiques non neuronales ou hybrides seraient donc plus adaptées car fondée sur des calculs et des seuils matéhmatiques : plus stable. 
 
-La détection de coupures = analyse syntaxique et ne nécessite pas de réseaux de neurones aux calculs lourds 
-appliquer plutot 2sds ou pyscenedetect : étapes 
+Nous analyserons la structure de ces algorithmes sans en mentionner les détails mathématiques et techniques puisque notre objectif est d’en proposer une implémentation métier, au sein d’un système de gestion des collections. Nous analyserons davantage leur adaptabilité aux données et leur capacité d’entrainement sur des donnés complexes.  
 
-mais : identifier et classifier la séquence, le décrire (shot semantics) : avec l'apprentissage supervisé avec signgle shot detectors  (classer le type de plans, le type d'objets...)
-deux voies pour décrire séquence : 
-par keyframes (vitesse) Diginpix
-par densité temporelle (précision) TDSNet
+Une des solutions, afin de pouvoir implémenter des algorithmes plus légers, serait de ramener l'image ne mouvement à l'image fixe. En effet, le cinéma est généralement caractérisé par l'enchaînement de 24 images par seconde afin de produire une illusion du mouvement pour l'oeil humain. Nous pouvons éventuellement imaginer un outil qui puisse découper le mouvement en des images fixes qui le composent afin de pouvoir les analyser plus facilement, au lieu d'implémenter une architecture complexe fondée sur la compréhension des relations et du mouvement entre les images. Les images fixes seraient ensuite regroupées en séquences après uen analyse de leurs différence. Grâce à ce procédé, nous pourrions finalement appliquer les mêmes procédés d'analyse que sur l'image fixe, relativement plus légers, fondés sur la vision par ordinateur. 
 
-zero shot learning pour la description : CLIP 
+C’est ce que fait la bibliothèque python pyscenedetect  avec différentes méthodes de détection. \footcite{zotero-item-706} Après, les plans sont regroupés de manière thématique après une analyse entre leurs différences : plus simples. 
+
+Dans leur article, Xin présente les principes de segmentation appliqué à la vidéo, pronant le découpage syntaxique préalable à l'analyse sématique par des modèles d'intelligence artificielle. \footcite{xin2023}. Ainsi, il faudrait détecter les changements entre les scènes d'une vidéo en analysant préalablement les différences entre les images fixes qui la composent. Si deux images sont jugées suffisamment différentes selon un seuil prédéfini, elles appartiennent à des scènes distinctes. \footcite{xin2023}. Une ou plusieurs images clés pour chaque séquence sont retenues, puisque l'algorithme élimine les images en double, proches, et retient celle qui est représnetative de la présence des éléments dans l'image (data selection). \footcite{xin2023} Ce principe permet d'alléger nettement la puissance de calcul et la structure des algorithme. Ces imges clés seraient ensuite passées dans un algorithme fondé sur un réseau neuronal pour effectuer une analyse sémantique. 
+
+Pyscene Detect est un outil opensource et en libre accès fondé sur des tâches de computer vision classique, qui matérialise concrètement ce principe de comparaison première des images fixes. Il utilise des détecteurs mathématiques pour analyser les différences entre les images tirées d'une vidéo. \footcite{zotero-item-708} Il s’agit ainsi d’un outil basé sur des seuils et mesures visuelles mathématiques  et paramétrables qui ne nécessitent pas d’entraînement particulier. L'outil permet donc d'isoler les images fixes de l'image animée, de les regrouper par similarité et de les dissocier selon leurs différences. Trois méthodes de détection sont proposées par l’outil : une détection des fondus entrants et sortants qui repère les niveaux de noir dans l’image, une détection de coupes rapides qui repère les changements de contenu entre images, une détection de coupes fondée sur la différence d’un plan avec les plans adjacents. \footcite{zotero-item-708} La méthode utilisée dépend de la nature du corpus analysée. Si les changements entre les séquences sont peu marqués, peu évidents, la méthode detect-adaptative sera plutôt employée. Une fois la méthode choisie, il est possible de générer un fichier statistique afin de déterminer les paramètres à appliquer. Il est notamment possible de paramétrer la valeur du seuil voulu, selon la détection de changement souhaitée entre les différents plans. \footcite{zotero-item-708} La méthode de détection fondée sur le contenu analyse la différence entre chaque paire d’images adjacentes et déclenche un changement de scène lorsque cette différence dépasse la valeur seuil. Cette valeur doit être très faible entre des images similaires et augmenter lorsqu'un changement important de contenu est détecté. La valeur seuil doit être définie de manière à ce que la plupart des scènes se situent en dessous de cette valeur, tandis que les scènes où des changements se produisent doivent la dépasser (déclenchant ainsi un changement de scène). \footcite{zotero-item-708} L'outil retourne ensuite des marqueurs temporels associés à la vidéo correspondant aux coupures détectées. 
+Un détail important de l'outil est sa capacité à enregistrer automatiquement une image clé pour chaque scène détectée, associée au fichier vidéo d'origine. C'est cette iage clé qui sera réemployée au sein du processus suivant, celui de l'analyse sémentique de la séquence, afin de ne pas transmettre une multitude d'image auux algorithmes. 
+Toutefois, certaines mises en application de l'outil soulignent ses limites. Bhargav expique par exemple que l'outil détecte beaucoup plus de coupures de plans que nécessaire au sein d'archives du cinéma des premiers temps. \footcite{bhargav2019} Un problème qui peut être lié à la qualité amoindrie de ces archives, même numérisées.  \footcite{bhargav2019}. En effet, selon Norindr, la qualité détermine la performance de l'outil utilisé et des résultats reçus sur l'analyse de l'image. \footcite{norindr2023} De plus, Bhargav souligne la nécessité de savoir comment paramétrer l'outil de manière adaptée au corpus analysé. \footcite{bhargav2019} Toutefois, un des avantages majeurs de l'outil pyscene detect est sa disponibilité et la possibilité de le mettre en oeuvre facilement et gratuitement. De plus, c'est un outil fondé sur des tâches classiques de vision par ordinateur analytiques qui n'ont pas besoin d'entraînement particulier sur des données annotées. Son paramétrage est également documenté et facilement modifiable, contrairement à ceux des réseaux de neurones. 
+
+
+
+Après pyscenedetect : apposer une analyse sur les séquences. Pas adapté pour des archives plus complexes. Sur notre corpus : ancien donc ruptures moins visibles avec la dégradation. Pourrait convenir, mais pour d’autres corpus, appliquer un pipleine basé sur des mécanismes plus lourds d’auto-attention.
+
+Quand déclencher le processus ??? réalité métier : application de l’IA : à la demande du client ? Sur certaines archives ? À l’ingest d’un fichier numérique ? Sur tous les fichiers numériques ? 
+
+\subsection{Mise en application}
+
+Mettons à l'épreuve l'adaptabilité de l'outil pyscenedetect pour la segmentation des vidéos en séquences, au corpus d'archives audiovisuelles géré au sein du logiciel de Skinsoft. Ce corpus, rappelons-le, est composé d'archives issues des années 1910 à 1920 essentiellement documentaures, à plans fixes, en noir et blanc et muettes. Nous imaginerons ici ce que pourrait produire l'outil sur un tel corpus et quelle seraient les données générées par le processus, avant même de réfrléchir à une interface entre l'outil et l'utilisateur. Le corpus pris comme exemple se caractérise par son ancienneté, et donc son indéniable dégradation de la qualité de l'image. L'outil pourrait rencontrer des difficulté afin d'identifier les changements de plans et les coupures. Toutefois, la structure de ces archves en une succession de plans fixes, dont les coupures sont marquées, en fait un corpus ralitivement bien adapté à l'outil, qui pourrait identifier les coupes plus facilement. 
+Par ailleurs, pyscenedetect est un outil davantage utilisé pour la détection de plans différents au sein d'une image animée. Or, dans ce mémoire, nous cherchons à savoir comment segmenter une archives audiovisuelle en séquences. Dès lors, comment paramétrer un tel outil pour la détection d'éléments syntaxiques plus larges que ceux des plans ? 
+Une des solutions est d'augmenter la valeur du seuil de coupures (treshold), pour que l'outil ne détecte plus des micro coupures entre les images mais des coupes plus larges, à l'échelle de séquences. \footcite{zotero-item-708} L'outil enregistrerait un changement seulement lors d'un changement radical d'espace temps à l'image, losrque l'image change significativement. Ce paramètre reste limité puisque plusieurs plans peuvent être radicalement différents mais appartenir à la même séquence. Par exemple, un gros plan et  un plan d'ensemble. Dans le cas du corpus d'archives décrit, les plans restent larges pour la grande majorité, montrant l'ensemble du décor dans lequel ils s'inscrivent. 
+Par ailleurs, il est possible de paramétrer une durée minimale de scène à détecter avec le paramètre "min-scene-len", pour diriger la coupure seulement après un laps de temps défini. \footcite{zotero-item-708}. Ce paramètre suppose une analyse statistiue du corpus afin de définir la durée moyenne d'une séquence au sein des archives. L'institution conservatrice de ce corpus documente justement déjà les séquences sur ses archives audiovisuelles à l'aide de time codes pour en déterminer les séquences. Une analyse statistique comparative pourrait être réalisée sur ces données documentées de time codes afin de déterminer la durée moyenne d'une séquence au sein du corpus. 
+Enfin, sur ce corpus, le mode de détection adaptatif pourrait être privilégié, couplé à une analyse d'images plus importante. \footcite{zotero-item-708} Ainsi, il est possible de paramétrer le mode de détection de telle manière à ce que l'outil compare le contenu visuel d'une image par rapport à une plus grande variété des images qui l'entourent. Ce paramétrage permettrait à l'outil de détecter uniquement les changements majeurs dans l'image, et donc les séquences. 
+Une fois ces paramètres définis, le processus une fois enclenché produit deux types de données. Il produit un fichier json ou csv contenant les time codes de début et de fin identifiés comme séquences au sein de chaque fichier vidéo ingesté. Chaque séquence possède donc un identifiant unique associé à des times codes de début et de fin. L'outil permet également d'extraire pour chaque séquence un fichier image, qui correspond à l'image fixe médiane, censée être la plus représentative de la séquence et que nous désignerons sous le terme d'image clé. \footcite{zotero-item-708} 
+
+Toutefois, si ce paramétrage permettrait une plus grande précision dans la détection de séquences, il comporte des limites. Ces limites sont dûes à la définition d'une séquence, qui ne se définit pas seulement comme ue caractéristique syntaxique au cinéma, comme c'est le cas du plan, mais bien par une double caractéristique syntaxique et sémantique. En effet, un changement de séquence est un choix narratif, un choix de sens au sein du flux animé. C'est pourquoi un outil fondé sur des seuils mathématiques appliqués au contenu visuel comporte des limites. Nous proposons alors de réaliser une analyse sémantique sur les séquences détectées, afin de ré associer la syntaxe au ens, qui en fait une séquence, en réutiliant les données produites par le processus : les times codes et l'image clé.
+
+
+Il est courant d’utiliser des modèles préentraînés sur un grand jeu de données et de le réajuster ensuite au jeu de données en question, au sein d’un contexte précis. \footcite{norindr2023} Ce modèle peut justement servir de modèle de caractéristiques à analyser sur les vidéos, un second entraînement, dans le contexte peut aider à l’affiner et à l’adapter au corpus spécifique. Le rendre d’abord familier au langage audiovisuel. 
+
+
+
+
+
+
+SOUS PARTIE 3 : 
+
+"A major challenge for making AVP tools available
+is that the underlying algorithms need direct access to the data, yet due to strict IPR regulation this data often cannot leave the archives’ digital environment. A side effect of this is that for the analysis of AV material commercially available tools cannot be used, as these are primarily cloud based. it is necessary that any AVP infrastructure can be integrated with a local archival infrastructure, i.e., we need to bring the algorithms to the data, rather than the data to the algorithms." \footcite{noord2021}. Solution : projet CLARIAH 
+
+"Moreover, DANE is designed
+to be able to function in environments where there are
+fewer compute resources, or environments where access to the data is rate limited, as is typical for AV
+archives. To make this possible, the DANE architecture (as shown in Figure 2) divides the tasks to be performed over different workers that perform one specific type of analysis, where the work is assigned to a worker by means of message broker queuing system. The results of the analyses are communicated back to the server by the workers, and made available via an API to clients (e.g., other services or individual users)." \footcite{noord2021} (+ schéma qui montre l'architecture)
+
+"To enrich the AV collections in the Media Suite with automatically generated (and time-coded) metadata an assortment of AVP tools had been added to DANE, ranging from Semantic Object Detection, to colour analysis, to Automatic Speech Recognition."\footcite{noord2021}
+
+"These tools generate two types of metadata: (i) structured data which can be integrated into the existing metadata systems, and (ii) feature vectors which describe the data on a more abstract level, but which can be integrated in new types of interfaces and search systems. For instance, with an Object Recognition model it is possible to recognise which objects are present in an image, but the output of such a model can also be used to perform more abstract visual similarity queries" \footcite{noord2021}
+
+
 
 Malgré de grandes avancées dans le processing audiovisuel, avec des outils comme la computer vision appliquée à la vidéo, et la reconnaissance de discours automatique (ASR), ces outils restent largement inaccessibles et hors de portée pour les institutions patrimoniales. \footcite{noord2021}. Ils sont utilisés par des entreprises commerciales pour du montage vidéo par exemple. Le manque d'utilisation de ces outils dans le domaine des sciences humaines expliquent l'inexistance de données d'entraînement adaptées au secteur. \footcite{noord2021} 
 l'analyse vidéo par un processus humain prend un temps considérable, puiqu'il faut lire le fichier audiovisuel et en analyser les composants, le langage. Ainsi, l'indexation des archives audiovisuelles se cantonne souvent aux métadonnées, sans en exposer les données, le contenu.
 
 Et donc en pratique, comment appliquer le traitement audiovisuel à des corpus d'archives audiovisuelles patrimoniales ? 
 
-pipeline avec 2SDS : 
-\subitem 2SDS
-
-l'étude de xin2023 \footcite{xin2023} présente 2SDS, un algorithme de segmentation temporelle vidéo. Plutôt que d’utiliser un réseau de neurones pour détecter les changements de scènes, 2SDS compare des empreintes (hash) d’images successives. Si deux frames sont suffisamment différentes (distance de Hamming supérieure à un seuil), elles appartiennent à des scènes distinctes.
-« 2D CNNs only recognise a video as discrete images, rather than a continuous stream of images. This poses some issues. For example, a CNN model could not resolve the motion of a person because the person is stationary in every frame, and this will cause the loss of significant information in video analysis. »\footcite{xin2023} : un CNN 2D comme resnet analyse chaque plan de manière indépendante et ignore la logique temporelle de la vidéo. 2SDS résout ce problème en regroupant les plans similaires avant de les classifier. (à relier avec la notion de shot boundary detection). 
-« We need to devise an implementation that complements the CNN model to solve the continuity issue. This implementation should group the discrete frames (adjacent on the temporal axis) that look similar to each other into scenes, this procedure is what we call temporal segmentation. »\footcite{xin2023} : la segmentation temporelle : regrouper les plans qui se suivent et visuellement similaires : c'est ce que fait pyscene detect avec le content detector. 
-l'article explique aussi la mise en place d'un pipeline de détection de changement de plan : 
-4 étapes : 
-\subitem down sampling : miniaturisation du plan pour détecter les changements globaux, pas locaux
-\subitem conversion de l'image RGB en niveaux de gris 
-\subitem calcul d'une valeur de "hachage" de l'image : Chaque ligne de 9 pixels est convertie en 8 bits binaires comparant les pixels adjacents. Produit une « empreinte » numérique de la frame.
-\subitem distance de hamming : 
-comparaison des empreinte de deux frames consécutives. Si la distance est supérieure à 5, les deux plans apparatiennent à des scènes différentes. le seuil est paramétrable. pyscenedetect est l'implémentation concrète de ce processus. 
-
-les auteurs conseillent de ne pas utiliser des réseaux de neurones pour la segmentation vidéo : « The usage of RNN or even neural networks is not practical in time sensitive tasks like real-time object recognition and live video stream analysis, which requires fast responding algorithms, and RNNs usually cannot meet those requirements. »\footcite{xin2023}
-
-détecter les coupures entre es scènes est une analyse syntaxique et non sémantique : il suffit de détecter la différence visuelle. les meilleurs résutats de détection de coupures se font sur des plans fixes, avec des suets distants, des mouvements lents, docn plutot bien adaptées aux archives audiovisuelles. 
-
-l'article de \cite{xin2023} ne cherche pas à comprendre les scènes mais seulement à analyser leur syntaxe pour en détecter les coupures. 2SDS règle le problème de délimitation en séquence, mais ne décrit pas la vidéo comme d'autres outils peuvent le faire : CLIP, YOLO, BLIP. De plus, le corpus de tets ets réduit (6 vidéos issues de youtube), et en couleur. 
 
 
- pipeline multimodal 
-Automatic temporal vidéo scene segmentation (ou video story segmentation)
 
-"The automatic temporal video scene segmentation (also known as video story segmentation) is still an open problem without definite solutions in most cases." \footcite{trojahn2021}
-les meilleurs solutions et qui donnent les meilleurs résultats qui existent sont les techniques mutlimodales utilisant les caractérstiques de plusieurs outils : "Among the available techniques, the ones which shows better results are multimodal using features extracted from multiple modalities."\footcite{trojahn2021}
-La fusion multimodale peut se faire de deux façon, fusion en une seule représentation, fusion par segmentation de chaque modalité : "Multimodal fusion may be performed to fuse each modality as a single representation (early fusion) or by each modality segmentation (late fusion), the latter been widely due to multimodal fusion simplicity."\footcite{trojahn2021}. C'est la seconde approche qui est privilégiée. 
 
-limites des CNN : "CNNs cannot adequately learn cues which are temporally distributed along the video due to difficulties to model temporal features data dependencies."\footcite{trojahn2021}
-
-RNNs : "Successfully employed on text processing, RNNs are fitted to analyze sequences of data of variable length and may better grasp the temporal relationship among low-level features of video segments, hopefully obtaining more accurate scene boundary detection."\footcite{trojahn2021}. Les RNN permettent de mieux capturer les relations temporelles. 
-
-Une des solutions serait de combiner CNN et RNN : complémentaires.
-
-La segmentation en pratique (Le cas du corpus Albert Kahn  DigInPix) : Pour analyser ce corpus, la première tâche est de briser le flux vidéo en unités distinctes appelées shots (plans) (Arnold  Tilton, 2019). C'est ici que vous intégrez le fonctionnement de DigInPix (développé par l'INA pour les images fixes et animées) : pour gérer la dimension temporelle, le système extrait des keyframes (images clés) dès que le contenu change significativement (nouveau plan, mouvement de caméra, nouvel objet) grâce à des histogrammes basés sur les descripteurs LBP (Local Binary Patterns) (Letessier et al., 2015). Une fois ces unités analysables isolées, on peut y appliquer de la reconnaissance (visages, objets) (Arnold  Tilton, 2019 ; Letessier et al., 2015).
-
-segmentation spatiale, temporelle, sémantique, audio
-
-ex du corpus albert kahn 
 
 \subsubsection{entraîner ces outils et ces modèles}
 

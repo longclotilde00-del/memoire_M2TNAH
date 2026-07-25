@@ -612,6 +612,71 @@
       \endverb
       \keyw{à lire,Collections patrimoniales,Computer vision,Coopération humain-machine,Heritage collections,Humanmachine cooperation,Musée,Museum,Vision par ordinateur}
     \endentry
+    \entry{bhargav2019}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=019e067bdf250531709ca5d31a70e2e8}{%
+           family={Bhargav},
+           familyi={B\bibinitperiod},
+           given={Samarth},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=108579eac8a7cdebc82d21b654cdac5d}{%
+           family={{van Noord}},
+           familyi={v\bibinitperiod},
+           given={Nanne},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb9dd99d7f40e6a4ac31adc141a95a2c}{%
+           family={Kamps},
+           familyi={K\bibinitperiod},
+           given={Jaap},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{fullhash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{fullhashraw}{591d717586a1bce398520f5f6579c3ab}
+      \strng{bibnamehash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{authorbibnamehash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{authornamehash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{authorfullhash}{591d717586a1bce398520f5f6579c3ab}
+      \strng{authorfullhashraw}{591d717586a1bce398520f5f6579c3ab}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Visual Cultural Heritage has extensively been explored using multimedia methods, but has so far been limited to still images. In particular, Early Cinema has hardly been explored. We analyze the Desmet collection, a recently digitized collection of early cinema (1907-1916), in the context of intertitles. Intertitles played an important role in silent movies in order to convey the main narratives, and split the film into semantically meaningful segments. We first build several classifiers to detect these intertitles, and evaluate it on a gold standard collection annotated by an expert. We illustrate the usefulness of using Deep Learning methods to extract semantic features to analyze the role of intertitles in early cinema. Furthermore, we attempt to structure and map the narrative progression of a film with respect to the locations at which shots were filmed.}
+      \field{booktitle}{Proceedings of the 1st {{Workshop}} on {{Structuring}} and {{Understanding}} of {{Multimedia heritAge Contents}}}
+      \field{isbn}{978-1-4503-6910-7}
+      \field{month}{10}
+      \field{series}{{{SUMAC}} '19}
+      \field{title}{Deep {{Learning}} as a {{Tool}} for {{Early Cinema Analysis}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 68}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/3347317.3357240
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/F7THRVNB/Bhargav et al. - 2019 - Deep Learning as a Tool for Early Cinema Analysis.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3347317.3357240
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3347317.3357240
+      \endverb
+    \endentry
     \entry{boeuf2008}{incollection}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=22746dc4437bff09075f4ef651e8ba75}{%
@@ -976,6 +1041,45 @@
       \field{year}{2015}
       \true{nocite}
     \endentry
+    \entry{zotero-item-704}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{Command-{{Line}} - {{PySceneDetect}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/FASNKZI8/cli.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scenedetect.com/cli/
+      \endverb
+      \verb{url}
+      \verb https://www.scenedetect.com/cli/
+      \endverb
+    \endentry
+    \entry{zotero-item-708}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{Command-{{Line}} - {{PySceneDetect}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/FS64XS4B/cli.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scenedetect.com/cli/
+      \endverb
+      \verb{url}
+      \verb https://www.scenedetect.com/cli/
+      \endverb
+    \endentry
     \entry{cordell}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b081d7929c3a1fa384b51168ed849fc}{%
@@ -1043,6 +1147,31 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
+      \endverb
+    \endentry
+    \entry{2023c}{misc}{}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Découvre Ultralytics YOLOv8, une avancée dans la détection d'objets en temps réel, optimisant les performances avec une gamme de modèles pré-entraînés pour diverses tâches.}
+      \field{journaltitle}{Ultralytics Docs}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{title}{{Explorer Ultralytics YOLOv8}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/J8GE4DV4/yolov8.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/fr/models/yolov8
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/fr/models/yolov8
       \endverb
     \endentry
     \entry{fewster}{article}{}{}
@@ -1531,6 +1660,25 @@
       \verb https://dl.acm.org/doi/10.1145/2733373.2807406
       \endverb
     \endentry
+    \entry{zotero-item-706}{misc}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{title}{Home - {{PySceneDetect}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/TJH86T92/www.scenedetect.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scenedetect.com/
+      \endverb
+      \verb{url}
+      \verb https://www.scenedetect.com/
+      \endverb
+    \endentry
     \entry{husson2025}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d1542084df41de78edb36720873b03b}{%
@@ -1627,6 +1775,46 @@
       \verb https://www.cnrtl.fr/definition/indexation
       \endverb
       \keyw{Indexation}
+    \endentry
+    \entry{jocher2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5c5e5cd7f4f477f617289b32613deb0}{%
+           family={Jocher},
+           familyi={J\bibinitperiod},
+           given={Glenn},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{fullhash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{fullhashraw}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{bibnamehash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{authorbibnamehash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{authornamehash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{authorfullhash}{c5c5e5cd7f4f477f617289b32613deb0}
+      \strng{authorfullhashraw}{c5c5e5cd7f4f477f617289b32613deb0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.}
+      \field{month}{11}
+      \field{title}{{{YOLOv5}} by {{Ultralytics}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.5281/zenodo.3908559
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/ultralytics/yolov5
+      \endverb
+      \verb{url}
+      \verb https://github.com/ultralytics/yolov5
+      \endverb
     \endentry
     \entry{journot2008}{book}{}{}
       \name{author}{1}{}{%
@@ -2739,7 +2927,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
       \endverb
@@ -3112,6 +3299,25 @@
       \endverb
       \keyw{chatbot,NLP,UI,UX}
     \endentry
+    \entry{zotero-item-702}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{title}
+      \field{title}{Qu’est-Ce Que Le Machine Learning~({{ML}})? | {{IBM}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/FR7EECI2/machine-learning.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
+      \endverb
+    \endentry
     \entry{rattinger2025}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=f918b793b2652602e38d235be0d71cd3}{%
@@ -3272,6 +3478,7 @@
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5AQB9DFX/convolutional-neural-network.html
       \endverb
@@ -3491,6 +3698,47 @@
       \field{year}{2011}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/77JZ5KLH/Stockinger - 2011 - Les archives audiovisuelles description, indexation et publication.pdf
+      \endverb
+    \endentry
+    \entry{stryker2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ece737ebd926d66ad9425f5520ef340e}{%
+           family={Stryker},
+           familyi={S\bibinitperiod},
+           given={Rina\bibnamedelimb Diane\bibnamedelima Caballar},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           suffix={Cole},
+           suffixi={C\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{fullhash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{fullhashraw}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{bibnamehash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{authorbibnamehash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{authornamehash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{authorfullhash}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{authorfullhashraw}{ece737ebd926d66ad9425f5520ef340e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La vision par ordinateur est un sous-domaine de l’intelligence artificielle (IA) qui donne aux machines la capacité de traiter, d’analyser et d’interpréter des entrées visuelles.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Qu’est-ce que la vision par ordinateur ?}}
+      \field{title}{{Qu’est-ce que la vision par ordinateur ? | IBM}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/computer-vision
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/computer-vision
       \endverb
     \endentry
     \entry{sullivan2025}{misc}{}{}
@@ -3807,6 +4055,7 @@
       \field{volume}{80}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{17487\bibrangedash 17513}
       \range{pages}{27}
       \verb{doi}
@@ -4201,6 +4450,32 @@
       \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
       \keyw{IA,object detection}
+    \endentry
+    \entry{2025b}{misc}{}{}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Découvre YOLO12, doté d'une architecture révolutionnaire centrée sur l'attention pour une détection d'objets de pointe avec une précision et une efficacité inégalées.}
+      \field{journaltitle}{Ultralytics Docs}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{shorttitle}{{YOLO12}}
+      \field{title}{{YOLO12 : Détection d'objets centrée sur l'attention}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/448JAI2E/yolo12.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/fr/models/yolo12
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/fr/models/yolo12
+      \endverb
     \endentry
     \entry{yoon2020}{misc}{}{}
       \name{author}{7}{}{%

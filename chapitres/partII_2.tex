@@ -1,0 +1,51 @@
+\subsection{Description et indexation automatique} 
+
+\subsubsection{Quoi décrire ?}
+
+% introduction de la sous partie ? 
+
+Si la segmentation temporelle syntaxique permet de diviser une archive audiovisuelle en segments différentes les uns des autres, elle reste incomplète sans description sémantique. La séquence est en effet le résultat d'un choix sémantique dans la construction, au montage, d'un film. La re division d'une archive audiovisuelle en séquences doit ainsi être décrite et justifiée afin d'en comprendre l'essence : pourquoi la séquence est une séquence ? Ainsi, un second processus s'ajoute à celui de la segmentation, celui de la description automatique des séquences extraites. La description autmatique peut se focaliser sur de nombreux éléments possibles au sein d'une séquence de film : dialogues, ambiance sonore, visages, objets, spatialité de ces visages et objets, actions, émotions... La multiplicité de ces éléments descriptibles résulte de la multimodalité du cinéma, regroupant caractéristiques visuelles et sonores. Toutefois, nous nous concentrerons dans cette étude sur la description automatique d'éléments visuels, puisque le corpus pris comme exemple applicatif est composé d'archives audiovisuelles muettes. Au sein de la description automatique d'éléments visuels, nous nous concentrerons sur la reconnaissance d'objets afin de produire des mots-clés associés aux séquences, afin de les différencier facilement. Ce processus parait faisable et relativement léger pour une mise en place au sein du logiciel de gestion des collections. D'autres types de descriptions telles que la génération de résumé à partir du contenu de l'image supposerait l'implémentation de grands modèles de langage, reposant sur de l'Intelligence artificielle générative, un processus beaucoup plus lourd et couteux à mettre en place. 
+
+
+\subsubsection{Outils utilisés}
+
+Si pour la segmentation, nous avons éliminé les modèles d'intelligence artificielle fondés sur les réseaux de neurones, la reconnaissance d'objets dans l'image suppose un "raisonnement" permis seulement par l'apprentissage machine et profond des réseaux de neurones. En effet, la plupart des outils de reconnaissance d'objets dans l'image sont fondés sur des modèles de réseaux de neurones convolutifs (CNN) dont nous avons exposé le fonctionnement dans la section précédente. C'est le cas de l'outil Snoop créé par l'Institut National Audiovisuel, fondé sur le modèle CNN ResNet. Nous prendrons toutefois l'exemple du modèle YoLo, qui est l'un des plus documenté, y compris dans le domaine des sciences humaines. Il s'agit d'un modèle de vision par ordinateur fondé sur le deep learning, en accès libre, qui permet notamment la détection d'objets et la classification d'images. \footcite{jocher2022} Le modèle extrait dans un premier temps les caractéristiques visuelles de l'image qui lui est donnée, agrège ces caractéristiques, afin de proposer une détection d'objets. \footcite{norindr2023} Les versions récentes du modèle telles que YoLo12 sont désormais basées non plus seulement sur des CNN mais sur des mécanismes d'auto attention similaires à ceux des transformers dont nous avions évoqué l'architecture. \footcite{2025b} Toutefois, comme nous l'avions évoqué pour les transformers, cette architecture demande une consommation de mémoire élevée et une puissance de calcul lourde. \footcite{2025b} Ultralytics, créateur du modèle, recommande des versions moins avancées pour une mise en application telles que la version Yolov8 fondée sur un réseau de neurones convolutif. \footcite{2023c} Yolov8 propose une version optimisée de cette architecture en trois temps (extraction, aggrégation, détection). \footcite{yaseen2024} Le modèle se caractérise par sa capacité à analyser l'image en une seule fois, contrairement à d'autres modèles qui analysent plusieurs fois certaines parties de l'image. 
+
+Si Yolo peut être appliqué à des vidéos, nous avons souhaitons l'intégrer comme complément au prcessus de segmentation précédemment décrit. Ainsi, il peut être pertinent de réutiliser l'image clé produite et sauvegardée par pyscenedetect pour la faire analyser par le modèle yolo. Ceci permettrait de réduire le temps de calcul du processus et d'améliorer l'efficacité des prédictions. Les archives audiovisuelles de notre corpus sont assez larges et longues. Et au moins, les mots clés seraient directement reportés sur les times codes associés à l'image clé. 
+
+INstitutions qui ont mis en place yolo ??? : 
+You Only Look Once: Unified, Real-Time Object Detection
+Object Detection in Heritage Archives using a Human-in-the-Loop Concept.
+Probing Historical Image Contexts: Enhancing Visual Archive Retrieval through Computer Vision
+ 
+\subsection{Intégration dans le processus}
+Qu'est ce que Yolo prend en entrée, qu'est ce qu'il prend en sortie ? 
+
+avantage de placer un réseau de neurones qu'à cette étape là du processus (cf article 2sds)
+
+jeu de données d'entraînement de yolov8 
+
+\subsection{Entraînement}
+
+limites du modèle et du jeu de données d'entrainement
+
+fine tuning/transfert learning (how to fine tune yolo on custom dataset) (mots clés données albert kahn)
+
+Avant de mettre en place une extraction automatique des caractéristiques visuelles de l’image, il faut pouvoir établir les éléments que l’on souhaite extraire. En effet, la définition de ces éléments est ensuite donnée au modèle comme direction d’extraction. Il faut lui donner des images déjà annotée par des mots clés pour que le modèle sache ce qu’il doit repérer au sein des images. (C’est la méthodologie employée par Snoop). Pour cela, il faudrait appliquer la segmentation à des archives déjà indexée pour en extraire l’image clé et els métadonnées à donner au modèle en exemple.  
+Les types de mots clés qu’on retrouve dans l’appli Albert Kahn : par exemple pour une œuvre de rushe : fête politique, petit métier, architecture civile publique, affiche, foule, policier/gendarme, discours, défilé militaire, drapeau.  Qu’est-ce que les outils peuvent reconnaitre ? Les actions, les objets, le placement des éléments dans l’image.  
+
+Ces mots clés dans l’application dépendent du thésaurus keyword, un thésaurus d’indexation. L’Ia qui génère les mots clés devrait donc être capable de les associer aux bons termes de thesaurus. Mapping effectué entre le mot clé et le thésaurus de l’application. L’IA doit rechercher dans les éléments suivants pour un même terme : termes préférés ; termes rejetés ; synonymes ; 
+
+Ce que détecte l’IA vs ce qui est indexé : accord avec le thésaurus  
+
+Prévoir un mapping de correspondance entre ce que peut détecter l’IA et le terme de thésaurus et proposer une validation  
+Il est probable que les outils peuvent être utilisé afin de générer des mots clés simples, qui seront complétés ensuite par l’utilisateur.  
+
+Nous choisissons les mots clés en vue d’une potentielle publication en ligne pour un public.  
+
+
+"We therefore use Deep Learning to learn to detect intertitles inan end-to-end manner. In addition, we explore semantic analysisof the content of the film itself. Deep Learning, in particular Su-pervised Deep Learning, involves learning a neural network from observations of (x, y), where x is the data and y is the target wewant to learn. In our case, x is a frame we want to classify, and yis a binary variable indicating whether the frame is an intertitle.Having learned a model from a collection of (x, y) pairs, we canthen use this model to predict the target variable y′ for a data pointwe haven’t seen before (x ′). Deep Learning methods have enjoyedgreat success in Computer Vision in classifying images [ 7] and havealso been successfully applied to Digital Humanities" \footcite{bhargav2019}
+
+"As Deep Learning typically requires several thousand data pointsto learn a model, we resort to Transfer Learning [ 13], a techniquethat allows us to ‘fine-tune’ an existing model to a different task in asimilar domain. This involves taking a model that has already beentrained on a large dataset and fine tuning the network to performwell on a smaller (but similar) dataset." \footcite{bhargav2019}
+
+"For our transfer learning setup, we use a Inception V-3 model [ 19]trained on the ImageNet dataset [ 3 ]. We remove the output classi-fication layer, and replace it with a Softmax layer of 2 classes. Inaddition, we freeze all layers before the Mixed7a layers. We usean Adam optimizer [ 6] and train the model with a batch size of 32,for 10 epochs. The model achieves an accuracy of 99.80 percent on thetest set of the annotation frames." \footcite{bhargav2019}
