@@ -1,18 +1,18 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[79] biber:342> INFO - === Sat Jul 25, 2026, 14:32:58
-[96] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[165] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[176] Biber.pm:4487> INFO - Processing section 0
-[184] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[189] bibtex.pm:1713> INFO - LaTeX decoding ...
-[313] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[944] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[944] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[944] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[945] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[1053] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[1099] bbl.pm:779> INFO - Output to document_maitre (1).bbl
-[1099] Biber.pm:132> WARN - ISBN '978-2-200-35506-7 978-2-200-25670-8' in entry 'journot2008' is invalid - run biber with '--validate_datamodel' for details.
-[1099] Biber.pm:132> WARN - legacy year field '2022/mars/01' in entry 'morse2022/mars/01' is not an integer - this will probably not sort properly.
-[1099] Biber.pm:134> INFO - WARNINGS: 2
+[70] biber:342> INFO - === Sun Jul 26, 2026, 09:38:10
+[83] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[144] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[154] Biber.pm:4487> INFO - Processing section 0
+[162] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[171] bibtex.pm:1713> INFO - LaTeX decoding ...
+[297] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[930] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[930] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[930] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[930] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[1043] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[1093] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[1093] Biber.pm:132> WARN - ISBN '978-2-200-35506-7 978-2-200-25670-8' in entry 'journot2008' is invalid - run biber with '--validate_datamodel' for details.
+[1093] Biber.pm:132> WARN - legacy year field '2022/mars/01' in entry 'morse2022/mars/01' is not an integer - this will probably not sort properly.
+[1093] Biber.pm:134> INFO - WARNINGS: 2

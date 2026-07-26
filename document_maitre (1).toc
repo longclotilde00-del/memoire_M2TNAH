@@ -1,7 +1,7 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Introduction}{xv}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xvii}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
 \contentsline {subsection}{\numberline {1.}Le FRBR, modèle d'indexation conçu pour les bibliothèques}{3}{subsection.0.0.1}%
 \contentsline {subsubsection}{\numberline {a.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{subsubsection.0.0.1.1}%
@@ -20,12 +20,16 @@
 \contentsline {subsubsection}{\numberline {a.}Machine learning et deep learning}{24}{subsubsection.0.0.4.1}%
 \contentsline {subsubsection}{\numberline {b.}Outils et modèles disponibles}{28}{subsubsection.0.0.4.2}%
 \contentsline {subsection}{\numberline {5.}Mise en application}{30}{subsection.0.0.5}%
-\contentsline {subsubsection}{\numberline {a.}entraîner ces outils et ces modèles}{33}{subsubsection.0.0.5.1}%
-\contentsline {subsubsection}{\numberline {b.}analyse du mouvement}{34}{subsubsection.0.0.5.2}%
-\contentsline {subsection}{\numberline {6.}description et indexation automatique}{35}{subsection.0.0.6}%
-\contentsline {subsection}{\numberline {7.}La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}{36}{subsection.0.0.7}%
-\contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{37}{subsubsection.0.0.7.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{39}{subsubsection.0.0.7.2}%
-\contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{41}{subsubsection.0.0.7.3}%
-\contentsline {chapter}{Conclusion}{45}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{49}{appendix.A}%
+\contentsline {subsubsection}{\numberline {a.}entraîner ces outils et ces modèles}{32}{subsubsection.0.0.5.1}%
+\contentsline {subsubsection}{\numberline {b.}analyse du mouvement}{33}{subsubsection.0.0.5.2}%
+\contentsline {subsection}{\numberline {6.}Description et indexation automatique}{35}{subsection.0.0.6}%
+\contentsline {subsubsection}{\numberline {a.}Outils utilisés}{35}{subsubsection.0.0.6.1}%
+\contentsline {subsection}{\numberline {7.}Entraînement}{37}{subsection.0.0.7}%
+\contentsline {subsubsection}{\numberline {a.}Interface de validation technique}{38}{subsubsection.0.0.7.1}%
+\contentsline {subsection}{\numberline {8.}plateforme de validation humaine}{40}{subsection.0.0.8}%
+\contentsline {subsection}{\numberline {9.}La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}{41}{subsection.0.0.9}%
+\contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{42}{subsubsection.0.0.9.1}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{44}{subsubsection.0.0.9.2}%
+\contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{46}{subsubsection.0.0.9.3}%
+\contentsline {chapter}{Conclusion}{49}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{53}{appendix.A}%

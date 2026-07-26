@@ -37,6 +37,8 @@ Au sein des réseaux de neurones, le type de réseau spécifiquement employé da
 Néanmoins, d’autres modèles issus du deep learning tels que les transformers s’avèrent davantage efficace sur des tâches dédiées à l’image en mouvement, dont fait partie la segmentation. Contrairement aux CNN, les transformers fonctionnent sur un mécanisme d’auto-attention qui leur permet de détecter les relations et dépendances entre les données. \footcite{bergmann2025} Tandis que les CNN analysent les données de manière sérielle, sans prendre en compte les interdépendances qui les régissent, les transformers examinent simultanément les données dans leur ensemble et décident de se concentrer sur certaines étapes de chacune d'entre elles. \footcite{bergmann2025} Les CNN ne permettent pas, par exemple, de discerner les “dépendances à longue portée” telles que les corrélations entre les pixels entre différentes images qui ne seraient pas voisins. \footcite{bergmann2025} Ainsi, ils seraient davantage adaptés à l’analyse d’images en mouvement puisqu’ils prendraient en compte les relations entre les images, tandis que les CNN seraient davantage adaptés aux images fixes.  Idéalement, la mise en place d’une segmentation automatique des archives audiovisuelles doit donc être fondée sur une architecture de type transformers.  
 
 Toutefois, dans un contexte patrimonial, avec des ressources limitées, ces algorithmes fondés sur l’intelligence artificielle possèdent leur lot de limites. Premièrement, les réseaux de neurones sont conçus comme des boites noires, ne permettant pas d’interpréter les analyses qui sont produites. \footcite{brachmann2017}  En effet, une fois entraînés, il est difficile d’en modifier les paramètres puisqu’ils sont entremêlés entre les différentes cellules de calcul. La réflexion produite est ainsi difficile à comprendre et à exposer. \footcite{mahony2020} Deuxièmement, les algorithmes de type transformers sont complexes et restent difficiles à adapter à un corpus audiovisuel lui-même complexe. \footcite{yuan2025}. Ils demandent également de grandes puissances de calcul et un temps de paramétrage important, ce qui les rend inadaptés à des contextes de gestion de collections patrimoniales. De plus, ils requièrent un grand nombre de paramètres issu d’un large jeu de données d’entraînement afin d’éviter un trop grand nombre de biais.  \footcite{pattichis2023} 
+%À inclure ? sur les limites car modèles entrainés sur des corpus inadaptés : prendrait + de temps en validation et correction, pas stable
+les modèles de détection neuronaux sont entrainés sur des datasets de clips courts. Or, la réalité auiovisuelle est bien différente. \footcite{pattichis2023} Des approches algorithmiques non neuronales ou hybrides seraient donc plus adaptées car fondée sur des calculs et des seuils matéhmatiques : plus stable. 
 
 
 
@@ -106,21 +108,9 @@ Il est courant d’utiliser des modèles préentraînés sur un grand jeu de don
 
 
 
-SOUS PARTIE 3 : 
-
-"A major challenge for making AVP tools available
-is that the underlying algorithms need direct access to the data, yet due to strict IPR regulation this data often cannot leave the archives’ digital environment. A side effect of this is that for the analysis of AV material commercially available tools cannot be used, as these are primarily cloud based. it is necessary that any AVP infrastructure can be integrated with a local archival infrastructure, i.e., we need to bring the algorithms to the data, rather than the data to the algorithms." \footcite{noord2021}. Solution : projet CLARIAH 
-
-"Moreover, DANE is designed
-to be able to function in environments where there are
-fewer compute resources, or environments where access to the data is rate limited, as is typical for AV
-archives. To make this possible, the DANE architecture (as shown in Figure 2) divides the tasks to be performed over different workers that perform one specific type of analysis, where the work is assigned to a worker by means of message broker queuing system. The results of the analyses are communicated back to the server by the workers, and made available via an API to clients (e.g., other services or individual users)." \footcite{noord2021} (+ schéma qui montre l'architecture)
-
-"To enrich the AV collections in the Media Suite with automatically generated (and time-coded) metadata an assortment of AVP tools had been added to DANE, ranging from Semantic Object Detection, to colour analysis, to Automatic Speech Recognition."\footcite{noord2021}
-
-"These tools generate two types of metadata: (i) structured data which can be integrated into the existing metadata systems, and (ii) feature vectors which describe the data on a more abstract level, but which can be integrated in new types of interfaces and search systems. For instance, with an Object Recognition model it is possible to recognise which objects are present in an image, but the output of such a model can also be used to perform more abstract visual similarity queries" \footcite{noord2021}
 
 
+------------------------------ 
 
 Malgré de grandes avancées dans le processing audiovisuel, avec des outils comme la computer vision appliquée à la vidéo, et la reconnaissance de discours automatique (ASR), ces outils restent largement inaccessibles et hors de portée pour les institutions patrimoniales. \footcite{noord2021}. Ils sont utilisés par des entreprises commerciales pour du montage vidéo par exemple. Le manque d'utilisation de ces outils dans le domaine des sciences humaines expliquent l'inexistance de données d'entraînement adaptées au secteur. \footcite{noord2021} 
 l'analyse vidéo par un processus humain prend un temps considérable, puiqu'il faut lire le fichier audiovisuel et en analyser les composants, le langage. Ainsi, l'indexation des archives audiovisuelles se cantonne souvent aux métadonnées, sans en exposer les données, le contenu.
