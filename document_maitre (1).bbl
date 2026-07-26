@@ -1041,6 +1041,31 @@
       \field{year}{2015}
       \true{nocite}
     \endentry
+    \entry{2023d}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explore the COCO dataset for object detection and segmentation. Learn about its structure, usage, pretrained models, and key features.}
+      \field{journaltitle}{Ultralytics Docs}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{{{COCO Detection Dataset}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/ECNI9MXR/coco.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/datasets/detect/coco
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/datasets/detect/coco
+      \endverb
+    \endentry
     \entry{zotero-item-704}{misc}{}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -1195,7 +1220,6 @@
       \field{volume}{16}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{84:1\bibrangedash 84:17}
       \range{pages}{-1}
       \verb{doi}
@@ -1225,7 +1249,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/J8GE4DV4/yolov8.html
       \endverb
@@ -1867,7 +1890,6 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.5281/zenodo.3908559
       \endverb
@@ -2019,7 +2041,6 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{170\bibrangedash 181}
       \range{pages}{12}
       \verb{doi}
@@ -2122,6 +2143,25 @@
       \verb https://dumas.ccsd.cnrs.fr/dumas-05387596
       \endverb
       \keyw{AI,Art History,Heritage,Histoire de l'art,Histoire de la presse,Historical newspapers,IA,Machine-learning,Patrimoine,Segmentation}
+    \endentry
+    \entry{zotero-item-729}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L'intelligence artificielle «~générative~» désigne la classe des systèmes capables de créer des contenus (texte, code informatique, images, musique, audio, vidéos, etc.). Ces systèmes sont qualifiables de systèmes d’IA à usage général lorsqu’ils permettent de réaliser tout un ensemble de tâches~: c’est le cas notamment des systèmes qui reposent sur des grands modèles de langage (LLM).}
+      \field{langid}{french}
+      \field{title}{{Les questions-réponses de la CNIL sur l’utilisation d’un système d’IA générative}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
+      \endverb
+      \verb{url}
+      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
+      \endverb
     \endentry
     \entry{zotero-item-52}{misc}{}{}
       \field{sortinit}{L}
@@ -3630,7 +3670,6 @@
       \field{urlyear}{2026}
       \field{year}{2016}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.1506.02640
       \endverb
@@ -4707,7 +4746,6 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2408.15857
       \endverb
@@ -4738,7 +4776,6 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
@@ -4762,7 +4799,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/448JAI2E/yolo12.html
       \endverb

@@ -1,4 +1,66 @@
-\subsection{plateforme de validation humaine}
+\subsection{Comment indexer les données automatiquement produites ?}
+
+Yolo est une IA discriminative 
+
+\subsubsection{Reversement au sein du FRBR}
+Mentionner les contraintes d'infratructure DANE/CLARIAH 
+
+"Si l’utilisation envisagée consiste à fournir des données personnelles (données des clients ou des collaborateurs) ou de la documentation sensible ou stratégique (par exemple pour le RAG), il semble généralement plus opportun et plus sécurisé de privilégier le déploiement de solutions « sur site » (on premise) qui présentent l’avantage de limiter les risques d’extraction de données auprès d’un tiers" \footcite{zotero-item-729}
+"s’il est envisagé d’utiliser un système sous forme d’API, il faut souligner que la maîtrise du système est alors quasi exclusivement dans les mains du fournisseur. Il convient donc d’être particulièrement vigilant sur les données soumises au système d’IA" \footcite{zotero-item-729}
+
+Quelles données pour quels niveaux ? 
+avec la fragmentatio en deux workflows automatisés : comemnt harmoniser ça dans le FRBR 
+Rappelons le : c'est l'objet de notre problématique : comment implémenter l'indeation automatique au sein d'un modèle de données adapté aux archives audiovisuelles 
+comment modéliser et organiser ces données générées par l'IA au sein de logiciel de gestion des collections ? 
+
+L'IA analyse l'item pour enrichir le niveau oeuvre 
+fichier numérique ? 
+
+Développer quel serait le processus d'intégration de ces données produites au sein du FRBR 
+
+\subsubsection{Interface de validation pour l'utilisateur}
+
+"Dans le cas général, c’est l’organisme utilisateur qui engagera sa responsabilité légale en cas de mauvaise utilisation de l’IA par son personnel. Il est donc recommandé de familiariser les utilisateurs finaux avec le fonctionnement et les limites de ces systèmes (la manière dont sont produites les sorties, les éventuels transferts de données), ainsi que les usages autorisés et les usages interdits."\footcite{zotero-item-729}
+
+"Les utilisateurs finaux devraient être responsabilisés quant à l’usage qu’ils feront de ces outils, en les incitant à vérifier les données fournies en entrée et la qualité des sorties (par exemple par des formations obligatoires préalables à l’utilisation de ces systèmes)." \footcite{zotero-item-729}
+
+"l’intégration de briques d’IA générative dans un système d’information (SI) devrait être pensée avec des éléments de design informant clairement les utilisateurs de l’origine de la proposition, leur rappelant qu’il leur revient de ne pas prendre « telle quelle » la proposition. Par exemple, le système peut proposer pour chaque question au moins deux réponses, ce qui permet à l’opérateur humain de sélectionner les éléments pertinents de chaque réponse pour consolider la sienne." \footcite{zotero-item-729}
+
+"permettre de proposer aux utilisateurs finaux un point de contact pour remonter des problèmes ou des difficultés d’ordre éthique"\footcite{zotero-item-729}
+
+"lors des premiers mois et années de l’utilisation des IA, il est recommandé de recueillir régulièrement l’avis des utilisateurs finaux sur l’utilité et les limites du système"\footcite{zotero-item-729}
+
+processus côté interface : l'utilisateur fait ça : ça déclenche ça
+Validation des données + validation du FRBR 
+skinsoft souhaite une mise en place transparente de l'IA 
+
+Amalia.js, Okapi
+https://arxiv.org/pdf/2509.01304  https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-okapi 
+prévoir une file d'attente et une barre de chargement de traitement : tableau de bord skinsoft
+
+
+Indexation automatique et expérience utilisateur : une question de transparence : 
+"Alors que l'utilisation du ML	va déjà de soi dans certains domaines, il y a des domaines dans lesquels nous devons	rendre son utilisation transparente pour les utilisateur·rice·s et leur donner la possibilité
+d'option de retrait, par exemple lorsqu'il s'agit de données personnelles. La transparence est également requise lorsqu'il s'agit d'adapter l'offre concrète aux besoins des utilisateur·rice·s	sur la base de profils d'utilisateur·rice·s (obtenus par le biais de demandes, d'autodéclaration ou de « traces d'utilisation », comme le classement d'une liste de résultats ou	des propositions par des systèmes de recommandation)."
+\footcite{zotero-item-584}
+
+\item Comment donner accès à ces automatisations ? L'exemple d'Amalia.js
+
+Amalia.js est un lecteur HTML5 extensible qui synchronise des métadonnées avec la lecture de flux vidéo ou audio. Conçu pour visualiser les résultats d’algorithmes d’analyse audiovisuelle.
+
+Le besoin à l'origine d'Amalia.js est de permettre de visualiser les résultats de pipelines d'automatisation, avec leur lot de métadonnées produites : « Whatever the field of analysis, we always need to be able to quickly and easily view the results of the methods we are developing. This problem is particularly true as we often manipulate large amount of videos. Developing visualization and annotation tools is often a tedious task that deserves to be pooled. »\footcite{herve2015}
+« The analysis being at different levels (keyframes, video segments, audio channels, associated synopses, one video alone or relative to a corpus...) results are obtained in very different natures, often needing quite specific approaches to be presented to the end user. »\footcite{herve2015} L'indexation utomatique regroupe tout un tas de métadonnées issues d'algorithmes et d'outils différents qu'il faut réunir dans ne interface de présentation. 
+
+C'est une interface pour visualiser et pour corriger.
+
+Comment regrouper dans la  même interface des métadonnées de nature très différentes attachées à la même vidéo?
+
+Les métadonnées horodatées : issues de la segmentation vidéo. 
+
+« The main principle of amalia.js is to have a unified metadata model. Ensuring that all the metadata types are consistent and use the same standards will facilitate their use and enable us to design generic visualization plugins. »\footcite{herve2015}. Importance d'avoir une interface de standardisation des métaodnnées : important pour skinsoft qui doit s'adapter aux normes employées par les clients. 
+
+Le logiciel permet à l'utilisateur d'annoter la vidéo pour corriger les métadonnées ou les compléter : « This will allow us to enter or correct metadata directly through the player. We plan to use this version in groundtruth management applications so as to enable the creation of huge research datasets used to train supervised algorithms or to assess analysis methods performances. »\footcite{herve2015}. La correction humaine permet d'avoir des métadonnées plus justes, mais permet aussi d'avoir des données d'entrainement pour améliorer les algorithmes d'indexation automatique. (aussi vu chez Vanderbilt). Utilistauer comme rôle de correction et d'enrichissement sur une base générée automatiquement. 
+
 
 SOUS PARTIE 3 : 
 
@@ -14,9 +76,12 @@ archives. To make this possible, the DANE architecture (as shown in Figure 2) di
 
 "These tools generate two types of metadata: (i) structured data which can be integrated into the existing metadata systems, and (ii) feature vectors which describe the data on a more abstract level, but which can be integrated in new types of interfaces and search systems. For instance, with an Object Recognition model it is possible to recognise which objects are present in an image, but the output of such a model can also be used to perform more abstract visual similarity queries" \footcite{noord2021}
 
-SOUS PARTIE 3
 
 
+\subsubsection{Des données recherchables et découvrables}
+ex : Snoop 
 
+Une fois les données modélisées et validées : elle permettent une recherche visuelle et sémantique 
+adéquation avec la recherche par images 
 
 
