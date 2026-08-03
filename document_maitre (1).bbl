@@ -44,6 +44,46 @@
       \endverb
       \keyw{à lire}
     \endentry
+    \entry{zotero-item-746}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{inatheque.ina.fr}
+      \field{langid}{french}
+      \field{title}{{Aide et FAQ Médiascope | INA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
+      \endverb
+      \verb{urlraw}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+      \verb{url}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+    \endentry
+    \entry{zotero-item-740}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WAZM29E9/guide-plugin-timeline-options.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
+      \endverb
+      \verb{url}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
+      \endverb
+    \endentry
     \entry{zotero-item-42}{misc}{}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -416,6 +456,44 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{bachimont2007}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
+           family={Bachimont},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Hermes science publications-Lavoisier}%
+      }
+      \strng{namehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \strng{bibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorbibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-2-7462-1369-2}
+      \field{langid}{french}
+      \field{series}{{Collection Science informatique et SHS}}
+      \field{shorttitle}{{Ingénierie des connaissances et des contenus}}
+      \field{title}{{Ingénierie des connaissances et des contenus: le numérique entre ontologies et documents}}
+      \field{year}{2007}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/F7MM8WRL/Bachimont - 2007 - Ingénierie des connaissances et des contenus le numérique entre ontologies et documents.pdf
+      \endverb
+    \endentry
     \entry{zotero-item-582}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
@@ -433,6 +511,7 @@
       \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -1166,7 +1245,6 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
@@ -1729,7 +1807,6 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{709\bibrangedash 712}
       \range{pages}{4}
       \verb{doi}
@@ -1839,6 +1916,85 @@
       \endverb
       \verb{url}
       \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
+      \endverb
+    \endentry
+    \entry{iflastandards.info2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f078f1eb25b463a9fff4c786e8d2205}{%
+           family={{iflastandards.info}},
+           familyi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{fullhash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{fullhashraw}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{bibnamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorbibnamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authornamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorfullhash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorfullhashraw}{0f078f1eb25b463a9fff4c786e8d2205}
+      \field{extraname}{1}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The IFLA Namespaces}
+      \field{journaltitle}{iflastandards.info}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Frbroo}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/T7F5VWQ2/frbroo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.iflastandards.info/fr/frbr/frbroo.html
+      \endverb
+      \verb{url}
+      \verb https://www.iflastandards.info/fr/frbr/frbroo.html
+      \endverb
+    \endentry
+    \entry{iflastandards.info2026a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f078f1eb25b463a9fff4c786e8d2205}{%
+           family={{iflastandards.info}},
+           familyi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{fullhash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{fullhashraw}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{bibnamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorbibnamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authornamehash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorfullhash}{0f078f1eb25b463a9fff4c786e8d2205}
+      \strng{authorfullhashraw}{0f078f1eb25b463a9fff4c786e8d2205}
+      \field{extraname}{2}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The IFLA Namespaces}
+      \field{journaltitle}{iflastandards.info}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Frbroo}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/XS574UTG/frbroo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.iflastandards.info/fr/frbr/frbroo.html
+      \endverb
+      \verb{url}
+      \verb https://www.iflastandards.info/fr/frbr/frbroo.html
       \endverb
     \endentry
     \entry{zotero-item-572}{misc}{}{}
@@ -2056,6 +2212,28 @@
       \verb https://link.springer.com/chapter/10.1007/978-3-031-47508-5_14
       \endverb
     \endentry
+    \entry{zotero-item-732}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{À l’ère de la dématérialisation, les métadonnées sont indispensables pour décrire les documents ou faciliter la recherche d’information. L’intelligence artificielle (IA) permet de les enrichir, de leur donner une certaine plus-value qui se fait ressentir, in extenso, sur les portails de gestion documentaire.}
+      \field{journaltitle}{Archimag}
+      \field{langid}{french}
+      \field{title}{{L’intelligence artificielle au service de la création de métadonnées}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/U7KVN9QJ/intelligence-artificielle-creation-metadonnees.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.archimag.com/demat-cloud/2022/04/15/intelligence-artificielle-creation-metadonnees
+      \endverb
+      \verb{url}
+      \verb https://www.archimag.com/demat-cloud/2022/04/15/intelligence-artificielle-creation-metadonnees
+      \endverb
+    \endentry
     \entry{zotero-item-640}{misc}{}{}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
@@ -2099,6 +2277,85 @@
       \endverb
       \verb{url}
       \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+    \endentry
+    \entry{lalande2022}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b20c308e2d32bf38715f7a926d67afd3}{%
+           family={Lalande},
+           familyi={L\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba3f23cd9632ab22de0e4f5837b26312}{%
+           family={Beloued},
+           familyi={B\bibinitperiod},
+           given={Abdelkrim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0744c14ac34b353d94a8c36711de21b7}{%
+           family={Farge},
+           familyi={F\bibinitperiod},
+           given={Odile},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=367f6b399a8e37e44a08bd1551461fd0}{%
+           family={Ouvrard},
+           familyi={O\bibinitperiod},
+           given={Louise},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0744c14ac34b353d94a8c36711de21b7}{%
+           family={Farge},
+           familyi={F\bibinitperiod},
+           given={Odile},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editions des archives contemporaines}%
+      }
+      \strng{namehash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{fullhash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{fullhashraw}{00f80ae4581779595035a25e70fcd19c}
+      \strng{bibnamehash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{authorbibnamehash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{authornamehash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{authorfullhash}{00f80ae4581779595035a25e70fcd19c}
+      \strng{authorfullhashraw}{00f80ae4581779595035a25e70fcd19c}
+      \strng{editorbibnamehash}{794c867a7245b99cf5f0f554e4ab4f20}
+      \strng{editornamehash}{794c867a7245b99cf5f0f554e4ab4f20}
+      \strng{editorfullhash}{794c867a7245b99cf5f0f554e4ab4f20}
+      \strng{editorfullhashraw}{794c867a7245b99cf5f0f554e4ab4f20}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We present in this paper Okapi, a web-based application for research communities in social sciences and humanities offering the combined functionalities of Multimedia Content Management Systems and Knowledge Bases. Okapi differentiates from other systems by its extreme genericity, its functional richness and its interoperability with both online institutional archives and the Linked Open Data (LOD). The functionalities of the tool are presented and illustrated by their utilization within different research projects and more especially for the deployment of an institutional portal at the french national institute of oriental languages and civilizations (INALCO).}
+      \field{booktitle}{{Corpus audiovisuels}}
+      \field{isbn}{978-2-8130-0379-9}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{shorttitle}{{La plateforme Okapi pour l’analyse et la publication de corpus de données audiovisuelles}}
+      \field{title}{{La plateforme Okapi pour l’analyse et la publication de corpus de données audiovisuelles: Le cas du portail Inalco–MediaScape}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{77\bibrangedash 94}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.17184/eac.5702
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/ZKQQ3AW4/Lalande et al. - 2022 - La plateforme Okapi pour l’analyse et la publication de corpus de données audiovisuelles Le cas du.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://eac.ac/articles/5702
+      \endverb
+      \verb{url}
+      \verb https://eac.ac/articles/5702
       \endverb
     \endentry
     \entry{leber2025}{thesis}{}{}
@@ -2155,7 +2412,6 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
       \endverb
@@ -3253,6 +3509,26 @@
       \endverb
       \keyw{chatbot,NLP}
     \endentry
+    \entry{zotero-item-748}{misc}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pour faciliter l'analyse des médias et conduire à une recherche experte, l'Ina a développé des outils numériques qui vous accompagnent durant la consultation}
+      \field{journaltitle}{inatheque.ina.fr}
+      \field{langid}{french}
+      \field{title}{{Outils d'aide à l'analyse des médias audiovisuels | INA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://inatheque.ina.fr/outils-d-aide-a-l-analyse-des-medias-audiovisuels
+      \endverb
+      \verb{url}
+      \verb https://inatheque.ina.fr/outils-d-aide-a-l-analyse-des-medias-audiovisuels
+      \endverb
+    \endentry
     \entry{zotero-item-675}{misc}{}{}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
@@ -3466,6 +3742,28 @@
       \verb https://www.fatml.org/resources/principles-for-accountable-algorithms
       \endverb
       \keyw{éthique}
+    \endentry
+    \entry{zotero-item-744}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Moteur de recherche de classes d’objets visuels pour l’accès et la découvrabilité au sein d’archives audiovisuelles de très grande taille}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Snoop | INA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/2FU57C38/projet-snoop.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
     \endentry
     \entry{2021c}{misc}{}{}
       \field{sortinit}{Q}
@@ -4114,7 +4412,6 @@
       \field{urlyear}{2026}
       \field{year}{2019}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{21\bibrangedash 23}
       \range{pages}{3}
       \verb{doi}
@@ -4448,6 +4745,22 @@
       \endverb
       \verb{url}
       \verb https://www.axiell.com/blog-post/axiell-pilots-its-ai-tool-for-catalogue-discovery-at-nacka-libraries/
+      \endverb
+    \endentry
+    \entry{zotero-item-749}{misc}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Using {{Graph Visualization}} to Enhance Representation and Evaluation of Work Clusters}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
       \endverb
     \endentry
     \entry{vasseur2025}{article}{}{}

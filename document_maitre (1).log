@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  26 JUL 2026 12:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  3 AUG 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -894,6 +894,8 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 271--271
  []
 
 
+
+[12]
 Overfull \hbox (17.96452pt too wide) in paragraph at lines 271--271
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
@@ -903,7 +905,7 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
 
 
 
-[12]
+[13]
 Overfull \hbox (1.22043pt too wide) in paragraph at lines 271--271
 [][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
 g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
@@ -913,11 +915,7 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[13]
-
-[14
-
-]
+[14]
 
 Package biblatex Warning: Keyword 'nlp' not found on input line 278.
 
@@ -926,7 +924,9 @@ LaTeX Warning: Empty bibliography on input line 278.
 
 
 
-[15]
+[15
+
+]
 
 [16
 
@@ -1046,64 +1046,120 @@ Underfull \vbox (badness 1275) has occurred while \output is active []
 [37]
 
 [38]
-Underfull \vbox (badness 1845) has occurred while \output is active []
-
-
 
 [39]) (./chapitres/partII_3.tex
 
-[40]) (./chapitres/II_3.tex
+[40]
 
 [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [42]
 
 [43]
 
 [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [45]
 
 [46]
 
-[47])
+LaTeX Warning: Citation 'zotero-item-632' on page 47 undefined on input line 12
+3.
+
+
+
+[47]
 
 [48]
 
-[49
+[49]
+
+[50]
+
+[51]
+
+[52]
+
+[53]) (./chapitres/II_3.tex
+
+[54]
+
+[55]
+
+[56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[57]
+
+[58]
+
+[59]
+
+[60])
+
+[61]
+
+[62
 
 ]
 
-[50
+[63]
+
+[64] (./chapitres/III_1.tex
+Overfull \hbox (8.77022pt too wide) in paragraph at lines 1--1
+[]\TU/lmr/bx/n/14.4 L’implémentation de ces nouvelles fonctionnalités pose des 
+ques-
+ []
+
+
+
+[65]
+
+[66]
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+
+
+[67])
+
+[68]
+
+[69
+
+]
+
+[70
 
 ]
 \openout2 = `chapitres/conclusion.aux'.
 
  (./chapitres/conclusion.tex
 
-[51
+[71
 
 
 ])
 
-[52]
+[72]
 Annexe A.
 
 
-[53
+[73
 
 
 
 ]
 
-[54
+[74
 
 ] (./document_maitre (1).toc
 
-[55
+[75
 
 
 ])
@@ -1112,7 +1168,7 @@ Annexe A.
 
 
 
-[56] (./document_maitre (1).aux (./chapitres/conclusion.aux))
+[76] (./document_maitre (1).aux (./chapitres/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1131,12 +1187,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25479 strings out of 468389
- 503168 string characters out of 5440619
- 1354256 words of memory out of 5000000
- 53722 multiletter control sequences out of 15000+600000
- 631033 words of font info for 77 fonts, out of 8000000 for 9000
+ 25618 strings out of 468389
+ 506831 string characters out of 5440619
+ 1355302 words of memory out of 5000000
+ 53856 multiletter control sequences out of 15000+600000
+ 631041 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,83p,2717b,5494s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,83p,3407b,5494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (76 pages).
+Output written on document_maitre (1).pdf (96 pages).

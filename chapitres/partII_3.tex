@@ -1,52 +1,191 @@
-\subsection{Comment indexer les données automatiquement produites ?}
+\subsection{Comment indexer les données automatiquement produites ? : interface d’indexation} - Processus côté interface 
 
 Yolo est une IA discriminative 
 
-\subsubsection{Reversement au sein du FRBR}
-Mentionner les contraintes d'infratructure DANE/CLARIAH 
+\subsubsection{Reversement au sein du FRBR} 
+
+FRBRisation des données générées par IA  
+
+Rappelons-le, l’objet de notre problématique est de pouvoir reverser les données produites par l’indexation automatique au sein du modèle FRBR, adapté aux archives audiovisuelles. L’extraction automatique de données et de contenu est réalisée par des outils génériques utilisés dans tous types de domaines, aussi bien patrimoniaux que commerciaux. En effet, nous avons vu que l’algorithme YOLOv8 est entrainé sur des données visuelles généralistes, qui supposent un affinage afin d’être adaptées à des domaines spécifiques tel que celui qui fait l’objet de ce mémoire. Si les données produites sont bien spécifiques au domaine, notre pipeline se heurte à une nouvelle difficulté, celle du reversement de ces données au sein d’un modèle documentaire personnalisé et spécifique à l’indexation des archives audiovisuelles. 
+Le modèle de données FRBR est, en effet, spécifique aux besoins métier de chaque institution et conditionne l’organisation des données pour l’utilisateur au sein de l’interface. Dès lors, comment reverser des données produites automatiquement par des outils génériques, au sein d’un modèle de données personnalisé et configuré selon les besoins d’une institution précise ? Le reversement de ces données au sein de l’interface concrétise en effet l’indexation automatique, puisqu’elles deviennent visibles par les utilisateurs, dans des champs pertinents, adaptés et requêtables.  
+
+Certains outils ont déjà été développés dans d’autres applications de gestion des collections afin d’effectuer ce reversement de manière automatique : Wedia, Keepeek, Einden, MomaSoft “classent automatiquement les images et vidéos en leur attribuant les métadonnées appropriées.” \footcite{zotero-item-732}
+
+Une fois les processus de notre pipeline finalisés, deux types de données sont produits : les time codes, chiffrés, et les mots-clés, sémantiques.  
+
+Premièrement, les time codes produisent des séquences définies au sein des rushes documentaires que nous avons décrits. Il se pose la question suivante : ces séquences doivent-elles faire l’objet d’entités à part entière au sein du modèle de données ? La FIAF, dans son manuel de catalogage des images animées ne prévoie pas la description de séquences, ou de segments d’œuvres. En effet, le manuel, édité en 2016, ne prend pas en compte cette possibilité rendue réalisable par les technologies de computer vision.  C’est le terme d’agrégats qui semble se rapprocher le plus de séquences faisant partie d’une œuvre. Or, le manuel décrit que ces agrégats “sont conçus et créés dès le début pour rassembler plusieurs composantes individuelles formant un tout. CROCHETS Il s’agit d’un film intentionnellement structuré comme une série d'histoires différentes, parfois reliées entre elles par des décors et des personnages, et faisant partie d’un tout continu”. Ce n’est pas le cas pour le corpus décrit ici, les rushes n’ont pas été pensés en termes de montage et sont restés à l’état de rushes. Toute segmentation est donc une interprétation a posteriori de la construction de l’archive, un remontage. L’IFLA propose le terme de “fragment d’expression”, définit comme “des parties d’expressions qui ne constituent pas elles-mêmes des expressions autonomes. L’existence d’une instance « Fragment d’expression » peut être due à un accident, tel que la perte de matière au fil du temps CROCHETS, ou à un isolement délibéré, comme des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un « Fragment d’expression » n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé.” \footcite{iflastandards.info2026} Cette entité pourrait correspondre aux séquences créées par le processus de segmentation et serait rattachée à l’expression (ici comprise au sens d’Œuvre, conformément à l’adaptation du FRBR par les recommandations de la FIAF). L’implémentation du processus de segmentation supposerait donc la création d’une nouvelle entité au sein du modèle de données FRBR, au sein de laquelle seraient reversés les time codes et les mots clés.  
+
+Penchons-nous sur l’exemple de l’application dans laquelle est intégré le corpus que nous décrivons. En effet, les time codes et les mots clés existent déjà en tant que données au sein de l’application. Rappelons que le modèle FRBR y est structuré en trois niveaux principaux : œuvre, manifestation, item. Pour le corpus de rushes, seuls les niveaux œuvre et items sont décrits, puisque le corpus est composé essentiellement de rushes documentaires qui n’ont pas fait l’objet de publications spécifiques (niveau manifestation). En observant les données déjà existantes dans l’application, nous en avons conclu que pour les Rushes ayant déjà fait l’objet d’une segmentation documentaire manuelle, les times codes sont renseignés au niveau de l’item, dans un champ notes. L’item numérique comporte le champ type = “fichier time codé”. Ainsi, par exemple, une bobine au niveau item, déjà segmentée en séquences, dispose de plusieurs items liés, ses séquences, qui possèdent chacune un time code de début et de fin au sein de cette bobine. Certaines œuvres/rushes sont liées à des items-films numérique qui sont en réalité les segments, et ces items-films sont associés à des films physiques qui sont le film physique duquel ils ont été numérisés. Ainsi, l’utilisateur métier ne numérise que des segments d’un item physique. Les items numériques sont toujours des segments. Cela implique beaucoup de relations non hiérarchiques donc pas très claires. Un item de film physique renseigne tous les extraits numériques qui lui sont liés. L’item numérique (segment) renseigne le film physique duquel il est extrait, le niveau œuvre renseigne seulement les films associés numériques. Complexe. La création d’une nouvelle entité simplifierai les choses au niveau de la hiérarchie mais la complexifierai également : la nouvelle entité “fragment” devra être décrite de manière intellectuelle : pourquoi le choix de ce segment, le contexte, et devra être associé aux items numériques, fragments numérisés concrets avec les times codes. Actuellement, dans l’application, les time codes sont renseignés dans un champ note. Ils ne possèdent donc pas de champs dédiés et ne sont pas vraiment requêtables. L’idée n’est pas de chambouler l’expérience utilisateur avec l’implémentation d’un processus automatique et la modification du modèle de données. Nous pourrions par exemple simplement proposer un champ dédié aux time codes pour rendre la saisie plus facile et la recherche plus facile également. Toutefois, il est également nécessaire de se demander où reverser les mots clés produits par le second processus d’indexation. Actuellement dans l’application, les mots-clés sont renseignés au niveau de l’indexation de l’œuvre globale, donc des rushes. Si une entité fragment est créées, les mots clés spécifiques au segment et générés par le processus automatique pourront être reversés sur la notice de fragment, hérités au niveau de l’item numérique. Les mots clés généraux au niveau œuvre sont conservés au niveau œuvre. Si la nouvelle entité n’est pas créée, le nouveau champ time code pourra contenir un sous champ mots clés, afin d’indiquer que ces mots clés sont spécifiques à un segment de l’oeuvre. Mais la création d’une entité à part entière serait idéale, notamment pour expliquer le contexte de création automatique de ces segments.  
+
+La création d’une nouvelle entité : faciliterait la visibilité et la recherche mais compromis avec surcharge de l’interface et habitudes utilisateur. 
+
+Informations au niveau entité fragments d’œuvres/expression :  
+
+Contexte  
+
+Choix du segment 
+
+Processus de segmentation  
+
+Mots clés : peuvent aider à expliquer le choix du segment : syntaxe + sémantique 
+
+Image clé associée  
+
+Item numérique associé  
+
+
+
+Informations au niveau de l’item numérique :  
+
+Fragment associé  
+
+Données techniques de conservation 
+
+Données héritées de l’oeuvre et du fragment  
+
+L'IFLA propose sinon le fragment d’expression : \footcite{iflastandards.info2026} avec la description suivante : Cette classe regroupe des parties d’expressions qui ne constituent pas elles-mêmes des expressions autonomes. L’existence d’une instance de F23 « Fragment d’expression » peut être due à un accident, tel que la perte de matière au fil du temps (par exemple, le seul manuscrit restant d’un texte ancien partiellement rongé par les vers), ou à un isolement délibéré, comme des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un « F23 Fragment d’expression » n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé. La taille d’une instance de « F23 Fragment d’expression » varie de plus de 99 pourcent d’une instance de « F22 Expression autonome » à de minuscules fragments (quelques mots d’un texte, une mesure d’une composition musicale, un détail d’une image fixe, un extrait de deux secondes d’un film, etc.). » 
+
+Remarque : « L’existence d’une instance de F23 Fragment d’expression peut être due à un accident, tel que la perte de matériel au fil du temps — par exemple, le seul manuscrit restant d’un texte ancien ayant été partiellement rongé par les vers —, ou à un isolement délibéré, tel que des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un F23 Fragment d’expression n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé. La taille d’un exemple de F23 « Fragment d’expression » varie de plus de 99 pourcent d’un exemple de F22 « Expression autonome » à de minuscules fragments (quelques mots d’un texte, une mesure d’une composition musicale, un détail d’une image fixe, un extrait de deux secondes d’un film, etc.). » 
+
+
+
+
+
+Dans le FRBR, la séquence n’est pas définie : comment l’intégrer ? Différentes possibilités. Le FRBRoo inclut les notions suivantes :  
+
+partie d'œuvre ; 
+
+œuvre complexe ; 
+
+relations entre composants ; 
+
+objets informationnels structurés 
+
+
+
+Selon le manuel de la FIAF p. 159, il peut être utilisé le titre segment dans le cas suivant : “S’emploie pour tout document identifié comme étant une ou des séquences, un ou des segments, un ou des extraits, un ou des fragments (à l'exception des « reportages d'actualités » et des « extraits pour l’analyse », voir ci-dessous).” \footcite{zotero-item-646}
+
+Autre possibilité : Agrégats « hybrides » et images animées à composantes multiples p 168 : “Les Œuvres à composantes multiples sont conçues et créées dès le début pour rassembler plusieurs composantes individuelles formant un tout, par exemple les films à sketches et les émissions TV (p. ex. Dead of night, Quartet, Retour à la vie, Kaamelott). 
+
+Elles doivent être traitées comme des Œuvres monographiques. (Voir 1. Œuvres et Variantes). 
+
+Les différentes sections constituant l'ensemble ne sont pas des Œuvres/Variantes créées indépendamment et ayant une existence propre en dehors du film. Il s’agit d’un film intentionnellement structuré comme une série d'histoires différentes, parfois reliées entre elles par des décors et des personnages, et faisant partie d’un tout continu.”  
+
+“Chaque composante ne doit normalement pas être créée comme une nouvelle Œuvre, car ce n'est pas de cette façon que le contenu a été imaginé (c.-à-d. qu'il a été conçu pour être regroupé et visionné en tant qu’unité et ne peut pas être segmenté). Aucun d’entre eux n’aura alors de notice de Manifestation en tant qu’Œuvre individuelle. 
+
+Les institutions qui ont la capacité ou le désir de les dissocier afin de lier des descriptions (p. ex. des génériques) séparées à chaque composante (c.-à-d. représentant la relation parent-enfant), peuvent les enregistrer en tant qu’Œuvres analytiques” \footcite{zotero-item-646}
+
+À l’ingest : données interdépendantes entre la description d’un item numérique et de son média. Mentionner la relation nouvelle sur l’item numérique et son média : facilite les choses pour le reversement  
+
+Comment sont décrits les time codes dans l’application du corpus que nous décrivons ? Comment sont gérées ces données, puisque la segmentation existe déjà ? L'idée est de ne pas modifier à outrance l’expérience utilisateur avec de nouveaux outils.  
+
+Rappelons que le modèle FRBR est structuré théoriquement en trois niveaux principaux : œuvre, manifestation, item. Si nous prenons l’environnement d’application adapté au corpus que nous avons décrit jusqu’ici, seuls les niveaux œuvre et items sont décrits puisque le corpus est composé presqu’essentiellement de rushes documentaires qui n’ont pas fait l’objet de publications spécifiques (niveau manifestation). En observant les métadonnées déjà existantes, nous en avons conclu que pour les  
+
+Rushes qui ont déjà fait l’objet d’une segmentation documentaire manuelle, les times codes sont renseignés au niveau de l’item, dans un champ notes. Ainsi, par exemple, une bobine au niveau item, déjà segmentée en séquences, dispose de plusieurs items liés, ses séquences, qui possèdent chacune un time code de début et de fin au sein de cette bobine. Une notice de bobine item physique :  (captures d'écran word) 
+ 
+Ainsi, les données produites par les deux processus automatiques combinés proposent des métadonnées indexables sur deux niveaux différents. Les processus IA sont appliqués sur un fichier numérique, donc au niveau d’un item numérique. Comment procéder pour que les métadonnées produites à partir du fichier numérique enrichissent le niveau œuvre, niveau de description intellectuelle qui doit contenir les mots clés ?  
+
+Pour les times codes, des champs dédiés devrons être prévus sous le champ film associé.  
+
+Les fichiers numériques segmentées, donc les séquences, possèdent la catégorie “fichier time codé” 
+
+
+Faire un schéma de métadonnées pour pouvoir adapter les données aux normes du logiciel via des connecteurs par exemple.  
+
+L’automatisation modifie le schéma des données actuels. En effet, si les mots clés définis pour chaque segment sont reportés au niveau œuvre, il faut pouvoir créer une notice d’œuvre pour chaque segment, ou alors reporter les time codes aussi au niveau œuvre pour pouvoir indiquer que ces mots clés sont spécifiques à tel segment. Ou alors on garde le champ de films liés, on crée un champ séquences : les times codes sont renseignés et els mots clés sont saisis sous chaque séquence. Les mots clés pourront également être reportés au champ général mots clés qui décrit l’œuvre dans sa globalité. Il y aurait ainsi deux types de champs mots clés : un champ spécifique à la séquence, un champ mots clés qui décrit les mots clés généraux de l’œuvre.  
+
+
+
+Plateforme okapi, modélisation de la plateforme intéressante pour notre étude :  
+
+“Chaque modélisation de domaine vient étendre le modèle Okapi en utilisant les mécanismes d’extensions propres aux langages RDFS/OWL. Ces derniers permettent également à un modélisateur de définir sa propre « upper ontology » et de déclarer des points d’adhérence uniquement entre certaines classes de son modèle et celles d’Okapi. La Figure 1 montre la simplicité du modèle générique et illustre les possibilités de classements offertes en terme d’organisation des connaissances.” \footcite{lalande2022}
+(voir schéma word)
+
+“De manière similaire, le modèle de description multimédia d’Okapi regroupe un nombre limité d’objets structurant la description : le média (image fixe, vidéos, sons), la description (ou analyse de média), la strate (ou plan/point de vue de description), l’extrait (ou segment/fragment/région) de média, le corpus d’extraits et la publication hypermédia. À l’instar du modèle de domaine, l’ensemble de ces éléments est regroupé au sein d’une ontologie de description qu’il convient d’étendre afin de construire un modèle de description multimédia propre à son domaine. Le modèle proposé s’inspire notamment des notions de descriptions, de segments et de décomposition que l’on retrouve dans des standards de description comme Mpeg7 et s’inscrit plus spécifiquement dans l’esprit des travaux de (Hunter, 2002) portant sur un portage de ce langage de XML Schema vers OWL. Par le biais des mécanismes d’extension de OWL, le modèle permet de définir de manière déclarative les strates de descriptions que l’on souhaite utiliser pour un type de description particulier et d’associer à chaque type de segment porté par ces strates, une branche particulière du domaine.” \footcite{lalande2022}
+
+  
+\subsubsection{Interface de validation pour l'utilisateur} 
+
+Deux axes : visualisation et validation (intégrer à ces deux axes la transparence sur le processus : données de gestion)  
+
+Processus d’interface avec ce nouveau schéma de données  
+
+(Proposer un diagramme de décision pour exposer le processus interface utilisateur)  
+
+Le changement au niveau du modèle FRBR s’effectue en backend de l’application, par les équipes techniques et els équipes métiers afin de préparer l’application à l’implémentation de processus automatiques. Toutefois, comment le processus automatique de segmentation puis d’indexation est-il représenté au sein de l’interface, pour l’utilisateur ?  
+
+D’abord théorie, puis mise en application dans l’exemple de l’application. D'abord lire ce que j’ai écrit en citations.  
+
+Nous pouvons imaginer le processus suivant en frontend, dans l’interface visible de l’application pour l’utilisateur. L’utilisateur procède à l’ingest d’un fichier numérisé d’une œuvre/rushe dans sa globalité. L’ingest d’un fichier numérique vidéo devrait pouvoir déclencher la proposition suivante pour l’utilisateur : Souhaitez-vous segmenter automatiquement ce fichier ? Une infobulle devrait indiquer à l’utilisateur ce qu’implique cette segmentation automatique, le processus expliqué en quelques phrases. En effet, au début de l’implémentation du processus et pour tout nouvel utilisateur confronté à cette nouvelle fonctionnalités automatiques, il est recommandé d’être “familiarisé” au “fonctionnement et limites” de ces outils, comme par exemple “la manière dont sont produites les sorties, les éventuels transferts de données, ainsi que les usages autorisés et les usages interdits."\footcite{zotero-item-729} Ces informations pourront notamment aider l’utilisateur à pouvoir valider, par la suite, les données produites par les pipelines automatisés. Skinsoft prévoit par exemple déjà des modes d’emploi à l’attention des utilisateurs lors de la livraison de nouvelles fonctionnalités. Toutefois, les informations relatives au processus devront être intégrées à l’interface et au processus, pour des soucis de transparence et de création conforme des données. Ainsi, "l’intégration de briques d’IA générative dans un système d’information (SI) devrait être pensée avec des éléments de design informant clairement les utilisateurs de l’origine de la proposition, leur rappelant qu’il leur revient de ne pas prendre « telle quelle » la proposition. Par exemple, le système peut proposer pour chaque question au moins deux réponses, ce qui permet à l’opérateur humain de sélectionner les éléments pertinents de chaque réponse pour consolider la sienne." \footcite{zotero-item-729} Au lieu de proposer deux réponses, ce qui surchargerait l’interface, et de plus, ce n’est pas adapté ici puisque le processus de segmentation n’utilise pas d’intelligence artificielle capable de raisonner. Nous pourrions proposer, si l’utilisateur ne valide pas les données produites, la possibilité de "permettre CROCHETS un point de contact pour remonter des problèmes ou des difficultés d’ordre éthique"\footcite{zotero-item-729}. L’interface devra ainsi prévoir un formulaire décrivant la raison du refus des données, envoyé à l’équipe technique afin que le processus puisse être amélioré au niveau de ses paramètres. Ainsi, dan sles premiers mois de sa mise en place, l’implémentation pourra faire l’objet d’essais erreurs auprès des utilisateurs afin de pouvoir être perfectionné. Selon les recommandations du livre blanc : "lors des premiers mois et années de l’utilisation des IA, il est recommandé de recueillir régulièrement l’avis des utilisateurs finaux sur l’utilité et les limites du système"\footcite{zotero-item-729} 
+
+En effet, il faudra également lui indiquer les actions qu’il va devoir effectuer au cours du processus. En effet, il devra être demandé à l’utilisateur de valider ou non, les données produites.  
+
+La validation est utile à la responsabilisation des utilisateurs pour l’usage des outils d’automatisation en les “incitant à vérifier les données fournies en entrée et la qualité des sorties " \footcite{zotero-item-729} Les outils d’automatisation doivent être des facilitateurs sans rendre l’indexation trop automatique et facile. L’interface doit prévoir ces étapes de validation de manière simple pour l’utilisateur. \footcite{zotero-item-632}
+
+Les données de gestion sur la production de ces données doivent être automatiquement enregistrées par l’application : quel est l’outil utilisé, le processus effectué, qui a validé, quand... L’application prévoit déjà un enregistrement des données de gestion et de l’historique des modifications automatique sur les notices via un menu spécifique. Un nouveau menu pourrait être créé pour les données de gestion automatiques des notices.  
+
+Une fois que le fichier numérique a été segmenté, l’interface doit pouvoir présenter à l’utilisateur les times codes choisis avec l’image clé associée pour que l’utilisateur puisse visualiser les coupures qui ont été sélectionnées en accord avec les différences entre les images. Si l’utilisateur valide la segmentation, l’interface indexe les time codes sur le fichier numérique associé automatiquement dans le champ dédié, propose la génération de mots clés sur les segments générés : l’utilisateur pourra alors choisir s’il veut appliquer la génération de mots clés sur tous les segments ou seulement des segments spécifiques sous la forme d’une sélection.  
+Une fois le processus de génération de mots clés terminé, l’interface propose à l’utilisateur de valider les mots clés en accord avec les images clés analysées.  
+
+Si l’utilisateur ne valide pas les segments, ou n’en valide qu’une partie : il sera important d’intégrer à l’interface un formulaire d’erreurs qui explique les raisons du refus, afin de perfectionner l’algorithme de détection de segmentations. Même chose pour les mots clés. Pour les mots clés, l’interface peut proposer à l’utilisateur de modifier manuellement les mots clés pour les indexer mais aussi m-pour les renvoyer au modèle et alimenter le jeu de données sur lequel il s’entraîne.  
+
+À l’INA, les chercheurs ont développé Amalia.Js, un lecteur HTML5 extensible qui synchronise des métadonnées avec la lecture de flux vidéo ou audio, au départ conçu pour visualiser les résultats d’algorithmes d’analyse audiovisuelle. Le besoin à l'origine d'Amalia.js est donc de permettre de visualiser les résultats de pipelines d'automatisation, avec leur lot de métadonnées produites \footcite{herve2015} Ce besoin s’explique la production de résultats et de données de différentes natures qui nécessitent d’être présentés à l’utilisateur. \footcite{herve2015} L'indexation automatique regroupe tout un tas de métadonnées issues d'algorithmes et d'outils différents qu'il faut réunir dans une interface de présentation. Ainsi, à l’inverse de la visualisation des résultats que nous avons proposée en deux étapes, conformément aux deux processus différents, Amalia.js propose une visionneuse multimédia qui présente l’ensemble des résultats. Cette interface permettrait également de vérifier la conformité des données produites aux standards métiers en vigueur au sein du logiciel : « Ensuring that all the metadata types are consistent and use the same standards will facilitate their use and enable us to design generic visualization plugins. »\footcite{herve2015}. Par la même occasion, l’interface permet également d’annoter la vidéo et de corriger manuellement les données produites directement sur le fichier vidéo.  
+Le logiciel permet à l'utilisateur d'annoter la vidéo pour corriger les métadonnées ou les compléter : « This will allow us to enter or correct metadata directly through the player. We plan to use this version in groundtruth management applications so as to enable the creation of huge research datasets used to train supervised algorithms or to assess analysis methods performances. »\footcite{herve2015}. La correction humaine permet d'avoir des métadonnées plus justes, mais permet aussi d'avoir des données d'entrainement pour améliorer les algorithmes d'indexation automatique. (aussi vu chez Vanderbilt). Utilisateur comme rôle de correction et d'enrichissement sur une base générée automatiquement.  
+
+Le plugin timeline proposé par Amalia.js est particulièrement intéressant pour notre étude puisqu’il permet d’afficher les métadonnées horodatées sur l’image. \footcite{zotero-item-740} (cf capture d'céran word)
+Le plugin permet de visualiser les segments temporels et les images clés en lien avec ces segments.  
+
+Par ailleurs, le plugin de superposition permet d’encadrer les objets détectés dans l’image par les algorithmes.  
+Nous pouvons imaginer, au lieu de développer deux plugins différents, de développer le premier plugin temporel, afin d’afficher les objets détectés par yolo sur les images clés, et d’ouvrir une fenêtre latérale avec les mots clés proposés. Un mode d’édition pourrait permettre alors à l’utilisateur de modifier les mots clés si les résultats ne sont pas satisfaisants. À la modification de l’utilisateur, l’application détecte la modification et la renvoie à l’équipe technique pour réentraîner le modèle sur les données corrigées.  
+
+Exemple d’écran scindé pour le plugin d’édition, qui serait dans le cas de notre étude, intégré au plugin temporel pour accepter la proposition de mots clés :  (cf capture)
+
+Exemple de la plateforme okapi :  
+
+“Okapi fournit un ensemble d’outils destiné à l’analyse sémantique et sémiotique de contenus multimédia (vidéo, image, son) et à la gestion de corpus de vidéos, d’extraits sonores et de parties d’images. Les outils d’analyse permettent l’indexation et la description sémantique de contenu sur la base d’ontologies qui décrivent les objets et classes des domaines étudiés. Les outils de gestion de corpus fournissent des services pour la constitution, la visualisation, l’enrichissement et la valorisation de corpus thématiques.” \footcite{lalande2022} (cf capture d'écran)
+
+Prévoir une file d'attente et une barre de chargement de traitement : tableau de bord skinsoft 
+
+\subsubsection{Rendre les données recherchables et découvrables} 
+Une fois les données validées et indexées au sein du modèle de données, elles peuvent être exploitées au sein du logiciel comme n’importe quelle autre donnée documentaire, et peuvent notamment être requêtables. La création d’une potentielle nouvelle entité, la séquence, modifie le rapport de l’utilisateur aux objets documentés au sein du logiciel. L’utilisateur peut désormais accéder non plus seulement aux archives audiovisuelles dans leur entièreté mais à leurs segments. L’indexation de segments d’archives audiovisuelles ne produirait ainsi non plus seulement une simple indexation mais une “indexation fine” du contenu, selon Bachimont (2007). \footcite{bachimont2007}
+
+Ainsi, une recherche par mots-clés dans notre cas permet à l’utilisateur d’accéder directement aux segments d’archives concernés par ce mot-clé. Cela permet notamment à l’utilisateur d’accéder à des éléments plus précis en accord avec la requête effectuée au lieu d’accéder à des archives audiovisuelles entières qu’il faudrait visionner. Mais encore faut-il que les segments sélectionnés soient compatibles avec  Ainsi, une recherche par mots-clés dans notre cas permet à l’utilisateur d’accéder directement aux segments d’archives concernés par ce mot-clé. Cela permet notamment à l’utilisateur d’accéder à des éléments plus précis en accord avec la requête effectuée au lieu d’accéder à des archives audiovisuelles entières qu’il faudrait visionner. Mais encore faut-il que les segments sélectionnés soient compatibles avec les besoins utilisateurs. Les nouveaux segments créés pourront ainsi être intégrés aux différents modes de recherche et de filtrage proposés par le logiciel de gestion des collections. Par exemple, l’application de skinsoft propose une recherche simple, une recherche avancée, une recherche plein texte ciblée, une recherche par image. Une recherche en langage naturel, s’appuyant sur la technologie du NLP est également en cours de développement, dans laquelle la recherche des segments pourra s’intégrer. L’utilisateur pourrait ainsi formuler une description de ce qu’il recherche, en langage naturel, et obtenir des résultats visuels pertinents. La recherche par image pourra également être davantage employée dans le cadre de la description des segments.  
+Les résultats de recherche pourront présenter en vignette, l’image clé associée au segment décrit, sur laquelle l’utilisateur peut cliquer. Il accède à la fiche de description intellectuelle de la séquence comprenant les mots clés et les time codes correspondants. Le fichier numérique correspondant à la séquence est associé sous la forme d’item lié dans une grille de recherche. Le risque, énoncé par Bachimont, est le suivant : “les segments peuvent se désolidariser du contenu dont ils sont issus, perdant ainsi leur origine et nature documentaires.” \footcite{bachimont2007}. Toutefois, le modèle de données FRBR limite ce risque, dans la mesure où il contraint les liens entre les entités. Les séquences en tant que fichiers numériques, seront ainsi toujours reliées à une notice de séquence descriptive intellectuelle, elle-même rattachée au niveau le plus haut, l’œuvre. L’un des besoins utilisateur fondateur du modèle de données FRBR est précisément celui de la recherche, de pouvoir identifier des ressources précises. (Retrouver le besoin utilisateur) La création d’une nouvelle entité au sein du modèle de données permettrait d’éviter ce risque d’isolement de segments de son oeuvre originale.  
+Les données produites automatiquement peuvent alimenter d’autres modes de recherche innovants telle que la recherche visuelle par l’exemple et l’apprentissage interactif (cf Snoop). Ces nouveaux modes de recherche permettent également aux systèmes d’IA d’apprendre grâce aux retours utilisateurs : faire le lien avec ce qui est développé par skinsoft : RAG, LLM, NLP...  
+
+Snoop v6 : moteur visuel de recherche, d’apprentissage et de prédiction à très large échelle. Cette technologie permet à un utilisateur de formuler une requête par l’exemple (un morceau d’image représentant un logo, tableau, monument, ...) à retrouver dans des fonds d’images et de vidéos de grande taille. De plus, à partir d’une base connaissances (ensemble de classes, comme dans le cas de Pl@ntNet). Snoop a aussi des fonctionnalités d’apprentissage de réseaux profonds et de prédiction. Nos forces : 
+
+Images et vidéos : Snoop peut gérer un corpus comportant à la fois des images et des vidéos ce qui permet de construire des liens visuels entre ces 2 types de contenus. 
+
+L'interactivité à très large échelle, peu coûteuse en CPU et mémoire. 
+
+Prédiction à large échelle avec des centaines de milliers d’utilisateurs par jour sur un seul serveur \footcite{zotero-item-744} 
+
+
+
+L’un des composants technologiques de Snoop est le bouclage de pertinence, permettant de créer des modèles d’entités visuelles personnalisés. Le schéma ci-dessous résume ce processus dans lequel Snoop est sollicité par une première recherche avec quelques images choisies par l’utilisateur et représentant sa requête. Quelques contenus visuels similaires retrouvés par Snoop sont ensuite marqués par l’utilisateur, soit positivement (ceux qui correspondent à sa recherche), soit négativement (des contre-exemples). Puis Snoop utilise ces informations pour créer un modèle des connaissances transmises par l’utilisateur. Tant que ce dernier n’est pas satisfait, l’IA propose à nouveau des résultats pouvant être annotés. (source : Snoop, un moteur de recherche visuelle interactif A. Joly, J-C. Lombardo, J-P. Moreux, Q. Leroy et O. Buisson Culture et Recherche (141), 2020 (lien) 
+
+Ce que produit l’indexation des segments : “Alors que selon l’indexation traditionnelle, l’enjeu est de retrouver le ou les documents contenant l’information recherchée, l’indexation fine du contenu permet de ne retrouver que les segments concernés par la recherche d’information et de paramétrer l’usage de ces segments. Si le document demeure présent dans les résultats de la recherche dans une indexation et recherche traditionnelles, il n’en est pas de même dans une recherche profitant de l’indexation fine du contenu, dans la mesure où les segments peuvent se désolidariser du contenu dont ils sont issus, perdant ainsi leur origine et nature documentaires. Devenant des ressources, ces segments sont remobilisés pour la production d’autres contenus dont ils constituent les composants” B. Bachimont, 2007 \footcite{bachimont2007} 
+
+
+
+Une fois produites, les données doivent être indexées afin d’être requêtables au sein de l’application. : juste sous sous partie indexation des données d’un pdv technique pour qu’elles soient requêtables comme d’autres données.  
+
+
+
+
+
+
+
+
 
 "Si l’utilisation envisagée consiste à fournir des données personnelles (données des clients ou des collaborateurs) ou de la documentation sensible ou stratégique (par exemple pour le RAG), il semble généralement plus opportun et plus sécurisé de privilégier le déploiement de solutions « sur site » (on premise) qui présentent l’avantage de limiter les risques d’extraction de données auprès d’un tiers" \footcite{zotero-item-729}
 "s’il est envisagé d’utiliser un système sous forme d’API, il faut souligner que la maîtrise du système est alors quasi exclusivement dans les mains du fournisseur. Il convient donc d’être particulièrement vigilant sur les données soumises au système d’IA" \footcite{zotero-item-729}
 
-Quelles données pour quels niveaux ? 
-avec la fragmentatio en deux workflows automatisés : comemnt harmoniser ça dans le FRBR 
-Rappelons le : c'est l'objet de notre problématique : comment implémenter l'indeation automatique au sein d'un modèle de données adapté aux archives audiovisuelles 
-comment modéliser et organiser ces données générées par l'IA au sein de logiciel de gestion des collections ? 
-
-L'IA analyse l'item pour enrichir le niveau oeuvre 
-fichier numérique ? 
-
-Développer quel serait le processus d'intégration de ces données produites au sein du FRBR 
-
-\subsubsection{Interface de validation pour l'utilisateur}
-
-"Dans le cas général, c’est l’organisme utilisateur qui engagera sa responsabilité légale en cas de mauvaise utilisation de l’IA par son personnel. Il est donc recommandé de familiariser les utilisateurs finaux avec le fonctionnement et les limites de ces systèmes (la manière dont sont produites les sorties, les éventuels transferts de données), ainsi que les usages autorisés et les usages interdits."\footcite{zotero-item-729}
-
-"Les utilisateurs finaux devraient être responsabilisés quant à l’usage qu’ils feront de ces outils, en les incitant à vérifier les données fournies en entrée et la qualité des sorties (par exemple par des formations obligatoires préalables à l’utilisation de ces systèmes)." \footcite{zotero-item-729}
-
-"l’intégration de briques d’IA générative dans un système d’information (SI) devrait être pensée avec des éléments de design informant clairement les utilisateurs de l’origine de la proposition, leur rappelant qu’il leur revient de ne pas prendre « telle quelle » la proposition. Par exemple, le système peut proposer pour chaque question au moins deux réponses, ce qui permet à l’opérateur humain de sélectionner les éléments pertinents de chaque réponse pour consolider la sienne." \footcite{zotero-item-729}
-
-"permettre de proposer aux utilisateurs finaux un point de contact pour remonter des problèmes ou des difficultés d’ordre éthique"\footcite{zotero-item-729}
-
-"lors des premiers mois et années de l’utilisation des IA, il est recommandé de recueillir régulièrement l’avis des utilisateurs finaux sur l’utilité et les limites du système"\footcite{zotero-item-729}
-
-processus côté interface : l'utilisateur fait ça : ça déclenche ça
-Validation des données + validation du FRBR 
-skinsoft souhaite une mise en place transparente de l'IA 
-
-Amalia.js, Okapi
-https://arxiv.org/pdf/2509.01304  https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-okapi 
-prévoir une file d'attente et une barre de chargement de traitement : tableau de bord skinsoft
 
 
-Indexation automatique et expérience utilisateur : une question de transparence : 
-"Alors que l'utilisation du ML	va déjà de soi dans certains domaines, il y a des domaines dans lesquels nous devons	rendre son utilisation transparente pour les utilisateur·rice·s et leur donner la possibilité
-d'option de retrait, par exemple lorsqu'il s'agit de données personnelles. La transparence est également requise lorsqu'il s'agit d'adapter l'offre concrète aux besoins des utilisateur·rice·s	sur la base de profils d'utilisateur·rice·s (obtenus par le biais de demandes, d'autodéclaration ou de « traces d'utilisation », comme le classement d'une liste de résultats ou	des propositions par des systèmes de recommandation)."
-\footcite{zotero-item-584}
 
-\item Comment donner accès à ces automatisations ? L'exemple d'Amalia.js
 
-Amalia.js est un lecteur HTML5 extensible qui synchronise des métadonnées avec la lecture de flux vidéo ou audio. Conçu pour visualiser les résultats d’algorithmes d’analyse audiovisuelle.
 
 Le besoin à l'origine d'Amalia.js est de permettre de visualiser les résultats de pipelines d'automatisation, avec leur lot de métadonnées produites : « Whatever the field of analysis, we always need to be able to quickly and easily view the results of the methods we are developing. This problem is particularly true as we often manipulate large amount of videos. Developing visualization and annotation tools is often a tedious task that deserves to be pooled. »\footcite{herve2015}
 « The analysis being at different levels (keyframes, video segments, audio channels, associated synopses, one video alone or relative to a corpus...) results are obtained in very different natures, often needing quite specific approaches to be presented to the end user. »\footcite{herve2015} L'indexation utomatique regroupe tout un tas de métadonnées issues d'algorithmes et d'outils différents qu'il faut réunir dans ne interface de présentation. 
@@ -76,12 +215,4 @@ archives. To make this possible, the DANE architecture (as shown in Figure 2) di
 
 "These tools generate two types of metadata: (i) structured data which can be integrated into the existing metadata systems, and (ii) feature vectors which describe the data on a more abstract level, but which can be integrated in new types of interfaces and search systems. For instance, with an Object Recognition model it is possible to recognise which objects are present in an image, but the output of such a model can also be used to perform more abstract visual similarity queries" \footcite{noord2021}
 
-
-
-\subsubsection{Des données recherchables et découvrables}
-ex : Snoop 
-
-Une fois les données modélisées et validées : elle permettent une recherche visuelle et sémantique 
-adéquation avec la recherche par images 
-
-
+exemple d'indexation automatique à la bibliothèque nationale de finlande "L’API « suggest » est au cœur de ce web service : en fournissant un document textuel en entrée, on obtient en sortie une liste (au format JSON) de suggestions de concepts pour l’indexer ainsi que l’appréciation quantifiée de leur niveau de pertinence. Autre fonctionnalité importante, « learn » est capable de mettre à jour les programmes en exploitant des correspondances vérifiées entre des documents décrits et les mots sujets choisis."\footcite{suominen2019a}
