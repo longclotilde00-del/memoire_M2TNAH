@@ -38,6 +38,6 @@
 \contentsline {subsection}{\numberline {10.}L'implémentation de ces nouvelles fonctionnalités pose des questions sur la navigation au sein du FRBR et de l’application qui sont déjà présentes (question d’ergonomie, de navigation, et de visualisation du modèle FRBR)}{65}{subsection.0.0.10}%
 \contentsline {subsubsection}{\numberline {a.} Préparer la mise en place de ces fonctionnalités dans l’application.}{65}{subsubsection.0.0.10.1}%
 \contentsline {subsubsection}{\numberline {b.}Visualisation du FRBR en graphe pour préparer la mise en place d’une nouvelle entité : la séquence et de nouvelles données produites automatiquement : alourdit les bdd donc nécessite des visualisations}{66}{subsubsection.0.0.10.2}%
-\contentsline {subsection}{\numberline {11.}Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}{68}{subsection.0.0.11}%
-\contentsline {chapter}{Conclusion}{69}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{73}{appendix.A}%
+\contentsline {subsubsection}{\numberline {c.}Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}{69}{subsubsection.0.0.10.3}%
+\contentsline {chapter}{Conclusion}{71}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{75}{appendix.A}%

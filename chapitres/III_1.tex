@@ -1,5 +1,8 @@
 \subsection{L'implémentation de ces nouvelles fonctionnalités pose des questions sur la navigation au sein du FRBR et de l’application qui sont déjà présentes (question d’ergonomie, de navigation, et de visualisation du modèle FRBR)}
 
+le lien de cette sous partie = peut être faire du logiciel une interface semblable à celle des applications du web : c'est ce vers quoi tend skinsoft. 
+Pour les archives audiovisuelles : spécificités : visionneuse vidéo, visualisation en graphe, recherche par image...
+
 L'implémentation de nouvelles fonctionnalités fondées sur l'IA ne peut pas s'effectuer sans une amélioration de navigation au sein de linterface du logiciel de gestion des collections. En effet, la modélisation imposée par le FRBR pose des difficultés d'érgonomie et de visualisation des données, en en faisant apparaitre les liens. Comme nous l'avons souligné en première partie, l'espace de travail dédié à la gestion des collections audiovisuelles est au coeur des réflexions pour en améliorer la navigation et la visibilité des liens entre les données chez Skinsoft. 
 L'arrivée de données générées automatiquement et en grande quantité risque de complexifier encore la navigation au sein de l'interface ainsi que la visibilité des liens entre les niveaux du FRBR. 
 L'éditeur du logiciel de gestion des collections aurait ainsi un rôle de pivot, en préparant au sein de l'interface l'arrivée de ces nouvelles données mais aussi les pratiques des utilisateurs. 
@@ -8,19 +11,43 @@ le lien entre les éléments de cette sous partie = faire de l'utilisateur méti
 
 
 \subsubsection{ Préparer la mise en place de ces fonctionnalités dans l’application.} 
-La préparation des pratiques utilisateurs à ces ouvelles fonctionnalités passe par exemple par la modernisation de certains outils de l'interface, dédiés aux collectiosn audiovisuelles, afin d'effectuer la transition vers l'implémentation de fonctionnalités automatiques. Par exemple, la mise en place d'un outil de visionnage et d'annotation vidéo pourrait permettre d'habituer les utilisateurs à de telles pratiques, pour pouvoir ensuite valider les données produites automatiquement par l'IA, mais aussi de produire des données d'entraînement pour les algorithmes d'IA qui seront employés pour la segmentation et pour la détection d'objets. Il pourrait être proposé aux isntitutions cet outil d'annotation afin de recueillir des données d'entraînement. 
+
+La préparation des pratiques utilisateurs à ces nouvelles fonctionnalités passe par exemple par la modernisation de certains outils de l'interface, dédiés aux collectiosn audiovisuelles, afin d'effectuer la transition vers l'implémentation de fonctionnalités automatiques. Par exemple, la mise en place d'un outil de visionnage et d'annotation vidéo pourrait permettre d'habituer les utilisateurs à de telles pratiques, pour pouvoir ensuite valider les données produites automatiquement par l'IA, mais aussi de produire des données d'entraînement pour les algorithmes d'IA qui seront employés pour la segmentation et pour la détection d'objets. Il pourrait être proposé aux isntitutions cet outil d'annotation afin de recueillir des données d'entraînement. 
 Cela préparer également aux nouvelles données qui seront créées automatiquement, qui porront être comparées aux données créées manuellement. 
- 
+
 Mediascope : outil d'aide à l'analyse des contenus audiovisuels développé à l'INA.  Il permet de structurer le développement temporel du document à l'aide d'annotations associées à des "time-codes" et à des images fixes. \footcite{zotero-item-746} 
 
-L'utilisateur peut créer des marqueurs sur des "imagettes", qui sont en réalité des images clés, ces marqueurs créent des "time-codes" au sein desquels il est posisble de saisir du texte. À partir de l'outil, il est possible d'exporter les imagettes, le texte annoté, et des statistiques sur le contenu. 
+L'utilisateur peut créer des marqueurs sur des "imagettes", qui sont en réalité des images clés, ces marqueurs créent des "time-codes" au sein desquels il est possible de saisir du texte. À partir de l'outil, il est possible d'exporter les imagettes, le texte annoté, et des statistiques sur le contenu. 
+
+Reprendre les éléments de la spécification (à développer et à reporter en annexe)
 
 \subsubsection{Visualisation du FRBR en graphe pour préparer la mise en place d’une nouvelle entité : la séquence et de nouvelles données produites automatiquement : alourdit les bdd donc nécessite des visualisations}
 
-Pour résoudre le problème de la lourdeur et de la complexité de la base de données. C'est déjà une idée que nous proposons chez Skinsoft, afin de permettre à l'utilisateur de mieux naviguer au sein du modèle de liens entre les notices. Il permettra également de mieux préparer l'implementation de processus automatique et la création potentielle d'une nouvelle entité. 
+Nous l'avons évoqué, la structure du modèle de données, si elles est censée faciliter la découvrabilité des données pour l'utilisateur, s'avère complexe. L'implémentation de nouvelles fonctionnalités automatisées risque d'alourdir et de complexifier ce modèle de données, notamment avec la création de nouvelles entités. Pour résoudre ce risque, il peut être mis en place des visualisations du modèle de données au sein du logiciel. En effet, le FRBR pose des problèmes de visualisation des liens entre les entités dans leur ensemble. C'est pourquoi, notre stage a également fait l'objet d'une réflexion sur l'amélioration de la navigation au sein du FRBR dans l'espace S-Movies, à travers la mise un place d'une visualisation du modle de donées pour les utilisateurs.
 (revenir aux besoins que doit combler le FRBR pour justifier cette proposition)
+La visualisation que nous proposons est celle d'une visualisation en graphe, représentant l'entité et tous les liens dont elle fait l'objet.
+C'est le type de visualisation choisi par la bibliothèque nationale allemande au sein de son modèle de données FRBR, pour les publications textuelles, afin de structurer les nombreux rsultats de recherche présentés à l'utilisateur. \footcite{zotero-item-749}
+À l'aide de la plateforme culture graph, des algorithmes forment des groupes d'oeuvres avec des clés uniques regroupant les métadonnées liées. \footcite{zotero-item-749} La bibliothèque propose une visualisation en graphe fondée sur les mots-clés à l'aide du logiciel Gephi7 : 
+\begin{quote}
+	"Il permet de distinguer facilement visuellement les différents sous-groupes au sein d’un groupe et d’
+	identifier les mots-clés individuels reliant les différents domaines d’un groupe. Un groupe de travaux contient des sommets
+	représentant des publications et des sommets représentant des mots-clés. Les arêtes indiquent quels mots-clés appartiennent
+	à une publication et établi"
+\end{quote} \footcite{zotero-item-749} \footnote{Notre traduction}
 
-Exemple : La DNB : bibliothèque nationale allemande : utilise la plateforme culture graph pour agrégrer les données liées ux oeuvres. \footcite{zotero-item-749}
+Ainsi, les mots clés générés lors de notre processus automatique pourront être réutilisés au sein d'une visualisation en graphes, afin d'expliciter les liens entre les entités. La visualisation en graphes représente ainsi un "complément précieux" aux résultats de recherche traditionnels, permettant à l'utilisateur de comprendre beaucoup plus facilement le regroupement d'entités. \footcite{zotero-item-749}
+La visualisation en graphe n'est pas seulement utile pour l'amélioration de la visualisation des liens entre les entités dans les résultats de recherche, mais elle permet également d'évaluer la cohérence du modèle de données dans son ensemble. En effet, "l’impression visuelle donnée par le graphe d’une œuvre est très utile car elle attire l’ attention sur les sommets qui sont cruciaux pour la structure d’un cluster d’œuvres."\footcite{zotero-item-749}
+
+Il s’agit souvent de publications isolées reliant deux clusters par ailleurs indépendants. Elles doivent être examinées en priorité, car leur position peut en faire la source d’un vaste cluster erroné si elles sont incorrectes." \footcite{zotero-item-749}
+
+Cette visualisation prolonge également la nature des archives audiovisuelles, qui sont par nature, visuelles. Avoir une visualisation en graphes avec les images clés contenues dans les entités du graphe serait évocateur pour l'utilisateur concernant les archives audiovisuelles. 
+
+Ce que la visualisation en graphe permet : L'utilisateur parvient à atteindre le détail des données : annotations, segments temporels... mais une vue d'ensemble des liens entre une entité et ses entités enfants ou parentes est pus complexe et nécessite une visualisation. 
+
+Faire une description sommaire et renvoyer en annexe pour la proposition complète. 
+
+
+Citations utilisées : 
 
 "La diversité des nombreux résultats obtenus lors de la recherche d’une publication peut s’avérer submergante et difficile à gérer si elle est présentée de manière non structurée. C’est pourquoi plusieurs acteurs ont développé des modèles permettant de mettre en correspondance les publications et de les regrouper en sous-ensembles distincts, qu’il s’agisse d’œuvres, de manifestations ou d’expressions."\footcite{zotero-item-749}
 "Les groupes d’œuvres sont formés à l’aide d’un algorithme qui génère des clés pour chaque publication en combinant des
@@ -37,11 +64,7 @@ permettre l’échange de numéros de classification et de vedettes-matières en
 
 "En particulier à des fins d’évaluation, l’impression visuelle donnée par le graphe d’une œuvre est très utile car elle attire l’ attention sur les sommets qui sont cruciaux pour la structure d’un cluster d’œuvres. Il s’agit souvent de publications isolées reliant deux clusters par ailleurs indépendants. Elles doivent être examinées en priorité, car leur position peut en faire la source d’un vaste cluster erroné si elles sont incorrectes." \footcite{zotero-item-749}
 
-La qualité des métadonnées est essentielle : il faut que les métadonnées soient homogènes pour être intégrées au graphe et produire une visualisation claire : mettre en relation avec les données créées pr IA 
 
-L'utilisateur parvient à atteindre le détail des données : annotations, segments temporels... mais une vue d'ensemble des liens entre une entité et ses entités enfants ou parentes est pus complexe et nécessite une visualisation. 
-
-Faire une description sommaire et renvoyer en annexe pour la proposition complète. 
 
 Okapi : “L’ensemble des descriptions de ressources multimédias et les entités du domaine prennent la forme de graphes sémantiques au format RDF. Le processus d’édition de ressources de la plateforme Okapi interprète les différentes contraintes logiques portées par les ontologies au format OWL pour guider l’annotateur vers la réalisation de graphes « bien formés ». À chaque nœud du graphe constituant une annotation, correspond un ensemble valide de propriétés et de valeurs de propriétés qui est spécifié dans les ontologies. Cette généricité et cette puissance d’expression impliquent en retour une compréhension certaine pour le modélisateur des logiques en œuvre au sein des langages de représentation des connaissances utilisés. Dans leur fondement, ces langages reposent en effet sur la logique des prédicats du premier ordre, la logique ensembliste et plus spécifiquement les logiques de description. À la dérivation de types et de propriétés définies précédemment s’ajoute, dans le cas du langage OWL, la possibilité de contraindre pour une classe donnée les valeurs des propriétés héritées de ses classes ascendantes.” \footcite{lalande2022} 
 
@@ -49,14 +72,20 @@ Okapi : “L’ensemble des descriptions de ressources multimédias et les entit
 
 \subsubsection{Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}
 
+Faire le lien avec la recherche par images déjà en place dans l'application
+
+Recherche en langage naturel en cours de développement et développé au cours du stage : quel lien avec l'implémentation d'algorithmes automatisés ? ESt ce que le NLP pourrait aider à présenter les nouvelles entités : segments ? 
+articles sur ce que permet le NLP 
+
+
 Ces nouvelles fonctionnalités transforment l'accès aux collections : Nouvelles potentialités de recherche 
 
-préparer les outils de recherche 
-
-à mettre en relation avec la recherche en langage naturel qui est en train d'être développée. 
 
 un filtre strict par mot-clé risque de masquer des rushes précieux, alors qu'une recherche hybride (IA + filtres sémantiques) aide l'archiviste à explorer sans se perdre
 
 Livre blanc : “Dans le cadre de ce dernier défi, le concept d’« intelligence hybride », c'est-à-dire d'une intelligence synergique de l'homme et de la machine qui fait plus que ce qu'un homme ou une machine pourrait faire seul(e) (Dellermann et al. 2019, Akata et al. 2020), est discuté. Ainsi, lors de la recherche dans de grandes banques de données, les humains ont souvent recours aux fonctions de filtrage disponibles, ce qui donnent un « l'effet d'entonnoir ». Ce phénomène se produit lorsque des résultats potentiellement très pertinents disparaissent du résultat de la recherche, tandis que la machine apprenante peut certes proposer de nombreux résultats filtrés en utilisant les approches les plus diverses (par exemple reconnaissance de modèles, de valeurs aberrantes et de particularités), mais elle ne peut pas atteindre le « point » avec certitude (Akata et al. 2020). Il s'agit donc ici aussi de trouver un équilibre entre le rappel et la précision” 
 
 \footcite{zotero-item-584}
+
+transition : toutes ces améliorations d'interface supposent une cohérence des métadonnées contenus au sein du modèle de données. Surtout une cohérence entre les métadonnées documentaires produites par l'utilisateur métier et les métadonnées produites automatiquement par les algorithmes mis en place, à terme. 
+La qualité des métadonnées est essentielle : il faut que les métadonnées soient homogènes pour être intégrées au graphe et produire une visualisation claire : mettre en relation avec les données créées par IA 
