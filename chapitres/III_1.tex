@@ -1,25 +1,25 @@
 \subsection{L'implémentation de ces nouvelles fonctionnalités pose des questions sur la navigation au sein du FRBR et de l’application qui sont déjà présentes (question d’ergonomie, de navigation, et de visualisation du modèle FRBR)}
 
-le lien de cette sous partie = peut être faire du logiciel une interface semblable à celle des applications du web : c'est ce vers quoi tend skinsoft. 
-Pour les archives audiovisuelles : spécificités : visionneuse vidéo, visualisation en graphe, recherche par image...
-
-L'implémentation de nouvelles fonctionnalités fondées sur l'IA ne peut pas s'effectuer sans une amélioration de navigation au sein de linterface du logiciel de gestion des collections. En effet, la modélisation imposée par le FRBR pose des difficultés d'érgonomie et de visualisation des données, en en faisant apparaitre les liens. Comme nous l'avons souligné en première partie, l'espace de travail dédié à la gestion des collections audiovisuelles est au coeur des réflexions pour en améliorer la navigation et la visibilité des liens entre les données chez Skinsoft. 
+L'implémentation de nouvelles fonctionnalités fondées sur l'IA ne peut pas s'effectuer sans une amélioration de navigation au sein de linterface du logiciel de gestion des collections. La ligne directrice prise par les éditeurs de logiciel de gestion de collections est celle des applications globales déjà présentes sur le web. En effet, les utilisateurs métiers emploient, comme tout autre utilisateur du web, des applications qui placent en leur centre l'expérience utilisateur ergonomique et intuitive. Or, l'objectif d'un logiciel de gestion des collections est de permettre la gestion des collectios. L'implémentation de nouvelles fonctionnalités tend à faire de ces logiciels des applicatosn web intuitives, sans perdre de vue cet objectif. La gestion des collections rend complexe l'ergonomie de l'expérience utilisateur. En effet, la modélisation imposée par le FRBR pose des difficultés d'érgonomie et de visualisation des données, en en faisant apparaitre les liens. Comme nous l'avons souligné en première partie, l'espace de travail dédié à la gestion des collections audiovisuelles est au coeur des réflexions pour en améliorer la navigation et la visibilité des liens entre les données chez Skinsoft. 
 L'arrivée de données générées automatiquement et en grande quantité risque de complexifier encore la navigation au sein de l'interface ainsi que la visibilité des liens entre les niveaux du FRBR. 
 L'éditeur du logiciel de gestion des collections aurait ainsi un rôle de pivot, en préparant au sein de l'interface l'arrivée de ces nouvelles données mais aussi les pratiques des utilisateurs. 
 
-le lien entre les éléments de cette sous partie = faire de l'utilisateur métier du logiciel de gestio des colelction, la même expérience qu'un utilisateur du web, que ça soit le plus interactif et le plus intuitif possible. 
 
 
-\subsubsection{ Préparer la mise en place de ces fonctionnalités dans l’application.} 
+\subsubsection{Une segmentation manuelle} 
 
-La préparation des pratiques utilisateurs à ces nouvelles fonctionnalités passe par exemple par la modernisation de certains outils de l'interface, dédiés aux collectiosn audiovisuelles, afin d'effectuer la transition vers l'implémentation de fonctionnalités automatiques. Par exemple, la mise en place d'un outil de visionnage et d'annotation vidéo pourrait permettre d'habituer les utilisateurs à de telles pratiques, pour pouvoir ensuite valider les données produites automatiquement par l'IA, mais aussi de produire des données d'entraînement pour les algorithmes d'IA qui seront employés pour la segmentation et pour la détection d'objets. Il pourrait être proposé aux isntitutions cet outil d'annotation afin de recueillir des données d'entraînement. 
-Cela préparer également aux nouvelles données qui seront créées automatiquement, qui porront être comparées aux données créées manuellement. 
+Pourquoi + exemple mediascope + application chez skinsoft
 
-Mediascope : outil d'aide à l'analyse des contenus audiovisuels développé à l'INA.  Il permet de structurer le développement temporel du document à l'aide d'annotations associées à des "time-codes" et à des images fixes. \footcite{zotero-item-746} 
+La préparation des pratiques utilisateurs à ces nouvelles fonctionnalités passe par exemple par la modernisation de certains outils de l'interface, dédiés aux collections audiovisuelles, afin d'effectuer la transition vers l'implémentation de fonctionnalités automatiques. Par exemple, la mise en place d'un outil de visionnage et d'annotation vidéo pourrait permettre d'habituer les utilisateurs à de telles pratiques, pour pouvoir ensuite valider les données produites automatiquement par l'IA, mais aussi de produire des données d'entraînement pour les algorithmes d'IA qui seront employés pour la segmentation et pour la détection d'objets. Il pourrait être proposé aux isntitutions cet outil d'annotation afin de recueillir des données d'entraînement. 
+Cela prépare également aux nouvelles données qui seront créées automatiquement, qui pourront être comparées aux données créées manuellement. 
 
-L'utilisateur peut créer des marqueurs sur des "imagettes", qui sont en réalité des images clés, ces marqueurs créent des "time-codes" au sein desquels il est possible de saisir du texte. À partir de l'outil, il est possible d'exporter les imagettes, le texte annoté, et des statistiques sur le contenu. 
+L'outil Mediascope, développé par l'INA à destination des chercheurs à l'INAthèque, est un outil d'aide à l'analyse des contenus audiovisuels.  Il permet de structurer le développement temporel du document à l'aide d'annotations associées à des "time-codes" et à des images fixes. \footcite{zotero-item-746} Grâce à cet ouil, l'utilisateur peut visionner u document audiovisuel, créer des marquers temporels sur des imagettes, images-clés, au sei desquels il est possible de saisir du texte. L'outil permet également l'export des images clés, du texte annoté, et des statistiques sur le contenu.\footcite{zotero-item-746}
 
 Reprendre les éléments de la spécification (à développer et à reporter en annexe)
+
+Au sein d'un logiciel de gestion des collections, un tel outil pourrait être développé en amont de l'implémentation de l'indexation automatique. L'utilisateur pourrait déjà avoir la possibilité d'apposer des marqueurs temporels sur un fichier audiovisuel manuellement, et ainsi de pouvoir créer des séquences. Les marqueurs temporels seraient reportés dans un champ dédié "time codes", et le fichier segmenté serait automatiquement lié au fichier numérique d'origine. Au visionnage du fichier, l'utilisateur pourrait ainsi facilement découper le fichier numérique en séquences et y annoter du texte ou des mots clés dans des champs dédiés. 
+
+Habituer l'utilisateur, adapter le logiciel + récolter des données pour réentrainer les modèles 
 
 \subsubsection{Visualisation du FRBR en graphe pour préparer la mise en place d’une nouvelle entité : la séquence et de nouvelles données produites automatiquement : alourdit les bdd donc nécessite des visualisations}
 
@@ -47,24 +47,7 @@ Ce que la visualisation en graphe permet : L'utilisateur parvient à atteindre l
 Faire une description sommaire et renvoyer en annexe pour la proposition complète. 
 
 
-Citations utilisées : 
-
-"La diversité des nombreux résultats obtenus lors de la recherche d’une publication peut s’avérer submergante et difficile à gérer si elle est présentée de manière non structurée. C’est pourquoi plusieurs acteurs ont développé des modèles permettant de mettre en correspondance les publications et de les regrouper en sous-ensembles distincts, qu’il s’agisse d’œuvres, de manifestations ou d’expressions."\footcite{zotero-item-749}
-"Les groupes d’œuvres sont formés à l’aide d’un algorithme qui génère des clés pour chaque publication en combinant des
-éléments de métadonnées spécifiques." \footcite{zotero-item-749}
-
-"la visualisation sous forme de graphe permet d’illustrer la structure interne d’un groupe de travaux
-de manière bien plus claire que n’importe quelle approche textuelle. Le logiciel Gephi7 est utilisé pour la visualisation des graphes. Il permet de distinguer facilement visuellement les différents sous-groupes au sein d’un groupe et d’
-identifier les mots-clés individuels reliant les différents domaines d’un groupe. Un groupe de travaux contient des sommets
-représentant des publications et des sommets représentant des mots-clés. Les arêtes indiquent quels mots-clés appartiennent
-à une publication et établi" \footcite{zotero-item-749}
-
-"La visualisation sous forme de graphe constitue un complément précieux aux listes de résultats traditionnelles présentant des informations bibliographiques. Le regroupement de travaux, tel qu’il a été développé dans Culturegraph, vise initialement à
-permettre l’échange de numéros de classification et de vedettes-matières entre les membres d’un cluster. Étant donné que les clusters peuvent compter plusieurs milliers de membres, il est complexe de les comprendre, de les examiner et de les évaluer sur la base de textes. La visualisation sous forme de graphe permet à l’utilisateur de comprendre beaucoup plus facilement les structures d’un cluster." \footcite{zotero-item-749}
-
-"En particulier à des fins d’évaluation, l’impression visuelle donnée par le graphe d’une œuvre est très utile car elle attire l’ attention sur les sommets qui sont cruciaux pour la structure d’un cluster d’œuvres. Il s’agit souvent de publications isolées reliant deux clusters par ailleurs indépendants. Elles doivent être examinées en priorité, car leur position peut en faire la source d’un vaste cluster erroné si elles sont incorrectes." \footcite{zotero-item-749}
-
-
+-----------
 
 Okapi : “L’ensemble des descriptions de ressources multimédias et les entités du domaine prennent la forme de graphes sémantiques au format RDF. Le processus d’édition de ressources de la plateforme Okapi interprète les différentes contraintes logiques portées par les ontologies au format OWL pour guider l’annotateur vers la réalisation de graphes « bien formés ». À chaque nœud du graphe constituant une annotation, correspond un ensemble valide de propriétés et de valeurs de propriétés qui est spécifié dans les ontologies. Cette généricité et cette puissance d’expression impliquent en retour une compréhension certaine pour le modélisateur des logiques en œuvre au sein des langages de représentation des connaissances utilisés. Dans leur fondement, ces langages reposent en effet sur la logique des prédicats du premier ordre, la logique ensembliste et plus spécifiquement les logiques de description. À la dérivation de types et de propriétés définies précédemment s’ajoute, dans le cas du langage OWL, la possibilité de contraindre pour une classe donnée les valeurs des propriétés héritées de ses classes ascendantes.” \footcite{lalande2022} 
 
@@ -72,14 +55,22 @@ Okapi : “L’ensemble des descriptions de ressources multimédias et les entit
 
 \subsubsection{Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}
 
-Faire le lien avec la recherche par images déjà en place dans l'application
+L'indexation fine des contenus audiovisuels par segments améliore l'intelligibilité des contenus audiovisuels. Cette amélioration repose sur les outils de recherche qui permettent aux utilisateurs d'accéder à l'indexation fine des fichiers audiovisuels. 
+De nombreuses applications publiques proposent désormais la recherche en langage naturel aux utilisateurs. Celle-ci permet aux utilisateurs de chercher du contenu en utilisant leur vocabulaire, par opposition à un vocabulaire contrôlé. Elle permet aux utilisateurs d'accéder plus rapidement aux résultats de recherche, sans avoir à réfléchir au termes à employer. Cette fonctionnalité est au centre de l'amélioration de l'expérience utilisateur au sein d'une interface. Dans un logiciel de gestion des collections, la recherche est fondée sur l'utilisation de champs contrôlés, qui contiennent l'information indexée. La mise en place d'une recherche en langage naturelle nécessite un mapping, une table de corresponsance entre les champs du logiciel et le langage naturel potentiellement employé par l'utlisateur. Outre la difficulté de la mise en place d'une telle fonctionnalité, elle permet, à terme, de transformer l'accès aux collections, et notamment de donner accès aux segments. 
 
-Recherche en langage naturel en cours de développement et développé au cours du stage : quel lien avec l'implémentation d'algorithmes automatisés ? ESt ce que le NLP pourrait aider à présenter les nouvelles entités : segments ? 
-articles sur ce que permet le NLP 
+Aujourd'hui, Skinsoft, en amont d'autres éditeurs de gestion des collections, propose plusieur types de recherche dont la recherche avancée, la recherche par image, et développe actuellement la recherche en langage naturel, dont nous avons spécifié les fonctionnalités au courant de notre stage. 
+
+La recherche en lanagage naturel, couplée à la recherche par image est intéressante dans la mise en place d'une segmentation automatique, et d'une indexation automatique, puisqu'elle pourrait permettre la découvrabilité d'un plus garnd nombre de données. L'utilisateur pourrait décrire le contenu d'une image afin d'obtenir les segments souhaités. Ce type de recherche plus fin, s'accorderait ainsi avec l'indexation fine que nous proposons. 
+
+Toutefois, la recherche textuelle reste limitée pour pouvoir accéder à des résultats de recherche visuels. La recherche par contenu visuel pourrait améliorer la recherche de ces contenus audiovisuels segmentés, ccédant à une précison de similarité visuelle. 
+
+Snoop v6, un moteur visuel de recherche développé par l'INA, l'inria et la BNF, permet à l'utilisateur de formuler une requête visuelle en sélectionnant un élément dans l'image à rechercher. Le moteur présente alors à l'utilisateur les résultats simiaires à l'élément sélectionné au sein d'une vaste collection. \footcite{zotero-item-744} Face aux éléments proposés par le moteur, l'utilisateur a la possibilité de valider les résutats pertinents et de rejeter les résultats non pertinents, ce qui permet d'entraîner le modèle et de l'affiner. \footcite{zotero-item-744} Tant que l'utilisateur n'est pas satisfait, le moteur propose à nouveau des résultats de recherche.\footcite{zotero-item-744}
 
 
-Ces nouvelles fonctionnalités transforment l'accès aux collections : Nouvelles potentialités de recherche 
 
+
+
+-----------
 
 un filtre strict par mot-clé risque de masquer des rushes précieux, alors qu'une recherche hybride (IA + filtres sémantiques) aide l'archiviste à explorer sans se perdre
 
