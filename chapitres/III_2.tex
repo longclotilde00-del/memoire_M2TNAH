@@ -1,20 +1,50 @@
 \subsection{Adapter ces fonctionnalités à tous les clients (passer du cas d’étude à la généralisation} 
 
-Skinsoft aurait un rôle à jouer dans la mise à dispo d’outils automatiques pour l’audiovisuel :  
-
-“Outre les institutions publiques, les institutions de mémoire contenant des contenus audiovisuels sont prédestinées à explorer les avantages du ML ou de l'intelligence hybride pour la mise en valeur et l'accès à leurs contenus audiovisuels. 27 De tels projets sont également intéressants et réalisables pour les petites archives disposant de moins de ressources – dans ce cas, la collaboration avec des partenaires, tels que des prestataires de services ou des portails, s'impose.” skinsoft aurait un rôle à jouer là-dedans : ce sont les fournisseurs qui doivent proposer de tels outils car les institutions elles-mêmes n’ont pas assez de moyens (source : arnold livre blanc) 
+Un éditeur de logiciel aurait un rôle à jouer dans la mise à disposition de nouvelles fonctionnalité innovantes aux musées et centres d'archives, d'autant plus ceux qui préservent des archive audiovisuelles. En effet, "les institutions de mémoire contenant des contenus audiovisuels sont prédestinées à explorer les avantages du ML ou de l'intelligence hybride pour la mise en valeur et l'accès à leurs contenus audiovisuels. [...] dans ce cas, la collaboration avec des partenaires, tels que des prestataires de services ou des portails, s'impose.” Nous avons vu comment proposer un pipeline automatique à partir d'un exemple de corpus audiovisuel bien précis. Toutefois, ce pipeline doit pouvoir être adapté à tous types de corpus et à toutes institutions hébérgées par le logiciel.  
 
 \subsubsection{Logique produit vs logique patrimoniale (FRBR, corpus...)}
 
- : proposer des outils plus performants que ceux proposés dans cette étude afin de pouvoir s’adapter à tous les types de corpus, tout en prenant en compte les contraintes d’infrastructures. Mais : contraintes d’infrastructures. Skinsoft héberge les données clients donc amener un algorithme lourd en local.  
+Deux idées : 
+- adapter via des pipelines plus lourds mais contraintes d'infrastructures (Clariah Dane) le pipeline que nous avons proposé à l'aide de la computer vision nécessite un pramétrage pour chaque corpus pour le seuil de séquencage. et yolo ? comment l'adapter ? 
+- est ce qu'il a un réel besoin ? logique produit de l'éditer vs logique patrimoniale des clients
+
+Proposer des outils plus performants que ceux proposés dans cette étude afin de pouvoir s’adapter à tous les types de corpus, tout en prenant en compte les contraintes d’infrastructures. Mais : contraintes d’infrastructures. Skinsoft héberge les données clients donc amener un algorithme lourd en local.  
 
 Transformers : Revisiting Human-in-the-Loop Object Retrieval with Pre-Trained Vision Transformers  K. Zaher, O. Buisson et A. Joly ICPR 2026 - 28th International Conference on Pattern Recognition, 2026le 
 
 Livre blanc : “Les petits services d’archives peuvent réaliser des projets et la mise en œuvre de processus en collaboration avec des prestataires de services. Il faut alors se demander si le modèle de ML fonctionne sur son propre hardware ou si les données sont envoyées au prestataire de services. Il faut par ailleurs se demander si les métadonnées obtenues restent chez le prestataire de services ou si elles sont ensuite enregistrées sur l'infrastructure des archives. Cela crée des dépendances en cas de stockage externe des métadonnées ou des dérivés (et probablement aussi lors des mises à jour des composants logiciels). Toutefois, compte tenu de l'utilisation des technologies cloud, le stockage externe aux archives sera bientôt monnaie courante” 
 
+En effet, la question du besoin est centrale, pour une utilisation de l'IA éthique, comme le mentionne le ministère de la culture : " il ne s’agit pas d’utiliser l’IA par défaut, mais d’abord d’examiner le besoin à couvrir et de vérifier la capacité des systèmes d’IA à satisfaire ce besoin dans des conditions optimales ; le cas échéant, de favoriser des alternatives moins consommatrices que l’IA si elles sont suffisantes à répondre au besoin". \footcite{2025a}
 
+Si skinsoft est une entreprise privée, elle adopte en revanche une posture publique culturelle, celle de ses clients, afin de répndre à leurs besoins. La mise en place de l'IA est pensée pour améliorer les logiques patrimoniales quotidiennes telles que l'indexation, le catalogage, le classement, la gestion de projet... Ces pratiques ne sont pas liées à des objectifs de rentabilité et de productivité concurrentiels comme c'est le cas d'entreprises privées. Ainsi, skinsoft fait face à une tension : l'entreprise s'affiche comme une entreprise innovante en matière de technologies numériques, alors même que ses clients sont cantonnés à des pratiques presqu'ancestrales, celle de la gestion de collections. 
+
+Au sein de la mise en place et de l'arrivée de l'IA dans un logiciel de gestion des collections, il faut ainsi se questionner sur sa pertinence. Ces nouvelles fontionnalités sont elles attendues ? Les institutions sont-elles prêtes à utiliser l'IA au quotidien pour gérer leur collection? pour les décrire ? pour les rendre accessible au public ?
+
+En 2025, le ministère de la culture identifie "l'enrichissement de la connaissances et des savoirs" comme un usage potentiel de l'IA en secteur culturel avec par exemple "de l’aide au catalogage, à l’indexation automatique des collections, au tri et au classement des
+documents et données destinés à être archivés, à la transcription des textes manuscrits, à la reconnaissance de formes, à la diffusion et à la valorisation des contenus culturels et patrimoniaux quel que soit leur
+format (image, son…)". \footcite{2025a}
+
+Les limites de l'IA identifiées, à savoir l'hallucination, la marge d'erreur, les biais culturels, sont ici restreintes puisque les outils d'IA seraient mis à disposition apr skinsoft à des professionnels, et non au grand public directement. Certes, ces outils IA permettront à terme, comme l'indexation automatique, de rendre les collectiosn acessibles au public, mais seulement après vérification d'un professionnel attitré. 
+
+Les professionnels pourraient mettre à profit l'IA pour un double objectif : la préservation et l'accessibilité des collections. \footcite{zotero-item-640}. C'est exactement le cas pour l'indexation automatique.
 
 \subsubsection{Jeux de données patrimoniaux} 
 
-Comparaison avec d’autres fonctionnalités en développement et lien avec la fonctionnalité étudiée  
+Prendre des jeux de donées d'entraînement plus larges : ets ce qu'ils existent ? permettrait à la fonctionnalité d'être adaptée à de plus larges corpus. 
 
+Hétérogénéité des fonds audiovisuels et patrimoniaux 
+
+Comparaison avec d’autres fonctionnalités en développement et lien avec la fonctionnalité étudiée
+
+choix d'appui sur des données produites directement par des institutions culturelles. utiliser exclusivement des sources ouvertes. pour les images : entrainement sur des images disponibles sous licence ouverte : european, POP + textes de lois, méthodologie des gestion des collections, thesaurus, normes de catalogage...Restaurant Caspian, Rue des Entrepreneurs, Paris
+Il faut l'accord client et les données d'un seul client ne sont pas suffisantes.
+
+article collection as data 
+
+\subsubsection{flexibilité logicielle et paramétrage}
+Paramérage individuel de ces nouvelles fonctionnalités pour l'adaptation aux normes, et adaptation des modèles au corpus pour la gestion des erreurs 
+intégrer un module paramétrable, comme le socle de l'application 
+réglage des seuils de confiance de l'IA 
+environnement test / formations pour les clients 
+s'adapter à chaque modélisation FRBR de l'institutions selon les collections audiovisuelles. 
+souci de transparence et confiance : traduction des requêtes et de ce que produit le moteur IA 
