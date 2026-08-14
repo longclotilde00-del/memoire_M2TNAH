@@ -65,6 +65,207 @@
       \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
       \endverb
     \endentry
+    \entry{akata2020}{article}{}{}
+      \name{author}{26}{}{%
+        {{un=0,uniquepart=base,hash=0cd48aef2686bbbbccec6d9f2193ddb5}{%
+           family={Akata},
+           familyi={A\bibinitperiod},
+           given={Zeynep},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=105912bc8a034559ecae4ba471607451}{%
+           family={Balliet},
+           familyi={B\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa1bb2117da6204085ebe982921f3bf4}{%
+           family={{de Rijke}},
+           familyi={d\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0543035ff3a90dd6957654f70262f22}{%
+           family={Dignum},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2038389dca7d321b07e82aa80cf4e902}{%
+           family={Dignum},
+           familyi={D\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd9dadd2d360278b7f0c01b3e36986f}{%
+           family={Eiben},
+           familyi={E\bibinitperiod},
+           given={Guszti},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dff63e40c01cf909497d6c47aba8525c}{%
+           family={Fokkens},
+           familyi={F\bibinitperiod},
+           given={Antske},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f757164adc2807fa457b8c55df02b13}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33ed1df51dbfa4beb74f59c76b77fe3e}{%
+           family={Hindriks},
+           familyi={H\bibinitperiod},
+           given={Koen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05dee51e91f6e60f0f3b35b5d71a143d}{%
+           family={Hoos},
+           familyi={H\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d74b2bb4d109c7df89ce4a7c262a508}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={Hayley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc5dbf1e0c9704f207785cdf46521cb4}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={Catholijn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=593a7c6064e0b959f1197f1a531f8f64}{%
+           family={Monz},
+           familyi={M\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0eb03562acd95df201257fb74e335f6}{%
+           family={Neerincx},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d653147a7bd7ee48df77b22e75969b74}{%
+           family={Oliehoek},
+           familyi={O\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e796e8c5ba8f0fdc121b3dceaf1a834}{%
+           family={Prakken},
+           familyi={P\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a3386ee3e20bc2da8f01a8a56d06b05}{%
+           family={{van der Gaag}},
+           familyi={v\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdfa5d5679be18500277e13344d9bb8c}{%
+           family={{van Harmelen}},
+           familyi={v\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ea30f2b73bca42743914740198e48d8}{%
+           family={{van Hoof}},
+           familyi={v\bibinitperiod},
+           given={Herke},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f6f22aa6b93464cd74064e511fda12c}{%
+           family={{van Riemsdijk}},
+           familyi={v\bibinitperiod},
+           given={Birna},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181ce5b774a38ac48ab2d31f3772e9e3}{%
+           family={{van Wynsberghe}},
+           familyi={v\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e98c14b367601f8ef1a179684494cc96}{%
+           family={Verbrugge},
+           familyi={V\bibinitperiod},
+           given={Rineke},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2290f014b273af1c443c8ccd3784f47f}{%
+           family={Verheij},
+           familyi={V\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880e64dada21b83dc9658f06dc6a694c}{%
+           family={Vossen},
+           familyi={V\bibinitperiod},
+           given={Piek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{fullhash}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{fullhashraw}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{bibnamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authorbibnamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authornamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authorfullhash}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{authorfullhashraw}{15fc0449b6bf65b1087d666eb099f221}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We define hybrid intelligence (HI) as the combination of human and machine intelligence, augmenting human intellect and capabilities instead of replacing them and achieving goals that were unreachable by either humans or machines. HI is an important new research focus for artificial intelligence, and we set a research agenda for HI by formulating four challenges.}
+      \field{issn}{1558-0814}
+      \field{journaltitle}{Computer}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shorttitle}{A {{Research Agenda}} for {{Hybrid Intelligence}}}
+      \field{title}{A {{Research Agenda}} for {{Hybrid Intelligence}}: {{Augmenting Human Intellect With Collaborative}}, {{Adaptive}}, {{Responsible}}, and {{Explainable Artificial Intelligence}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{53}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{18\bibrangedash 28}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/MC.2020.2996587
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/W4KR7SLM/Akata et al. - 2020 - A Research Agenda for Hybrid Intelligence Augmenting Human Intellect With Collaborative, Adaptive,.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9153877
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9153877
+      \endverb
+      \keyw{Adaptive systems,Artificial intelligence,Machine intelligence,Task analysis,Teamwork,Tools}
+    \endentry
     \entry{zotero-item-740}{misc}{}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -816,6 +1017,7 @@
       \field{urlyear}{2026}
       \field{year}{2008}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{131\bibrangedash 142}
       \range{pages}{12}
       \verb{urlraw}
@@ -1143,6 +1345,74 @@
       \endverb
       \verb{url}
       \verb https://docs.ultralytics.com/datasets/detect/coco
+      \endverb
+    \endentry
+    \entry{colavizza2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0f39a6c905980f0c43b1b725c6997f80}{%
+           family={Colavizza},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=676c659520e23a260a577797f772fad6}{%
+           family={Blanke},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5b5fa8a09c9e1bcd174284d480d8c93}{%
+           family={Jeurgens},
+           familyi={J\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c3f6e84b0b275871610d4595339ac4d}{%
+           family={Noordegraaf},
+           familyi={N\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{55a82034cbaa14e3b1a03d7ca92d45a0}
+      \strng{fullhash}{e5da146aaae091586858f13d023ff4d7}
+      \strng{fullhashraw}{e5da146aaae091586858f13d023ff4d7}
+      \strng{bibnamehash}{e5da146aaae091586858f13d023ff4d7}
+      \strng{authorbibnamehash}{e5da146aaae091586858f13d023ff4d7}
+      \strng{authornamehash}{55a82034cbaa14e3b1a03d7ca92d45a0}
+      \strng{authorfullhash}{e5da146aaae091586858f13d023ff4d7}
+      \strng{authorfullhashraw}{e5da146aaae091586858f13d023ff4d7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The digital transformation is turning archives, both old and new, into data. As a consequence, automation in the form of artificial intelligence techniques is increasingly applied both to scale traditional recordkeeping activities, and to experiment with novel ways to capture, organise, and access records. We survey recent developments at the intersection of Artificial Intelligence and archival thinking and practice. Our overview of this growing body of literature is organised through the lenses of the Records Continuum model. We find four broad themes in the literature on archives and artificial intelligence: theoretical and professional considerations, the automation of recordkeeping processes, organising and accessing archives, and novel forms of digital archives. We conclude by underlining emerging trends and directions for future work, which include the application of recordkeeping principles to the very data and processes that power modern artificial intelligence and a more structural—yet critically aware—integration of artificial intelligence into archival systems and practice.}
+      \field{issn}{1556-4673}
+      \field{journaltitle}{J. Comput. Cult. Herit.}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shorttitle}{Archives and {{AI}}}
+      \field{title}{Archives and {{AI}}: {{An Overview}} of {{Current Debates}} and {{Future Perspectives}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4:1\bibrangedash 4:15}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3479010
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/UYCB9WHV/Colavizza et al. - 2021 - Archives and AI An Overview of Current Debates and Future Perspectives.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3479010
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3479010
       \endverb
     \endentry
     \entry{zotero-item-704}{misc}{}{}
@@ -2245,7 +2515,6 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TIA8UF27/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees.html
       \endverb
@@ -3574,6 +3843,7 @@
       \field{month}{3}
       \field{title}{Comprendre Le Modèle {{FRBR}} et Ses Extensions}
       \field{year}{2014}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.enssib.fr/bibliotheque-numerique/documents/65520-comprendre-le-modele-frbr-et-ses-extensions.pdf
       \endverb
@@ -3725,6 +3995,26 @@
       \verb https://beta.nasjonalmuseet.no/2023/08/add-semantic-search-to-a-online-collection/
       \endverb
     \endentry
+    \entry{zotero-item-756}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{title}{Prelinger {{Archive}} – {{Internet Archive Help Center}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/8FDMQ6SA/prelinger-archive.html
+      \endverb
+      \verb{urlraw}
+      \verb https://help.archive.org/help/prelinger-archive/
+      \endverb
+      \verb{url}
+      \verb https://help.archive.org/help/prelinger-archive/
+      \endverb
+    \endentry
     \entry{zotero-item-574}{misc}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -3743,6 +4033,28 @@
       \endverb
       \keyw{éthique}
     \endentry
+    \entry{zotero-item-754}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corpus de données pour la Recherche}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Dataset | INA}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+    \endentry
     \entry{zotero-item-744}{misc}{}{}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
@@ -3758,6 +4070,26 @@
       \verb{file}
       \verb /home/clotilde/Zotero/storage/2FU57C38/projet-snoop.html
       \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
+    \endentry
+    \entry{zotero-item-751}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Moteur de recherche de classes d’objets visuels pour l’accès et la découvrabilité au sein d’archives audiovisuelles de très grande taille}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Snoop | INA}}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
       \endverb
@@ -3809,6 +4141,27 @@
       \verb https://www.ibm.com/fr-fr/think/topics/chatbot-design
       \endverb
       \keyw{chatbot,NLP,UI,UX}
+    \endentry
+    \entry{2021d}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La modélisation de données est le processus qui consiste à créer une représentation visuelle d’un système d’information afin de communiquer les connexions entre les points de données et les structures.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Qu’est-ce que la modélisation de données ?}}
+      \field{title}{{Qu’est-ce que la modélisation de données ? | IBM}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
+      \endverb
     \endentry
     \entry{zotero-item-702}{misc}{}{}
       \field{sortinit}{Q}

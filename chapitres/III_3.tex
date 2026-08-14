@@ -1,0 +1,88 @@
+\subsection{Cohabitation d’une documentation humaine et automatique : intelligence hybride (livre blanc)  l’indexation n’est pas complètement automatisée}
+
+Paradigme pour l’audiovisuel : Paradigme = potentialité énorme mais outils difficiles à développer et à mettre en application : “Il est donc d'autant plus important pour les archivistes audiovisuels d'exploiter le potentiel du ML dans le domaine de l'archivage. L'objectif est de tester la mise en valeur de l'audiovisuel, de travailler à l'amélioration de la qualité et au développement d'outils basés sur le ML, mais aussi de redéfinir en permanence la répartition du travail entre l'homme et la machine dans le sens d'un partenariat.” (Livre blanc Arnold 2024) 
+
+Intelligence hybride : “Le domaine de l'exploration en profondeur et de l'accès aux archives nous semble être un bon exemple de ce que l'on appelle « l'intelligence hybride ». Elle désigne la « combinaison de l'intelligence humaine et de l'intelligence des machines qui complète l'intellect et les capacités humaines, plutôt que de les remplacer, afin de prendre des décisions judicieuses, d'effectuer des actions appropriées et d'atteindre des objectifs qui ne peuvent être atteints ni par les humains ni par les machines seules” 
+
+"We define hybrid intelligence (HI) as the combination of human
+and machine intelligence, augmenting human intellect and capabilities instead of replacing them and achieving goals that were unreachable by either humans or machines" \footcite{akata2020}
+
+"Hybrid intelligence (HI) can go well beyond this by creating systems that
+operate as mixed teams, where humans and machines cooperate synergistically, proactively, and purposefully to achieve shared goals, showing AI’s potential for amplifying instead of replacing human
+intelligence. " \footcite{akata2020}
+
+"We therefore unpack
+the challenge of building HI systems
+into four research challenges:
+› Collaborative HI: How do we
+develop AI systems that work in
+synergy with humans?
+› Adaptive HI: How can these
+systems learn from and adapt to
+humans and their environment?
+› Responsible HI: How do we ensure
+that they behave ethically and
+responsibly?
+› Explainable HI: How can AI
+systems and humans share and
+explain their awareness, goals,
+and strategies?" \footcite{akata2020}
+
+It was found that entity-based indexation, spanning across archival fonds, allowed tosearch the archive in a more “fluid” way. \footcite{colavizza2021}
+
+\subsubsection{Statut des données : données automatiques coexistant avec des données manuelles/métiers}
+
+“Ces métadonnées et dérivés ne sont plus fixes, mais évoluent en fonction des progrès des algorithmes et de leur entraînement. Dans l'état actuel de la technique, ces métadonnées sont souvent stockées sur l'infrastructure du prestataire de services (par exemple pour Transkribus28 ou pour le sytème vitrivr29). Pour les rendre accessibles, il faut une interface de recherche supplémentaire. Les archives souhaitent peut-être changer cette situation à moyen terme. De tels ensembles de métadonnées nécessitent en outre une historisation ou un contrôle des versions afin de pouvoir être citées et de garantir ainsi la traçabilité ultérieure des étapes de recherche et des traitements de données. D'autres techniques de ML génèrent des métadonnées (par exemple des tags ou des traductions) qui peuvent très bien être enregistrées dans des champs du système d'information des archives.” (livre blanc) 
+
+Livre blanc : “Les utilisateur·rice·s (en particulier les chercheur·euse·s en humanités numériques) devraient avoir accès non seulement aux métadonnées et aux données primaires (à titre illustratif, le fichier image d'une page numérisée d'un document écrit ou le fichier wav d'un enregistrement sonore), mais aussi aux dérivés et aux attributs techniques qui en sont issus, tels que Eigenface ou MFCC, et qui sont à la base des métadonnées descriptives. Cela ne doit pas seulement se faire dans un souci de transparence, il faut aussi expressément prévoir une utilisation personnelle et ultérieure. L'ensemble des métadonnées et des données primaires ne non seulement pouvoir être consulté dans la salle de lecture virtuelle, mais aussi être accessible par des interfaces, éventuellement même sous forme de téléchargement permettant ainsi aux données de sortir de la sphère de souveraineté des archives. Les données doivent être lisibles et utilisables aussi bien par les hommes que par les machines. Il en va de même pour les données extraites de manière conventionnelle, c'est-à-dire sans utilisation de ML, telles que le type d'appareil d'un enregistrement, les descripteurs ou attributs techniques, ou encore les valeurs de hachage, par exemple.” 
+
+
+
+\subsubsection{Qualité des données : une tâche à part entière}
+
+Contrôle qualité comme tâche à part entière : “La machine est forte en ce qui concerne la valeur informative, elle l'est moins en ce qui concerne la valeur d'évidence, le contexte et le contexte de création. Le contrôle de la qualité des données et métadonnées générées par la machine sera une nouvelle tâche, tout comme la formation, le développement, la protection des données et l'éthique.” (livre blanc) 
+
+"La conception d’applications d’IA précises repose sur les données, l’expertise métier et les data scientists qui développent les algorithmes. De plus, il ne faut pas sous-estimer le fait qu’un travail préparatoire important (préparation des données, élaboration de flux de travail) doit être effectué avant que l’IA puisse être appliquée avec succès, comme l’illustrent quatre cas australiens. La curation manuelle, de haute qualité et collaborative des données reste une approche efficace dans certains cas" \footcite{colavizza2021}
+
+"À mesure que les entreprises intègrent l’intelligence artificielle (IA) et les technologies d’automatisation dans leurs workflows, des données de haute qualité seront cruciales pour l’adoption efficace de ces outils. Comme l’explique le principe GIGO, des données d’entrée défectueuses ou absurdes produisent des sorties absurdes ou « déchets », un principe qui se vérifie également pour les algorithmes de machine learning. Si l’algorithme apprend à prédire ou à classer des données de mauvaise qualité, on peut s’attendre à ce qu’il produise des résultats inexacts." \footcite{2022b} 
+
+"Lorsqu’elle est appliquée aux systèmes d’IA, la qualité des données est évaluée à l’aide de versions adaptées des dimensions de qualité des données suivantes :
+
+Précision des données
+Complétude
+Intégrité des données
+Cohérence
+Rapidité
+Pertinence" \footcite{2022b}
+
+"Exactitude des données
+Dans les contextes traditionnels, l’exactitude signifie que les valeurs des données représentent correctement les entités ou événements réels, ce qui est souvent vérifié par des contrôles de base et des seuils prédéfinis. Dans les systèmes d’IA, l’exactitude dépend également de processus robustes de validation des données, qui évaluent comment le bruit des étiquettes (échantillons d’entraînement étiquetés incorrectement ou de manière ambiguë), l’erreur de mesure et les variables proxy affectent l’entraînement du modèle." \footcite{2022b}
+
+"Exhaustivité
+En plus de vérifier si des champs ou des enregistrements obligatoires sont manquants au titre de l’exhaustivité, pour la qualité des données d’IA, il s’agit de s’assurer que les données couvrent suffisamment les cas que le modèle est censé rencontrer tels que les cas extrêmes, les événements rares et les populations minoritaires. Les lacunes en matière de couverture peuvent donner lieu à des modèles fragiles, qui fonctionnent bien en moyenne, mais qui échouent dans des scénarios sous-représentés, ce qui augmente les risques opérationnels et d’atteinte au principe d’équité." \footcite{2022b}
+
+"intégrité des données 
+Pour l’IA, il s’agit également de savoir exactement d’où proviennent les données, et d’être en mesure de recréer la façon dont elles ont été préparées et utilisées tout au long du pipeline de données.
+
+Les équipes doivent être en mesure de retracer les données jusqu’à leur source et de conserver un enregistrement clair de chaque modification qui y a été apportée. Les actifs importants, comme les données d’entraînement et les entrées des modèles, doivent être protégés afin de détecter et d’examiner des problèmes tels que les dommages accidentels, les doublons ou les modifications non autorisées." \footcite{2022b}
+
+"cohérence 
+mesurer la qualité des données d’IA consiste à examiner si les données sont collectées, traitées et augmentées de manière cohérente. Cette vérification permet de s’assurer que les modifications apportées aux pipelines ou aux sources n’introduisent pas de distorsion, de biais ni de risque pour les modèles en aval." \footcite{2022b}
+
+"Actualité
+L’actualité classique se concentre sur le degré d’actualité des données au moment de leur collecte. Dans les systèmes d’IA, l’actualité exige également de surveiller en quoi les données nouvelles ou en temps réel diffèrent des données d’entraînement, car la dérive des données ou des concepts peut dégrader la performance du modèle" \footcite{2022b}
+
+"pertinence 
+Cette mesure consiste notamment à examiner si les données améliorent la performance prédictive, assurent la robustesse dans différentes conditions, réduisent la sensibilité au bruit ou aux corrélations parasites et facilitent l’interprétabilité ou le diagnostic en aval." \footcite{2022b}
+
+"Quatre pratiques fondamentales permettent d’améliorer et de maintenir la qualité des données d’IA :
+
+Profilage et exploration des données tôt dans le cycle de vie
+L’observabilité des données comme base
+Contrôles de qualité des données utilisant l’IA
+Fermer la boucle par résolution et feedback"\footcite{2022b}
+
+\subsubsection{Explicabilité et transparence}  
+
+Livre blanc : “La gestion de la qualité dans le domaine de l'indexation automatique va au-delà de l'évaluation de la qualité des données, car elle tient compte des utilisateur·rice·s. La transparence envers ces derniers est primordiale. Les méthodes d'indexation assistée par ordinateur, tout comme l'indexation intellectuelle traditionnelle, sont toujours soumises à des tendances (biais), notamment lorsqu'il s'agit de l'indexation d'images ou de films, ou encore de l'étiquetage ou du tagging. Les archivistes et les utilisateur·rice·s doivent être conscients des critères d'indexation de la machine apprenante. Toutefois, la connaissance des principes d'indexation est également utile pour le travail humain. Alors que l'utilisation du ML va déjà de soi dans certains domaines, il y a des domaines dans lesquels nous devons rendre son utilisation transparente pour les utilisateur·rice·s et leur donner la possibilité d'option de retrait, par exemple lorsqu'il s'agit de données personnelles. La transparence est également requise lorsqu'il s'agit d'adapter l'offre concrète aux besoins des utilisateur·rice·s sur la base de profils d'utilisateur·rice·s (obtenus par le biais de demandes, d'autodéclaration ou de « traces d'utilisation », comme le classement d'une liste de résultats ou des propositions par des systèmes de recommandation). Une telle transparence n'est bien sûr pas toujours assurée, notamment pour le classement de pertinence. Bien entendu, il faut également s'assurer que l'utilisation du ML est conforme à la protection des données. Lorsque nos données sont intégrées dans les systèmes de fournisseurs commerciaux, nous perdons la souveraineté des données si les systèmes du fournisseur continuent à apprendre de nos données et les intègrent dans leur pool de données. Les questions éthiques peuvent potentiellement aller très loin : Que se passerait-il si la machine cachait certaines informations aux utilisateur·rice·s pour les ménager ?” 
+
