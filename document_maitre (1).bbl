@@ -249,7 +249,6 @@
       \field{volume}{53}
       \field{year}{2020}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{18\bibrangedash 28}
       \range{pages}{11}
       \verb{doi}
@@ -326,6 +325,50 @@
       \endverb
       \verb{url}
       \verb https://www.cnil.fr/fr/definition/apprentissage-profond-deep-learning
+      \endverb
+    \endentry
+    \entry{aquino2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9e54316dd31e3975fe35a65be2180f8}{%
+           family={Aquino},
+           familyi={A\bibinitperiod},
+           given={Alexandra\bibnamedelima Jonker},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0,
+           suffix={Judith},
+           suffixi={J\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{fullhash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{fullhashraw}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{bibnamehash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{authorbibnamehash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{authornamehash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{authorfullhash}{e9e54316dd31e3975fe35a65be2180f8}
+      \strng{authorfullhashraw}{e9e54316dd31e3975fe35a65be2180f8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La qualité des données d’intelligence artificielle (IA) correspond au degré d’exactitude, d’exhaustivité, de fiabilité et d’adéquation des données tout au long du cycle de vie de l’IA, notamment l’entraînement, la validation et le déploiement.}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{title}{{Pourquoi la qualité des données est essentielle au succès de l’IA | IBM}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/IEQU755T/ai-data-quality.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/ai-data-quality
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/ai-data-quality
       \endverb
     \endentry
     \entry{arnab2021}{misc}{}{}
@@ -736,6 +779,70 @@
       \verb https://www.techniques-ingenieur.fr/base-documentaire/technologies-de-l-information-th9/gestion-de-contenus-numeriques-42311210/indexation-et-archivage-de-contenus-multimedias-h7500/
       \endverb
       \keyw{cinema,Indexation}
+    \endentry
+    \entry{barreaux2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ee1791bc78ed52c585b3e55ca6818df7}{%
+           family={Barreaux},
+           familyi={B\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c7b5fc34dbb31ebaa43631f27760e4}{%
+           family={Daille},
+           familyi={D\bibinitperiod},
+           given={Béatrice},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3fd7e5edd3c6da7c12d9ddf65fac082}{%
+           family={Jacquey},
+           familyi={J\bibinitperiod},
+           given={Évelyne},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {A.D.B.S.}%
+      }
+      \strng{namehash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{fullhash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{fullhashraw}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{bibnamehash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{authorbibnamehash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{authornamehash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{authorfullhash}{16be0fa176e2e1f284ab7a344679e036}
+      \strng{authorfullhashraw}{16be0fa176e2e1f284ab7a344679e036}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{[projet] La masse d’informations en IST ne cesse de croître et, avec elle, la recherche de systèmes d’indexation automatique performants. Dans cet objectif, le projet TermITH a mis au point des méthodes originales d’indexation automatique qu’il confronte à des méthodes de référence pour des disciplines des sciences humaines. Les résultats sont encourageants.}
+      \field{chapter}{Sciences de l’éducation}
+      \field{issn}{2428-2111}
+      \field{journaltitle}{I2D - Information, données \& documents}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{{Indexation automatique en SHS}}
+      \field{title}{{Indexation automatique en SHS : bilan d’une expérimentation}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{54}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{15\bibrangedash 17}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.3917/i2d.171.0015
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/revue-i2d-information-donnees-et-documents-2017-1-page-15
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/revue-i2d-information-donnees-et-documents-2017-1-page-15
+      \endverb
     \endentry
     \entry{bassaisteguy2025}{thesis}{}{}
       \name{author}{1}{}{%
@@ -1399,7 +1506,6 @@
       \field{volume}{15}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{4:1\bibrangedash 4:15}
       \range{pages}{-1}
       \verb{doi}
@@ -1520,6 +1626,24 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
+      \endverb
+    \endentry
+    \entry{zotero-item-766}{misc}{}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-~S-T-U-V-W-X-Y-ZAAcquisitionLes acquisitions patrimoniales se répartissent entre achats onéreux (achat de gré à gré, en vente publique), et libéralités (dons et legs, don manuel, donation notariée, donation sous réserve d’usufruit…). «~Dans chaque}
+      \field{langid}{french}
+      \field{title}{{Dico des musées | Ministère de la Culture}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
+      \endverb
+      \verb{url}
+      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
       \endverb
     \endentry
     \entry{du2024}{article}{}{}
@@ -2276,6 +2400,7 @@
       \field{urlmonth}{5}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/JJBDIV66/indexation.html
       \endverb
@@ -2286,6 +2411,47 @@
       \verb https://www.cnrtl.fr/definition/indexation
       \endverb
       \keyw{Indexation}
+    \endentry
+    \entry{isaac2005}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=73a935f38c7dd51639f66d24fd0d9179}{%
+           family={Isaac},
+           familyi={I\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
+           family={Bachimont},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99803ed2b9a6039ce569c7b9d7f27256}{%
+           family={Laublet},
+           familyi={L\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{fullhash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{fullhashraw}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{bibnamehash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{authorbibnamehash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{authornamehash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{authorfullhash}{53a76844bb8ae3c748dcc54daf823cd9}
+      \strng{authorfullhashraw}{53a76844bb8ae3c748dcc54daf823cd9}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{{Indexation de documents AV: ontologies, patrons de conception et d'utilisation}}
+      \field{year}{2005}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/DAFYS6ZZ/Isaac et al. - 2005 - Indexation de documents AV ontologies, patrons de conception et d'utilisation.pdf
+      \endverb
     \endentry
     \entry{jocher2022}{misc}{}{}
       \name{author}{1}{}{%
@@ -3367,6 +3533,25 @@
       \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
       \endverb
     \endentry
+    \entry{zotero-item-767}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{Module 6 - Section 7~: {{Indexation}} - {{Introduction}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/JWHZ9AYX/06_section7_15.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.piaf-archives.org/sites/default/files/bulk_media/m06s7/co/06_section7_15.html
+      \endverb
+      \verb{url}
+      \verb https://www.piaf-archives.org/sites/default/files/bulk_media/m06s7/co/06_section7_15.html
+      \endverb
+    \endentry
     \entry{moiraghi2018}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af26c2ece86542733e95704d8f9165b3}{%
@@ -4161,6 +4346,30 @@
       \endverb
       \verb{url}
       \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
+      \endverb
+    \endentry
+    \entry{2022b}{misc}{}{}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La qualité des données mesure dans quelle mesure un jeu de données répond aux critères d’exactitude, d’exhaustivité, de validité, de cohérence, d’unicité, d’actualité et d’adéquation à l’objectif.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Qu’est-ce que la qualité des données ?}}
+      \field{title}{{Qu’est-ce que la qualité des données ? | IBM}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/6NAN6ZLF/data-quality.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-quality
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-quality
       \endverb
     \endentry
     \entry{zotero-item-702}{misc}{}{}

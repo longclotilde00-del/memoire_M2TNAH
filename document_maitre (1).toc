@@ -1,7 +1,7 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Introduction}{xvii}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xix}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
 \contentsline {subsection}{\numberline {1.}Le FRBR, modèle d'indexation conçu pour les bibliothèques}{3}{subsection.0.0.1}%
 \contentsline {subsubsection}{\numberline {a.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{subsubsection.0.0.1.1}%
@@ -43,5 +43,9 @@
 \contentsline {subsubsection}{\numberline {a.}Logique produit vs logique patrimoniale}{70}{subsubsection.0.0.11.1}%
 \contentsline {subsubsection}{\numberline {b.}Jeux de données patrimoniaux}{72}{subsubsection.0.0.11.2}%
 \contentsline {subsubsection}{\numberline {c.}flexibilité logicielle et paramétrage}{74}{subsubsection.0.0.11.3}%
-\contentsline {chapter}{Conclusion}{77}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{81}{appendix.A}%
+\contentsline {subsection}{\numberline {12.}Cohabitation d’une documentation humaine et automatique : intelligence hybride (livre blanc) l’indexation n’est pas complètement automatisée}{75}{subsection.0.0.12}%
+\contentsline {subsubsection}{\numberline {a.}Statut des données : données automatiques coexistant avec des données manuelles/métiers}{76}{subsubsection.0.0.12.1}%
+\contentsline {subsubsection}{\numberline {b.}Qualité des données : une tâche à part entière}{79}{subsubsection.0.0.12.2}%
+\contentsline {subsubsection}{\numberline {c.}Explicabilité et transparence}{83}{subsubsection.0.0.12.3}%
+\contentsline {chapter}{Conclusion}{87}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{91}{appendix.A}%
