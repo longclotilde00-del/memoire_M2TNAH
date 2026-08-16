@@ -831,7 +831,6 @@
       \field{volume}{54}
       \field{year}{2017}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{15\bibrangedash 17}
       \range{pages}{3}
       \verb{doi}
@@ -5307,6 +5306,25 @@
       \endverb
       \verb{url}
       \verb https://www.axiell.com/blog-post/axiell-pilots-its-ai-tool-for-catalogue-discovery-at-nacka-libraries/
+      \endverb
+    \endentry
+    \entry{zotero-item-772}{misc}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Une {{Philosophie}} de l'archivistique Audiovisuelle - {{UNESCO Bibliothèque Numérique}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/H42NIKYI/pf0000113127_fre.html
+      \endverb
+      \verb{urlraw}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
+      \endverb
+      \verb{url}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
       \endverb
     \endentry
     \entry{zotero-item-749}{misc}{}{}

@@ -7,10 +7,26 @@ Le FRBR est un modèle de données issu de la nécessité d'une modélisation pe
 
 \subsubsection{Un modèle conceptuel fondé sur les besoins utilisateurs}
 
-Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996. \footcite{zotero-item-651} Ce modèle établit la mise en place de quatre niveaux hiérarchiques pour le catalogage d'un document: le niveau décrivant les caractéristiques individuelles du document en tant qu'exemplaire (item), le niveau décrivant les caractéristiques de sa publication (manifestation), le niveau décrivant les caractéristiques de son contenu intellectuel (expression), et le niveau décrivant les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre). \footcite{zotero-item-651} (schéma?) 
+Le FRBR, Functional Requirements for Bibliographic Records, est un modèle conceptuel de données bibliographiques élaboré par l'IFLA de 1992 à 1996. \footcite{zotero-item-651} Ce modèle établit la mise en place de quatre niveaux hiérarchiques pour le catalogage d'un document, comme le montre la figure \ref{figFRBR1}: le niveau décrivant les caractéristiques individuelles du document en tant qu'exemplaire (item), le niveau décrivant les caractéristiques de sa publication (manifestation), le niveau décrivant les caractéristiques de son contenu intellectuel (expression), et le niveau décrivant les caractéristiques de la création abstraite à laquelle il se rattache (oeuvre) \footcite{zotero-item-651} 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1.0\textwidth]{images/FRBRfirstgroup.png}
+	\caption{Entités du modèle FRBR}
+	\label{figFRBR1}
+\end{figure}
+
 Il s'agit d'un modèle entité-relation qui modélise précisément les relations qui peuvent exister entre les éléments d'une base de données afin de permettre à l'utilisateur de les retrouver plus facilement. Prenons par exemple l'ouvrage \textit{Qu'est ce que le cinéma} d'André Bazin. Au niveau Oeuvre, se situe l'idée intellectuelle de l'oeuvre, son titre. Cette oeuvre s'exprime par exemple au sein d'un texte intégral en quatre volumes écrit entre 1958 et 1962 (Expression). Cette expression est manifestée par une édition originale aux Editions du Cerf (Manifestation). Un exemplaire individuel de cette édition est potentiellement conservée dans une bibliothèque avec une côte unique (Item). Chaque oeuvre peut être matérialisée par plusieurs expressions, et chaque expression peut faire l'objet de plusieurs manifestations. Ainsi, à la recherche d'une oeuvre dans un catalogue, l'ensemble des entités qui y sont liées apparaissent, chacune avec leur niveau de description correspondant.
 À ces entités de premier groupe (oeuvre, expression, manifestation, item), s'ajoutent des entités de deuxième groupe : personnes et collectivités. Elles expriment le rôle joué sur la production ou le contenu d'une ou plusieurs entités du premier groupe. \footcite{zotero-item-657} Par exemple, l'auteur est relié aux niveaux Oeuvre et Expression, l'éditeur au niveau Manifestation, le catalogueur au niveau Item. (ajouter au schéma les entités de 2e groupe) 
 Enfin, il existe des entités de troisième groupe intégrées au modèle, qui correspondent à des concepts, objets, évènements ou lieux liés aux entités de premier et de second groupe. \footcite{zotero-item-657}
+Dans ce mémoire, nous nosu concentrerons sur les entités de premier groupe. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1.0\textwidth]{images/FRBRentitesBiblio.png}
+	\caption{Entités du modèle FRBR}
+	\label{figFRBR2}
+\end{figure}
 
 Ainsi, ce modèle entité-relation, a avant tout été pensé afin de faciliter la navigation de l'utilisateur au sein d'un catalogue, entre les liens qui régissent les différents éléments d'une collection.  Le FRBR  prétend en effet répondre à quatre besoins utilisateur principaux : trouver, identifier, sélectionner, obtenir. \footcite{zotero-item-653}. Il permet donc à l'utilisateur de localiser la ressource, d'identifier si elle correspond bien à ce qu'il cherche, de sélectionner la ressource selon ses besoins, et d'accèder finalement à son contenu. Nous ajouterons que le besoin fondateur de la création d'un tel modèle est surtout celui de pouvoir visualiser et explorer les liens de la ressource identifiée avec d'autres ressources pertinentes qui y sont directement associées. \footcite{zotero-item-653} Ce modèle de données se situerait donc à l'intersection de deux besoins principaux : celui d'améliorer la connaissance sur une ressource donnée en visibilisant ses relations, et celui d'améliorer l'expérience utilisateur  en proposant une interface navigable et intuitive. Notons que ces besoins s'appliquent non seulement à l'utilisateur faisant partir d'un public, au sein d'un catalogue ou d'une base de données en ligne, mais également à un utilisateur métier, interne à l'institution et gestionnaire des collections. C'est précisément sur les besoins métier de ce dernier que se concentre l'analyse de ce mémoire de recherche. De fait, les enjeux de l'implémentation et de l'adaptation du modèle FRBR se situent au coeur des ambitions d'un logiciel de gestion des collections, environnement qui constitue l'objet détude de cette recherche. 
 

@@ -11,13 +11,16 @@
 \usepackage{xunicode}
 \usepackage{polyglossia}
 \setmainlanguage{french}%indiquer la langue principale du document
-%\setotherlanguage{} %indiquer les autres langues utilisée
+\setotherlanguage{english} %indiquer les autres langues utilisées
 
 \usepackage{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES UTILISÉS
 
 \usepackage{csquotes} % les guillemets français
 \usepackage{lettrine} %faire une lettrine (pas obligatoire)
+\usepackage{graphicx} %intégrer des graphiques et schémas externes
+\graphicspath{{images/}} %chemin du dossier contenant toutes les figures
+%\listoffigures % génère la liste des figures en début ou fin de mémoire
 
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 \addbibresource{memoire_tnah.bib} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib

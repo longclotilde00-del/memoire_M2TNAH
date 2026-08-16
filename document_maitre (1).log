@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  15 AUG 2026 14:47
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  16 AUG 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -141,6 +141,9 @@ File: gloss-french.ldf polyglossia: module for French
 Package polyglossia Info: Default language is french
 
 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
@@ -636,34 +639,34 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
 (./document_maitre (1).aux (./chapitres/conclusion.aux))
 \openout1 = `"document_maitre (1).aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 160.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 163.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 16
-0.
+3.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
+LaTeX Font Info:    ... okay on input line 163.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -671,58 +674,75 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 160.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 160.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 160.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 160.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 160.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 160.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 160.
-LaTeX Font Info:    Redeclaring math accent \check on input line 160.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 160.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 160.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 160.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 160.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 163.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 163.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 163.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 163.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 163.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 163.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 163.
+LaTeX Font Info:    Redeclaring math accent \check on input line 163.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 163.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 163.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 163.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 163.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 160.
+(Font)              `operators' in the math version `normal' on input line 163.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 160.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 163.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 160.
+(Font)              `operators' in the math version `bold' on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 160.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 160.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 160.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 160.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 160.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 160.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 163.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 160.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 160.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 160.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 163.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 160.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 163.
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
@@ -739,8 +759,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"document_maitre (1)".bbl' found.
 
 (./document_maitre (1).bbl)
-Package biblatex Info: Reference section=0 on input line 160.
-Package biblatex Info: Reference segment=0 on input line 160.
+Package biblatex Info: Reference section=0 on input line 163.
+Package biblatex Info: Reference segment=0 on input line 163.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -776,7 +796,7 @@ Package biblatex Info: Reference segment=0 on input line 160.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 160.
+Package hyperref Info: Link coloring OFF on input line 163.
 
 
 [1
@@ -787,7 +807,7 @@ Package hyperref Info: Link coloring OFF on input line 160.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
@@ -804,7 +824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 265.
+(lettrine.sty)             reported on input line 268.
 
 
 [3
@@ -815,13 +835,13 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 270.
+(Font)              <12> on input line 273.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 270.
+(Font)              <8> on input line 273.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 270.
+(Font)              <6> on input line 273.
 
-Overfull \hbox (13.40034pt too wide) in paragraph at lines 271--271
+Overfull \hbox (13.40034pt too wide) in paragraph at lines 274--274
 [][][][][][][][][] [] [][][][][][][][][] [][] [][][][][][][][][][][][][] [] [][
 ][][] [] [][][] [] [][][][][] [] [][][][][][][][]$[] \TU/lmr/m/n/12 (visité le 
 12/05/2026). 
@@ -834,14 +854,14 @@ Overfull \hbox (13.40034pt too wide) in paragraph at lines 271--271
 ]
 
 [6]
-Overfull \hbox (2.77263pt too wide) in paragraph at lines 271--271
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
  Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
 12 ​ (Roberto), «  Semantic Object Classes
  []
 
 
-Overfull \hbox (4.37076pt too wide) in paragraph at lines 271--271
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 274--274
 \TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
 [][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
@@ -852,20 +872,20 @@ Overfull \hbox (4.37076pt too wide) in paragraph at lines 271--271
 [7]
 
 [8]
-Overfull \hbox (11.73682pt too wide) in paragraph at lines 271--271
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
  []
 
 
-Overfull \hbox (15.5349pt too wide) in paragraph at lines 271--271
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
 2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
 n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (0.90454pt too wide) in paragraph at lines 271--271
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
 field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
 s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
@@ -875,7 +895,7 @@ oome[]\TU/lmr/m/n/12 ​ (Alice),
 
 
 [9]
-Overfull \hbox (6.02444pt too wide) in paragraph at lines 271--271
+Overfull \hbox (6.02444pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Longpre[]\TU/lmr/m/n/12 ​ (Shayne), []\TU/lmr/m/sc/12 Sin
 gh[]\TU/lmr/m/n/12 ​ (Nikhil), []\TU/lmr/m/sc/12 Cherep[]\TU/lmr/m/n/12 ​ (Manu
 el), []\TU/lmr/m/sc/12 Tiwary[]\TU/lmr/m/n/12 ​ (Kushagra), []\TU/lmr/m/sc/12 M
@@ -889,7 +909,7 @@ aterzynska[]\TU/lmr/m/n/12 ​
 [11]
 
 [12]
-Overfull \hbox (5.9788pt too wide) in paragraph at lines 271--271
+Overfull \hbox (5.9788pt too wide) in paragraph at lines 274--274
 \TU/lmr/m/n/12 Etienne, 2006, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][
 ] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] [] [][][] [][] [][][][][][]
 [][]$[] (visité le 06/05/2026). 
@@ -898,7 +918,7 @@ Overfull \hbox (5.9788pt too wide) in paragraph at lines 271--271
 
 
 [13]
-Overfull \hbox (17.96452pt too wide) in paragraph at lines 271--271
+Overfull \hbox (17.96452pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Wang[]\TU/lmr/m/n/12 ​ (Yiyuan), []\TU/lmr/m/sc/12 Johnst
 on[]\TU/lmr/m/n/12 ​ (Andrew), []\TU/lmr/m/sc/12 Sadokierski[]\TU/lmr/m/n/12 ​ 
 (Zoë), []\TU/lmr/m/sc/12 Stephens[]\TU/lmr/m/n/12 ​ (Rhiannon) et []\TU/lmr/m/s
@@ -906,7 +926,9 @@ c/12 Ahyong[]\TU/lmr/m/n/12 ​
  []
 
 
-Overfull \hbox (1.22043pt too wide) in paragraph at lines 271--271
+
+[14]
+Overfull \hbox (1.22043pt too wide) in paragraph at lines 274--274
 [][][]\TU/lmr/m/sc/12 Yoon[]\TU/lmr/m/n/12 ​ (Sangwoong), []\TU/lmr/m/sc/12 Kan
 g[]\TU/lmr/m/n/12 ​ (Woo Young), []\TU/lmr/m/sc/12 Jeon[]\TU/lmr/m/n/12 ​ (Sung
 wook), []\TU/lmr/m/sc/12 Lee[]\TU/lmr/m/n/12 ​ (SeongEun), []\TU/lmr/m/sc/12 Ha
@@ -915,18 +937,16 @@ n[]\TU/lmr/m/n/12 ​ (Chang-
 
 
 
-[14]
-
 [15]
 
 [16
 
 ]
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 278.
+Package biblatex Warning: Keyword 'nlp' not found on input line 281.
 
 
-LaTeX Warning: Empty bibliography on input line 278.
+LaTeX Warning: Empty bibliography on input line 281.
 
 
 
@@ -936,25 +956,18 @@ LaTeX Warning: Empty bibliography on input line 278.
 
 ] (./chapitres/introduction.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 2.
 
 
 [19]
 
 [20]
 
-[21]
+[21])
 
 [22]
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
-
-
-[23])
-
-[24]
 
 [1
 
@@ -963,8 +976,14 @@ Underfull \vbox (badness 2020) has occurred while \output is active []
 ]
 
 [2] (./chapitres/frbr.tex
+File: images/FRBRfirstgroup.png Graphic file (type bmp)
+<images/FRBRfirstgroup.png>
+
 
 [3]
+File: images/FRBRentitesBiblio.png Graphic file (type bmp)
+<images/FRBRentitesBiblio.png>
+
 
 [4]
 
@@ -980,22 +999,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [10]
 
 [11]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [12]
 
-[13]) (./chapitres/indexation_frbr.tex
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[14]
+[14]) (./chapitres/indexation_frbr.tex
 
 [15]
 
@@ -1005,17 +1024,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [18]
 
-[19])
+[19]
 
-[20]
+[20])
 
-[21
+[21]
+
+[22
 
 ]
 
-[22] (./chapitres/partII_1.tex
-
 [23]
+
+[24] (./chapitres/partII_1.tex
+
+[25]
 Underfull \hbox (badness 1067) in paragraph at lines 29--29
 [][][][][]\TU/lmr/m/n/10 Niall O’ []Mahony[]​, Sean []Campbell[]​, Anderson []C
 arvalho[]​, Suman []Harapanahalli[]​, Gustavo []Velasco-
@@ -1023,23 +1046,19 @@ arvalho[]​, Suman []Harapanahalli[]​, Gustavo []Velasco-
 
 
 
-[24]
-
-[25]
-
 [26]
+
+[27]
+
+[28]
 File: images/screenshot001.png Graphic file (type bmp)
 <images/screenshot001.png>
 
 
-[27]
+[29]
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
 
-
-[28]
-
-[29]
 
 [30]
 
@@ -1047,11 +1066,11 @@ Underfull \vbox (badness 1275) has occurred while \output is active []
 
 [32]
 
-[33]) (./chapitres/partII_2.tex
+[33]
 
 [34]
 
-[35]
+[35]) (./chapitres/partII_2.tex
 
 [36]
 
@@ -1059,18 +1078,18 @@ Underfull \vbox (badness 1275) has occurred while \output is active []
 
 [38]
 
-[39]) (./chapitres/partII_3.tex
+[39]
 
 [40]
 
-[41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[41]) (./chapitres/partII_3.tex
 
 [42]
 
 [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [44]
 
@@ -1078,14 +1097,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [46]
 
-LaTeX Warning: Citation 'zotero-item-632' on page 47 undefined on input line 12
-3.
-
-
-
 [47]
 
 [48]
+
+LaTeX Warning: Citation 'zotero-item-632' on page 49 undefined on input line 12
+3.
+
+
 
 [49]
 
@@ -1095,34 +1114,38 @@ LaTeX Warning: Citation 'zotero-item-632' on page 47 undefined on input line 12
 
 [52]
 
-[53]) (./chapitres/II_3.tex
+[53]
 
 [54]
 
-[55]
+[55]) (./chapitres/II_3.tex
 
 [56]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [57]
 
 [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [59]
 
-[60])
+[60]
 
 [61]
 
-[62
-
-]
+[62])
 
 [63]
 
-[64] (./chapitres/III_1.tex
+[64
+
+]
+
+[65]
+
+[66] (./chapitres/III_1.tex
 Overfull \hbox (8.77022pt too wide) in paragraph at lines 1--1
 []\TU/lmr/bx/n/14.4 L’implémentation de ces nouvelles fonctionnalités pose des 
 ques-
@@ -1136,111 +1159,111 @@ tionnalités passe par exemple
 
 
 
-[65]
-
-[66]
-
 [67]
 
 [68]
 
-[69]) (./chapitres/III_2.tex
+[69]
 
 [70]
 
-[71]
+[71]) (./chapitres/III_2.tex
 
 [72]
 
 [73]
 
-[74]) (./chapitres/III_3.tex
+[74]
 
 [75]
 
-[76]
+[76]) (./chapitres/III_3.tex
 
 [77]
 
 [78]
 
-LaTeX Warning: Citation 'zotero-item-2022b' on page 79 undefined on input line 
-72.
-
-
-LaTeX Warning: Citation 'zotero-item-2022b' on page 79 undefined on input line 
-74.
-
-
-
 [79]
-
-LaTeX Warning: Citation 'zotero-item-2022b' on page 80 undefined on input line 
-84.
-
-
 
 [80]
 
 LaTeX Warning: Citation 'zotero-item-2022b' on page 81 undefined on input line 
-102.
+72.
+
+
+LaTeX Warning: Citation 'zotero-item-2022b' on page 81 undefined on input line 
+74.
 
 
 
 [81]
 
+LaTeX Warning: Citation 'zotero-item-2022b' on page 82 undefined on input line 
+84.
+
+
+
 [82]
+
+LaTeX Warning: Citation 'zotero-item-2022b' on page 83 undefined on input line 
+102.
+
+
 
 [83]
 
 [84]
 
-[85])
+[85]
 
 [86]
 
-[87
+[87])
+
+[88]
+
+[89
 
 ]
 
-[88
+[90
 
 ]
 \openout2 = `chapitres/conclusion.aux'.
 
  (./chapitres/conclusion.tex
 
-[89
+[91
 
 
 ])
 
-[90]
+[92]
 Annexe A.
 
-
-[91
-
-
-
-]
-
-[92
-
-] (./document_maitre (1).toc
 
 [93
 
 
+
 ]
 
-[94])
+[94
+
+] (./document_maitre (1).toc
+
+[95
+
+
+]
+
+[96])
 \tf@toc=\write5
 \openout5 = `"document_maitre (1).toc"'.
 
 
 
-[95] (./document_maitre (1).aux (./chapitres/conclusion.aux))
+[97] (./document_maitre (1).aux (./chapitres/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1259,10 +1282,10 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25750 strings out of 468389
- 510007 string characters out of 5440619
- 1363375 words of memory out of 5000000
- 53980 multiletter control sequences out of 15000+600000
+ 25997 strings out of 468389
+ 516840 string characters out of 5440619
+ 1396205 words of memory out of 5000000
+ 54216 multiletter control sequences out of 15000+600000
  631049 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,12n,83p,3407b,5494s stack positions out of 10000i,1000n,20000p,200000b,200000s
