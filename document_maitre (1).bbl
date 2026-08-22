@@ -1123,7 +1123,6 @@
       \field{urlyear}{2026}
       \field{year}{2008}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{131\bibrangedash 142}
       \range{pages}{12}
       \verb{urlraw}
@@ -1627,6 +1626,50 @@
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
     \endentry
+    \entry{dialogue2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2aad94339466b12fba7ff04365dfa03a}{%
+           family={Dialogue},
+           familyi={D\bibinitperiod},
+           given={IFLA\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelima FRBR/CRM},
+           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Federation of Library Associations and Institutions (IFLA)}%
+      }
+      \strng{namehash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{fullhash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{fullhashraw}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{bibnamehash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{authorbibnamehash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{authornamehash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{authorfullhash}{2aad94339466b12fba7ff04365dfa03a}
+      \strng{authorfullhashraw}{2aad94339466b12fba7ff04365dfa03a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Commonly known as FRBRoo, this model is closely related to IFLA’s FRBR family of conceptual models. It is the object-oriented version of these models. FRBRoo version 1 was based on FRBR alone, while FRBRoo version 2 is based on the three models: FRBR, FRAD and FRSAD. FRBRoo is superseded by LRMoo version 1.0 (2024). FRBRoo remains true to the original models. It does not change the concepts expressed in the original three models, nor does it transform any aspect. It provides an alternative view or interpretation of the FRBR family of models. It is an object-oriented model, that is, the ontology described in FRBRoo uses an object oriented formalism instead of entity-relationship modelling. Thus, FRBRoo is better suited for the implementation of FRBR concepts in object oriented tools. It also makes explicit some concepts that were implicit in the original models, thus making it easier to move from conceptual model to real-life applications.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{Definition of {{FRBRoo}}}
+      \field{title}{Definition of {{FRBRoo}}: {{A Conceptual Model}} for {{Bibliographic Information}} in {{Object-Oriented Formalism}}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/GQQYBWES/Dialogue - 2017 - Definition of FRBRoo A Conceptual Model for Bibliographic Information in Object-Oriented Formalism.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://repository.ifla.org/handle/20.500.14598/659
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/handle/20.500.14598/659
+      \endverb
+    \endentry
     \entry{zotero-item-766}{misc}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -1879,6 +1922,7 @@
       \field{volume}{12}
       \field{year}{2015}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{22\bibrangedash 26}
       \range{pages}{5}
       \verb{doi}
@@ -5325,6 +5369,47 @@
       \endverb
       \verb{url}
       \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
+      \endverb
+    \endentry
+    \entry{universalis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3016e25ededbb8fe806b712eb62a046c}{%
+           family={Universalis},
+           familyi={U\bibinitperiod},
+           given={Encyclopædia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{fullhash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{fullhashraw}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{bibnamehash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{authorbibnamehash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{authornamehash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{authorfullhash}{3016e25ededbb8fe806b712eb62a046c}
+      \strng{authorfullhashraw}{3016e25ededbb8fe806b712eb62a046c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{(mot anglais) cinéma, épreuves de tournage • efforts ultimes à l'approche du but • ruées d'un grand nombre de personnes}
+      \field{journaltitle}{Encyclopædia Universalis}
+      \field{langid}{french}
+      \field{shorttitle}{{Rushes}}
+      \field{title}{{Rushes : définition et synonymes}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/YR85CRDG/rushes.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.universalis.fr/dictionnaire/rushes/
+      \endverb
+      \verb{url}
+      \verb https://www.universalis.fr/dictionnaire/rushes/
       \endverb
     \endentry
     \entry{zotero-item-749}{misc}{}{}

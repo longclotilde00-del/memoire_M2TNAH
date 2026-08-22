@@ -5,47 +5,19 @@
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
 \contentsline {subsection}{\numberline {1.}Le FRBR, modèle d'indexation conçu pour les bibliothèques}{3}{subsection.0.0.1}%
 \contentsline {subsubsection}{\numberline {a.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{subsubsection.0.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Son adaptation à l'archivistique et au contexte muséal}{5}{subsubsection.0.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Un modèle adapté aux archives audiovisuelles}{6}{subsubsection.0.0.1.3}%
-\contentsline {subsection}{\numberline {2.}Adapter le FRBR aux archives audiovisuelles}{8}{subsection.0.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{8}{subsubsection.0.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{11}{subsubsection.0.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{13}{subsubsection.0.0.2.3}%
-\contentsline {subsection}{\numberline {3.}Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}{15}{subsection.0.0.3}%
-\contentsline {subsubsection}{\numberline {a.}Projet SKAI}{16}{subsubsection.0.0.3.1}%
-\contentsline {subsubsection}{\numberline {b.}Segmentation}{18}{subsubsection.0.0.3.2}%
-\contentsline {subsubsection}{\numberline {c.}Indexation}{20}{subsubsection.0.0.3.3}%
-\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{23}{part.2}%
-\contentsline {subsection}{\numberline {4.}Traitement audiovisuel}{25}{subsection.0.0.4}%
-\contentsline {subsubsection}{\numberline {a.}Machine learning et deep learning}{26}{subsubsection.0.0.4.1}%
-\contentsline {subsubsection}{\numberline {b.}Outils et modèles disponibles}{30}{subsubsection.0.0.4.2}%
-\contentsline {subsection}{\numberline {5.}Mise en application}{32}{subsection.0.0.5}%
-\contentsline {subsubsection}{\numberline {a.}entraîner ces outils et ces modèles}{34}{subsubsection.0.0.5.1}%
-\contentsline {subsubsection}{\numberline {b.}analyse du mouvement}{35}{subsubsection.0.0.5.2}%
-\contentsline {subsection}{\numberline {6.}Description et indexation automatique}{37}{subsection.0.0.6}%
-\contentsline {subsubsection}{\numberline {a.}Outils utilisés}{37}{subsubsection.0.0.6.1}%
-\contentsline {subsection}{\numberline {7.}Entraînement}{39}{subsection.0.0.7}%
-\contentsline {subsubsection}{\numberline {a.}Interface de validation technique}{40}{subsubsection.0.0.7.1}%
-\contentsline {subsection}{\numberline {8.}Comment indexer les données automatiquement produites ? : interface d’indexation}{42}{subsection.0.0.8}%
-\contentsline {subsubsection}{\numberline {a.}Reversement au sein du FRBR}{42}{subsubsection.0.0.8.1}%
-\contentsline {subsubsection}{\numberline {b.}Interface de validation pour l'utilisateur}{48}{subsubsection.0.0.8.2}%
-\contentsline {subsubsection}{\numberline {c.}Rendre les données recherchables et découvrables}{52}{subsubsection.0.0.8.3}%
-\contentsline {subsection}{\numberline {9.}La nécessaire refonte de S-Movies pour la mise en place d'un tel projet}{56}{subsection.0.0.9}%
-\contentsline {subsubsection}{\numberline {a.}Améliorer la compréhension du FRBR}{57}{subsubsection.0.0.9.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens et la navigation entre les notices}{60}{subsubsection.0.0.9.2}%
-\contentsline {subsubsection}{\numberline {c.}Préparer l'intégration de l'IA}{61}{subsubsection.0.0.9.3}%
-\contentsline {part}{III\hspace {1em}partie 3}{65}{part.3}%
-\contentsline {subsection}{\numberline {10.}L'implémentation de ces nouvelles fonctionnalités pose des questions sur la navigation au sein du FRBR et de l’application qui sont déjà présentes (question d’ergonomie, de navigation, et de visualisation du modèle FRBR)}{67}{subsection.0.0.10}%
-\contentsline {subsubsection}{\numberline {a.}Une segmentation manuelle}{67}{subsubsection.0.0.10.1}%
-\contentsline {subsubsection}{\numberline {b.}Visualisation du FRBR en graphe pour préparer la mise en place d’une nouvelle entité : la séquence et de nouvelles données produites automatiquement : alourdit les bdd donc nécessite des visualisations}{68}{subsubsection.0.0.10.2}%
-\contentsline {subsubsection}{\numberline {c.}Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}{70}{subsubsection.0.0.10.3}%
-\contentsline {subsection}{\numberline {11.}Adapter ces fonctionnalités à tous les clients (passer du cas d’étude à la généralisation}{72}{subsection.0.0.11}%
-\contentsline {subsubsection}{\numberline {a.}Logique produit vs logique patrimoniale}{72}{subsubsection.0.0.11.1}%
-\contentsline {subsubsection}{\numberline {b.}Jeux de données patrimoniaux}{74}{subsubsection.0.0.11.2}%
-\contentsline {subsubsection}{\numberline {c.}flexibilité logicielle et paramétrage}{76}{subsubsection.0.0.11.3}%
-\contentsline {subsection}{\numberline {12.}Cohabitation d’une documentation humaine et automatique : intelligence hybride (livre blanc) l’indexation n’est pas complètement automatisée}{77}{subsection.0.0.12}%
-\contentsline {subsubsection}{\numberline {a.}Statut des données : données automatiques coexistant avec des données manuelles/métiers}{78}{subsubsection.0.0.12.1}%
-\contentsline {subsubsection}{\numberline {b.}Qualité des données : une tâche à part entière}{81}{subsubsection.0.0.12.2}%
-\contentsline {subsubsection}{\numberline {c.}Explicabilité et transparence}{85}{subsubsection.0.0.12.3}%
-\contentsline {chapter}{Conclusion}{89}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{93}{appendix.A}%
+\contentsline {subsubsection}{\numberline {b.}Son adaptation à l'archivistique et au contexte muséal}{6}{subsubsection.0.0.1.2}%
+\contentsline {subsubsection}{\numberline {c.}Un modèle adapté aux archives audiovisuelles : le manuel de catalogage des images animées de la FIAF }{7}{subsubsection.0.0.1.3}%
+\contentsline {subsection}{\numberline {2.}Implémenter le FRBR adapté aux archives audiovisuelles au sein d’un outil de gestion des collections}{9}{subsection.0.0.2}%
+\contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{10}{subsubsection.0.0.2.1}%
+\contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{18}{subsubsection.0.0.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{21}{subsubsection.0.0.2.3}%
+\contentsline {subsection}{\numberline {3.}Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}{24}{subsection.0.0.3}%
+\contentsline {subsubsection}{\numberline {a.}Indexation}{25}{subsubsection.0.0.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Segmentation}{26}{subsubsection.0.0.3.2}%
+\contentsline {subsubsection}{\numberline {c.}Projet SKAI}{28}{subsubsection.0.0.3.3}%
+\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{33}{part.2}%
+\contentsline {part}{III\hspace {1em}partie 3}{35}{part.3}%
+\contentsline {chapter}{Conclusion}{37}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{41}{appendix.A}%
+\contentsline {chapter}{Glossaire}{45}{section*.9}%
+\contentsline {chapter}{Liste des abréviations}{47}{section*.11}%

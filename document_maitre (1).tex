@@ -131,11 +131,12 @@
 %%%%%%%%%%%%%%%%%%%% Package glossaries
 
 %Exception: il faut le charger APRÈS hyperref
-%\usepackage[toc=true]{glossaries}
-%\makeglossaries
+\usepackage[toc=true, acronym]{glossaries} %chargement du package acronym pour inclure à mon glossaire une liste d'acronymes qui e nécessitent pas de définition
+\makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
 
-%mettre les entrées du glossaire ici ou les mettre dans un fichier à part que l'on appelle ici par \loadglsentries{nom_du_fichier.tex}
+%mettre les entrées du glossaire ici ou les mettre dans un fichier à part que l'on appelle ici par 
+\loadglsentries{glossaire.tex}
 
 %Structure d'une entrée de glossaire
 %\newglossaryentry{}{%
@@ -313,15 +314,15 @@ title={NLP}]
 	
 	\part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
 	
-\input{chapitres/partII_1.tex}	
-\input{chapitres/partII_2.tex}
-\input{chapitres/partII_3.tex}
-\input{chapitres/II_3.tex}
+%\input{chapitres/partII_1.tex}	
+%\input{chapitres/partII_2.tex}
+%\input{chapitres/partII_3.tex}
+%\input{chapitres/II_3.tex}
 
 \part{partie 3}
-\input{chapitres/III_1.tex}
-\input{chapitres/III_2.tex}
-\input{chapitres/III_3.tex}
+%\input{chapitres/III_1.tex}
+%\input{chapitres/III_2.tex}
+%\input{chapitres/III_3.tex}
 	
 	\chapter*{Conclusion}
 	\addcontentsline{toc}{chapter}{Conclusion}
@@ -348,8 +349,10 @@ title={NLP}]
 \backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
 
 %\printindex
-%\printglossaries[title=Glossaire]
+\glsaddall
+\printglossary[title=Glossaire]
+\printglossary[type=\acronymtype, title={Liste des abréviations}]
 %\listoftables
-%\listoffigures
+\listoffigures
 \tableofcontents
 \end{document}
