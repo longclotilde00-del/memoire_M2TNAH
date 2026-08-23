@@ -1,7 +1,7 @@
 This is makeindex, version 2.17 [TeX Live 2025] (kpathsea + Thai support).
 Scanning style file ./document_maitre (1).ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file document_maitre (1).glo....done (27 entries accepted, 0 rejected).
-Sorting entries....done (124 comparisons).
-Generating output file document_maitre (1).gls....done (29 lines written, 0 warnings).
+Scanning input file document_maitre (1).glo....done (65 entries accepted, 0 rejected).
+Sorting entries....done (406 comparisons).
+Generating output file document_maitre (1).gls....done (53 lines written, 0 warnings).
 Output written in document_maitre (1).gls.
 Transcript written in document_maitre (1).glg.

@@ -3,21 +3,15 @@
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
 \contentsline {chapter}{Introduction}{xix}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
-\contentsline {subsection}{\numberline {1.}Le FRBR, modèle d'indexation conçu pour les bibliothèques}{3}{subsection.0.0.1}%
-\contentsline {subsubsection}{\numberline {a.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{subsubsection.0.0.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Son adaptation à l'archivistique et au contexte muséal}{6}{subsubsection.0.0.1.2}%
-\contentsline {subsubsection}{\numberline {c.}Un modèle adapté aux archives audiovisuelles : le manuel de catalogage des images animées de la FIAF }{7}{subsubsection.0.0.1.3}%
-\contentsline {subsection}{\numberline {2.}Implémenter le FRBR adapté aux archives audiovisuelles au sein d’un outil de gestion des collections}{9}{subsection.0.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{10}{subsubsection.0.0.2.1}%
-\contentsline {subsubsection}{\numberline {b.}L'inscription des corpus de données dans la remodélisation du FRBR}{18}{subsubsection.0.0.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Vers une refonte de S-Movies}{21}{subsubsection.0.0.2.3}%
-\contentsline {subsection}{\numberline {3.}Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}{24}{subsection.0.0.3}%
-\contentsline {subsubsection}{\numberline {a.}Indexation}{25}{subsubsection.0.0.3.1}%
-\contentsline {subsubsection}{\numberline {b.}Segmentation}{26}{subsubsection.0.0.3.2}%
-\contentsline {subsubsection}{\numberline {c.}Projet SKAI}{28}{subsubsection.0.0.3.3}%
-\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{33}{part.2}%
-\contentsline {part}{III\hspace {1em}partie 3}{35}{part.3}%
-\contentsline {chapter}{Conclusion}{37}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{41}{appendix.A}%
-\contentsline {chapter}{Glossaire}{45}{section*.9}%
-\contentsline {chapter}{Liste des abréviations}{47}{section*.11}%
+\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{3}{part.2}%
+\contentsline {subsection}{\numberline {1.}Traitement audiovisuel}{5}{subsection.0.0.1}%
+\contentsline {subsubsection}{\numberline {a.}Machine learning et deep learning}{5}{subsubsection.0.0.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Outils et modèles disponibles}{9}{subsubsection.0.0.1.2}%
+\contentsline {subsection}{\numberline {2.}Mise en application}{12}{subsection.0.0.2}%
+\contentsline {subsubsection}{\numberline {a.}entraîner ces outils et ces modèles}{14}{subsubsection.0.0.2.1}%
+\contentsline {subsubsection}{\numberline {b.}analyse du mouvement}{15}{subsubsection.0.0.2.2}%
+\contentsline {part}{III\hspace {1em}partie 3}{17}{part.3}%
+\contentsline {chapter}{Conclusion}{19}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{23}{appendix.A}%
+\contentsline {chapter}{Glossaire}{27}{section*.9}%
+\contentsline {chapter}{Liste des abréviations}{29}{section*.11}%

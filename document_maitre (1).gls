@@ -1,29 +1,53 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{Apprentissage machine}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{36\delimN 37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
+\glossentry{Apprentissage profond}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
 \glossentry{Archivesaudiovisuelles}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
+\glossentry{AudiovisualProcessing}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{cnn}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{37\delimN 38}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glossentry{Expression}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{fiaf}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}%
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
 \glossentry{FRBR}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3\delimR 7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{47}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{61}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{Item}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{Manifestation}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossentry{Oeuvre}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{rush}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{43}}}%
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
+\glossentry{Réseaux de neurones profonds}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossentry{Transformers}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{37\delimN 38}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossentry{Vision par ordinateur}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{36\delimN 37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{55}}}%
 \end{theglossary}\glossarypostamble

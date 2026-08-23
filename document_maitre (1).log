@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  22 AUG 2026 16:55
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  23 AUG 2026 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,208 +1224,175 @@ LaTeX Warning: Empty bibliography on input line 282.
 
 ]
 
-[2] (./chapitres/frbr.tex
-File: images/FRBRfirstgroup.png Graphic file (type bmp)
-<images/FRBRfirstgroup.png>
+[2]
+
+[3
+
+]
+
+[4] (./chapitres/partII_1.tex
+
+[5]
+Underfull \hbox (badness 1067) in paragraph at lines 14--14
+[][][][][]\TU/lmr/m/n/10 Niall O’ []Mahony[]​, Sean []Campbell[]​, Anderson []C
+arvalho[]​, Suman []Harapanahalli[]​, Gustavo []Velasco-
+ []
 
 
-[3]
-File: images/FRBRentitesBiblio.png Graphic file (type bmp)
-<images/FRBRentitesBiblio.png>
+Underfull \vbox (badness 1057) has occurred while \output is active []
 
 
-[4]
+
+[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[5]
-
-[6]
-
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\TU/lmr/bx/n/10.95 Apprentissage
+ []
 
-[8]) (./chapitres/frbr_archives_audiovisuelles.tex
+
+Underfull \hbox (badness 1509) in paragraph at lines 43--45
+[]\TU/lmr/m/n/10.95 - Classification d’images fixes ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[]\TU/lmr/bx/n/10.95 Apprentissage
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 48--49
+\TU/lmr/bx/n/10.95 profond : Trans-
+ []
+
+
+Overfull \hbox (19.21284pt too wide) in paragraph at lines 30--55
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+
+
+[8]
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+
 
 [9]
-File: images/image.png Graphic file (type bmp)
-<images/image.png>
-File: images/image6.png Graphic file (type bmp)
-<images/image6.png>
-
 
 [10]
+Underfull \vbox (badness 5787) has occurred while \output is active []
+
+
 
 [11]
-File: images/image7.png Graphic file (type bmp)
-<images/image7.png>
-
 
 [12]
-File: images/image2.png Graphic file (type bmp)
-<images/image2.png>
-
 
 [13]
-File: images/image3.png Graphic file (type bmp)
-<images/image3.png>
-File: images/image4.png Graphic file (type bmp)
-<images/image4.png>
-File: images/image8.png Graphic file (type bmp)
-<images/image8.png>
-File: images/image9.png Graphic file (type bmp)
-<images/image9.png>
-File: images/image7.png Graphic file (type bmp)
-<images/image7.png>
-
 
 [14]
 
-[15]
+[15])
 
 [16]
-File: images/imageb.png Graphic file (type bmp)
-<images/imageb.png>
 
+[17
 
-[17]
+]
 
 [18]
 
-LaTeX Warning: Citation 'universalis.' on page 19 undefined on input line 220.
-
-
-
-[19]
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
-
-
-[20]
-File: images/imagec.png Graphic file (type bmp)
-<images/imagec.png>
-
-
-LaTeX Warning: Float too large for page by 27.72575pt on input line 244.
-
-
-
-[21]
-
-[22]
-Underfull \vbox (badness 4792) has occurred while \output is active []
-
-
-
-[23]) (./chapitres/indexation_frbr.tex
-
-[24]
-
-[25]
-
-[26]
-
-[27]
-
-[28]
-
-[29]
-
-[30])
-
-[31]
-
-[32
+[19
 
 ]
 
-[33]
-
-[34]
-
-[35
-
-]
-
-[36]
-
-[37
-
-]
-
-[38
+[20
 
 ]
 \openout2 = `chapitres/conclusion.aux'.
 
  (./chapitres/conclusion.tex
 
-[39
+[21
 
 
 ])
 
-[40]
+[22]
 Annexe A.
 
 
-[41
+[23
 
 
 
 ]
 
-[42
+[24
 
 ] (./document_maitre (1).gls
 
-[43
+[25
 
 ]
 
-[44
+[26
 
 ]
-Overfull \hbox (21.57657pt too wide) in paragraph at lines 16--16
+Overfull \hbox (21.57657pt too wide) in paragraph at lines 29--29
 []\TU/lmr/m/n/12 Functional Requirements for Bibliographic Records. Modèle conc
 eptuel entité-association
  []
 
 ) (./document_maitre (1).acr
 
-[45
+[27
 
 ]
 
-[46
+[28
 
 ])
 
-[47
+[29
 
 ]
 
-[48
+[30
+
+] (./document_maitre (1).lot)
+\tf@lot=\write8
+\openout8 = `"document_maitre (1).lot"'.
+
+
+
+[31]
+
+[32
 
 ] (./document_maitre (1).lof)
-\tf@lof=\write8
-\openout8 = `"document_maitre (1).lof"'.
+\tf@lof=\write9
+\openout9 = `"document_maitre (1).lof"'.
 
 
 
-[49]
+[33]
 
-[50
+[34
 
-] (./document_maitre (1).toc
-
-[51])
-\tf@toc=\write9
-\openout9 = `"document_maitre (1).toc"'.
+] (./document_maitre (1).toc)
+\tf@toc=\write10
+\openout10 = `"document_maitre (1).toc"'.
 
 
 
-[52] (./document_maitre (1).aux (./chapitres/conclusion.aux))
+[35] (./document_maitre (1).aux (./chapitres/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1444,12 +1411,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34189 strings out of 468389
- 705715 string characters out of 5440619
- 1679069 words of memory out of 5000000
- 62307 multiletter control sequences out of 15000+600000
- 632169 words of font info for 83 fonts, out of 8000000 for 9000
+ 34273 strings out of 468389
+ 708986 string characters out of 5440619
+ 1680374 words of memory out of 5000000
+ 62407 multiletter control sequences out of 15000+600000
+ 633317 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,12n,83p,2591b,5511s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,83p,2591b,5502s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (76 pages).
+Output written on document_maitre (1).pdf (59 pages).
