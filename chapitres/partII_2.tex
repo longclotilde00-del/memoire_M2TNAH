@@ -48,66 +48,30 @@ Cette méthode s'appuie sur le transfert d’apprentissage (transfert learning),
 Cette étape de pré-traitement, avant le processus d'analyse, implique la définition des types de mots clés souhaités, pour l'indexation des séquences. En effet, les étiquettes associées aux objets au sein des images correspondent aux mots-clés qui seront prédits par le modèle lors de l’analyse. Dans le cadre du corpus étudié, il est pertinent d’extraire les mots-clés déjà indexés sur les \gls{sequence} au sein du logiciel. Ces mots-clés varient selon le contenu de l’image et peuvent, par exemple, être les suivants : affiche, foule, policier, gendarme, drapeau, etc. Ces mots-clés, tout comme le jeu de données COCO, sont assez génériques. De fait, le pré traitement est avant tout utile pour l’entraînement du modèle à pouvoir détecter des objets au sein d’images dont la qualité est compromise.   
 
 
-\subsubsection{Interface de validation technique}
+\subsubsection{Processus de validation technique}
 
 Poursuite de l'application du concept HIL 
 
-Afin de gérer les essais-erreurs de l'affinage du modèle sur les données du corpus, il est pertinent de mettre en place une interface de validation technique et d'amélioration du modèle. Cette interface permettrait d'une part de valider les résultats du modèle, et d’autre part, d'assurer la concordance entre les données produites par le modèle avec les données déjà existantes au sein du logiciel.  
+Afin de gérer les essais-erreurs de l'affinage du modèle sur les données spécifiques du corpus, il est pertinent de mettre en place un processus de validation technique du traitement. Ce processus permettrait d'une part de valider les résultats du modèle, et d’autre part, d'assurer la concordance entre les données produites par le modèle avec les données déjà existantes au sein du logiciel.
 
-En effet, suite à l'affinage du modèle, les archives britanniques en ligne préconisent des étapes supplémentaires de validation des données produites \footcite{kasturi2024}. Cette validation se structure en différentes étapes : l'analyse des données produites par le modèle, la modification et la correction de ces données, le potentiel réentraînement du modèle avec de nouveaux paramètres et/ou de nouvelles annotations, et enfin, l'évaluation des résultats sur les données de test \footcite{kasturi2024}. Cette validation peut s'effectuer sur la même interface que celle proposée pour l'annotation des données, \gls{labels}, qui permet la modification et la correction des annotations. Les modifications des annotations sont ainsi réinjectées dans le modèle afin d'améliorer ses performances \footcite{kasturi2024}.
-
-"Une fois l’interface et le pipeline intégrés, l’évaluation des résultats constitue un aspect essentiel du
-processus « human-in-the-loop ». Dans cette section, nous présentons notre
-méthode d’évaluation. Dans un premier temps, nous désignons les résultats obtenus lors de la première inférence par « HIL-0 % », ce qui indique qu’aucun retour d’information humain n’a été pris en compte dans la génération de ces résultats. Nous introduisons ensuite les notations HIL-10 %, HIL-15 % et HIL-20 %,
-qui signifient respectivement que les utilisateurs ont corrigé 10 %, 15 % et 20 % des
-boîtes englobantes prédites peu performantes dans l’ensemble de données de test."\footcite{kasturi2024}
-
-Lorsque l'utilisateur modifie
-les cadres de sélection sur l'un des ensembles de données de test, les images corrigées correspondantes
-remplaceront certaines images choisies au hasard dans l'ensemble de données d'apprentissage initial, qui
-devient alors un nouvel ensemble de données d'apprentissage. Un faible taux d’apprentissage de 0,00005 (dans notre
-cas) est utilisé pour réentraîner le modèle à l’aide du nouvel ensemble de données d’entraînement. Afin de conserver les informations précédemment apprises tout en intégrant les données fournies par l’utilisateur,
-nous utilisons des techniques d’apprentissage par transfert qui chargent les poids pré-entraînés du
-modèle issu du HIL à 0 %. Cette approche nous permet d’effectuer des ajustements progressifs des
-poids du modèle, garantissant ainsi l’assimilation des nouvelles données sans compromettre les connaissances existantes. Par la suite, nous effectuerons une comparaison
-des scores moyens d’Intersection over Union (mIOU) et de précision moyenne (mAP),
-ainsi que de la précision et du rappel, spécifiquement pour des valeurs d’IOU de 0,5 et 0,75, pour chacune
-des étapes distinctes des modèles impliqués dans cette procédure. L’examen complet
-et les résultats sont présentés dans la section suivante" \footcite{kasturi2024}
-
-"Les résultats montrent que les performances du modèle s’améliorent à mesure que le pourcentage d’images corrigées par l’utilisateur augmente. Cela s’explique par le fait qu’un ensemble de données d’apprentissage plus récent permet au modèle d’en apprendre davantage sur les différents types d’objets qu’
-il est susceptible de rencontrer" \footcite{kasturi2024}
-
-"l’utilisation d’un pourcentage plus élevé d’images corrigées (par exemple 20 %) pour l’apprentissage pourrait permettre d’obtenir de meilleures performances pour cet ensemble de données.
-Il est néanmoins essentiel de poursuivre l’évaluation du modèle sur différents ensembles de données
-afin d’évaluer son adaptabilité et ses performances pour divers types d’objets. La figure 7
-présente une vue d’ensemble des courbes précision-rappel à différents stades du HIL. Le principal
-constat est que, à mesure que le pourcentage de HIL augmente, la baisse de la
-précision est moins prononcée lors de l’augmentation initiale du rappel, ce qui permet de conclure que le HIL peut
-être utilisé pour améliorer la précision des modèles de détection d’objets, sans sacrifier
-trop de précision" \footcite{kasturi2024}
-
-Décrire plus précisément comment label studio interagit avec yolo : format de fichier, seuil de confiance 
-
-Utiliser le score de confiance pour la validation : les étiquettes qui ot un score de confiance elevée sont valides, les autre sont vérifiées et re annotées.  
-
-De plus, afin de pouvoir valider les données produites par le modèle, il faut pouvoir valider leur indexation au sein du logiciel, en adéquation avec les règles métier en place. Au sein de l’espace de travail S-Movies dédié au corpus étudié, l'indexation des mots-clés est contrôlée par le thésaurus "keyword". L'affinage et la correction des données produites par le modèle devra ainsi prendre en compte la concordance des mots-clés générés avec le thésaurus de mots clés contrôlés dans l'application. Or, le modèle Yolo est nativement pré entraîné sur un jeu de données généraliste duquel la majorité des prédictions seront puisées. Ainsi, afin d'éviter la génération de mots clés trop éloignés des termes du thésaurus dans l'application, il pourrait être pertinent d'établir un mapping, c'est-à-dire une table de correspondance entre les mots clés que le modèle peut potentiellement générer, et leur forme contrôlée dans le thésaurus, pour aider la validation technique des données produites par le modèle. Nous avons effectivement déjà mis ce procédé en place au cours de notre stage dans le cadre de la mise en place de l'intelligence artificielle pour d'autres tâches, notamment la mise en place d'une recherche en langage naturel. (Mettre une note de bas de page pour expliquer). Pour cette tâche tout à fait différente que celle que nous décrivons dans ce mémoire, nous avons effectué une table de correspondance entre les champs contrôlés pouvant être requêtés dans le logiciel et leur définition en langage naturel, préparant ainsi la gestion de synonymes et de termes employés par l'utilisateur potentiellement pour requêter ces champs. Sur le même principe, nous pourrions mettre en place une table de correspondance afin d'assurer la validation des données produites et d'assurer \textit{in fine} leur indexation au sein de l'application.  
-
-La finalité est de pouvoir permettre à l'utilisateur de pouvoir recherche ces mots clés et d'accéder aux segments concernés. Transition vers la prochaine sous partie avec ça  
-
-Nécessité de l’active learning : pour que le modèle soit développé et cohérent, il faudrait qu’il soit entrainé et réentrainé en permanence, à mesure qu’il reçoit des données client et que les données sont validées ou non  
-
-citation supplémentaire sur les détails des corrections d'entraînement :  
-
-"The evaluation employs two distinct test datasets, namely test-1 and test2. One of these datasets will be utilised for the purpose of rectifying the predictions, while the other dataset will be exclusively utilised for evaluating the model’s performance across varying levels of HIL. Upon the user’s modification of the bounding boxes on one of the test dataset, the corresponding corrected images will replace some random images in the initial training dataset which then becomes a new training dataset. A small learning rate of 0.00005 (in our case) is employed to retrain the model using the new training dataset. To retain previously learned information while incorporating the user-provided data, we utilize transfer-learning techniques that load the pre-trained weights of the model from HIL-0%. This approach allows us to make gradual adjustments to the model’s weights, ensuring the assimilation of the new data without compromising the existing knowledge" \footcite{kasturi2024} 
+La validation des prédictions du modèle peut être effectuée au sein de la plateforme \gls{labels}. Les archives brittaniques proposent que le jeu de données test utilisé précédemment afin de corriger les prédictions, soit distinct d'un second jeu de données test, dédié à l'évaluation des performances du modèle, à différents niveaux de supervision humaine \footcite{kasturi2024}. Sur ce second jeu de données, sont notamment intégrées des métadonnées de supervision humaine. En effet, Kasturi explique l'introduction des notations "HIL-10 \%, HIL-15 \% et HIL-20 \%, qui signifient respectivement que les utilisateurs ont corrigé 10 \%, 15 \% et 20 \% des boîtes englobantes prédites peu performantes dans l’ensemble de données de test." \footcite{kasturi2024}. (traduction de :  HIL-10\%, HIL-15\%, and HIL-20\%, which signify that users have corrected 10\%, 15\%, and 20\% of poorly performing predicted bounding boxes in the test dataset, respectively). Les données corrigées manuellement remplacent ensuite certaines images au hasard dans le premier jeu de données d'apprentissage, contituant un nouveau jeu de données d'entraînement sur lequel le modèle s'affine \footcite{kasturi2024}. 
+Le modèle ainsi affiné est finalement exécuté sur le second jeu de données, corrigé selon différents niveaux d'intervention humaine \footcite{kasturi2024}. Pour chaque niveau de supervision, sont analysés les "scores moyens d’Intersection over Union (mIOU) et de précision moyenne (mAP), ainsi que de la précision et du rappel" \footcite{kasturi2024}. 
+Les résultats obtenus montrent que les performances du modèle s'améliorent considérablement à mesure que le pourcentage d'images corrigées manuellement augmente \footcite{kasturi2024}. En effet, l'enrichissement du jeu de données permet au modèle d'appréhender l'analyse des images de manière plus précise. L'auteur note toutefois la nécessité de poursuivre l'évaluation du modèle sur d'autres données afin de vérifier son adaptabilité et ses performances pour la détection d'autres types d'objets \footcite{kasturi2024}. En effet, le modèle devrait être ré entraîné constamment, à mesure qu'il soit exécuté sur de nouvelles données. (Active learning)
 
 
-Transition avec la partie suivante : la validation finale est laissée à l'utilisateur métier : interface de validation livrée au client, une fois que les entraînements et affinages sont concluants. 
+De plus, le processus de validation technique implique également la validation de l'indexation des données produites au sein du logiciel, en adéquation avec les règles métier en place. Au sein de l’espace de travail S-Movies dédié au corpus étudié, l'indexation des mots-clés est contrôlée par le thésaurus "keyword". Or, le modèle \gls{yolo} est nativement pré entraîné sur un jeu de données généraliste dont les étiquettes produites ne correspondront pas directement aux autorités indexées dans la base de données. Deux cas peuvent être gérés par l'utilisateur côté technique. D'une part, les mots-clés produits par le modèle peuvent déjà être indexés sous une forme contrôlée au sein du logiciel. Dans ce cas, il revient à l'utilisateur de vérifier que les mots-clés générés par le modèle concordent avec la forme indexée contrôlée au sein du logiciel. À terme, cette tâche de validation pourra être gérée par un LLM, un grand modèle de langage, déjà employé par Skinsoft pour un outil de recherche en langage naturel par exemple. Ce grand modèle de langage pourra être capable, à partir du thésaurus indexé dans le logiciel, de valider les formes contrôlées des mots-clés générés par \gls{yolo}. Pour cela, un mapping (tableau de corespondance) pourra être fourni au LLM entre les mots-clés que le modèle peut potentiellement générer, et leur forme contrôlée dans le thésaurus. Nous avons effectivement déjà élaboré un tel tableau au cours de notre stage dans le cadre de la mise en place de l'intelligence artificielle pour d'autres tâches, notamment la mise en place d'une recherche en langage naturel. Pour cette tâche tout à fait différente que celle que nous décrivons dans ce mémoire, nous avons effectué une table de correspondance entre les champs contrôlés pouvant être requêtés dans le logiciel et leur définition en langage naturel, préparant ainsi la gestion de synonymes et de termes employés par l'utilisateur potentiellement pour requêter ces champs. Sur le même principe, nous pourrions mettre en place une table de correspondance afin d'assurer la validation des données produites et d'assurer \textit{in fine} leur indexation au sein de l'application. Un calcul de similarité aide le LLM à repérer les termes simiaires et els rapprocher de leur forme contrôlée.
+D'autre part, si les mots clés n'existent pas sous une forme contrôlée au sein du thésaurus et qu'aucune correspondance n'est détectée, un nouveau terme de thésaurus pourra être créé au sein du logiciel, avec l'accord de l'utilisateur.
+
+La \gls{segtemp} ne se suffit pas à elle-même, mais nécessite une description du contenu des segments, afin d'en rétablir la qualité de \gls{sequence}, unité audiovisuelle à la fois syntaxique et sémiotique. L'approche retenue afin de décrire automatiquement le contenu de ces segments est celle de l'implémentation du modèle YOLOv8, dont le temps de calcul et de prédiction est réduit par son application aux \gls{imgcle} produites par la segmentation. L'efficacité du processus repose sur la supervision et la validation humaine, côté technique, des prédictions produites par le modèle, en accord avec les règles métier du logiciel. Toutefois, l'indexation définitive au sein du logiciel doit être validée par l'utilisateur métier via une interface dédiée, et au sein du modèle de données FRBR. 
 
 
 
 
-généralement, un algorithme de machine learning comprend trois étapes : data pre processing, data modelling, process optimisation. Dans le pre processing : humain requis pour transformer des données non structurées en données structurées et annotées \footcite{kasturi2024}
+
+
+
+
+%généralement, un algorithme de machine learning comprend trois étapes : data pre processing, data modelling, process optimisation. Dans le pre processing : humain requis pour transformer des données non structurées en données structurées et annotées \footcite{kasturi2024}
 
  
 

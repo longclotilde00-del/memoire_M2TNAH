@@ -22,7 +22,7 @@
 \graphicspath{{images/}} %chemin du dossier contenant toutes les figures
 %\listoffigures % génère la liste des figures en début ou fin de mémoire
 \usepackage{tikz} %package tikz pour la création de graphiques
-\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
 
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 \addbibresource{memoire_tnah.bib} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
@@ -38,7 +38,7 @@
 %RAJOUTEZ ICI VOS PACKAGES
 
 \usepackage{xcolor} %à supprimr après, sert juste à m'aider pour le brouillon 
-
+\usepackage{float} %pour la position des tableaux 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE
 
@@ -314,12 +314,12 @@ title={NLP}]
 %\input{mon_chapitre_2.tex}	
 %etc
 	
-	\part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
+\part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
 	
 \input{chapitres/partII_1.tex}	
 \input{chapitres/partII_2.tex}
-\input{chapitres/partII_3.tex}
-\input{chapitres/II_3.tex}
+%\input{chapitres/partII_3.tex}
+%\input{chapitres/II_3.tex}
 
 \part{partie 3}
 %\input{chapitres/III_1.tex}

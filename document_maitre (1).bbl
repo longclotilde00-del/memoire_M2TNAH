@@ -55,6 +55,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
       \endverb
@@ -249,6 +250,7 @@
       \field{volume}{53}
       \field{year}{2020}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{18\bibrangedash 28}
       \range{pages}{11}
       \verb{doi}
@@ -282,6 +284,25 @@
       \endverb
       \verb{url}
       \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
+      \endverb
+    \endentry
+    \entry{zotero-item-787}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Analyse Des Tendances {{Médias}} Par l’{{IA}} - {{Les}} Traitements Réalisés Par Les Outils d'intelligence Artificielle Utilisés Sur Data.Ina.Fr | Data.Ina.Fr}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/T4CPW3KP/traitements-ia.html
+      \endverb
+      \verb{urlraw}
+      \verb https://data.ina.fr/traitements-ia
+      \endverb
+      \verb{url}
+      \verb https://data.ina.fr/traitements-ia
       \endverb
     \endentry
     \entry{zotero-item-42}{misc}{}{}
@@ -683,6 +704,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2503.21848
       \endverb
@@ -909,6 +931,7 @@
       \field{labeltitlesource}{title}
       \field{title}{L'oeuvre d'art à l'époque de Sa Reproductibilité Technique}
       \field{year}{1935}
+      \true{nocite}
     \endentry
     \entry{bergmann2025}{misc}{}{}
       \name{author}{1}{}{%
@@ -1123,6 +1146,7 @@
       \field{urlyear}{2026}
       \field{year}{2008}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{131\bibrangedash 142}
       \range{pages}{12}
       \verb{urlraw}
@@ -1389,6 +1413,7 @@
       \field{urlyear}{2026}
       \field{year}{2014}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{61\bibrangedash 76}
       \range{pages}{16}
       \verb{doi}
@@ -1504,6 +1529,7 @@
       \field{volume}{15}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{4:1\bibrangedash 4:15}
       \range{pages}{-1}
       \verb{doi}
@@ -1626,6 +1652,47 @@
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
     \endentry
+    \entry{development2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4244cd8ed423c4fef2d82d2d78163a07}{%
+           family={Development},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi O.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{fullhash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{fullhashraw}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{bibnamehash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{authorbibnamehash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{authornamehash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{authorfullhash}{4244cd8ed423c4fef2d82d2d78163a07}
+      \strng{authorfullhashraw}{4244cd8ed423c4fef2d82d2d78163a07}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Introduction}
+      \field{journaltitle}{Medium}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Fine-{{Tuning YOLO Models}} with an {{Automated Data-Labeling Pipeline}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/U982SCCH/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1.html
+      \endverb
+      \verb{urlraw}
+      \verb https://sodevelopment.medium.com/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1
+      \endverb
+      \verb{url}
+      \verb https://sodevelopment.medium.com/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1
+      \endverb
+    \endentry
     \entry{dialogue2017}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2aad94339466b12fba7ff04365dfa03a}{%
@@ -1660,6 +1727,7 @@
       \field{urlyear}{2026}
       \field{year}{2017}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/GQQYBWES/Dialogue - 2017 - Definition of FRBRoo A Conceptual Model for Bibliographic Information in Object-Oriented Formalism.pdf
       \endverb
@@ -1734,6 +1802,7 @@
       \field{volume}{16}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{84:1\bibrangedash 84:17}
       \range{pages}{-1}
       \verb{doi}
@@ -1950,6 +2019,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
       \endverb
@@ -2114,6 +2184,7 @@
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.semanticscholar.org/paper/FRBR-and-TMS%3A-Applying-a-Conceptual-Organizational-Gillis/f306103f1832cda79e27676bfce58a5329098cf2
       \endverb
@@ -2348,6 +2419,7 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
       \endverb
@@ -2568,6 +2640,7 @@
       \field{urlyear}{2026}
       \field{year}{2008}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.14375/NP.9782200355067
       \endverb
@@ -2724,6 +2797,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TIA8UF27/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees.html
       \endverb
@@ -2747,6 +2821,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
       \endverb
@@ -2755,6 +2830,27 @@
       \endverb
       \verb{url}
       \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+    \endentry
+    \entry{zotero-item-785}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Customize Label Studio with multiple choice labels for machine learning and data science projects.}
+      \field{langid}{english}
+      \field{title}{Label {{Studio}} — {{Choices Tag}} for {{Multiple Choice Labels}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/V2C7TGF6/choices.html
+      \endverb
+      \verb{urlraw}
+      \verb https://labelstud.io/tags/choices
+      \endverb
+      \verb{url}
+      \verb https://labelstud.io/tags/choices
       \endverb
     \endentry
     \entry{lalande2022}{incollection}{}{}
@@ -3557,6 +3653,42 @@
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning}
     \endentry
+    \entry{zotero-item-789}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{{{MeMAD-project}}/Mmca: {{MeMAD}} Multimodal Content Analysis and Machine Translation: Collection of Tools and Libraries}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/MeMAD-project/mmca
+      \endverb
+      \verb{url}
+      \verb https://github.com/MeMAD-project/mmca
+      \endverb
+    \endentry
+    \entry{zotero-item-790}{misc}{}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{title}{{{MeMAD-project}}/Mmca: {{MeMAD}} Multimodal Content Analysis and Machine Translation: Collection of Tools and Libraries}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/KN232MX5/mmca.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/MeMAD-project/mmca
+      \endverb
+      \verb{url}
+      \verb https://github.com/MeMAD-project/mmca
+      \endverb
+    \endentry
     \entry{zotero-item-651}{misc}{}{}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -3569,6 +3701,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
       \endverb
@@ -4006,6 +4139,28 @@
       \endverb
       \keyw{chatbot,NLP}
     \endentry
+    \entry{zotero-item-783}{misc}{}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multi-modal data labeling and annotation platform for agent traces, LLM evals, RLHF, computer vision, document AI, NLP, audio transcription, and more.}
+      \field{journaltitle}{Label Studio}
+      \field{langid}{english}
+      \field{title}{Open {{Source Data Labeling}} and {{AI Evaluation}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/26Y63GA3/labelstud.io.html
+      \endverb
+      \verb{urlraw}
+      \verb https://labelstud.io/
+      \endverb
+      \verb{url}
+      \verb https://labelstud.io/
+      \endverb
+    \endentry
     \entry{zotero-item-748}{misc}{}{}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
@@ -4037,6 +4192,7 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://francearchives.gouv.fr/fr/article/37832
       \endverb
@@ -4233,6 +4389,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/8FDMQ6SA/prelinger-archive.html
       \endverb
@@ -4273,6 +4430,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
       \endverb
@@ -4384,6 +4542,7 @@
       \field{urlyear}{2026}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
       \endverb
@@ -4405,6 +4564,7 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/6NAN6ZLF/data-quality.html
       \endverb
@@ -4699,6 +4859,7 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/4YQUQEDE/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions.html
       \endverb
@@ -4757,6 +4918,7 @@
       \field{volume}{55}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{1\bibrangedash 37}
       \range{pages}{37}
       \verb{doi}
@@ -4799,6 +4961,7 @@
       \field{labeltitlesource}{title}
       \field{langid}{french}
       \field{title}{{Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIPE UNESCO: l'expérience FRBR}}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/ZSUZ8N93/Signoles - Mise en œuvre d'une nouvelle structuration des données pour valoriser le fonds documentaire de l'IIP.pdf
       \endverb
@@ -4880,6 +5043,7 @@
       \field{shorttitle}{{Les archives audiovisuelles}}
       \field{title}{{Les archives audiovisuelles: description, indexation et publication}}
       \field{year}{2011}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/77JZ5KLH/Stockinger - 2011 - Les archives audiovisuelles description, indexation et publication.pdf
       \endverb
@@ -5167,6 +5331,7 @@
       \field{month}{10}
       \field{title}{{{FRBR}} Model}
       \field{year}{4}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
       \endverb
@@ -5421,11 +5586,48 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
       \endverb
       \verb{url}
       \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \endverb
+    \endentry
+    \entry{vang-z2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7711de772b107e79062f7c03bbdf9d89}{%
+           family={{Vang-z}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{fullhash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{fullhashraw}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{bibnamehash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{authorbibnamehash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{authornamehash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{authorfullhash}{7711de772b107e79062f7c03bbdf9d89}
+      \strng{authorfullhashraw}{7711de772b107e79062f7c03bbdf9d89}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract This article will explain how to annotate a YOLOv8 dataset using Label Studio, as well as how to extract image frames from video files using Python. Download/Install (R...}
+      \field{journaltitle}{richelf.tech}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{title}{Annotating a {{YOLOv8 Dataset Using Label Studio}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://richelf.tech/en/posts/2023-09/0f87cd80-8c23-c2dd-40f3-e1d2df83c2f7.html
+      \endverb
+      \verb{url}
+      \verb https://richelf.tech/en/posts/2023-09/0f87cd80-8c23-c2dd-40f3-e1d2df83c2f7.html
       \endverb
     \endentry
     \entry{vasseur2025}{article}{}{}
@@ -5996,6 +6198,7 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2107.01153
       \endverb
