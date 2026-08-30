@@ -12,8 +12,12 @@
 \contentsline {subsubsection}{\numberline {a.}Outils utilisés}{18}{subsubsection.0.0.2.1}%
 \contentsline {subsubsection}{\numberline {b.}Entraînement}{20}{subsubsection.0.0.2.2}%
 \contentsline {subsubsection}{\numberline {c.}Processus de validation technique}{22}{subsubsection.0.0.2.3}%
-\contentsline {part}{III\hspace {1em}partie 3}{25}{part.3}%
-\contentsline {chapter}{Conclusion}{27}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{31}{appendix.A}%
-\contentsline {chapter}{Glossaire}{35}{section*.9}%
-\contentsline {chapter}{Liste des abréviations}{37}{section*.11}%
+\contentsline {subsection}{\numberline {3.}Comment indexer les données automatiquement produites ? : interface d’indexation}{24}{subsection.0.0.3}%
+\contentsline {subsubsection}{\numberline {a.}Reversement des données au sein du FRBR}{25}{subsubsection.0.0.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Interface de validation pour l'utilisateur}{28}{subsubsection.0.0.3.2}%
+\contentsline {subsubsection}{\numberline {c.}Rendre les données recherchables et découvrables}{31}{subsubsection.0.0.3.3}%
+\contentsline {part}{III\hspace {1em}partie 3}{37}{part.3}%
+\contentsline {chapter}{Conclusion}{39}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{43}{appendix.A}%
+\contentsline {chapter}{Glossaire}{47}{section*.9}%
+\contentsline {chapter}{Liste des abréviations}{49}{section*.11}%

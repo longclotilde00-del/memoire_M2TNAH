@@ -2776,6 +2776,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/U7KVN9QJ/intelligence-artificielle-creation-metadonnees.html
       \endverb
@@ -5218,6 +5219,48 @@
       \endverb
       \verb{url}
       \verb https://www.transition-bibliographique.fr/systemes-et-donnees/
+      \endverb
+    \endentry
+    \entry{talbi2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c44115e6ee30ff38a8000f150b59c7ca}{%
+           family={Talbi},
+           familyi={T\bibinitperiod},
+           given={Ilyes},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{fullhash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{fullhashraw}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{bibnamehash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{authorbibnamehash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{authornamehash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{authorfullhash}{c44115e6ee30ff38a8000f150b59c7ca}
+      \strng{authorfullhashraw}{c44115e6ee30ff38a8000f150b59c7ca}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{YOLO est le framework de référence pour la détection d'objets en temps réel en IA de vision, il allie vitesse et précision.}
+      \field{journaltitle}{La revue IA}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{shorttitle}{{YOLO}}
+      \field{title}{{YOLO : le framework de référence en vision par ordinateur}}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/BW2UDJ3Q/yolo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://larevueia.fr/yolo/
+      \endverb
+      \verb{url}
+      \verb https://larevueia.fr/yolo/
       \endverb
     \endentry
     \entry{tannier2006}{thesis}{}{}

@@ -1,111 +1,77 @@
 \subsection{Comment indexer les données automatiquement produites ? : interface d’indexation} - Processus côté interface 
 
-Faire le lien avec le NLP le plus possible : le NLP pourra être étendu pour la recherche de contenus visuels  
+L’objet de notre étude est le reversement des données produites par l’indexation automatique au sein du modèle FRBR, adapté aux archives audiovisuelles. Si les outils d’extraction automatique tels que YOLOv8, nécessitent un réentrainement spécifique au corpus étudié, une seconde difficulté s'impose, celle de l'alignement de ces données avec un modèle de données personnalisé. Le modèle de données FRBR est, en effet, configuré selon les besoins métier de chaque institution et conditionne l’organisation des données pour l’utilisateur au sein de l’interface. Dès lors, comment reverser des données produites automatiquement, au sein d’un modèle de données configurable ? Ce reversement concrétise en effet l’indexation automatique, puisque les données deviennent visibles et requêtables par les utilisateurs, au sein de l'interface du logiciel. 
 
-Yolo est une IA discriminative 
+%Faire le lien avec le NLP le plus possible : le NLP pourra être étendu pour la recherche de contenus visuels  
 
-\subsubsection{Reversement au sein du FRBR} 
+%Yolo est une IA discriminative 
+
+\subsubsection{Reversement des données au sein du FRBR} 
 
 FRBRisation des données générées par IA  
 
-Rappelons-le, l’objet de notre problématique est de pouvoir reverser les données produites par l’indexation automatique au sein du modèle FRBR, adapté aux archives audiovisuelles. L’extraction automatique de données et de contenu est réalisée par des outils génériques utilisés dans tous types de domaines, aussi bien patrimoniaux que commerciaux. En effet, nous avons vu que l’algorithme YOLOv8 est entrainé sur des données visuelles généralistes, qui supposent un affinage afin d’être adaptées à des domaines spécifiques tel que celui qui fait l’objet de ce mémoire. Si les données produites sont bien spécifiques au domaine, notre pipeline se heurte à une nouvelle difficulté, celle du reversement de ces données au sein d’un modèle documentaire personnalisé et spécifique à l’indexation des archives audiovisuelles. 
-Le modèle de données FRBR est, en effet, spécifique aux besoins métier de chaque institution et conditionne l’organisation des données pour l’utilisateur au sein de l’interface. Dès lors, comment reverser des données produites automatiquement par des outils génériques, au sein d’un modèle de données personnalisé et configuré selon les besoins d’une institution précise ? Le reversement de ces données au sein de l’interface concrétise en effet l’indexation automatique, puisqu’elles deviennent visibles par les utilisateurs, dans des champs pertinents, adaptés et requêtables.  
 
-Certains outils ont déjà été développés dans d’autres applications de gestion des collections afin d’effectuer ce reversement de manière automatique : Wedia, Keepeek, Einden, MomaSoft “classent automatiquement les images et vidéos en leur attribuant les métadonnées appropriées.” \footcite{zotero-item-732}
+Une fois les deux processus de segmentation et de détection d'objets finalisés, deux types de données sont produits : les time codes, chiffrés, et les mots-clés, textuels et sémantiques. L'enjeu est de structurer ces données au sein du modèle FRBR existant. 
 
-Une fois les processus de notre pipeline finalisés, deux types de données sont produits : les time codes, chiffrés, et les mots-clés, sémantiques.  
+%Certains outils ont déjà été développés dans d’autres applications de gestion des collections afin d’effectuer ce reversement de manière automatique : Wedia, Keepeek, Einden, MomaSoft “classent automatiquement les images et vidéos en leur attribuant les métadonnées appropriées.” \footcite{zotero-item-732}
 
-Premièrement, les time codes produisent des séquences définies au sein des rushes documentaires que nous avons décrits. Il se pose la question suivante : ces séquences doivent-elles faire l’objet d’entités à part entière au sein du modèle de données ? La FIAF, dans son manuel de catalogage des images animées ne prévoie pas la description de séquences, ou de segments d’œuvres. En effet, le manuel, édité en 2016, ne prend pas en compte cette possibilité rendue réalisable par les technologies de computer vision.  C’est le terme d’agrégats qui semble se rapprocher le plus de séquences faisant partie d’une œuvre. Or, le manuel décrit que ces agrégats “sont conçus et créés dès le début pour rassembler plusieurs composantes individuelles formant un tout. CROCHETS Il s’agit d’un film intentionnellement structuré comme une série d'histoires différentes, parfois reliées entre elles par des décors et des personnages, et faisant partie d’un tout continu”. Ce n’est pas le cas pour le corpus décrit ici, les rushes n’ont pas été pensés en termes de montage et sont restés à l’état de rushes. Toute segmentation est donc une interprétation a posteriori de la construction de l’archive, un remontage. L’IFLA propose le terme de “fragment d’expression”, définit comme “des parties d’expressions qui ne constituent pas elles-mêmes des expressions autonomes. L’existence d’une instance « Fragment d’expression » peut être due à un accident, tel que la perte de matière au fil du temps CROCHETS, ou à un isolement délibéré, comme des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un « Fragment d’expression » n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé.” \footcite{iflastandards.info2026} Cette entité pourrait correspondre aux séquences créées par le processus de segmentation et serait rattachée à l’expression (ici comprise au sens d’Œuvre, conformément à l’adaptation du FRBR par les recommandations de la FIAF). L’implémentation du processus de segmentation supposerait donc la création d’une nouvelle entité au sein du modèle de données FRBR, au sein de laquelle seraient reversés les time codes et les mots clés.  
+Création d'une nouvelle entité : 
+Les outils automatiques utilisés lors du processus ont extrait des données depuis un média, associé au niveau de l'item numérique au sein du modèle de données préexistant. Or, le niveau item contient des éléments de description matérielle techniques, alors que les mots-clés et repères temporels relèvent d'une description intelectuelle et syntaxique. Dès lors, la création d'une entité intelectuelle dédiée à la séquence s'impose. 
+Afin d'illustrer l'intégration d'une entité de description intermédiaire, entre l'oeuvre et l'item numérique, prenons l'exemple de la plateforme Okapi (Open and Knowledge-based Annotation and Publishing Interface), développée par le département Recherche et Innovation de l'\gls{ina} \footcite{lalande2022}. Afin de favoriser la description collaborative de contenus multimédias, la plateforme offre la possibilité aux utilisateurs de concevoir des modèles de description personnalisés \footcite{lalande2022}. La plateforme permet notamment de séparer l'extrait audiovisuel du média, dont il constitue un niveau descriptif propre. Une strate supplémentaire de description est ainsi dédiée à la description intellectuelle du média. Le modèle FRBR tel que nous l'avons décrit ne propose, a priori, pas d'entité descriptive dédiée à la séquence. L'entité "d'agrégats", proposée par le manuel de la \gls{fiaf} pourrait y correspondre. Toutefois, ceux-ci “sont conçus et créés dès le début pour rassembler plusieurs composantes individuelles formant un tout." \footcite{zotero-item-646}. Or, au sein du corpus étudié, les rushes ne font pas partie d'un montage. Toute segmentation est une interprétation a posteriori de la construction de l’archive, et donc un remontage. L'entité de "fragment d'expression" proposé par l'IFLA au sein du modèle FRBR bibliographique semble plus adéquate \footcite{iflastandards.info2026}. L’\gls{IFLA} définit le fragment comme “des parties d’expressions qui ne constituent pas elles-mêmes des expressions autonomes.[...] Un « Fragment d’expression » n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé.” \footcite{iflastandards.info2026}. Cette entité semble correspondre à la notion de séquences telle que nous l'avons décrite. Elle serait rattachée à l’Oeuvre, conformément à l’adaptation du FRBR par les recommandations de la FIAF, et permettrait le reversement spécifique des times-codes et mots-clés. La figure \ref{figfragment} ci-dessous illustre l'intégration de l'entité du fragment d'oeuvre au modèle de données existant. 
 
-Penchons-nous sur l’exemple de l’application dans laquelle est intégré le corpus que nous décrivons. En effet, les time codes et les mots clés existent déjà en tant que données au sein de l’application. Rappelons que le modèle FRBR y est structuré en trois niveaux principaux : œuvre, manifestation, item. Pour le corpus de rushes, seuls les niveaux œuvre et items sont décrits, puisque le corpus est composé essentiellement de rushes documentaires qui n’ont pas fait l’objet de publications spécifiques (niveau manifestation). En observant les données déjà existantes dans l’application, nous en avons conclu que pour les Rushes ayant déjà fait l’objet d’une segmentation documentaire manuelle, les times codes sont renseignés au niveau de l’item, dans un champ notes. L’item numérique comporte le champ type = “fichier time codé”. Ainsi, par exemple, une bobine au niveau item, déjà segmentée en séquences, dispose de plusieurs items liés, ses séquences, qui possèdent chacune un time code de début et de fin au sein de cette bobine. Certaines œuvres/rushes sont liées à des items-films numérique qui sont en réalité les segments, et ces items-films sont associés à des films physiques qui sont le film physique duquel ils ont été numérisés. Ainsi, l’utilisateur métier ne numérise que des segments d’un item physique. Les items numériques sont toujours des segments. Cela implique beaucoup de relations non hiérarchiques donc pas très claires. Un item de film physique renseigne tous les extraits numériques qui lui sont liés. L’item numérique (segment) renseigne le film physique duquel il est extrait, le niveau œuvre renseigne seulement les films associés numériques. Complexe. La création d’une nouvelle entité simplifierai les choses au niveau de la hiérarchie mais la complexifierai également : la nouvelle entité “fragment” devra être décrite de manière intellectuelle : pourquoi le choix de ce segment, le contexte, et devra être associé aux items numériques, fragments numérisés concrets avec les times codes. Actuellement, dans l’application, les time codes sont renseignés dans un champ note. Ils ne possèdent donc pas de champs dédiés et ne sont pas vraiment requêtables. L’idée n’est pas de chambouler l’expérience utilisateur avec l’implémentation d’un processus automatique et la modification du modèle de données. Nous pourrions par exemple simplement proposer un champ dédié aux time codes pour rendre la saisie plus facile et la recherche plus facile également. Toutefois, il est également nécessaire de se demander où reverser les mots clés produits par le second processus d’indexation. Actuellement dans l’application, les mots-clés sont renseignés au niveau de l’indexation de l’œuvre globale, donc des rushes. Si une entité fragment est créées, les mots clés spécifiques au segment et générés par le processus automatique pourront être reversés sur la notice de fragment, hérités au niveau de l’item numérique. Les mots clés généraux au niveau œuvre sont conservés au niveau œuvre. Si la nouvelle entité n’est pas créée, le nouveau champ time code pourra contenir un sous champ mots clés, afin d’indiquer que ces mots clés sont spécifiques à un segment de l’oeuvre. Mais la création d’une entité à part entière serait idéale, notamment pour expliquer le contexte de création automatique de ces segments.  
+\begin{figure}[htbp] 
+	
+	\centering 
+	
+	\includegraphics[width=0.7\textwidth]{images/fragment_frbr.png} 
+	
+	\caption{Intégration du Fragment au modèle de données} 
+	
+	\label{figfragment} 
+	
+\end{figure} 
 
-La création d’une nouvelle entité : faciliterait la visibilité et la recherche mais compromis avec surcharge de l’interface et habitudes utilisateur. 
+Au sein de la plateforme Okapi, la création d'une entité intermédiaire de description, permet aux données descriptives produites à partir du média, d'être reversées au sein d'un niveau parent essentiellement descriptif, celui de l'extrait. Au sein du modèle de données existant, adapté au corpus étudié, les time codes et les mots-clés sont déjà indexés manuellement en tant que données au sein de l’application. En effet, les times codes sont renseignés au niveau de l'item numérique, dans un champ notes, et l'item comporte le champ type renseigné par la valeur “fichier time codé”, afin de signifier sa qualité d'extrait. De plus, les mots-clés sont renseignés au niveau de l’indexation de l’œuvre, donc du rush original. La modélisation de la segmentation au sein du modèle actuel implique un nombre conséquent de relations entre les éléments, complexifiant ainsi la navigation de l'utilisateur. En effet, une notice d'item physique renseigne tous les extraits numériques (items numériques) qui lui sont liés. L’item numérique (segment) renseigne le film physique duquel il est extrait, tandis que le niveau œuvre renseigne uniquement les extraits numériques qui lui sont associés. 
+La création d’une nouvelle entité simplifierait la navigation au sein de l'interface et permettrait de séparer la description en différents niveaux, intellectuel et technique, conformément aux principes du FRBR. La nouvelle entité de fragments permettrait éventuellement de préciser un contexte de segmentation et des champs dédiés aux mots clés et aux time codes. Le tableau \ref{tab:reversement_metadonnees_frbr} ci-dessous illustre la répartition de la description entre le fragment d'Oeuvre et l'item numérique. Pour des raisons de clarté, d'autres données descriptives ont été intégrées afin d'illustrer la répartition entre la description intellectuelle et matérielle. 
 
-Informations au niveau entité fragments d’œuvres/expression :  
+\begin{table}[H]
+	\centering
+	\small
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular}{|p{3.8cm}|p{4.2cm}|p{6.4cm}|}
+		\hline
+		\textbf{Entité FRBR} & \textbf{Champ / Attribut} & \textbf{Exemples de valeurs} \\
+		\hline
+		\multirow{6}{=}{\textbf{Fragment d’Oeuvre} \newline \textit{(Description intellectuelle)}} 
+		& Contexte & Segmentation automatique de tel item physique \\ \cline{2-3}
+		& Description générale & Description du contenu sémantique de la séquence \\ \cline{2-3}
+		& Processus de segmentation & Automatique (Outil utilisé et paramètres appliqués) \\ \cline{2-3}
+		& Time codes & Time codes de début et de fin de la séquence \\ \cline{2-3}
+		& Mots-clés & Mots-clés extraits par YOLO \\ \cline{2-3}
+		& Image-clé associée & Lien direct vers le fichier de l'image-clé \\ \cline{2-3}
+		& Oeuvre parente & Identifiant de l'oeuvre associée, lien direct vers la notice \\ \cline{2-3}
+		& Item physique associé & Identifiant de l'item physique associé dont est tirée la séquence, lien direct vers la notice \\ \cline{2-3}
+		& Item numérique associé & Identifiant de l'item numérique associé, lien direct vers la notice \\ 
+		\hline
+		\multirow{3}{=}{\textbf{Item Numérique} \newline \textit{(Description technique et matérielle)}} 
+		& Fragment associé & Identifiant du fragment associé, lien direct vers la notice \\ \cline{2-3}
+		& Données techniques & Résolution de l'image, taille, format \\ \cline{2-3}
+		& Données de conservation & Emplacement, contenant \\ \cline{2-3}
+		& Média associé & fichier média de la séquence \\ \cline{2-3}
+		\hline
+	\end{tabular}
+	\caption{Attributs et exemples de valeurs associées aux entités Fragment d'Expression et Item Numérique.}
+	\label{tab:reversement_metadonnees_frbr}
+\end{table}
 
-Contexte  
+Les métadonnées automatiquement produites seraient intégrées au niveau du fragment, tandis que l'item numérique contiendrait le média et les données techniques. 
+Une difficulté subsiste toutefois. En effet, les processus s'exécutent au niveau du fichier numérique et de son média, tandis que les métadonnées produites doivent pouvoir enrichir un niveau descriptif supérieur, celui du fragment. Dexu configurations peuvent être envisagées afin d'opérer ce reversement automatiquement. D'une part, l'application gère actuellement l'héritage des données d'un niveau supérieur à un niveau inférieur via la configuration de méta-masques, qui ciblent les niveaux iférieurs au sein desquels reverser les données. Néanmoins, le processus automatisé décrit impliquerait la configuration de masques ascendants, permettant de reverser des métadonnées générées au niveau de l'item, vers l'entité de fragment. Cette configuration complexifie toutefois la compréhension du modèle de données.
+D'autre part, pourrait être envisagé la mise en place d'un tableau de correspondance ou d'un script permettant d'associer les sorties de données du processus aux entités dans lesquelles elles doivent être injectées. 
 
-Choix du segment 
+%À l’ingest : données interdépendantes entre la description d’un item numérique et de son média. Mentionner la relation nouvelle sur l’item numérique et son média : facilite les choses pour le reversement  
+ %Pour les times codes, des champs dédiés devrons être prévus sous le champ film associé.  
+%Faire un schéma de métadonnées pour pouvoir adapter les données aux normes du logiciel via des connecteurs par exemple.  
 
-Processus de segmentation  
-
-Mots clés : peuvent aider à expliquer le choix du segment : syntaxe + sémantique 
-
-Image clé associée  
-
-Item numérique associé  
-
-
-
-Informations au niveau de l’item numérique :  
-
-Fragment associé  
-
-Données techniques de conservation 
-
-Données héritées de l’oeuvre et du fragment  
-
-L'IFLA propose sinon le fragment d’expression : \footcite{iflastandards.info2026} avec la description suivante : Cette classe regroupe des parties d’expressions qui ne constituent pas elles-mêmes des expressions autonomes. L’existence d’une instance de F23 « Fragment d’expression » peut être due à un accident, tel que la perte de matière au fil du temps (par exemple, le seul manuscrit restant d’un texte ancien partiellement rongé par les vers), ou à un isolement délibéré, comme des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un « F23 Fragment d’expression » n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé. La taille d’une instance de « F23 Fragment d’expression » varie de plus de 99 pourcent d’une instance de « F22 Expression autonome » à de minuscules fragments (quelques mots d’un texte, une mesure d’une composition musicale, un détail d’une image fixe, un extrait de deux secondes d’un film, etc.). » 
-
-Remarque : « L’existence d’une instance de F23 Fragment d’expression peut être due à un accident, tel que la perte de matériel au fil du temps — par exemple, le seul manuscrit restant d’un texte ancien ayant été partiellement rongé par les vers —, ou à un isolement délibéré, tel que des extraits tirés d’un texte par le compilateur d’un recueil d’extraits. Un F23 Fragment d’expression n’est identifié qu’en fonction de son occurrence au sein d’un tout connu ou supposé. La taille d’un exemple de F23 « Fragment d’expression » varie de plus de 99 pourcent d’un exemple de F22 « Expression autonome » à de minuscules fragments (quelques mots d’un texte, une mesure d’une composition musicale, un détail d’une image fixe, un extrait de deux secondes d’un film, etc.). » 
-
-
-
-
-
-Dans le FRBR, la séquence n’est pas définie : comment l’intégrer ? Différentes possibilités. Le FRBRoo inclut les notions suivantes :  
-
-partie d'œuvre ; 
-
-œuvre complexe ; 
-
-relations entre composants ; 
-
-objets informationnels structurés 
-
-
-
-Selon le manuel de la FIAF p. 159, il peut être utilisé le titre segment dans le cas suivant : “S’emploie pour tout document identifié comme étant une ou des séquences, un ou des segments, un ou des extraits, un ou des fragments (à l'exception des « reportages d'actualités » et des « extraits pour l’analyse », voir ci-dessous).” \footcite{zotero-item-646}
-
-Autre possibilité : Agrégats « hybrides » et images animées à composantes multiples p 168 : “Les Œuvres à composantes multiples sont conçues et créées dès le début pour rassembler plusieurs composantes individuelles formant un tout, par exemple les films à sketches et les émissions TV (p. ex. Dead of night, Quartet, Retour à la vie, Kaamelott). 
-
-Elles doivent être traitées comme des Œuvres monographiques. (Voir 1. Œuvres et Variantes). 
-
-Les différentes sections constituant l'ensemble ne sont pas des Œuvres/Variantes créées indépendamment et ayant une existence propre en dehors du film. Il s’agit d’un film intentionnellement structuré comme une série d'histoires différentes, parfois reliées entre elles par des décors et des personnages, et faisant partie d’un tout continu.”  
-
-“Chaque composante ne doit normalement pas être créée comme une nouvelle Œuvre, car ce n'est pas de cette façon que le contenu a été imaginé (c.-à-d. qu'il a été conçu pour être regroupé et visionné en tant qu’unité et ne peut pas être segmenté). Aucun d’entre eux n’aura alors de notice de Manifestation en tant qu’Œuvre individuelle. 
-
-Les institutions qui ont la capacité ou le désir de les dissocier afin de lier des descriptions (p. ex. des génériques) séparées à chaque composante (c.-à-d. représentant la relation parent-enfant), peuvent les enregistrer en tant qu’Œuvres analytiques” \footcite{zotero-item-646}
-
-À l’ingest : données interdépendantes entre la description d’un item numérique et de son média. Mentionner la relation nouvelle sur l’item numérique et son média : facilite les choses pour le reversement  
-
-Comment sont décrits les time codes dans l’application du corpus que nous décrivons ? Comment sont gérées ces données, puisque la segmentation existe déjà ? L'idée est de ne pas modifier à outrance l’expérience utilisateur avec de nouveaux outils.  
-
-Rappelons que le modèle FRBR est structuré théoriquement en trois niveaux principaux : œuvre, manifestation, item. Si nous prenons l’environnement d’application adapté au corpus que nous avons décrit jusqu’ici, seuls les niveaux œuvre et items sont décrits puisque le corpus est composé presqu’essentiellement de rushes documentaires qui n’ont pas fait l’objet de publications spécifiques (niveau manifestation). En observant les métadonnées déjà existantes, nous en avons conclu que pour les  
-
-Rushes qui ont déjà fait l’objet d’une segmentation documentaire manuelle, les times codes sont renseignés au niveau de l’item, dans un champ notes. Ainsi, par exemple, une bobine au niveau item, déjà segmentée en séquences, dispose de plusieurs items liés, ses séquences, qui possèdent chacune un time code de début et de fin au sein de cette bobine. Une notice de bobine item physique :  (captures d'écran word) 
- 
-Ainsi, les données produites par les deux processus automatiques combinés proposent des métadonnées indexables sur deux niveaux différents. Les processus IA sont appliqués sur un fichier numérique, donc au niveau d’un item numérique. Comment procéder pour que les métadonnées produites à partir du fichier numérique enrichissent le niveau œuvre, niveau de description intellectuelle qui doit contenir les mots clés ?  
-
-Pour les times codes, des champs dédiés devrons être prévus sous le champ film associé.  
-
-Les fichiers numériques segmentées, donc les séquences, possèdent la catégorie “fichier time codé” 
-
-
-Faire un schéma de métadonnées pour pouvoir adapter les données aux normes du logiciel via des connecteurs par exemple.  
-
-L’automatisation modifie le schéma des données actuels. En effet, si les mots clés définis pour chaque segment sont reportés au niveau œuvre, il faut pouvoir créer une notice d’œuvre pour chaque segment, ou alors reporter les time codes aussi au niveau œuvre pour pouvoir indiquer que ces mots clés sont spécifiques à tel segment. Ou alors on garde le champ de films liés, on crée un champ séquences : les times codes sont renseignés et els mots clés sont saisis sous chaque séquence. Les mots clés pourront également être reportés au champ général mots clés qui décrit l’œuvre dans sa globalité. Il y aurait ainsi deux types de champs mots clés : un champ spécifique à la séquence, un champ mots clés qui décrit les mots clés généraux de l’œuvre.  
-
-
-
-Plateforme okapi, modélisation de la plateforme intéressante pour notre étude :  
-
-“Chaque modélisation de domaine vient étendre le modèle Okapi en utilisant les mécanismes d’extensions propres aux langages RDFS/OWL. Ces derniers permettent également à un modélisateur de définir sa propre « upper ontology » et de déclarer des points d’adhérence uniquement entre certaines classes de son modèle et celles d’Okapi. La Figure 1 montre la simplicité du modèle générique et illustre les possibilités de classements offertes en terme d’organisation des connaissances.” \footcite{lalande2022}
-(voir schéma word)
-
-“De manière similaire, le modèle de description multimédia d’Okapi regroupe un nombre limité d’objets structurant la description : le média (image fixe, vidéos, sons), la description (ou analyse de média), la strate (ou plan/point de vue de description), l’extrait (ou segment/fragment/région) de média, le corpus d’extraits et la publication hypermédia. À l’instar du modèle de domaine, l’ensemble de ces éléments est regroupé au sein d’une ontologie de description qu’il convient d’étendre afin de construire un modèle de description multimédia propre à son domaine. Le modèle proposé s’inspire notamment des notions de descriptions, de segments et de décomposition que l’on retrouve dans des standards de description comme Mpeg7 et s’inscrit plus spécifiquement dans l’esprit des travaux de (Hunter, 2002) portant sur un portage de ce langage de XML Schema vers OWL. Par le biais des mécanismes d’extension de OWL, le modèle permet de définir de manière déclarative les strates de descriptions que l’on souhaite utiliser pour un type de description particulier et d’associer à chaque type de segment porté par ces strates, une branche particulière du domaine.” \footcite{lalande2022}
-
-  
 \subsubsection{Interface de validation pour l'utilisateur} 
 
 Deux axes : visualisation et validation (intégrer à ces deux axes la transparence sur le processus : données de gestion)  
