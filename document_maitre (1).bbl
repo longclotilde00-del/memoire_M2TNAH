@@ -286,6 +286,25 @@
       \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
       \endverb
     \endentry
+    \entry{zotero-item-794}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/3VYZHL8L/guide-plugin-editor-options.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
+      \endverb
+      \verb{url}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
+      \endverb
+    \endentry
     \entry{zotero-item-787}{misc}{}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -1645,6 +1664,7 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
       \endverb
@@ -1683,6 +1703,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/U982SCCH/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1.html
       \endverb
@@ -1832,6 +1853,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/J8GE4DV4/yolov8.html
       \endverb
@@ -2597,6 +2619,7 @@
       \field{urlyear}{2026}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.5281/zenodo.3908559
       \endverb
@@ -2606,6 +2629,58 @@
       \verb{url}
       \verb https://github.com/ultralytics/yolov5
       \endverb
+    \endentry
+    \entry{zotero-item-796}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=25f0943b6c017facb6a93118f380ec78}{%
+           family={Joly},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a94aaba5a71c371b1e1ecf3e46d45181}{%
+           family={Lombardo},
+           familyi={L\bibinitperiod},
+           given={J-C},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=816b56fae3b98449bf21a8f06a54fb34}{%
+           family={Moreux},
+           familyi={M\bibinitperiod},
+           given={J-P},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ff4992a63e9b3f7ccb3365d0259cdb3}{%
+           family={Leroy},
+           familyi={L\bibinitperiod},
+           given={Q},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a8e5e07ea192d370a02fb41dac69764}{%
+           family={Buisson},
+           familyi={B\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67baabc400325d007a58ba15daad6683}
+      \strng{fullhash}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \strng{fullhashraw}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \strng{bibnamehash}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \strng{authorbibnamehash}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \strng{authornamehash}{67baabc400325d007a58ba15daad6683}
+      \strng{authorfullhash}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \strng{authorfullhashraw}{202df11cdaf9f1710b6027ad13e2e2b3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Culture et Recherche (141)}
+      \field{number}{141}
+      \field{title}{Snoop, Un Moteur de Recherche Visuelle Interactif}
+      \field{year}{2020}
+      \field{pages}{14\bibrangedash 15}
+      \range{pages}{2}
     \endentry
     \entry{journot2008}{book}{}{}
       \name{author}{1}{}{%
@@ -2749,6 +2824,7 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{170\bibrangedash 181}
       \range{pages}{12}
       \verb{doi}
@@ -2844,6 +2920,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/V2C7TGF6/choices.html
       \endverb
@@ -4152,6 +4229,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/26Y63GA3/labelstud.io.html
       \endverb
@@ -4734,6 +4812,7 @@
       \field{urlyear}{2026}
       \field{year}{2016}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.1506.02640
       \endverb
@@ -5182,6 +5261,7 @@
       \field{urlyear}{2026}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{21\bibrangedash 23}
       \range{pages}{3}
       \verb{doi}
@@ -5253,6 +5333,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/BW2UDJ3Q/yolo.html
       \endverb
@@ -5374,7 +5455,6 @@
       \field{month}{10}
       \field{title}{{{FRBR}} Model}
       \field{year}{4}
-      \true{nocite}
       \verb{urlraw}
       \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
       \endverb
@@ -5969,6 +6049,7 @@
       \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2408.15857
       \endverb
@@ -5999,6 +6080,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
@@ -6022,6 +6104,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/448JAI2E/yolo12.html
       \endverb
