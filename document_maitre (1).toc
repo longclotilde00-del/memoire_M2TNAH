@@ -9,7 +9,7 @@
 \contentsline {subsubsection}{\numberline {b.}Outils et modèles disponibles}{10}{subsubsection.0.0.1.2}%
 \contentsline {subsubsection}{\numberline {c.}Mise en application}{14}{subsubsection.0.0.1.3}%
 \contentsline {subsection}{\numberline {2.}Description et indexation automatique}{17}{subsection.0.0.2}%
-\contentsline {subsubsection}{\numberline {a.}Outils utilisés}{18}{subsubsection.0.0.2.1}%
+\contentsline {subsubsection}{\numberline {a.}Outils utilisés}{17}{subsubsection.0.0.2.1}%
 \contentsline {subsubsection}{\numberline {b.}Entraînement}{20}{subsubsection.0.0.2.2}%
 \contentsline {subsubsection}{\numberline {c.}Processus de validation technique}{22}{subsubsection.0.0.2.3}%
 \contentsline {subsection}{\numberline {3.}Comment indexer les données automatiquement produites ? : interface d’indexation}{24}{subsection.0.0.3}%

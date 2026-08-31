@@ -55,7 +55,6 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
       \endverb
@@ -250,7 +249,6 @@
       \field{volume}{53}
       \field{year}{2020}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{18\bibrangedash 28}
       \range{pages}{11}
       \verb{doi}
@@ -314,6 +312,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/T4CPW3KP/traitements-ia.html
       \endverb
@@ -986,6 +985,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
       \endverb
@@ -1090,6 +1090,7 @@
       \field{urlyear}{2026}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{61\bibrangedash 68}
       \range{pages}{8}
       \verb{doi}
@@ -1217,6 +1218,7 @@
       \field{volume}{11}
       \field{year}{2017}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.3389/fncom.2017.00102
       \endverb
@@ -1302,6 +1304,7 @@
       \field{volume}{30}
       \field{year}{2009}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{88\bibrangedash 97}
       \range{pages}{10}
       \verb{doi}
@@ -1564,6 +1567,65 @@
       \verb https://dl.acm.org/doi/10.1145/3479010
       \endverb
     \endentry
+    \entry{colavizza2026}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0f39a6c905980f0c43b1b725c6997f80}{%
+           family={Colavizza},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a94539642ec85baec1693257a78701f7}{%
+           family={Jaillant},
+           familyi={J\bibinitperiod},
+           given={Lise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{fullhash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{fullhashraw}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{bibnamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorbibnamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authornamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorfullhash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorfullhashraw}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Artificial Intelligence (AI) and machine learning offer significant potential for archives: they can help identify sensitive content at scale, support the creation and enhancement of descriptive metadata, and enable new forms of access and interpretation. Yet AI also risks compounding long-standing challenges around archival description, bias, and power, especially where collections are fragmentary, under-described, or documented using outdated or harmful terminology. This article asks: how can archives prepare their collections for AI in ways that enhance discoverability and access, while remaining grounded in archival principles and ethical commitments? Co-authored by a computer scientist and a digital humanist with experience in cultural heritage, the article offers a cross-disciplinary literature review and practice-oriented guidelines for “AI data preparedness” in archives. Drawing on work in data documentation, data readiness, collections-as-data, and archival theory, we argue that concepts such as provenance, appraisal, authenticity, reliability, and trustworthiness should shape AI applications in records and archives. We distinguish between task-specific AI systems and generative AI, and propose workflows in which AI assists rather than replaces archivists, including description, terminology mapping, and sensitivity review. AI readiness, we argue, is an ethical and interventionist approach to data curation.}
+      \field{issn}{2325-7962}
+      \field{journaltitle}{Archives and Records}
+      \field{month}{6}
+      \field{number}{0}
+      \field{shorttitle}{{{AI}} Ready}
+      \field{title}{{{AI}} Ready: How to Prepare Archives for {{Artificial Intelligence}}, Improve Discoverability, and Enhance Access}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{0}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/23257962.2026.2675937
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/A5LICZSX/Colavizza and Jaillant - 2026 - AI ready how to prepare archives for Artificial Intelligence, improve discoverability, and enhance.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/23257962.2026.2675937
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/23257962.2026.2675937
+      \endverb
+      \keyw{access,Artificial Intelligence,data preparedness,digital archives,discoverability}
+    \endentry
     \entry{zotero-item-704}{misc}{}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -1593,6 +1655,7 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/FS64XS4B/cli.html
       \endverb
@@ -2361,6 +2424,7 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TJH86T92/www.scenedetect.com.html
       \endverb
@@ -2874,7 +2938,6 @@
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/TIA8UF27/lunesco-lance-un-dialogue-mondial-sur-lintelligence-artificielle-et-lavenir-des-musees.html
       \endverb
@@ -2898,7 +2961,6 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
       \endverb
@@ -3720,6 +3782,7 @@
       \field{volume}{943}
       \field{year}{2020}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{eprint}
       \verb 1910.13796
       \endverb
@@ -3757,6 +3820,7 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/KN232MX5/mmca.html
       \endverb
@@ -4061,6 +4125,7 @@
       \field{month}{1}
       \field{title}{Automatic {{Annotations}} and {{Enrichments}} for {{Audiovisual Archives}}}
       \field{year}{2021}
+      \true{nocite}
       \field{pages}{633\bibrangedash 640}
       \range{pages}{8}
       \verb{doi}
@@ -4104,6 +4169,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
       \endverb
@@ -4361,6 +4427,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2312.05352
       \endverb
@@ -4468,7 +4535,6 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/8FDMQ6SA/prelinger-archive.html
       \endverb
@@ -4509,7 +4575,6 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
       \endverb
@@ -4663,6 +4728,7 @@
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/FR7EECI2/machine-learning.html
       \endverb
@@ -5162,6 +5228,7 @@
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.ibm.com/fr-fr/think/topics/computer-vision
       \endverb
@@ -5709,7 +5776,6 @@
       \field{urlmonth}{8}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
       \endverb
@@ -5879,6 +5945,93 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computers and Society,Computer Science - Digital Libraries,Computer Science - Emerging Technologies,Computer Science - Human-Computer Interaction}
     \endentry
+    \entry{wise2026}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=690f0ee67bdffd668342bcf69db48331}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={Nikki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=092b9d635901f256326f047eb353c62b}{%
+           family={Fenlon},
+           familyi={F\bibinitperiod},
+           given={Katrina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0249d79b71429313ab1ce73ff9421877}{%
+           family={Marsh},
+           familyi={M\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=673942d651d707db7a0f870db0b08d3a}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40079a5bdc12af3ff1ef77182138fb10}{%
+           family={Smoke},
+           familyi={S\bibinitperiod},
+           given={Ugoma},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e79f80012ffabec9ffbf176aeccc806}{%
+           family={Navarette},
+           familyi={N\bibinitperiod},
+           given={Candy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=685397fa65a4d0967310686f790a4f2b}{%
+           family={Havens},
+           familyi={H\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9666d2d62e26736718ec517d3f17437}
+      \strng{fullhash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{fullhashraw}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{bibnamehash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authorbibnamehash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authornamehash}{c9666d2d62e26736718ec517d3f17437}
+      \strng{authorfullhash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authorfullhashraw}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction. We report on an evaluation of the quality of metadata generated by a general purpose chatbot using items from a community organisation archive. Method. We developed an evaluation framework adapting quality dimensions from prior work and applied it to analyse a sample of 140 Dublin Core metadata records created by ChatGPT 4o from primary sources drawn from a community organisation collection, based on informal prompts. Analysis. Using independent qualitative coders and a peer review process, we assessed accuracy, conformance, consistency, completeness, objectiveness, transparency, bias, engagement, meaning and context, understandability, and provenance. Results. We found approximately 70\% of elements to be accurate. Most records were substantially complete and objective but often vague. Records exhibited significant inconsistencies in how ChatGPT completed fields, conformed to the Dublin Core schema, and interpreted primary sources. Conclusion(s). General purpose AI chatbots have the capacity to provide substantial ‘rough draft’ descriptive records for community collections, even with minimal prompting. These records require significant human intervention to ensure quality in terms of completeness, conformance to schema, accuracy, and meaningfulness to users. We offer insights for organisations and communities working with AI chatbots for description, along with implications for broader archival practice.}
+      \field{issn}{1368-1613}
+      \field{journaltitle}{Information Research an international electronic journal}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{iConf}
+      \field{shorttitle}{‘{{Appears}} to Be About’}
+      \field{title}{‘{{Appears}} to Be about’: An Evaluation of {{AI-generated}} Metadata Quality for Community Archives}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{31}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{417\bibrangedash 437}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.47989/ir31iConf64144
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/2E7FFCU3/Wise et al. - 2026 - ‘Appears to be about’ an evaluation of AI-generated metadata quality for community archives.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://publicera.kb.se/ir/article/view/64144
+      \endverb
+      \verb{url}
+      \verb https://publicera.kb.se/ir/article/view/64144
+      \endverb
+      \keyw{Artificial intelligence,Community archives,Cultural heritage,Linked open data}
+    \endentry
     \entry{xin2023}{misc}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d4fb376b548f77bc1d72051b3be16702}{%
@@ -5927,6 +6080,7 @@
       \field{urlyear}{2026}
       \field{year}{2023}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{doi}
       \verb 10.48550/arXiv.2308.00210
       \endverb
@@ -6249,6 +6403,7 @@
       \field{volume}{686}
       \field{year}{2025}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{121335}
       \range{pages}{1}
       \verb{doi}

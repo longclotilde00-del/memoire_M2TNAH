@@ -88,18 +88,20 @@
 \glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{16}
 \glossaryentry{séquences?\glossentry{sequence}|setentrycounter[]{page}"\glsnumberformat}{17}
 \glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{17}
-\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{17}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{18}
 \glossaryentry{vision par ordinateur?\glossentry{Vision par ordinateur}|setentrycounter[]{page}"\glsnumberformat}{18}
 \glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{18}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{18}
-\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{18}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{19}
 \glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{20}
 \glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{20}
@@ -156,3 +158,4 @@
 \glossaryentry{apprentissage non supervisé?\glossentry{appnonsup}|setentrycounter[]{page}"\glsnumberformat}{43}
 \glossaryentry{Human-in-the-Loop?\glossentry{hil}|setentrycounter[]{page}"\glsnumberformat}{43}
 \glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{51}

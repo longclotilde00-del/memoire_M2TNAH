@@ -1,4 +1,4 @@
-\subsection{Comment indexer les données automatiquement produites ? : interface d’indexation} - Processus côté interface 
+\subsection{Comment indexer les données automatiquement produites ? : interface d’indexation} 
 
 L’objet de notre étude est le reversement des données produites par l’indexation automatique au sein du modèle FRBR, adapté aux archives audiovisuelles. Si les outils d’extraction automatique tels que YOLOv8, nécessitent un réentrainement spécifique au corpus étudié, une seconde difficulté s'impose, celle de l'alignement de ces données avec un modèle de données personnalisé. Le modèle de données FRBR est, en effet, configuré selon les besoins métier de chaque institution et conditionne l’organisation des données pour l’utilisateur au sein de l’interface. Dès lors, comment reverser des données produites automatiquement, au sein d’un modèle de données configurable ? Ce reversement concrétise en effet l’indexation automatique, puisque les données deviennent visibles et requêtables par les utilisateurs, au sein de l'interface du logiciel. 
 
@@ -8,7 +8,7 @@ L’objet de notre étude est le reversement des données produites par l’inde
 
 \subsubsection{Reversement des données au sein du FRBR} 
 
-Une fois les deux processus de segmentation et de détection d'objets finalisés, deux types de données sont produits : les time codes, chiffrés, et les mots-clés, textuels et sémantiques. L'enjeu est de structurer ces données au sein du modèle FRBR existant. 
+Le processus automatisé proposé repose sur l'exécution de deux phases : d'une part la segmentation temporelle d'un flux vidéo (géérant des time codes et des images-clé), et d'autre part la détection et la classification d'objets (générant des mots-clés). L'enjeu est de prévoir la structuration de ces différents types de données, chiffrées et textuelles, au sein du modèle FRBR existant. 
 
 %Certains outils ont déjà été développés dans d’autres applications de gestion des collections afin d’effectuer ce reversement de manière automatique : Wedia, Keepeek, Einden, MomaSoft “classent automatiquement les images et vidéos en leur attribuant les métadonnées appropriées.” \footcite{zotero-item-732}
 
@@ -70,15 +70,14 @@ Une fois la modélisation du transfert établie entre les métadonnées automati
 
 \subsubsection{Interface de validation pour l'utilisateur} 
 
-Si la redéfinition du modèle FRBR s'effectue en \textit{backend} de l’application, par les équipes techniques et les équipes métiers de Skinsoft afin de préparer l’implémentation de processus automatiques, les étapes de ces processus doivent toutefois être restituées au sein de l'interface auprès de l'utilisateur métier. Afin de donner à l'utilisateur le rôle de validation finale sur les données produites, l'espace de travail S-Movies doit permettre à l'utilisateur de visualiser les résultats puis de les validder. 
+Si la redéfinition du modèle FRBR s'effectue en \textit{backend} de l’application, par les équipes techniques et les équipes métiers de Skinsoft afin de préparer l’implémentation de processus automatiques, les étapes de ces processus doivent toutefois être restituées au sein de l'interface auprès de l'utilisateur métier. Afin de donner à l'utilisateur le rôle de validation finale sur les données produites, l'espace de travail S-Movies doit permettre de visualiser les résultats afin de les valider. 
 
-%(Proposer un diagramme de décision pour exposer le processus interface utilisateur)  
-
-En effet, dans le cadre de l'implémentation de onctionnalités automatiques, fondés sur l'intelligence artificielle, la \gls{cnil} recommande que les utilisateurs soient familiarisés au fonctionnement et aux limites de ces outils, par exemple “la manière dont sont produites les sorties, les éventuels transferts de données, ainsi que les usages autorisés et les usages interdits." \footcite{zotero-item-729}. Ces informations pourraient notamment guider l’utilisateur pour la validation des données produites par les modèles. Si l'exposition de ces étapes peut être effectuée au sein de modes d'emploi dédiés, comme Skinsoft le prévoit déjà, les informations relatives aux fonctionnalités automatiques devront toutefois être directement intégrées à l’interface pour un souci de transparence. Ainsi, la \gls{cnil} recommande que "l’intégration de briques d’IA générative dans un système d’information (SI) devrait être pensée avec des éléments de design informant clairement les utilisateurs de l’origine de la proposition [...]." \footcite{zotero-item-729}.
-De plus, en cas de non-validation des données produites par l'utilisateur, il pourrait être pertinent de proposer "un point de contact pour remonter des problèmes ou des difficultés d’ordre éthique"\footcite{zotero-item-729}. L’interface devra ainsi prévoir un formulaire décrivant la raison du refus des données, envoyé à l’équipe technique afin que l'algorithme puisse être amélioré voire affiné. Au cours de notre stage, un système similaire a été proposé pour prévoir la gestion des erreurs de la recherche en langage naturel. Un formulaire est prévu pour l'utilisateur en cas de résultats non pertinents pour que le processus soit amélioré. (cf ANNEXE) ? 
-Si notre étude ne relève pas de l'IA générative, il est toutefois pertinent d'offrir à l'utilisateur un niveau de transparence maximal au sein de l'interface, via la viualisation des données produites et leur validation finale. Pour cela, nous prendrons l'exemple de la plateforme Amalia.js, développée par l'\gls{ina} en 2015, conçue pour visualiser les résultats d’algorithmes d’analyse audiovisuelle \footcite{zotero-item-740}. Le besoin à l'origine d'Amalia.js est donc de permettre de visualiser les résultats divers issus de pipelines d'automatisation \footcite{herve2015}. Cette interface permettrait d'une part de visualiser les résultats et d'autre part, de vérifier la conformité des données produites en lien avec les standards métiers en vigueur au sein du logiciel \footcite{herve2015}. L'interface permet également d’annoter directement le flux vidéo afin de corriger les données produites.» \footcite{herve2015}. La correction effectuée par l'utilisateur  permet de constituer des donénes d'entraînement supplémentaires afin d'améliorer les algorithmes d'indexation automatique \footcite{herve2015}. 
+En effet, dans le cadre de l'implémentation de fonctionnalités automatiques, fondées sur l'intelligence artificielle, la \gls{cnil} recommande que les utilisateurs soient familiarisés au fonctionnement et aux limites de ces outils, par exemple “la manière dont sont produites les sorties, les éventuels transferts de données, ainsi que les usages autorisés et les usages interdits." \footcite{zotero-item-729}. Ces informations pourraient notamment guider l’utilisateur pour la validation des données produites par les modèles. Si l'exposition de ces étapes peut être effectuée au sein de modes d'emploi dédiés, comme Skinsoft le prévoit déjà, les informations relatives aux fonctionnalités automatiques devront toutefois être directement intégrées à l’interface pour un souci de transparence. Ainsi, la \gls{cnil} recommande que "l’intégration de briques d’IA générative dans un système d’information (SI) devrait être pensée avec des éléments de design informant clairement les utilisateurs de l’origine de la proposition [...]." \footcite{zotero-item-729}.
+De plus, en cas de non-validation des données produites par l'utilisateur, il pourrait être pertinent de proposer "un point de contact pour remonter des problèmes ou des difficultés d’ordre éthique"\footcite{zotero-item-729}. L’interface devra ainsi prévoir un formulaire décrivant la raison du refus des données, envoyé à l’équipe technique afin que l'algorithme puisse être amélioré, voire affiné. Au cours de notre stage, un système similaire a été proposé afin de prévoir la gestion des erreurs d'un outil de recherche en langage naturel. Un formulaire est prévu pour l'utilisateur en cas de résultats non pertinents pour que le processus soit amélioré. (cf ANNEXE) ? 
+Si notre étude ne relève pas de l'IA générative, il est toutefois pertinent d'offrir à l'utilisateur un niveau de transparence maximal au sein de l'interface, via la viualisation des données produites et leur validation finale. À l'image des deux phases de traitement automatiques développées dans les section précédentes (segmentation et classification), la validation côté interface pourra prendre la forme de deux phases de décision. Il pourra d'abord être demandé à l'utilisateur d'actionner ou non le processus de segmentation puis de le valider ou de l'invalider. Une fois le processus de segmentation finalisé, l'utilisateur pourra décider de déclencher le processus de détection d'objets sur les segments produits, puis de finalement les modifier ou de les valider.
+Afin de concrétiser le processus de validation côté interface, nous nous appuyons sur l'exemple de la plateforme Amalia.js, développée par l'\gls{ina} en 2015, conçue pour visualiser les résultats d’algorithmes d’analyse audiovisuelle \footcite{zotero-item-740}. Le besoin à l'origine d'Amalia.js est donc de permettre de visualiser les résultats divers issus de pipelines d'automatisation \footcite{herve2015}. Cette interface permettrait d'une part de visualiser les résultats et d'autre part, de vérifier la conformité des données produites en lien avec les standards métiers en vigueur au sein du logiciel \footcite{herve2015}. L'interface permet également d’annoter directement le flux vidéo afin de corriger les données produites \footcite{herve2015}. La correction effectuée par l'utilisateur  permet de constituer des données d'entraînement supplémentaires afin d'améliorer les algorithmes d'indexation automatique \footcite{herve2015}. 
 Amalia.js intègre notamment un \textit{plugin} de \textit{timeline} pour l'affichage des segments temporels et des images-clés associées, ainsi qu'un \textit{plugin} de superposition (\textit{overlay}) qui permettrait l'affichage de l'encadrement des objets détectés \footcite{zotero-item-740}.
-Plutôt que de développer deux modules distincts, cette logique pourrait être combinée au sein de S-Movies sous la forme d'un module d'édition des données, en présentant à l'utilisateur la ligne temporelle des séquences couplée à une fenêtre d'édition latérale. Ainsi, les images-clé présenteraient les objets détectés par YOLOv8, et les mots-clés associés apparaitraient dans le volet latéral sous la forme de propositions. Ce module d'édition s'inspire du \textit{plugin} \textit{Editor} au sein d'Amalia.js dont la figure \ref{figamalia} ci-dessous ilustre la disposition : 
+Plutôt que de développer deux modules distincts, cette logique pourrait être combinée au sein de S-Movies sous la forme d'un module d'édition des données. Ce module présenterait d'abord à l'utilisateur la ligne temporelle des séquences associées aux images-clés, puis après leur validation, le module prévoierait l'ouverture d'une fenêtre d'édition latérale contenant les propositions de mots-clés et les objets détectés entourés au sein des images-clés. Ce module d'édition s'inspire du \textit{plugin} \textit{Editor} au sein d'Amalia.js dont la figure \ref{figamalia} ci-dessous ilustre la disposition : 
 
  \begin{figure}[H] 
 	
@@ -95,7 +94,7 @@ Plutôt que de développer deux modules distincts, cette logique pourrait être 
 En cas de modification par l'utilisateur, l'interface pourrait enregistrer les données validées, tout en les envoyant en \textit{backend}, afin que le processus soit amélioré. 
 Le développement de l'interface serait ainsi conforme à la mise en place d'une automatisation facilitatrice de la création de données, en incitant l'utilisateur "à vérifier les données fournies en entrée et la qualité des sorties" \footcite{zotero-item-729}.
 
-Concrètement, en \textit{frontend}, dans l’interface de l’application prévue pour l’utilisateur, le processus suivant peut-être imaginé, illustré par un diagramme de décision (\ref{figvalidation}):
+Concrètement, en \textit{frontend}, dans l’interface de l’application prévue pour l’utilisateur, le processus suivant peut-être imaginé, illustré par un diagramme de décision (\ref{fig:validation}):
 
  \begin{figure}[H] 
 	
@@ -105,30 +104,15 @@ Concrètement, en \textit{frontend}, dans l’interface de l’application prév
 	
 	\caption{Processus de validation de l'utilisateur métier} 
 	
-	\label{figvalidation} 
+	\label{fig:validation} 
 	
 \end{figure}
 
-ingest, validation de la segmentation, validation de l'indexation 
- L’utilisateur procède à l’ingest d’un fichier numérique d’une œuvre/rushe dans sa globalité. L’ingest d’un fichier numérique vidéo devrait pouvoir déclencher la proposition suivante pour l’utilisateur : Souhaitez-vous segmenter automatiquement ce fichier ? Une infobulle devrait indiquer à l’utilisateur ce qu’implique cette segmentation automatique, le processus expliqué en quelques phrases. 
-
-Validation : 
-En effet, il faudra également lui indiquer les actions qu’il va devoir effectuer au cours du processus. En effet, il devra être demandé à l’utilisateur de valider ou non, les données produites.  
-
-Les données de gestion sur la production de ces données doivent être automatiquement enregistrées par l’application : quel est l’outil utilisé, le processus effectué, qui a validé, quand... L’application prévoit déjà un enregistrement des données de gestion et de l’historique des modifications automatique sur les notices via un menu spécifique. Un nouveau menu pourrait être créé pour les données de gestion automatiques des notices.  
-
-Une fois que le fichier numérique a été segmenté, l’interface doit pouvoir présenter à l’utilisateur les times codes choisis avec l’image clé associée pour que l’utilisateur puisse visualiser les coupures qui ont été sélectionnées en accord avec les différences entre les images. Si l’utilisateur valide la segmentation, l’interface indexe les time codes sur le fichier numérique associé automatiquement dans le champ dédié, propose la génération de mots clés sur les segments générés : l’utilisateur pourra alors choisir s’il veut appliquer la génération de mots clés sur tous les segments ou seulement des segments spécifiques sous la forme d’une sélection.  
-Une fois le processus de génération de mots clés terminé, l’interface propose à l’utilisateur de valider les mots clés en accord avec les images clés analysées.  
-
-Prévoir une file d'attente et une barre de chargement de traitement : tableau de bord skinsoft 
-
-
+Ce processus permet de laisser l'utilisateur métier décider de l'indexation des données via l'actionnage ou non des fonctionnalités automatiques. L'utilisateur décide en amont du processus, et valide ensuite les données produites à es fins d'indexation. 
 
 %Exemple de la plateforme okapi :  
 
 %“Okapi fournit un ensemble d’outils destiné à l’analyse sémantique et sémiotique de contenus multimédia (vidéo, image, son) et à la gestion de corpus de vidéos, d’extraits sonores et de parties d’images. Les outils d’analyse permettent l’indexation et la description sémantique de contenu sur la base d’ontologies qui décrivent les objets et classes des domaines étudiés. Les outils de gestion de corpus fournissent des services pour la constitution, la visualisation, l’enrichissement et la valorisation de corpus thématiques.” \footcite{lalande2022} (cf capture d'écran)
-
-
 
 \subsubsection{Rendre les données recherchables et découvrables} 
 
@@ -140,6 +124,12 @@ Outre la recherche textuelle, l'indexation fine des contenus audiovisuels peut d
 automatique (\gls{inria}), permet de croiser une exploration fine des contenus audiovisuels avec une interactivité qui place l'utilisateur au centre \footcite{zotero-item-744}. Fondé sur un bouclage de pertinence, il permet, à partir d'une requête sur une caractéristique visuelle, de proposer à l'utilisateur des résultats pertinents que celui-ci peut annoter comme résultats pertinents ou non pertinents \footcite{zotero-item-796}. Le moteur prend ces annotations en compte afin d'affiner la pertinence des résultats de recherche.
 Ce moteur innovant suit la même logique que l'interface de validation pensée sur le modèle d'Amalia.js, et que le mode de recherche en \gls{nlp}, qui prévoit d'être affiné en fonction des retours utilisateurs. Les retours utilisateur, intégrés à l'interface, ne srevent pas seulement à valider les données mais améliorent le fonctionnement du logiciel, fond sur des processus automatisés. 
 
+Conclusion sous partie 
+\textit{In fine}, l'intégration de l'indexation automtique au sein d'un logiciel de gestion des collections exige une réadaptation du modèle de données via la création d'une nouvelle entité qui permet d'accueillir adéquatement les nouvelles métadonnées produites. De plus, l'implémentation du processus automatique implique la mise en place d'une interface de validation qui place l'utilisateur au centre de l'indexation définitive. Une fois indexées, la masse de données produites permet de concrétiser la finalité du FRBR, celle de la découvrabilité, via des outils de recherche innovants qui permettent d'explorer directement le contenu de l'image. 
+
+Conclusion partie II :
+La seconde partie de cette étude a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des archives audiovisuelles au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de vision par ordinateur classique, et une classification par mots-clés avec un outil de fondé sur la vision par ordinateur et l'apprentissage profond. Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur est décisionnaire de l'indexation. 
+Toutefois, l'opérationnalité d'un tel processus réside moins dans la performance des outils employés que dans l'adaptation aux contraintes de développement d'un éditeur de logiciels pour la navigation fluide de l'utilisateur et la personnalisation des interfaces. 
 
 
 
