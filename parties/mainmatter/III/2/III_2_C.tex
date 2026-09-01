@@ -1,0 +1,12 @@
+\section{\label{III_2_C}flexibilité logicielle et paramétrage}
+
+Afin de pouvoir adapter les nouvelles fonctionnalités aux différentes institutions, il faut également pouvoir inscrire ces briques logicielles au sein de l'architecture de l'application, dont le modèle de données est une composante majeure. Nous l'avons vu, le modèle FRBR diffère d'une istitution à une autre, en fonction de la nature du corpus audiovisuel géré. 
+Si pour d'autres fonctionnalités développées par Skinsoft telles que le chatbot sont fondées sur un LLM, grand modèle de langage, qui sont donc entraînés sur des règles métier écrites qui peuvent par exemple comprendre une description du FRBR pour une institution donnée, ou le manuel de la FIAF, les focntionnalité proposées dans cette étude reposent sur des technologies de computer vision, et non des modèles de langage capables de "raisonner". AInsi, l'adaptation de ces fonctionnalités au FRBR pourrait passer par la proposition à l'utilisateur de pouvoir choisir, décider à quel niveau les données créées par le pipeline seront conservées. POur la segmentation par exemple, nous avions évoqué la création d'un niveau supplémentaire attaché à l'oeuvre, celui du segment. L'équipe métier chez Skinsoft pourrait intégrer au paramétrage déjà en place au moyen de masque et méta masques, l'accord du modèle de données de l'institution avec le pipeline et les fonctionnalités proposées. En amont de la fonctionnalité proposée, l'équipe métier pourrait dialoguer avec l'institution cliente afin de sélectionner la conservation des données créées automatiquement au sein du modèle FRBR. Certaines institutions pourraient par exemple ne pas vouloir le niveau "segment". 
+proposer la fonctionnalité comme un module qu"on peut désactiver pour certains fonds ou pas (comme le NLP) : l'utilisateur n'est pas obligé de passer par ces fonctionnalités pour indexer son fods d'archives, il peut le solliciter quand il le souhaite. 
+
+Paramérage individuel de ces nouvelles fonctionnalités pour l'adaptation aux normes, et adaptation des modèles au corpus pour la gestion des erreurs 
+intégrer un module paramétrable, comme le socle de l'application 
+réglage des seuils de confiance de l'IA 
+environnement test / formations pour les clients 
+s'adapter à chaque modélisation FRBR de l'institutions selon les collections audiovisuelles. 
+souci de transparence et confiance : traduction des requêtes et de ce que produit le moteur IA 

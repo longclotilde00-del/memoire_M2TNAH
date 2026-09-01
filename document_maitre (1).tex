@@ -1,7 +1,3 @@
-%Document vide aux normes de l'École nationale des Chartes
-%crée par J.B. Camps
-%Dernières modifications E. Rouquette (03/2026)
-
 %%%%%%%%%%%%%%%%%%%%%% PRÉAMBULE
 
 
@@ -184,7 +180,7 @@
 				\textbf{Clotilde Long}\\
 			\end{Large}
 		%selon le cas
-			\begin{normalsize} \textit{licencié.e ès lettres}\\
+			\begin{normalsize} \textit{licencié.e ès cinéma}\\
 				\textit{diplômé.e de master}
 			\end{normalsize}
 			
@@ -193,12 +189,12 @@
 			\bigskip
 			
 			\begin{Huge}
-				\textbf{TITRE DU MÉMOIRE}\\
+				\textbf{Segmentation et indexation automatiques des archives audiovisuelles}\\
 			\end{Huge}
 			\bigskip
 			\bigskip
 			\begin{LARGE}
-				\textbf{SOUS-TITRE DU MÉMOIRE}\\
+				\textbf{L'enjeu du modèle de données au sein d'un logiciel de gestion des collections}\\
 			\end{LARGE}
 			
 			\bigskip
@@ -231,7 +227,7 @@
 	
 	\textbf{Mots-clés:} une liste de mots-clés~; séparés par des points-virgules.
 	
-	\textbf{Informations bibliographiques:} Prénom Nom, \textit{Titre du mémoire. Sous-titre du mémoire}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. [Noms des directeurs.trices], École nationale des chartes, 20245.
+	\textbf{Informations bibliographiques:} Clotilde Long, \textit{Segmentation et indexation automatiques des archives audiovisuelles. L'enjeu du modèle de données au sein d'un logiciel de gestion des collections}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. Maxime Challon, École nationale des chartes, 2026.
 	
 	
 	
@@ -274,7 +270,7 @@
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
-\nocite{*} %pour afficher la bibliographie sans que les sources soient citées dans le texte%
+%\nocite{*} %pour afficher la bibliographie sans que les sources soient citées dans le texte%
 \printbibliography
 
 \chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
@@ -290,7 +286,7 @@ title={NLP}]
 
 	
 \chapter{Introduction}	
-%\input{chapitres/introduction.tex}
+%\input{chapitres/mainmatter/introduction.tex}
 %si l'introduction est longue, elle peut être importée avec input
 
 \newpage{\pagestyle{empty}\cleardoublepage}
@@ -302,36 +298,28 @@ title={NLP}]
 	
 
 	\part{Indexer les archives audiovisuelles}
-%\chapter{Mon premier chapitre}
-%\input{chapitres/frbr.tex}
-%\input{chapitres/frbr_archives_audiovisuelles.tex}
-%\input{chapitres/indexation_frbr.tex}
+\input{parties/mainmatter/I/1/I_1.tex}
+\input{parties/mainmatter/I/2/I_2.tex}
+\input{parties/mainmatter/I/3/I_3.tex}
 
-%\input{exemple_section1.tex} %Input: importer un fichier
-
-
-%etc
-%Ou bien: ne pas mettre chapter, et importer le chapitre complet:
-%\input{mon_chapitre_1.tex}
-%\input{mon_chapitre_2.tex}	
-%etc
 	
 \part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
-	
-\input{chapitres/partII_1.tex}	
-\input{chapitres/partII_2.tex}
-\input{chapitres/partII_3.tex}
-%\input{chapitres/II_3.tex}
 
-\part{partie 3}
-%\input{chapitres/III_1.tex}
-%\input{chapitres/III_2.tex}
-%\input{chapitres/III_3.tex}
+\input{parties/mainmatter/II/1/II_1.tex}
+\input{parties/mainmatter/II/2/II_2.tex}
+\input{parties/mainmatter/II/3/II_3.tex}
+
+\part{Perspectives}
+
+\input{parties/mainmatter/III/1/III_1.tex}
+\input{parties/mainmatter/III/2/III_2.tex}
+\input{parties/mainmatter/III/3/III_3.tex}
+
 	
-	\chapter*{Conclusion}
+\chapter*{Conclusion}
 	\addcontentsline{toc}{chapter}{Conclusion}
 \newpage{\pagestyle{empty}\cleardoublepage}
-	\include{chapitres/conclusion.tex}
+%\include{chapitres/mainmatter/conclusion.tex}
 
 
 
@@ -344,7 +332,7 @@ title={NLP}]
 
 \chapter[Titre court]{Le titre très long de la première annexe}
 
-%\input{fichier.tex}
+\input{parties/backmatter/annexes.tex}
 
 \newpage{\pagestyle{empty}\cleardoublepage}
 
