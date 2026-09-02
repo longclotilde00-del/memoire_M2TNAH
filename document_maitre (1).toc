@@ -1,7 +1,7 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Introduction}{xi}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xiii}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Le FRBR, modèle d'indexation conçu pour les bibliothèques}{3}{chapter.1}%
 \contentsline {section}{\numberline {I.}Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{section.1.1}%
@@ -20,25 +20,44 @@
 \contentsline {section}{\numberline {I.}Machine learning et deep learning}{38}{section.4.1}%
 \contentsline {section}{\numberline {II.}Outils et modèles disponibles}{42}{section.4.2}%
 \contentsline {section}{\numberline {III.}Mise en application}{46}{section.4.3}%
-\contentsline {part}{III\hspace {1em}Perspectives}{51}{part.3}%
-\contentsline {chapter}{Conclusion}{53}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Titre court}{55}{appendix.A}%
-\contentsline {part}{Annexes}{59}{part*.8}%
-\contentsline {chapter}{\numberline {A} Suggestions d'améliorations pour l'espace de travail S-Movies}{59}{appendix.A}%
-\contentsline {section}{\numberline {I.}Améliorations}{59}{section.A.1}%
-\contentsline {subsection}{\numberline {1.}Amélioration des liens}{59}{subsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{59}{subsubsection.A.1.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{60}{subsubsection.A.1.1.2}%
-\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{60}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{60}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {4.}Conserver le niveau du FRBR en mode saisie sur les métas masques }{62}{subsection.A.1.4}%
-\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{62}{section.A.2}%
-\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{62}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {2.}Recherche de médias par type de format }{63}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {3.}Mise en place d’un repérage couleur pour les niveaux du FRBR }{64}{subsection.A.2.3}%
-\contentsline {subsection}{\numberline {4.}Mise en place d’une visualisation des liens entre entités du FRBR }{64}{subsection.A.2.4}%
-\contentsline {subsection}{\numberline {5.}Automatisation du catalogage en niveaux FRBR }{67}{subsection.A.2.5}%
-\contentsline {subsection}{\numberline {6.}Affichage des niveaux FRBR dans l’onglet/entête d’une notice }{67}{subsection.A.2.6}%
-\contentsline {subsection}{\numberline {7.}Repenser le mode de création de notices dans des tables individuelles}{68}{subsection.A.2.7}%
-\contentsline {chapter}{Glossaire}{73}{section*.9}%
-\contentsline {chapter}{Liste des abréviations}{75}{section*.11}%
+\contentsline {chapter}{\numberline {5}Description et indexation automatique}{51}{chapter.5}%
+\contentsline {section}{\numberline {I.}Outils utilisés}{51}{section.5.1}%
+\contentsline {section}{\numberline {II.}Entraînement}{54}{section.5.2}%
+\contentsline {section}{\numberline {III.}Processus de validation technique}{57}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Comment indexer les données automatiquement produites ? : interface d’indexation}{61}{chapter.6}%
+\contentsline {section}{\numberline {I.}Reversement des données au sein du FRBR}{61}{section.6.1}%
+\contentsline {section}{\numberline {II.}Interface de validation pour l'utilisateur}{65}{section.6.2}%
+\contentsline {section}{\numberline {III.}Rendre les données recherchables et découvrables}{69}{section.6.3}%
+\contentsline {part}{III\hspace {1em}Perspectives}{71}{part.3}%
+\contentsline {chapter}{\numberline {7}Perspectives d'améliorations L'implémentation de ces nouvelles fonctionnalités pose des questions sur la navigation au sein du FRBR et de l’application qui sont déjà présentes (question d’ergonomie, de navigation, et de visualisation du modèle FRBR)}{75}{chapter.7}%
+\contentsline {section}{\numberline {I.}Une segmentation manuelle}{76}{section.7.1}%
+\contentsline {section}{\numberline {II.}Visualisation du FRBR en graphe pour préparer la mise en place d’une nouvelle entité : la séquence et de nouvelles données produites automatiquement : alourdit les bdd donc nécessite des visualisations}{77}{section.7.2}%
+\contentsline {chapter}{\numberline {8} Généraliser le processus}{81}{chapter.8}%
+\contentsline {section}{\numberline {I.} Proposer un processus modulable}{81}{section.8.1}%
+\contentsline {section}{\numberline {II.} Constituer des données d'entraînement patrimoniales}{83}{section.8.2}%
+\contentsline {section}{\numberline {III.} Constituer des données d'entraînement patrimoniales}{84}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Cohabitation d’une documentation humaine et automatique : intelligence hybride (livre blanc) l’indexation n’est pas complètement automatisée}{87}{chapter.9}%
+\contentsline {section}{\numberline {I.}Statut des données : données automatiques et données manuelles/métiers}{88}{section.9.1}%
+\contentsline {section}{\numberline {II.}Qualité des données : une tâche à part entière}{89}{section.9.2}%
+\contentsline {section}{\numberline {III.}Qualité des données : une tâche à part entière}{91}{section.9.3}%
+\contentsline {chapter}{Conclusion}{93}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Titre court}{95}{appendix.A}%
+\contentsline {part}{Annexes}{99}{part*.8}%
+\contentsline {chapter}{\numberline {A} Suggestions d'améliorations pour l'espace de travail S-Movies}{99}{appendix.A}%
+\contentsline {section}{\numberline {I.}Améliorations}{99}{section.A.1}%
+\contentsline {subsection}{\numberline {1.}Amélioration des liens}{99}{subsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{99}{subsubsection.A.1.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{100}{subsubsection.A.1.1.2}%
+\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{100}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{100}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {4.}Conserver le niveau du FRBR en mode saisie sur les métas masques }{102}{subsection.A.1.4}%
+\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{102}{section.A.2}%
+\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{102}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {2.}Recherche de médias par type de format }{103}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {3.}Mise en place d’un repérage couleur pour les niveaux du FRBR }{104}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {4.}Mise en place d’une visualisation des liens entre entités du FRBR }{104}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {5.}Automatisation du catalogage en niveaux FRBR }{107}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {6.}Affichage des niveaux FRBR dans l’onglet/entête d’une notice }{107}{subsection.A.2.6}%
+\contentsline {subsection}{\numberline {7.}Repenser le mode de création de notices dans des tables individuelles}{108}{subsection.A.2.7}%
+\contentsline {chapter}{Glossaire}{111}{section*.9}%
+\contentsline {chapter}{Liste des abréviations}{113}{section*.11}%

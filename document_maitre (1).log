@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  1 SEP 2026 20:17
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  2 SEP 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,6 +999,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks44
 \ex@=\dimen300
 )
+(|kpsewhich --var-value=TEXMF_OUTPUT_DIRECTORY)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
 
@@ -1222,6 +1223,14 @@ Package: glossary-tree 2025/08/11 v4.8 (NLCT)
 \l__glossaries_tree_level_int=\count518
 \glstreeindent=\skip107
 ))
+runsystem(makeindex -s "document_maitre (1)".ist -t "document_maitre (1)".glg -
+o "document_maitre (1)".gls "document_maitre (1)".glo)...quotation error in sys
+tem command.
+
+runsystem(makeindex -s "document_maitre (1)".ist -t "document_maitre (1)".alg -
+o "document_maitre (1)".acr "document_maitre (1)".acn)...quotation error in sys
+tem command.
+
 \glswrite=\write6
 \glo@main@file=\write7
 \openout7 = `"document_maitre (1).glo"'.
@@ -1459,6 +1468,18 @@ LaTeX Warning: Label `II_1' multiply defined.
 LaTeX Warning: Label `II_1' multiply defined.
 
 
+LaTeX Warning: Label `II_1_B' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1_C' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
 LaTeX Warning: Label `II_1_C' multiply defined.
 
 
@@ -1480,10 +1501,208 @@ LaTeX Warning: Label `II_1_C' multiply defined.
 LaTeX Warning: Label `II_1' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `II_2_A' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2_A' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2_B' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2_B' multiply defined.
+
+
+LaTeX Warning: Label `II_2_B' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_3_A' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3_A' multiply defined.
+
+
+LaTeX Warning: Label `II_3_A' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3_C' multiply defined.
+
+
+LaTeX Warning: Label `II_3_C' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `III_1' multiply defined.
+
+
+LaTeX Warning: Label `III_1_A' multiply defined.
+
+
+LaTeX Warning: Label `III_1' multiply defined.
+
+
+LaTeX Warning: Label `III_1_B' multiply defined.
+
+
+LaTeX Warning: Label `III_1_B' multiply defined.
+
+
+LaTeX Warning: Label `III_1' multiply defined.
+
+
+LaTeX Warning: Label `III_1' multiply defined.
+
+
+LaTeX Warning: Label `III_1_B' multiply defined.
+
+
+LaTeX Warning: Label `III_1_B' multiply defined.
+
+
+LaTeX Warning: Label `III_1' multiply defined.
+
+
+LaTeX Warning: Label `III_2_A' multiply defined.
+
+
+LaTeX Warning: Label `III_2' multiply defined.
+
+
+LaTeX Warning: Label `III_2' multiply defined.
+
+
+LaTeX Warning: Label `III_2_B' multiply defined.
+
+
+LaTeX Warning: Label `III_2_B' multiply defined.
+
+
+LaTeX Warning: Label `III_2' multiply defined.
+
+
+LaTeX Warning: Label `III_2_B' multiply defined.
+
+
+LaTeX Warning: Label `III_2' multiply defined.
+
+
+LaTeX Warning: Label `III_2_B' multiply defined.
+
+
+LaTeX Warning: Label `III_2_B' multiply defined.
+
+
+LaTeX Warning: Label `III_2' multiply defined.
+
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3_A' multiply defined.
+
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3_B' multiply defined.
+
+
+LaTeX Warning: Label `III_3_B' multiply defined.
+
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3_B' multiply defined.
+
+
+LaTeX Warning: Label `III_3_B' multiply defined.
+
+
+LaTeX Warning: Label `III_3_B' multiply defined.
+
+
+LaTeX Warning: Label `III_3' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
@@ -1735,6 +1954,15 @@ Overfull \hbox (2.77263pt too wide) in paragraph at lines 275--275
  []
 
 
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 275--275
+\TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
+ [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
+[][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+
+[6]
 Overfull \hbox (11.73682pt too wide) in paragraph at lines 275--275
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
@@ -1749,30 +1977,40 @@ n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[].
 
 
 
-[6]
-
 [7]
+Overfull \hbox (10.67084pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
+rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
+12 ,
+ []
+
+
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
+field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
+s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
+oome[]\TU/lmr/m/n/12 ​ (Alice),
+ []
+
+
 
 [8]
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 282.
+[9]
 
+[10]
 
-LaTeX Warning: Empty bibliography on input line 282.
-
-
-
-[9
+[11
 
 ]
-
-[10
-
-]
-
-[11]
 
 [12
+
+]
+
+[13]
+
+[14
 
 ]
 
@@ -2157,47 +2395,279 @@ File: images/pyscene.png Graphic file (type bmp)
 
 [47]
 
-[48])
+[48]) (./parties/mainmatter/II/2/II_2.tex
 
 [49]
 
 [50
 
 ]
+Chapitre 5.
+(./parties/mainmatter/II/2/II_2_A.tex
 
 [51]
 
 [52]
+File: images/yolo.png Graphic file (type bmp)
+<images/yolo.png>
 
-[53
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[53]) (./parties/mainmatter/II/2/II_2_B.tex)
+(./parties/mainmatter/II/2/II_2_C.tex
+
+[54]
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+
+
+[55]
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+
+
+[56]
+
+[57])
+
+[58]) (./parties/mainmatter/II/3/II_3.tex
+
+[59]
+
+[60
+
+]
+Chapitre 6.
+(./parties/mainmatter/II/3/II_3_A.tex
+
+[61]
+File: images/fragment_frbr.png Graphic file (type bmp)
+<images/fragment_frbr.png>
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[63]) (./parties/mainmatter/II/3/II_3_B.tex
+
+[64]
+
+[65]
+File: images/amalia.png Graphic file (type bmp)
+<images/amalia.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[66]
+File: images/validation.png Graphic file (type bmp)
+<images/validation.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[68]) (./parties/mainmatter/II/3/II_3_C.tex
+
+[69]))
+
+[70]
+
+[71
 
 ]
 
-[54
+[72] (./parties/mainmatter/III/1/III_1.tex
+
+[73]
+
+[74
+
+]
+Chapitre 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[75] (./parties/mainmatter/III/1/III_1_A.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 38.99979pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.99979pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.99979pt}.
+
+[76]) (./parties/mainmatter/III/1/III_1_B.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 38.99979pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.99979pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.99979pt}.
+
+[77]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 38.99979pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.99979pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.99979pt}.
+
+[78])) (./parties/mainmatter/III/2/III_2.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 38.99979pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.99979pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.99979pt}.
+
+[79]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 38.99979pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.99979pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-22.99979pt}.
+
+[80
+
+]
+Chapitre 8.
+(./parties/mainmatter/III/2/III_2_A.tex
+
+[81]
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+
+
+[82]) (./parties/mainmatter/III/2/III_2_B.tex
+
+[83]) (./parties/mainmatter/III/2/III_2_B.tex
+
+[84]
+
+[85])) (./parties/mainmatter/III/3/III_3.tex
+
+[86]
+Chapitre 9.
+
+Overfull \hbox (6.48555pt too wide) in paragraph at lines 3--5
+[]\TU/lmr/m/n/12 L’intégration de l’apprentissage automatique aux processus d’a
+rchivage audiovisuel,relève
+ []
+
+
+Overfull \hbox (15.7341pt too wide) in paragraph at lines 11--12
+\TU/lmr/m/n/12 l’adaptabilité (apprentissage active via l’annotation humaine), 
+la responsabilité (assurer l’éthique
+ []
+
+
+
+[87
+
+] (./parties/mainmatter/III/3/III_3_A.tex)
+(./parties/mainmatter/III/3/III_3_B.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[88]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[89]) (./parties/mainmatter/III/3/III_3_B.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[90]
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[91]))
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[92]
+
+[93
+
+]
+
+[94
 
 ]
 Annexe A.
-(./annexes/annexe1.tex
+(./parties/backmatter/annexe.tex
 
-[55
-
-]
-
-[56
+[95
 
 ]
 
-[57]
+[96
 
-[58]
+]
+
+[97]
+
+[98]
 Annexe A.
 
 
-[59
+[99
 
 ]
 
-[60]
+[100]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
@@ -2205,25 +2675,25 @@ Underfull \vbox (badness 1259) has occurred while \output is active []
 
 
 
-[61]
+[101]
 
-[62]
+[102]
 
-[63]
+[103]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[64]
+[104]
 
-[65]
+[105]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[66]
+[106]
 Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
 []\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
 ifestation, Item, puisque
@@ -2231,42 +2701,35 @@ ifestation, Item, puisque
 
 
 
-[67]
+[107]
 
-[68]
+[108]
 
-[69])
+[109])
 
-[70] (./document_maitre (1).gls
-
-[71
-
-
-]
-
-[72
-
-]
-Overfull \hbox (21.57657pt too wide) in paragraph at lines 29--29
+[110] (./document_maitre (1).gls
+Overfull \hbox (21.57657pt too wide) in paragraph at lines 45--45
 []\TU/lmr/m/n/12 Functional Requirements for Bibliographic Records. Modèle conc
 eptuel entité-association
  []
 
-) (./document_maitre (1).acr
 
-[73
+
+[111
+
+
+
+
+]) (./document_maitre (1).acr
+
+[112])
+
+[113
+
 
 ]
 
-[74
-
-])
-
-[75
-
-]
-
-[76
+[114
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -2274,29 +2737,31 @@ eptuel entité-association
 
 
 
-[77]
+[115]
 
-[78
+[116
 
-] (./document_maitre (1).lof)
+] (./document_maitre (1).lof
+
+[117])
 \tf@lof=\write10
 \openout10 = `"document_maitre (1).lof"'.
 
 
 
-[79]
+[118] (./document_maitre (1).toc
 
-[80
+[119
 
-] (./document_maitre (1).toc
+]
 
-[81])
+[120])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[82] (./document_maitre (1).aux)
+[121] (./document_maitre (1).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2318,12 +2783,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45928 strings out of 468389
- 960773 string characters out of 5440619
- 1892333 words of memory out of 5000000
- 73762 multiletter control sequences out of 15000+600000
+ 46612 strings out of 468389
+ 976264 string characters out of 5440619
+ 1910869 words of memory out of 5000000
+ 74379 multiletter control sequences out of 15000+600000
  633325 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,91p,2504b,7238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,91p,2504b,7240s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (96 pages).
+Output written on document_maitre (1).pdf (137 pages).

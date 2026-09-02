@@ -131,7 +131,7 @@
 %%%%%%%%%%%%%%%%%%%% Package glossaries
 
 %Exception: il faut le charger APRÈS hyperref
-\usepackage[toc=true, acronym]{glossaries} %chargement du package acronym pour inclure à mon glossaire une liste d'acronymes qui e nécessitent pas de définition
+\usepackage[automake, toc=true, acronym]{glossaries} %chargement du package acronym pour inclure à mon glossaire une liste d'acronymes qui e nécessitent pas de définition
 \makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
 
@@ -279,7 +279,7 @@
 heading=subbibliography,
 title={Indexation automatique}]
 
-\printbibliography[keyword=nlp,
+%\printbibliography[keyword=nlp,
 heading=subbibliography,
 title={NLP}]
 
@@ -332,7 +332,7 @@ title={NLP}]
 
 \chapter[Titre court]{Le titre très long de la première annexe}
 
-\input{parties/backmatter/annexes.tex}
+\input{parties/backmatter/annexe.tex}
 
 \newpage{\pagestyle{empty}\cleardoublepage}
 
@@ -341,7 +341,7 @@ title={NLP}]
 \backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
 
 %\printindex
-\glsaddall
+%\glsaddall
 \printglossary[title=Glossaire]
 \printglossary[type=\acronymtype, title={Liste des abréviations}]
 \listoftables

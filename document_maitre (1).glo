@@ -104,30 +104,78 @@
 \glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{47}
 \glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{47}
 \glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{48}
-\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{FIAF?\glossentry{fiaf}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Oeuvre?\glossentry{Oeuvre}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Expression?\glossentry{Expression}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Manifestation?\glossentry{Manifestation}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Item?\glossentry{Item}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Archives audiovisuelles?\glossentry{Archivesaudiovisuelles}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Audiovisual Processing?\glossentry{AudiovisualProcessing}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{vision par ordinateur?\glossentry{Vision par ordinateur}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{apprentissage machine?\glossentry{Apprentissage machine}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{réseaux de neurones profonds?\glossentry{Réseaux de neurones profonds}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{séquences?\glossentry{sequence}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{plans?\glossentry{plan}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{segmentation temporelle?\glossentry{segtemp}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{apprentissage supervisé?\glossentry{appsup}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{apprentissage non supervisé?\glossentry{appnonsup}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{Human-in-the-Loop?\glossentry{hil}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{79}
-\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{79}
+\glossaryentry{séquences?\glossentry{sequence}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{rush?\glossentry{rush}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{51}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{vision par ordinateur?\glossentry{Vision par ordinateur}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{52}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{53}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{54}
+\glossaryentry{apprentissage supervisé?\glossentry{appsup}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage non supervisé?\glossentry{appnonsup}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage supervisé?\glossentry{appsup}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage non supervisé?\glossentry{appnonsup}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage non supervisé?\glossentry{appnonsup}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{apprentissage profond?\glossentry{Apprentissage profond}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{Human-in-the-Loop?\glossentry{hil}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{séquences?\glossentry{sequence}|setentrycounter[]{page}"\glsnumberformat}{57}
+\glossaryentry{Label Studio?\glossentry{labels}|setentrycounter[]{page}"\glsnumberformat}{57}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{58}
+\glossaryentry{segmentation temporelle?\glossentry{segtemp}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{séquences?\glossentry{sequence}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{images-clés?\glossentry{imgcle}|setentrycounter[]{page}"\glsnumberformat}{59}
+\glossaryentry{FIAF?\glossentry{fiaf}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{vision par ordinateur?\glossentry{Vision par ordinateur}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{apprentissage supervisé?\glossentry{appsup}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{apprentissage auto-supervisé?\glossentry{ssl}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{apprentissage auto-supervisé?\glossentry{ssl}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{vision par ordinateur?\glossentry{Vision par ordinateur}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{apprentissage auto-supervisé?\glossentry{ssl}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{transformers?\glossentry{Transformers}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{FIAF?\glossentry{fiaf}|setentrycounter[]{page}"\glsnumberformat}{89}
+\glossaryentry{FIAF?\glossentry{fiaf}|setentrycounter[]{page}"\glsnumberformat}{91}
+\glossaryentry{FRBR?\glossentry{FRBR}|setentrycounter[]{page}"\glsnumberformat}{117}
+\glossaryentry{Pyscenedetect?\glossentry{pyscene}|setentrycounter[]{page}"\glsnumberformat}{117}
+\glossaryentry{YOLO?\glossentry{yolo}|setentrycounter[]{page}"\glsnumberformat}{117}
