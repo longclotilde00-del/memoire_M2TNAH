@@ -1,18 +1,15 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[210] biber:342> INFO - === Wed Sep  2, 2026, 17:55:18
-[251] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[483] Biber.pm:1002> INFO - Found 67 citekeys in bib section 0
-[516] Biber.pm:4487> INFO - Processing section 0
-[540] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[557] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1089] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[2267] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2268] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2268] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[2268] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[2475] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[2589] bbl.pm:779> INFO - Output to document_maitre (1).bbl
-[2590] Biber.pm:132> WARN - ISBN '978-2-200-35506-7 978-2-200-25670-8' in entry 'journot2008' is invalid - run biber with '--validate_datamodel' for details.
-[2590] Biber.pm:132> WARN - I didn't find a database entry for 'universalis.' (section 0)
-[2590] Biber.pm:134> INFO - WARNINGS: 2
+[1] Config.pm:328> INFO - This is Biber 2.21
+[2] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
+[334] biber:342> INFO - === Thu Sep  3, 2026, 15:52:04
+[395] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[628] Biber.pm:1002> INFO - Found 7 citekeys in bib section 0
+[665] Biber.pm:4487> INFO - Processing section 0
+[699] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[720] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1318] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[1518] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1518] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1518] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[1518] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[1551] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[1560] bbl.pm:779> INFO - Output to document_maitre (1).bbl
