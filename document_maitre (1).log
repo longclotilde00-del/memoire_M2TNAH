@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  4 SEP 2026 13:10
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  4 SEP 2026 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,6 +1291,18 @@ LaTeX Warning: Label `I_1_C' multiply defined.
 LaTeX Warning: Label `I_1' multiply defined.
 
 
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
@@ -1665,30 +1677,12 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [5
 
 ]
-Overfull \hbox (2.77263pt too wide) in paragraph at lines 275--275
-[][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
- Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
-12 ​ (Roberto), «  Semantic Object Classes
- []
-
-
-
-[6]
-Overfull \hbox (4.37076pt too wide) in paragraph at lines 275--275
-\TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
- [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
-[][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
- []
-
-
 Overfull \hbox (11.73682pt too wide) in paragraph at lines 275--275
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
  []
 
 
-
-[7]
 Overfull \hbox (15.5349pt too wide) in paragraph at lines 275--275
 [][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
 2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
@@ -1696,60 +1690,41 @@ n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[].
  []
 
 
-Overfull \hbox (10.67084pt too wide) in paragraph at lines 275--275
-[][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
-rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
-12 ,
- []
 
+[6]
 
-Overfull \hbox (0.90454pt too wide) in paragraph at lines 275--275
-[][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
-field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
-s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
-oome[]\TU/lmr/m/n/12 ​ (Alice),
- []
+[7]
 
+[8
 
-
-[8]
+]
 
 [9]
-Overfull \hbox (46.51219pt too wide) in paragraph at lines 275--275
-[][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][] [] [][][][][][][][
-][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][]
-[][][][][][] []
- []
+
+[10
+
+]
+
+Package biblatex Warning: Keyword 'indexation' not found on input line 287.
 
 
+LaTeX Warning: Empty bibliography on input line 287.
 
-[10]
+
 
 [11]
 
 [12
 
-]
+] (./parties/mainmatter/introduction.tex
 
 [13]
 
-[14
-
-]
+[14])
 
 [15]
 
 [16
-
-] (./parties/mainmatter/introduction.tex
-
-[17]
-
-[18])
-
-[19]
-
-[20
 
 ]
 
@@ -1765,9 +1740,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 1.
 
 (./parties/mainmatter/I/1/I_1_A.tex
-Overfull \hbox (15.35753pt too wide) in paragraph at lines 5--6
+Overfull \hbox (15.83752pt too wide) in paragraph at lines 5--6
 []\TU/lmr/m/n/12 Le [][]FRBR[], est un modèle conceptuel de données bibliograph
-iques élaboré par l’[][]International
+iques élaboré par l’[][]\TU/lmr/m/it/12 International
  []
 
 
@@ -1791,42 +1766,33 @@ File: images/FRBRsecondgroup.png Graphic file (type bmp)
 
 [5]) (./parties/mainmatter/I/1/I_1_B.tex
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
 [6]
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+
 
 [7]) (./parties/mainmatter/I/1/I_1_C.tex
 
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.30124pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.30124pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
-
 [8]
 
+[9])
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.30124pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.30124pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
+[10]) (./parties/mainmatter/I/2/I_2.tex
 
-[9])) (./parties/mainmatter/I/2/I_2.tex
+[11]
 
+[12
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.30124pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.30124pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
-
-[10]
+]
 Chapitre 2.
 (./parties/mainmatter/I/2/I_2_A.tex
 
-[11
-
-]
+[13]
 File: images/image.png Graphic file (type bmp)
 <images/image.png>
 File: images/image6.png Graphic file (type bmp)
@@ -1840,35 +1806,10 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[12]
+[14]
 File: images/image7.png Graphic file (type bmp)
 <images/image7.png>
 
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[13]
-File: images/image2.png Graphic file (type bmp)
-<images/image2.png>
-File: images/image3.png Graphic file (type bmp)
-<images/image3.png>
-File: images/image4.png Graphic file (type bmp)
-<images/image4.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[14]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1878,12 +1819,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [15]
-File: images/image8.png Graphic file (type bmp)
-<images/image8.png>
-File: images/image9.png Graphic file (type bmp)
-<images/image9.png>
-File: images/image7.png Graphic file (type bmp)
-<images/image7.png>
+File: images/image2.png Graphic file (type bmp)
+<images/image2.png>
+File: images/image3.png Graphic file (type bmp)
+<images/image3.png>
+File: images/image4.png Graphic file (type bmp)
+<images/image4.png>
 
 
 
@@ -1903,6 +1844,31 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [17]
+File: images/image8.png Graphic file (type bmp)
+<images/image8.png>
+File: images/image9.png Graphic file (type bmp)
+<images/image9.png>
+File: images/image7.png Graphic file (type bmp)
+<images/image7.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[18]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[19]
 File: images/imageb.png Graphic file (type bmp)
 <images/imageb.png>
 
@@ -1914,7 +1880,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[18]) (./parties/mainmatter/I/2/I_2_B.tex
+[20]) (./parties/mainmatter/I/2/I_2_B.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1926,36 +1892,11 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[19]
-
-LaTeX Warning: Citation 'universalis.' on page 20 undefined on input line 7.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[20]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
 [21]
-File: images/imagec.png Graphic file (type bmp)
-<images/imagec.png>
+
+LaTeX Warning: Citation 'universalis.' on page 22 undefined on input line 7.
 
 
-LaTeX Warning: Float too large for page by 27.72575pt on input line 31.
-
-) (./parties/mainmatter/I/2/I_2_C.tex
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1974,6 +1915,13 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [23]
+File: images/imagec.png Graphic file (type bmp)
+<images/imagec.png>
+
+
+LaTeX Warning: Float too large for page by 27.72575pt on input line 31.
+
+) (./parties/mainmatter/I/2/I_2_C.tex
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1982,7 +1930,25 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[24])
+[24]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[25]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[26])
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
@@ -1994,25 +1960,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[25]) (./parties/mainmatter/I/3/I_3.tex
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[26]
-Chapitre 3.
-(./parties/mainmatter/I/3/I_3_A.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[27
-
-]) (./parties/mainmatter/I/3/I_3_B.tex
+[27]) (./parties/mainmatter/I/3/I_3.tex
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2022,15 +1970,15 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [28]
+Chapitre 3.
+(./parties/mainmatter/I/3/I_3_A.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[29]) (./parties/mainmatter/I/3/I_3_C.tex
+[29
+
+]) (./parties/mainmatter/I/3/I_3_B.tex
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2048,7 +1996,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[31]
+[31]) (./parties/mainmatter/I/3/I_3_C.tex
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2057,7 +2005,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[32])
+[32]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2066,7 +2014,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[33])
+[33]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -2075,11 +2023,23 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[34]
+[34])
 
-[35
 
-]
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[35])
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
 [36]
 
@@ -2093,11 +2053,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 ]
 
-[40
-
-]
-Annexe A.
-(./parties/backmatter/annexe.tex
+[40]
 
 [41
 
@@ -2106,18 +2062,28 @@ Annexe A.
 [42
 
 ]
-
-[43]
-
-[44]
 Annexe A.
+(./parties/backmatter/annexe.tex
 
-
-[45
+[43
 
 ]
 
+[44
+
+]
+
+[45]
+
 [46]
+Annexe A.
+
+
+[47
+
+]
+
+[48]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
@@ -2125,25 +2091,25 @@ Underfull \vbox (badness 1259) has occurred while \output is active []
 
 
 
-[47]
-
-[48]
-
 [49]
+
+[50]
+
+[51]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[50]
+[52]
 
-[51]
+[53]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[52]
+[54]
 Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
 []\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
 ifestation, Item, puisque
@@ -2151,29 +2117,29 @@ ifestation, Item, puisque
 
 
 
-[53]
+[55]
 
-[54]
+[56]
 
-[55])
+[57])
 
-[56] (./document_maitre (1).gls
+[58] (./document_maitre (1).gls
 
-[57
+[59
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[58])
+[60])
 
-[59
+[61
 
 
 ]
 
-[60
+[62
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -2181,9 +2147,9 @@ ifestation, Item, puisque
 
 
 
-[61]
+[63]
 
-[62
+[64
 
 ] (./document_maitre (1).lof)
 \tf@lof=\write10
@@ -2191,19 +2157,19 @@ ifestation, Item, puisque
 
 
 
-[63]
+[65]
 
-[64
+[66
 
 ] (./document_maitre (1).toc
 
-[65])
+[67])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[66] (./document_maitre (1).aux)
+[68] (./document_maitre (1).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2225,12 +2191,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46026 strings out of 468389
- 963750 string characters out of 5440619
- 1896891 words of memory out of 5000000
- 73867 multiletter control sequences out of 15000+600000
+ 45849 strings out of 468389
+ 956594 string characters out of 5440619
+ 1896676 words of memory out of 5000000
+ 73690 multiletter control sequences out of 15000+600000
  632177 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,91p,2504b,7238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (88 pages).
+Output written on document_maitre (1).pdf (86 pages).
