@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  3 SEP 2026 16:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  4 SEP 2026 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1249,6 +1249,180 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre (1).aux
 
+LaTeX Warning: Label `I_1_A' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_A' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_B' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_B' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_C' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2_C' multiply defined.
+
+
+LaTeX Warning: Label `I_2_C' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3_A' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3_B' multiply defined.
+
+
+LaTeX Warning: Label `I_3_B' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
@@ -1401,7 +1575,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"document_maitre (1)".bbl' found.
 
-(./document_maitre (1).bbl)
+(./document_maitre (1).bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                universalis.
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 164.
 Package biblatex Info: Reference segment=0 on input line 164.
 
@@ -1483,48 +1665,91 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [5
 
 ]
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
+ Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
+12 ​ (Roberto), «  Semantic Object Classes
+ []
 
-[6
-
-]
-
-Package biblatex Warning: Keyword 'indexation' not found on input line 278.
 
 
-LaTeX Warning: Empty bibliography on input line 278.
+[6]
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 275--275
+\TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
+ [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
+[][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
+ographic Records[]\TU/lmr/m/n/12 ​,
+ []
 
 
 
 [7]
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
+2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
+n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
+ []
 
-[8
 
-] (./parties/mainmatter/introduction.tex
+Overfull \hbox (10.67084pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
+rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
+12 ,
+ []
+
+
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 275--275
+[][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
+field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
+s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
+oome[]\TU/lmr/m/n/12 ​ (Alice),
+ []
+
+
+
+[8]
 
 [9]
-Underfull \vbox (badness 3713) has occurred while \output is active []
+Overfull \hbox (46.51219pt too wide) in paragraph at lines 275--275
+[][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][] [] [][][][][][][][
+][][][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][][]
+[][][][][][] []
+ []
 
 
 
 [10]
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
-
 
 [11]
 
-[12]
+[12
+
+]
 
 [13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[14
 
-
-[14])
+]
 
 [15]
 
 [16
+
+] (./parties/mainmatter/introduction.tex
+
+[17]
+
+[18])
+
+[19]
+
+[20
 
 ]
 
@@ -1533,49 +1758,366 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-[2]
+[2] (./parties/mainmatter/I/1/I_1.tex
+Chapitre 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+(./parties/mainmatter/I/1/I_1_A.tex
+Overfull \hbox (15.35753pt too wide) in paragraph at lines 5--6
+[]\TU/lmr/m/n/12 Le [][]FRBR[], est un modèle conceptuel de données bibliograph
+iques élaboré par l’[][]International
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
 
 [3
 
 ]
+File: images/FRBRfirstgroup.png Graphic file (type bmp)
+<images/FRBRfirstgroup.png>
+
 
 [4]
+File: images/FRBRsecondgroup.png Graphic file (type bmp)
+<images/FRBRsecondgroup.png>
 
-[5
 
-]
+[5]) (./parties/mainmatter/I/1/I_1_B.tex
 
 [6]
 
-[7
+[7]) (./parties/mainmatter/I/1/I_1_C.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.30124pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.30124pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
+
+[8]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.30124pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.30124pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
+
+[9])) (./parties/mainmatter/I/2/I_2.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.30124pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.30124pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.30124pt}.
+
+[10]
+Chapitre 2.
+(./parties/mainmatter/I/2/I_2_A.tex
+
+[11
+
+]
+File: images/image.png Graphic file (type bmp)
+<images/image.png>
+File: images/image6.png Graphic file (type bmp)
+<images/image6.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[12]
+File: images/image7.png Graphic file (type bmp)
+<images/image7.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[13]
+File: images/image2.png Graphic file (type bmp)
+<images/image2.png>
+File: images/image3.png Graphic file (type bmp)
+<images/image3.png>
+File: images/image4.png Graphic file (type bmp)
+<images/image4.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[15]
+File: images/image8.png Graphic file (type bmp)
+<images/image8.png>
+File: images/image9.png Graphic file (type bmp)
+<images/image9.png>
+File: images/image7.png Graphic file (type bmp)
+<images/image7.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[16]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[17]
+File: images/imageb.png Graphic file (type bmp)
+<images/imageb.png>
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[18]) (./parties/mainmatter/I/2/I_2_B.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[19]
+
+LaTeX Warning: Citation 'universalis.' on page 20 undefined on input line 7.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[20]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[21]
+File: images/imagec.png Graphic file (type bmp)
+<images/imagec.png>
+
+
+LaTeX Warning: Float too large for page by 27.72575pt on input line 31.
+
+) (./parties/mainmatter/I/2/I_2_C.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[22]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[23]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[24])
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[25]) (./parties/mainmatter/I/3/I_3.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[26]
+Chapitre 3.
+(./parties/mainmatter/I/3/I_3_A.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[27
+
+]) (./parties/mainmatter/I/3/I_3_B.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[28]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[29]) (./parties/mainmatter/I/3/I_3_C.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[30]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[31]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[32])
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[33])
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[34]
+
+[35
 
 ]
 
-[8
+[36]
+
+[37
+
+]
+
+[38]
+
+[39
+
+]
+
+[40
 
 ]
 Annexe A.
 (./parties/backmatter/annexe.tex
 
-[9
+[41
 
 ]
 
-[10
+[42
 
 ]
 
-[11]
+[43]
 
-[12]
+[44]
 Annexe A.
 
 
-[13
+[45
 
 ]
 
-[14]
+[46]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
@@ -1583,25 +2125,25 @@ Underfull \vbox (badness 1259) has occurred while \output is active []
 
 
 
-[15]
+[47]
 
-[16]
+[48]
 
-[17]
+[49]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[18]
+[50]
 
-[19]
+[51]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[20]
+[52]
 Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
 []\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
 ifestation, Item, puisque
@@ -1609,35 +2151,29 @@ ifestation, Item, puisque
 
 
 
-[21]
+[53]
 
-[22]
+[54]
 
-[23])
+[55])
 
-[24] (./document_maitre (1).gls
-Overfull \hbox (21.57657pt too wide) in paragraph at lines 45--45
-[]\TU/lmr/m/n/12 Functional Requirements for Bibliographic Records. Modèle conc
-eptuel entité-association
- []
+[56] (./document_maitre (1).gls
 
-
-
-[25
+[57
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[26])
+[58])
 
-[27
+[59
 
 
 ]
 
-[28
+[60
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -1645,9 +2181,9 @@ eptuel entité-association
 
 
 
-[29]
+[61]
 
-[30
+[62
 
 ] (./document_maitre (1).lof)
 \tf@lof=\write10
@@ -1655,19 +2191,19 @@ eptuel entité-association
 
 
 
-[31]
+[63]
 
-[32
+[64
 
 ] (./document_maitre (1).toc
 
-[33])
+[65])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[34] (./document_maitre (1).aux)
+[66] (./document_maitre (1).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1689,12 +2225,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45390 strings out of 468389
- 945155 string characters out of 5440619
- 1893848 words of memory out of 5000000
- 73286 multiletter control sequences out of 15000+600000
- 632161 words of font info for 82 fonts, out of 8000000 for 9000
+ 46026 strings out of 468389
+ 963750 string characters out of 5440619
+ 1896891 words of memory out of 5000000
+ 73867 multiletter control sequences out of 15000+600000
+ 632177 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,91p,2504b,7236s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,91p,2504b,7238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (52 pages).
+Output written on document_maitre (1).pdf (88 pages).
