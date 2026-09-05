@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  4 SEP 2026 17:57
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  5 SEP 2026 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,24 +816,111 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \backup@length=\skip76
 \ar@cellbox=\box72
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen288
+\captionmargin=\dimen289
+\caption@leftmargin=\dimen290
+\caption@rightmargin=\dimen291
+\caption@width=\dimen292
+\caption@indent=\dimen293
+\caption@parindent=\dimen294
+\caption@hangindent=\dimen295
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count455
+\c@continuedfloat=\count456
+Package caption Info: float package is loaded.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip77
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen296
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen297
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count457
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count458
+\leftroot@=\count459
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count460
+\DOTSCASE@=\count461
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box73
+\strutbox@=\box74
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen298
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count462
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count463
+\dotsspace@=\muskip22
+\c@parentequation=\count464
+\dspbrk@lvl=\count465
+\tag@help=\toks39
+\row@=\count466
+\column@=\count467
+\maxfields@=\count468
+\andhelp@=\toks40
+\eqnshift@=\dimen299
+\alignsep@=\dimen300
+\tagshift@=\dimen301
+\tagwidth@=\dimen302
+\totwidth@=\dimen303
+\lineht@=\dimen304
+\@envbody=\toks41
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count455
-\Gm@cntv=\count456
-\c@Gm@tempcnt=\count457
-\Gm@bindingoffset=\dimen288
-\Gm@wd@mp=\dimen289
-\Gm@odd@mp=\dimen290
-\Gm@even@mp=\dimen291
-\Gm@layoutwidth=\dimen292
-\Gm@layoutheight=\dimen293
-\Gm@layouthoffset=\dimen294
-\Gm@layoutvoffset=\dimen295
-\Gm@dimlist=\toks38
+\Gm@cnth=\count469
+\Gm@cntv=\count470
+\c@Gm@tempcnt=\count471
+\Gm@bindingoffset=\dimen305
+\Gm@wd@mp=\dimen306
+\Gm@odd@mp=\dimen307
+\Gm@even@mp=\dimen308
+\Gm@layoutwidth=\dimen309
+\Gm@layoutheight=\dimen310
+\Gm@layouthoffset=\dimen311
+\Gm@layoutvoffset=\dimen312
+\Gm@dimlist=\toks43
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -841,21 +928,21 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip77
-\f@nch@offset@elh=\skip78
-\f@nch@offset@erh=\skip79
-\f@nch@offset@olh=\skip80
-\f@nch@offset@orh=\skip81
-\f@nch@offset@elf=\skip82
-\f@nch@offset@erf=\skip83
-\f@nch@offset@olf=\skip84
-\f@nch@offset@orf=\skip85
-\f@nch@height=\skip86
-\f@nch@footalignment=\skip87
-\f@nch@widthL=\skip88
-\f@nch@widthC=\skip89
-\f@nch@widthR=\skip90
-\@temptokenb=\toks39
+\f@nch@headwidth=\skip80
+\f@nch@offset@elh=\skip81
+\f@nch@offset@erh=\skip82
+\f@nch@offset@olh=\skip83
+\f@nch@offset@orh=\skip84
+\f@nch@offset@elf=\skip85
+\f@nch@offset@erf=\skip86
+\f@nch@offset@olf=\skip87
+\f@nch@offset@orf=\skip88
+\f@nch@height=\skip89
+\f@nch@footalignment=\skip90
+\f@nch@widthL=\skip91
+\f@nch@widthC=\skip92
+\f@nch@widthR=\skip93
+\@temptokenb=\toks44
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -879,14 +966,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count458
+\c@section@level=\count472
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen296
-\Hy@linkcounter=\count459
-\Hy@pagecounter=\count460
+\@linkdim=\dimen313
+\Hy@linkcounter=\count473
+\Hy@pagecounter=\count474
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
@@ -894,7 +981,7 @@ File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count461
+\Hy@SavedSpaceFactor=\count475
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -921,9 +1008,9 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count462
+\c@Hy@tempcnt=\count476
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen297
+\XeTeXLinkMargin=\dimen314
  (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -931,9 +1018,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count463
-\Field@Width=\dimen298
-\Fld@charsize=\dimen299
+\Fld@menulength=\count477
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -941,19 +1028,19 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count464
-\c@Item=\count465
-\c@Hfootnote=\count466
+\Hy@abspage=\count478
+\c@Item=\count479
+\c@Hfootnote=\count480
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
-\pdfm@box=\box73
-\c@Hy@AnnotLevel=\count467
-\HyField@AnnotCount=\count468
-\Fld@listcount=\count469
-\c@bookmark@seq@number=\count470
+\pdfm@box=\box75
+\c@Hy@AnnotLevel=\count481
+\HyField@AnnotCount=\count482
+\Fld@listcount=\count483
+\c@bookmark@seq@number=\count484
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -964,14 +1051,29 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip91
+\Hy@SectionHShift=\skip94
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count471
+\BKM@id=\count485
 ))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+==> First Aid for cleveref.sty applied!
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2025/08/11 v4.8 (NLCT)
 
@@ -980,24 +1082,19 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks40
-\XKV@tempa@toks=\toks41
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count472
+\XKV@depth=\count486
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
-\@glsmfirst=\toks42
-\@glsmrest=\toks43
+\@glsmfirst=\toks47
+\@glsmrest=\toks48
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks44
-\ex@=\dimen300
 )
 (|kpsewhich --var-value=TEXMF_OUTPUT_DIRECTORY)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
@@ -1021,104 +1118,41 @@ File: glossaries-french.ldf 2016/12/12 v1.1
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip92
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen301
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count473
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count474
-\leftroot@=\count475
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count476
-\DOTSCASE@=\count477
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box74
-\strutbox@=\box75
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen302
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count478
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count479
-\dotsspace@=\muskip22
-\c@parentequation=\count480
-\dspbrk@lvl=\count481
-\tag@help=\toks45
-\row@=\count482
-\column@=\count483
-\maxfields@=\count484
-\andhelp@=\toks46
-\eqnshift@=\dimen303
-\alignsep@=\dimen304
-\tagshift@=\dimen305
-\tagwidth@=\dimen306
-\totwidth@=\dimen307
-\lineht@=\dimen308
-\@envbody=\toks47
-\multlinegap=\skip93
-\multlinetaggap=\skip94
-\mathdisplay@stack=\toks48
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
 \@dtl@toks=\toks49
-\@dtl@tmpcount=\count485
+\@dtl@tmpcount=\count487
 \dtl@tmplength=\skip95
 \l__datatool_measure_box=\box76
-\dtl@sortresult=\count486
+\dtl@sortresult=\count488
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count487
-\l__datatool_tmpa_int=\count488
-\l__datatool_tmpb_int=\count489
-\l__datatool_tmpc_int=\count490
-\l__datatool_tmpd_int=\count491
-\l__datatool_count_int=\count492
-\l__datatool_tmp_datatype_int=\count493
-\l__datatool_tmpa_dim=\dimen309
-\l__datatool_tmpb_dim=\dimen310
-\c_datatool_unknown_int=\count494
-\l__datatool_year_int=\count495
-\l__datatool_month_int=\count496
-\l__datatool_day_int=\count497
-\l__datatool_hour_int=\count498
-\l__datatool_minute_int=\count499
-\l__datatool_second_int=\count500
-\l__datatool_tzhour_int=\count501
-\l__datatool_tzminute_int=\count502
-\l__datatool_julian_int=\count503
-\l__datatool_local_julian_int=\count504
-\l__datatool_prefix_int=\count505
-\l__datatool_suffix_int=\count506
-\@dtl@foreach@level=\count507
+\@dtl@datatype=\count489
+\l__datatool_tmpa_int=\count490
+\l__datatool_tmpb_int=\count491
+\l__datatool_tmpc_int=\count492
+\l__datatool_tmpd_int=\count493
+\l__datatool_count_int=\count494
+\l__datatool_tmp_datatype_int=\count495
+\l__datatool_tmpa_dim=\dimen317
+\l__datatool_tmpb_dim=\dimen318
+\c_datatool_unknown_int=\count496
+\l__datatool_year_int=\count497
+\l__datatool_month_int=\count498
+\l__datatool_day_int=\count499
+\l__datatool_hour_int=\count500
+\l__datatool_minute_int=\count501
+\l__datatool_second_int=\count502
+\l__datatool_tzhour_int=\count503
+\l__datatool_tzminute_int=\count504
+\l__datatool_julian_int=\count505
+\l__datatool_local_julian_int=\count506
+\l__datatool_prefix_int=\count507
+\l__datatool_suffix_int=\count508
+\@dtl@foreach@level=\count509
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool-regions/datatool-US.ldf
 File: datatool-US.ldf 2025/03/01 v1.0
@@ -1139,14 +1173,14 @@ Package tracklang Warning: No `datatool' support for dialect `france'  on input
 Package tracklang Warning: No `datatool' support for dialect `france'  on input
  line 9908.
 
-\dtl@codeA=\count508
-\dtl@codeB=\count509
+\dtl@codeA=\count510
+\dtl@codeB=\count511
 )
-\gls@level=\count510
+\gls@level=\count512
 \@gls@tmpb=\toks50
 \gls@tmplen=\skip96
-\l__glossaries_tmpa_dim=\dimen311
-\l__glossaries_tmpb_dim=\dimen312
+\l__glossaries_tmpa_dim=\dimen319
+\l__glossaries_tmpb_dim=\dimen320
 \glskeylisttok=\toks51
 \glslabeltok=\toks52
 \glsshorttok=\toks53
@@ -1170,17 +1204,17 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LTright=\skip99
 \LTpre=\skip100
 \LTpost=\skip101
-\LTchunksize=\count511
-\LTcapwidth=\dimen313
+\LTchunksize=\count513
+\LTcapwidth=\dimen321
 \LT@head=\box77
 \LT@firsthead=\box78
 \LT@foot=\box79
 \LT@lastfoot=\box80
 \LT@gbox=\box81
-\LT@cols=\count512
-\LT@rows=\count513
-\c@LT@tables=\count514
-\c@LT@chunks=\count515
+\LT@cols=\count514
+\LT@rows=\count515
+\c@LT@tables=\count516
+\c@LT@chunks=\count517
 \LT@p@ftn=\toks55
 )
 \glsdescwidth=\skip102
@@ -1191,36 +1225,36 @@ sty
 Package: glossary-super 2025/08/11 v4.8 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count516
-\ST@wd=\dimen314
+\c@tracingst=\count518
+\ST@wd=\dimen322
 \ST@rightskip=\skip104
 \ST@leftskip=\skip105
 \ST@parfillskip=\skip106
-\ST@pageleft=\dimen315
-\ST@headht=\dimen316
-\ST@tailht=\dimen317
-\ST@pagesofar=\dimen318
-\ST@pboxht=\dimen319
-\ST@rowht=\dimen320
-\ST@prevht=\dimen321
-\ST@toadd=\dimen322
-\ST@dimen=\dimen323
+\ST@pageleft=\dimen323
+\ST@headht=\dimen324
+\ST@tailht=\dimen325
+\ST@pagesofar=\dimen326
+\ST@pboxht=\dimen327
+\ST@rowht=\dimen328
+\ST@prevht=\dimen329
+\ST@toadd=\dimen330
+\ST@dimen=\dimen331
 \ST@pbox=\box82
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2025/08/11 v4.8 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count517
-\l__glossaries_tree_offset_dim=\dimen324
-\l__glossaries_tree_namewidth_dim=\dimen325
-\l__glossaries_tree_symbolwidth_dim=\dimen326
-\l__glossaries_tree_prenamesym_width_dim=\dimen327
-\l__glossaries_tree_presubnamesym_width_dim=\dimen328
-\l__glossaries_tree_namewidth_padding_dim=\dimen329
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen330
-\l__glossaries_tree_namesymbolwidth_dim=\dimen331
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen332
-\l__glossaries_tree_level_int=\count518
+\l__glossaries_tree_max_known_level_int=\count519
+\l__glossaries_tree_offset_dim=\dimen332
+\l__glossaries_tree_namewidth_dim=\dimen333
+\l__glossaries_tree_symbolwidth_dim=\dimen334
+\l__glossaries_tree_prenamesym_width_dim=\dimen335
+\l__glossaries_tree_presubnamesym_width_dim=\dimen336
+\l__glossaries_tree_namewidth_padding_dim=\dimen337
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen338
+\l__glossaries_tree_namesymbolwidth_dim=\dimen339
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen340
+\l__glossaries_tree_level_int=\count520
 \glstreeindent=\skip107
 ))
 runsystem(makeindex -s "document_maitre (1)".ist -t "document_maitre (1)".glg -
@@ -1236,12 +1270,12 @@ tem command.
 \openout7 = `"document_maitre (1).glo"'.
 
 Package glossaries Info: Writing glossary file "document_maitre (1)".glo on inp
-ut line 135.
+ut line 148.
 \glo@acronym@file=\write8
 \openout8 = `"document_maitre (1).acn"'.
 
 Package glossaries Info: Writing glossary file "document_maitre (1)".acn on inp
-ut line 135.
+ut line 148.
  (./glossaire.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
@@ -1249,254 +1283,281 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre (1).aux
 
-LaTeX Warning: Label `I_1_A' multiply defined.
+LaTeX Warning: Label `I_2_A' multiply defined.
 
 
-LaTeX Warning: Label `I_1' multiply defined.
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_1' multiply defined.
+LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_1_A' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_1' multiply defined.
+LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_1_B' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
-
-
-LaTeX Warning: Label `I_1_B' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
-
-
-LaTeX Warning: Label `I_1_C' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
-
-
-LaTeX Warning: Label `I_1_C' multiply defined.
-
-
-LaTeX Warning: Label `I_1_C' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
-
-
-LaTeX Warning: Label `I_1_C' multiply defined.
-
-
-LaTeX Warning: Label `I_1_C' multiply defined.
-
-
-LaTeX Warning: Label `I_1' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A' multiply defined.
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
 LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_B' multiply defined.
 
 
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
+
+
 LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_B' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_B' multiply defined.
 
 
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
+
+
 LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_C' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2_C' multiply defined.
-
-
-LaTeX Warning: Label `I_2_C' multiply defined.
+LaTeX Warning: Label `I_2_C@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_3' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_3_A' multiply defined.
+LaTeX Warning: Label `I_2_C' multiply defined.
 
 
-LaTeX Warning: Label `I_3' multiply defined.
+LaTeX Warning: Label `I_2_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_3_B' multiply defined.
+LaTeX Warning: Label `I_2_C' multiply defined.
 
 
-LaTeX Warning: Label `I_3_B' multiply defined.
+LaTeX Warning: Label `I_2_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_3' multiply defined.
+LaTeX Warning: Label `I_2' multiply defined.
 
 
-LaTeX Warning: Label `I_3' multiply defined.
-
-
-LaTeX Warning: Label `I_3_C' multiply defined.
-
-
-LaTeX Warning: Label `I_3_C' multiply defined.
-
-
-LaTeX Warning: Label `I_3' multiply defined.
-
-
-LaTeX Warning: Label `I_3' multiply defined.
-
-
-LaTeX Warning: Label `I_3_C' multiply defined.
-
-
-LaTeX Warning: Label `I_3_C' multiply defined.
-
-
-LaTeX Warning: Label `I_3' multiply defined.
+LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest' multiply defined.
+
+
+LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
 
 )
 \openout1 = `"document_maitre (1).aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 164.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 16
-4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 177.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 17
+7.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 164.
-LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1504,57 +1565,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 164.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 164.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 164.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 164.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 164.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 164.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 164.
-LaTeX Font Info:    Redeclaring math accent \check on input line 164.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 164.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 164.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 164.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 164.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 177.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 177.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 177.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 177.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 177.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 177.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 177.
+LaTeX Font Info:    Redeclaring math accent \check on input line 177.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 177.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 177.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 177.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 177.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 164.
+(Font)              `operators' in the math version `normal' on input line 177.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 164.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 177.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 164.
+(Font)              `operators' in the math version `bold' on input line 177.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 164.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 177.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 164.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 164.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 164.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 164.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 164.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 177.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 164.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 164.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 164.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 177.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 164.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 177.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
@@ -1596,8 +1657,16 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 164.
-Package biblatex Info: Reference segment=0 on input line 164.
+Package biblatex Info: Reference section=0 on input line 177.
+Package biblatex Info: Reference segment=0 on input line 177.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1633,7 +1702,7 @@ Package biblatex Info: Reference segment=0 on input line 164.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 164.
+Package hyperref Info: Link coloring OFF on input line 177.
 
 
 [1
@@ -1646,7 +1715,7 @@ Package hyperref Info: Link coloring OFF on input line 164.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
@@ -1663,7 +1732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 269.
+(lettrine.sty)             reported on input line 282.
 
 
 [3
@@ -1677,13 +1746,13 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [5
 
 ]
-Overfull \hbox (11.73682pt too wide) in paragraph at lines 275--275
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 288--288
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
  []
 
 
-Overfull \hbox (15.5349pt too wide) in paragraph at lines 275--275
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 288--288
 [][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
 2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
 n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
@@ -1705,10 +1774,10 @@ n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[].
 
 ]
 
-Package biblatex Warning: Keyword 'indexation' not found on input line 287.
+Package biblatex Warning: Keyword 'indexation' not found on input line 300.
 
 
-LaTeX Warning: Empty bibliography on input line 287.
+LaTeX Warning: Empty bibliography on input line 300.
 
 
 
@@ -1733,70 +1802,15 @@ LaTeX Warning: Empty bibliography on input line 287.
 
 ]
 
-[2] (./parties/mainmatter/I/1/I_1.tex
+[2] (./parties/mainmatter/I/2/I_2.tex
 Chapitre 1.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 1.
-
-(./parties/mainmatter/I/1/I_1_A.tex
-Overfull \hbox (15.83752pt too wide) in paragraph at lines 5--6
-[]\TU/lmr/m/n/12 Le [][]FRBR[], est un modèle conceptuel de données bibliograph
-iques élaboré par l’[][]\TU/lmr/m/it/12 International
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
+(./parties/mainmatter/I/2/I_2_A.tex
 
 [3
 
 ]
-File: images/FRBRfirstgroup.png Graphic file (type bmp)
-<images/FRBRfirstgroup.png>
-
-
-[4]
-File: images/FRBRsecondgroup.png Graphic file (type bmp)
-<images/FRBRsecondgroup.png>
-
-
-[5]) (./parties/mainmatter/I/1/I_1_B.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 1.
-
-
-
-[6]
-Underfull \vbox (badness 1052) has occurred while \output is active []
-
-
-
-[7]) (./parties/mainmatter/I/1/I_1_C.tex
-
-[8]
-
-[9])
-
-[10]) (./parties/mainmatter/I/2/I_2.tex
-
-[11]
-
-[12
-
-]
-Chapitre 2.
-(./parties/mainmatter/I/2/I_2_A.tex
-
-[13]
-File: images/image.png Graphic file (type bmp)
-<images/image.png>
-File: images/image6.png Graphic file (type bmp)
-<images/image6.png>
+File: images/accueil1.png Graphic file (type bmp)
+<images/accueil1.png>
 
 
 
@@ -1806,11 +1820,17 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[14]
+[4]
+File: images/menuBurger.png Graphic file (type bmp)
+<images/menuBurger.png>
 File: images/image7.png Graphic file (type bmp)
 <images/image7.png>
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
 (fancyhdr)                Make it at least 25.39978pt, for example:
@@ -1818,38 +1838,28 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[15]
+[5]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[6]
 File: images/image2.png Graphic file (type bmp)
 <images/image2.png>
 File: images/image3.png Graphic file (type bmp)
 <images/image3.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: images/image4.png Graphic file (type bmp)
 <images/image4.png>
-
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[16]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[17]
 File: images/image8.png Graphic file (type bmp)
 <images/image8.png>
-File: images/image9.png Graphic file (type bmp)
-<images/image9.png>
-File: images/image7.png Graphic file (type bmp)
-<images/image7.png>
 
 
 
@@ -1859,16 +1869,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[18]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[19]
+[7]
 File: images/imageb.png Graphic file (type bmp)
 <images/imageb.png>
 
@@ -1880,8 +1881,46 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[20]) (./parties/mainmatter/I/2/I_2_B.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[8]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[9]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 191.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 206.
+
+Overfull \hbox (141.45586pt too wide) in paragraph at lines 273--274
+ [][] 
+ []
+
+) (./parties/mainmatter/I/2/I_2_B.tex
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[10]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.39978pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.39978pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
+
+[11]
+
+LaTeX Warning: Citation 'universalis.' on page 12 undefined on input line 7.
 
 
 
@@ -1892,11 +1931,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[21]
-
-LaTeX Warning: Citation 'universalis.' on page 22 undefined on input line 7.
-
-
+[12]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1905,21 +1940,12 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[22]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[23]
+[13]
 File: images/imagec.png Graphic file (type bmp)
 <images/imagec.png>
 
 
-LaTeX Warning: Float too large for page by 27.72575pt on input line 31.
+LaTeX Warning: Float too large for page by 25.39775pt on input line 31.
 
 ) (./parties/mainmatter/I/2/I_2_C.tex
 
@@ -1930,7 +1956,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[24]
+[14]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1939,7 +1965,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[25]
+[15]
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1948,7 +1974,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[26])
+[16])
 Underfull \vbox (badness 1033) has occurred while \output is active []
 
 
@@ -1960,7 +1986,7 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[27]) (./parties/mainmatter/I/3/I_3.tex
+[17])
 
 
 Package fancyhdr Warning: \headheight is too small (16.0pt): 
@@ -1969,147 +1995,75 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
 
-[28]
-Chapitre 3.
-(./parties/mainmatter/I/3/I_3_A.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[18]
 
-
-
-[29
-
-]) (./parties/mainmatter/I/3/I_3_B.tex
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[30]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[31]) (./parties/mainmatter/I/3/I_3_C.tex
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[32]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[33]
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[34])
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[35])
-
-
-Package fancyhdr Warning: \headheight is too small (16.0pt): 
-(fancyhdr)                Make it at least 25.39978pt, for example:
-(fancyhdr)                \setlength{\headheight}{25.39978pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-9.39978pt}.
-
-[36]
-
-[37
+[19
 
 ]
 
-[38]
+[20]
 
-[39
-
-]
-
-[40]
-
-[41
+[21
 
 ]
 
-[42
+[22]
+
+[23
+
+]
+
+[24
 
 ]
 Annexe A.
 (./parties/backmatter/annexe.tex
 
-[43
+[25
 
 ]
 
-[44
+[26
 
 ]
 
-[45]
+[27]
 
-[46]
+[28]
 Annexe A.
 
 
-[47
+[29
 
 ]
 
-[48]
+[30]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
-Underfull \vbox (badness 1259) has occurred while \output is active []
+Underfull \vbox (badness 1655) has occurred while \output is active []
 
 
 
-[49]
+[31]
 
-[50]
+[32]
 
-[51]
+[33]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[52]
+[34]
 
-[53]
+[35]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[54]
+[36]
 Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
 []\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
 ifestation, Item, puisque
@@ -2117,29 +2071,29 @@ ifestation, Item, puisque
 
 
 
-[55]
+[37]
 
-[56]
+[38]
 
-[57])
+[39])
 
-[58] (./document_maitre (1).gls
+[40] (./document_maitre (1).gls
 
-[59
+[41
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[60])
+[42])
 
-[61
+[43
 
 
 ]
 
-[62
+[44
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -2147,9 +2101,9 @@ ifestation, Item, puisque
 
 
 
-[63]
+[45]
 
-[64
+[46
 
 ] (./document_maitre (1).lof)
 \tf@lof=\write10
@@ -2157,19 +2111,19 @@ ifestation, Item, puisque
 
 
 
-[65]
+[47]
 
-[66
+[48
 
 ] (./document_maitre (1).toc
 
-[67])
+[49])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[68] (./document_maitre (1).aux)
+[50] (./document_maitre (1).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2191,12 +2145,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45849 strings out of 468389
- 956594 string characters out of 5440619
- 1896676 words of memory out of 5000000
- 73690 multiletter control sequences out of 15000+600000
- 632177 words of font info for 84 fonts, out of 8000000 for 9000
+ 48740 strings out of 468389
+ 1019310 string characters out of 5440619
+ 2035403 words of memory out of 5000000
+ 76579 multiletter control sequences out of 15000+600000
+ 633397 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,91p,2504b,7238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,98p,2504b,7252s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (86 pages).
+Output written on document_maitre (1).pdf (68 pages).

@@ -37,6 +37,8 @@
 \usepackage{float} %pour la position des tableaux 
 \usepackage{multirow}
 \usepackage{array}
+\usepackage{caption}
+\usepackage{amsmath}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE
 
@@ -126,7 +128,18 @@
 	%	pdfkeywords = {premier mot-clé} {deuxième mot-clé} {troisième mot-clé} {etc}
 	%}
 
+\usepackage{cleveref}
+% 1. Personnalisation de la légende : "Figure 2.1 - Titre"
+\DeclareCaptionLabelSeparator{customsep}{ - } % Définit le séparateur " - "
+\captionsetup[figure]{
+	labelfont=bf,           % Rend "Figure 2.1" en gras
+	name=Figure,
+	labelsep=customsep      % Utilise le séparateur personnalisée
+}
 
+% 2. Personnalisation du renvoi dans le texte : "fig. 2.1"
+\crefname{figure}{fig.}{fig.}
+\Crefname{figure}{Fig.}{Fig.}
 
 %%%%%%%%%%%%%%%%%%%% Package glossaries
 
@@ -307,9 +320,9 @@ title={NLP}]
 	
 
 \part{Indexer les archives audiovisuelles}
-\input{parties/mainmatter/I/1/I_1.tex}
+%\input{parties/mainmatter/I/1/I_1.tex}
 \input{parties/mainmatter/I/2/I_2.tex}
-\input{parties/mainmatter/I/3/I_3.tex}
+%\input{parties/mainmatter/I/3/I_3.tex}
 
 	
 \part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}

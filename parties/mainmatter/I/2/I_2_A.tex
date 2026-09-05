@@ -1,78 +1,77 @@
 \section{\label{I_2_A}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}
 
-Si le manuel de la FIAF pose le cadre d’une adaptation du modèle FRBR pour la gestion des archives audiovisuelles, il s'agit désormais de confronter ce cadre à une implémentation concrète. Pour cela, nous analyserons au cours de ce chapitre l’implémentation d’une telle modélisation au sein d’un outil de gestion des collections, celui développé par Skinsoft. Nous y analyserons spécifiquement l’espace de travail développé pour la gestion des archives audiovisuelles : S-Movies. En effet, le contexte de notre étude se situe principalement dans le cadre de l’analyse de cet espace de travail afin d’en analyser la modélisation, en vue de l’améliorer et d’y implémenter potentiellement des fonctionnalités automatiques, fondées sur l’intelligence artificielle.  
+Si le manuel de la \gls{fiaf} pose le cadre d’une adaptation du modèle \gls{FRBR} pour la gestion des \gls{Archivesaudiovisuelles}, il s'agit désormais de confronter ce cadre à une implémentation concrète. Pour cela, nous analyserons au cours de ce chapitre l’implémentation d’une telle modélisation au sein d’un outil de gestion des collections, celui développé par Skinsoft. Nous y analyserons spécifiquement l’espace de travail développé pour la gestion des \gls{Archivesaudiovisuelles} : S-Movies. En effet, le contexte de notre étude se situe principalement dans le cadre de l’analyse de cet espace de travail, effectuée au cours de notre stage. L'analyse de la modélisation de l'espace de travail a eu pour objectif d'en proposer des améliorations afin de concrétiser le projet d'implémentation de fonctionnalités automatiques, fondées sur l’intelligence artificielle.  
 
-Présentons d’abord le fonctionnement général de l’outil de gestion des collections développée par Skinsoft. Celui-ci est divisé en espaces de travail, chacun dédiés à un type de collection, comme le montre la capture d'écran de la page d'accueil ci-dessous (\ref{figAccueil}). (dire en note de bas de page que les captures viennent d’une appli de test configurée par nos soins)
+Présentons d’abord le fonctionnement général de l’outil de gestion des collections développé par Skinsoft. Celui-ci est divisé en espaces de travail, disponibles sous la formes d'onglets en haut de l'interface (\cref{figAccueil}). Chacun de ces espaces de travail est dédié à un type de collection \footnote{Les captures d'écran intégrées à notre mémoire sont issues d'une plateforme de test configurée par nos soins au cours du stage. Les données qui y sont intégrées et visibles sont des données fictives.}. 
+
+Le système est construit à partir d'une base NoSQL Au niveau physique (Stockage NoSQL) : La base de données offre de la flexibilité en stockant des documents JSON/XML (ce qui permet à Skinsoft de proposer un paramétrage de champs très souple sans redéfinir le schéma de base de données à chaque client).  Étant donné que cette conception de base de données non relationnelle ne nécessite pas de schéma, elle offre une évolutivité rapide pour gérer des ensembles de données volumineux et généralement non structurés. En comparaison, les bases de données NoSQL sont non relationnelles, ce qui élimine le besoin de connecter des tables. Elasticsearch, une base de données nosql basée sur des documents qui inclut un moteur de recherche en texte intégral.
+Elasticsearch n'est pas une base de données relationnelle classique : c'est un moteur de recherche et d'analyse NoSQL orienté documents JSON. Dans Elasticsearch, il n'y a pas de véritables « tables », mais des index (ou types de documents).
+
+Puisque les contraintes de clés étrangères (FK) n'existent pas nativement dans Elasticsearch, l'application S-Movies (développée par Skinsoft) recrée la logique relationnelle applicativement.
 
 \begin{figure}[htbp] 
-	
 	\centering 
 	
-	\includegraphics[width=0.85\textwidth]{images/image.png} 
+	\includegraphics[width=1.0\textwidth]{images/accueil1.png} 
 	
-	\caption{Page d'accueil de l'espace de travail} 
+	\caption{Espaces de travail} 
 	
 	\label{figAccueil} 
-	
 \end{figure}
 
-Une institution cliente de l’outil peut combiner un ou plusieurs espaces de travail, selon les données à gérer. Cette structure permet justement d’adapter l’interface à chaque type de collection géré : objets de collection de musée, collections archéologiques, collections de films, collections bibliographiques, collections d’archives, etc. Chaque espace de travail permet notamment la gestion des acquisitions, des collections, de leurs mouvements, de projets, d’expositions, des médias... De plus, chaque espace de travail est structuré selon des normes de description et un cadre de modélisation adaptés au type de collection qui y est géré. L'espace de travail S-Movies est modélisé selon les préconisations de la FIAF sur l’adaptation du FRBR, et structuré selon les normes de descriptions évoquées. Ainsi, les collections sont organisées en trois entités distinctes, conformément aux adaptations du FRBR par la FIAF : Films, Manifestations, Œuvres cinématographiques (Films désigne ici le niveau Item), comme le montre la capture d'écran du menu de l'espace de travail, ci-dessous :   
+Une institution cliente de l’outil peut combiner un ou plusieurs espaces de travail, selon les types de collections à gérer. Cette structure permet justement d’adapter l’interface et de la modéliser par espaces de travail, pour divers objets de collection : collections muséales, collections archéologiques, collections de films, collections bibliographiques, fonds d’archives, etc. Chaque espace de travail permet notamment la gestion des acquisitions, des collections, de leurs mouvements, de projets, d’expositions, des médias, etc. Chaque espace est structuré et modélisé selon les normes en vigueur pour le type de collection géré. L'espace de travail S-Movies est ainsi modélisé selon les préconisations de la \gls{fiaf} sur l’adaptation du \gls{fiaf}, et structuré selon les normes de descriptions \gls{rda}. Ainsi, les collections sont organisées en trois entités distinctes, conformément aux adaptations du \gls{FRBR} par la \gls{fiaf} : Films (Qui fait en réalité référence au niveau Item), Manifestations, Œuvres cinématographiques. Ces entités sont concrétisées sous la forme de trois tables de données principales, au sein du menu de l'interface (\cref{figMenu}).
 
 \begin{figure}[htbp] 
 	
 	\centering 
 	
-	\includegraphics[width=0.85\textwidth]{images/image6.png} 
+	\includegraphics[width=1.0\textwidth]{images/menuBurger.png} 
 	
-	\caption{Menu burger de l'espace de travail} 
+	\caption{Menu de l'espace de travail S-Movies} 
 	
 	\label{figMenu} 
 	
 \end{figure}
 
-Dans chacune de ces tables de données, l'utilisateur peut créer de nouvelles notices, et y associer des notices des autres tables. Par exemple, depuis la table Œuvres cinématographiques, l'utilisateur peut créer une notice d’Œuvre et y associer des notices de Manifestations et d'Items qui y sont directement liées. La Variante telle que définie dans le manuel de la FIAF n’est pas représentée par une entité à part entière sous la forme d’une table comme c’est le cas pour les autres entités. Toutefois, il est possible de créer une notice de Variante au sein de la table Œuvres cinématographiques, directement liée à une Œuvre. La Variante aura le même statut qu’une Oeuvre, mais elle sera de type Variante.  
+Dans chacune de ces tables, l'utilisateur peut créer de nouvelles notices, et y associer des notices des autres tables. Par exemple, depuis la table Œuvres cinématographiques, l'utilisateur peut créer une notice d’Œuvre et y associer des notices de Manifestations et d'Items qui y sont directement liées, via un bouton d'action (\cref{figNoticeOeuvre}). 
 
-Par exemple ci-dessous, une notice d’Œuvre cinématographique à laquelle sont associées deux notices de Manifestation :  
-
-\begin{figure}[htbp] 
+\begin{figure}[h!] 
 	
 	\centering 
 	
 	\includegraphics[width=1.0\textwidth]{images/image7.png} 
 	
-	\caption{Menu burger de l'espace de travail} 
+	\caption{Lien vers des notices de Manifestation depuis une notice Œuvre} 
 	
 	\label{figNoticeOeuvre} 
 	
 \end{figure}
 
-L’interface permet d’associer des notices depuis un bouton d’action situé à droite.  
+La Variante telle que définie dans le manuel de la \gls{fiaf}, n’est pas représentée comme une entité en tant que telle sous la forme d’une table. Elle est intégrée à la table des Œuvres, au sein de laquelle il est possible de créer une notice d'Œuvre de type variante.  
 
-De plus, en fonction de la nature du corpus géré, un paramétrage adaptatif est prévu afin d’ajuster l’interface aux pratiques métier de chaque institution. En effet, une adaptation supplémentaire de la modélisation de données via la configuration flexible de chacun des espaces de travail. Trois configurations sont principalement possibles : le paramétrage de champs de saisie pour chaque type de notice, l'organisation de ces champs dans des grilles de résultats de recherche, et l'assemblage des champs et des grilles de recherche dans des menus navigables pour chaque type de notice. (Schémas explicatifs ?) Ce paramétrage concrétise la modélisation de données selon le cadre de référence utilisé.  
+De plus, en fonction de la nature du corpus géré, un paramétrage adaptatif est prévu afin d’ajuster l’interface aux pratiques métier de chaque institution. En effet, une adaptation supplémentaire à la modélisation de données est prévue via une configuration flexible de chacun des espaces de travail. Cette configuration s'effectue à trois niveaux : le paramétrage de champs de saisie pour chaque type de notice, l'organisation de ces champs dans des grilles de résultats de recherche, et l'assemblage des champs et des grilles de recherche dans des menus navigables pour chaque type de notice. Ce paramétrage permet de concrétier la modélisation de données prévue selon le cadre de référence utilisé. 
 
-%quel rôle joue la modélisation dans ce cas ? En amont du paramétrage ? Ou en aval ? (Reprendre la définition) ou tout ce paramétrage fait partie de la modélisation  
+Ainsi, une double adaptabilité est proposée. D’une part, la modélisation et la structuration de base d'un espace de travail dédié à un type de collection spécifique selon les normes recommandées, et d’autre part, un paramétrage précis de cet espace de travail, propre à la nature du corpus géré par l'institution cliente, qui conditionne les pratiques métier. Ce second niveau permet de concrétiser en un parcours métier, la modélisation fonctionnelle de l'espace de travail. 
 
-Ainsi, une double adaptabilité est proposée : d’une part un espace dédié à un type de collection et structuré en fonction des normes de description et de la modélisation de données préférée, et d’autre part un paramétrage précis de l’espace de travail, propre au type de corpus géré par l'institution cliente, concrétisant ainsi la modélisation de données propre qui sera utilisée.  
+Par exemple, l’espace de travail S-Movies est pré-structuré suivant la modélisation \gls{FRBR} préconisée par la \gls{fiaf}. Cette structure stable, permet à Skinsoft de proposer un espace de travail pré défini pour chaque institution préservatrice de collections audiovisuelles. En revanche, les corpus audiovisuels peuvent être de toutes sortes et varier d'une institution à l'autre. Cette hétérogénéité suppose des règles métiers spécifiques, issues des besoins de gestion de la collection préservé. Ainsi, par exemple, une collection audiovisuelle expérimentale ou amateure ne nécessitera pas les mêmes champs de saisie, les mêmes thésaurus, ou la même disposition des résultats de recherche, qu'une collection audiovisuelle grand public.   
 
-L’espace de travail S-Movies est pré structuré suivant la modélisation FRBR préconisée par la FIAF. Cette structure stable, permet à Skinsoft de proposer un espace de travail pré défini pour chaque institution préservatrice de ce type de collection. En revanche, les corpus audiovisuels préservés par différentes institutions peuvent être de toutes sortes, sur différentes thématiques, sous différents formats. Cette hétérogénéité suppose des règles métiers spécifiques, issues des besoins de gestion de la collection préservé. Ainsi, par exemple, une collection audiovisuelle expérimentale ou amateure ne nécessitera pas les mêmes champs de saisie, les mêmes thésaurus, ou de la même disposition des résultats de recherche, qu'une collection audiovisuelle industrielle, grand public.   
+Concrètement, au sein de l’espace de travail, la description d’un élément s’effectue au sein de champs de saisie, sélectionnés de manière adaptée aux besoins de description de l’institution donnée. Ces champs, s'ils sont paramétrables individuellement, font en réalité partie d'une structure plus large, à l'échelle de l'espace de travail dans lequel ils se situent. En effet, ces champs sont regroupés dans des masques, qui correspondent à des formulaires de saisie spécifiques au type de notice concerné. Par exemple, une notice de film physique, au niveau Item, pourra contenir un masque configuré avec les champs de saisie suivants : identifiants, format de l’item, support de l’item, etc. (\cref{figMasques})
 
-Concrètement, au sein de l’espace de travail, la description d’un élément s’effectue au sein de champs de saisie, sélectionnés de manière adaptée aux besoins de description de l’institution donnée. Ces champs, s'ils sont paramétrables individuellement, font en réalité partie d'une structure plus large, à l'échelle de l'espace de travail dans lequel ils se situent. En effet, ces champs sont regroupés dans des masques, qui correspondent à des formulaires de saisie spécifiques au type de notice concerné. Par exemple, une notice de film physique, décrivant le niveau Item pourra contenir un masque de saisie, contenant des champs de saisie correspondants (cf \ref{figMasques}): identifiants, format de l’item, support de l’item, etc. 
-
-\begin{figure}[htbp] 
+\begin{figure}[h!] 
 	
 	\centering 
 	
 	\includegraphics[width=1.0\textwidth]{images/image2.png} 
 	
-	\caption{Configuration des masques de saisie au niveau Item} 
+	\caption{Configuration de masques de saisie pour une notice de film physique} 
 	
 	\label{figMasques} 
 	
 \end{figure}
 
-Ce masque pourra ensuite être assemblé en tant qu’onglet au sein d’un menu d'une notice de film physique, permettant à l'utilisateur d'y remplir les champs que nous avons mentionnés. Ici, le menu d’une notice de film physique qui contient le masque de saisie mentionné plus haut :  
+Ce masque peut ensuite être assemblé en tant qu’onglet au sein d’un menu d'une notice de film physique, permettant à l'utilisateur d'y remplir les champs que nous avons mentionnés (\cref{figMenuFilm,figAffichageMenu}. 
 
-\begin{figure}[htbp] 
+\begin{figure}[h!] 
 	
 	\centering 
 	
@@ -83,8 +82,7 @@ Ce masque pourra ensuite être assemblé en tant qu’onglet au sein d’un menu
 	\label{figMenuFilm} 
 	
 \end{figure}
-
-Et ici la manière dont il s’affiche pour l’utilisateur, à la saisie dans une nouvelle notice de film physique :  
+ 
 
 \begin{figure}[htbp] 
 	
@@ -99,7 +97,7 @@ Et ici la manière dont il s’affiche pour l’utilisateur, à la saisie dans u
 \end{figure}
 
 
-Ce système d’organisation des masques de saisie au sein de menus permet également d’effectuer des liens avec d’autres types de notices et donc d’autres entités du FRBR. Par exemple la capture d'écran suivante \ref{figMenuGrilles}, montre que dans un menu de film physique, les onglets Œuvre liée et Manifestations liées permettent d’obtenir une grille de recherche, au sein d’une notice de film physique, affichant l’Oeuvre liée au film et les Manifestations dont il découle. 
+Ce système d’organisation des masques de saisie au sein de menus permet également d’effectuer des liens avec d’autres types de notices et donc d’autres entités du \gls{FRBR}. Par exemple, dans le menu d'une notice de film physique, les onglets Œuvre liée et Manifestations liées permettent d’obtenir une grille de recherche qui affiche l’Oeuvre liée au film et les Manifestations dont il découle \cref{figMenuGrilles}. 
 
 \begin{figure}[htbp] 
 	
@@ -113,39 +111,35 @@ Ce système d’organisation des masques de saisie au sein de menus permet égal
 	
 \end{figure}
 
-L’affichage pour l’utilisateur au sein de la notice de film physique est le suivant, avec d’une part, l’Œuvre liée(\ref{figOeuvresLiées}, et d’autre part, les Manifestations liées \ref{figManifsLiées}: 
+Dans l'interface utilisateur, le menu affiche les éléments liés au sein d'une grille de résultats de recherche \cref{figNoticeOeuvre}. 
 
-\begin{figure}[htbp] 
-	
-	\centering 
-	
-	\includegraphics[width=1.0\textwidth]{images/image9.png} 
-	
-	\caption{Affichage des Oeuvres liées dans une notice d'item} 
-	
-	\label{figOeuvresLiées} 
-	
-\end{figure}
+%\begin{figure}[htbp] 
+%	
+%	\centering 
+%	
+%	\includegraphics[width=1.0\textwidth]{images/image9.png} 
+%	
+%	\caption{Affichage des Oeuvres liées dans une notice d'item} 
+%	
+%	\label{figOeuvresLiées} 
+%	
+%\end{figure}
+%
+%\begin{figure}[htbp] 
+%	
+%	\centering 
+%	
+%	\includegraphics[width=1.0\textwidth]{images/image7.png} 
+%	
+%	\caption{Affichage des Manifestations liées dans une notice d'item} 
+%	
+%	\label{figManifsLiées} 
+%	
+%\end{figure}
 
-\begin{figure}[htbp] 
-	
-	\centering 
-	
-	\includegraphics[width=1.0\textwidth]{images/image7.png} 
-	
-	\caption{Affichage des Manifestations liées dans une notice d'item} 
-	
-	\label{figManifsLiées} 
-	
-\end{figure}
+Ces configurations permettent ainsi de concrétiser la modélisation prévue par le modèle \gls{FRBR}, en prévoyant une navigation des liens entre les notices via la configuration de menus et de grilles de recherche. Toutefois, les espaces de travail structurés sur le modèle \gls{FRBR}, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin de concrétiser le découpage de la description en niveaux hiérarchiques. Par conséquent, le logiciel développé par Skinsoft prévoit la configuration de méta-masques, des formulaires de masques de saisie pouvant cibler les champs de plusieurs types de notices –et donc plusieurs niveaux du \gls{FRBR} à la fois, afin d'imbriquer ces niveaux de description au sein d’une même notice. Ce système permet à l'utilisateur de saisir implicitement des éléments de description dépendants de plusieurs niveaux du \gls{FRBR} en une seule notice, permettant de surcroit au système de produire un héritage des champs d’un niveau à l’autre.  
 
-Toutefois, les espaces de travail structurés sur le modèle FRBR, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin de concrétiser le découpage de la description en niveaux hiérarchiques. C'est le rôle des méta-masques, des formulaires de masques de saisie pouvant cibler les champs de plusieurs types de notices –et donc plusieurs niveaux du FRBR à la fois, afin d'imbriquer ces niveaux de description au sein d’une même notice. Ce système permet à l'utilisateur de saisir implicitement des éléments de description sur plusieurs niveaux du FRBR en une seule notice, permettant de surcroit au système de produire un héritage des champs d’un niveau à l’autre du FRBR.  
-
-Concrètement, dans S-Movies, la notice d'Œuvre/Expression pointe sur les champs de l'Œuvre et de l'Expression, la notice de Manifestation pointe sur les champs de l'Œuvre, l'Expression et la Manifestation, la notice de l'Item pointe sur l'Œuvre, l'Expression, la Manifestation et l'Item. \textbf{(Faire un schéma explicatif) (citer le mode d'emploi interne ?)}. Ce mode de paramétrage de la description permet d’intégrer aux niveaux du FRBR inférieurs des champs hérités des niveaux supérieurs.  
-
-\footnote{Notons que la présence du niveau Expression contredit le modèle FRBR préconisé par la FIAF, qui fusionne le niveau Expression dans celui d’Œuvre. Etant donné que Skinsoft possède d’autres espaces de travail modélisé sur le FRBR, comme c’est le cas de l’espace dédié à la gestion des collections bibliographiques, le niveau Expression existe seulement en théorie, mais inutilisé en pratique au sein de S-Movies.} 
-
-Ici par exemple (\ref{figMetamasque}), un méta masque de saisie pour une notice de film physique, ciblé sur l’expression, le film physique, la manifestation de film physique, l’œuvre cinématographique : 
+Concrètement, dans S-Movies, la notice d'Œuvre/Expression pointe sur les champs de l'Œuvre et de l'Expression, la notice de Manifestation pointe sur les champs de l'Œuvre, l'Expression et la Manifestation, la notice de l'Item pointe sur l'Œuvre, l'Expression, la Manifestation et l'Item (\cref{figMetamasque}). Ce mode de paramétrage de la description permet d’intégrer aux niveaux du \gls{FRBR} inférieurs des champs hérités des niveaux supérieurs \footnote{Notons que la présence du niveau Expression contredit le modèle \gls{FRBR} préconisé par la \gls{fiaf}, qui fusionne le niveau Expression dans celui d’Œuvre. Etant donné que Skinsoft possède d’autres espaces de travail modélisés sur le \gls{FRBR}, comme c’est le cas de l’espace dédié à la gestion des collections bibliographiques, le niveau Expression existe seulement en théorie, mais il est inutilisé en pratique au sein de S-Movies.}. Le réservoir de champs à droite signale à quel niveau de description les champs appartiennent, tandis que les cibles du méta-masques apparaissent à gauche de l'interface (\cref{figMetamasque}).
 
 \begin{figure}[htbp] 
 	
@@ -159,15 +153,130 @@ Ici par exemple (\ref{figMetamasque}), un méta masque de saisie pour une notice
 	
 \end{figure}
 
-À droite, les champs disponibles signalent à quel niveau de description ils appartiennent. Par exemple ci-dessus (\ref{figMetamasque}), le champ description appartient au niveau Œuvre, le champ dimensions appartient au niveau Manifestation.
-
 %(: média (notice du fichier numérique, média), accessoire (modèle d'accessoire, accessoire), contenant (modèle de contenant, contenant).) 
 
-Ces masques et méta masques créent ainsi une structure pérenne qui fait l'objet d'un paramétrage individuel qui permet d’ajuster la structure en fonction du type de collection et des usages métiers du client concerné. Ce paramétrage est défini au cours d’un travail de mapping entre les données client et la structure proposée par Skinsoft, afin de trouver un accord sur les champs qui seront utilisés pour la description des collections. L'équipe de Skinsoft organise ensuite ces champs dans des formulaires de saisie (masques et méta masques), eux-mêmes organisés pour constituer des menus de notice et des grilles de résultats de recherche. L'équipe produit également des imports de thésaurus propres aux usages de l'institution en question, afin d'assurer l'interopérabilité des données saisies. %Afin d'assurer l'interopérabilité des données, l'indexation des champs est liée à des thésaurus et des référentiels contrôlés qui ont importés au moment de la configuration de l'espace de travail pour le client. À développer  
+Ces masques et méta masques créent ainsi une structure pérenne qui fait l'objet d'un paramétrage individuel, permettant d’ajuster la structure en fonction du type de collection et des usages métiers du client concerné. Ce paramétrage est défini au cours d’un travail de mapping entre les données client et la structure proposée par Skinsoft, afin de trouver un accord sur les champs qui seront utilisés pour la description des collections. L'équipe de Skinsoft organise ensuite ces champs dans des formulaires de saisie (masques et méta masques), eux-mêmes organisés pour constituer des menus de notice et des grilles de résultats de recherche. L'équipe produit également des imports de thésaurus, c'est-à-dire des listes de termes normalisés, propres aux usages de l'institution concernée afin d'assurer l'interopérabilité des données saisies. 
 
-Les fondements de l'architecture de S-Movies, doublement adaptée d’une part aux collections cinématographiques et d’autre part aux pratiques métiers spécifiques à chaque institution, constitue la condition de la qualité des données et de l’expérience utilisateur. L'enjeu de l'espace de travail est d'offrir une interface qui permette à l'utilisateur de décrire les collections en plusieurs niveaux sans difficulté et de pouvoir circuler entre ces niveaux et les liens qu’ils entretiennent. Cette circulation est notamment permise par les grilles de recherche que nous avons évoquées dont le paramétrage permet d’afficher les entités liées pour chaque notice. De plus, les différents outils de recherche permettent de circuler au sein des éléments de description indexés. (À développer ?) 
+Les fondements de l'architecture de S-Movies, doublement adaptée d’une part aux collections cinématographiques, et d’autre part à des pratiques métiers spécifiques, constituent la condition de la qualité des données et de l’expérience utilisateur. L'enjeu de l'espace de travail est d'offrir une interface qui permette à l'utilisateur de décrire les collections en plusieurs niveaux sans difficulté et de pouvoir circuler entre ces niveaux et les liens qu’ils entretiennent. Cette circulation est notamment permise par les grilles de recherche que nous avons évoquées dont le paramétrage permet d’afficher les entités liées pour chaque notice. De plus, les différents outils de recherche proposés par le logiciel, dont la recherche avancée, la recherche plein texte ciblée, ou la recherche par facettes, permettent de circuler au sein des éléments de description indexés. 
 
-Toutefois, malgré la haute configurabilité de l’interface, l’hétérogénéité des corpus audiovisuels gérés d’une institution à l’autre complexifie le travail de mapping qui doit être effectué. En effet, la modélisation FRBR préconisée par la FIAF est un cadre qu’il s’agit d’ajuster aux pratiques spécifiques de gestion des collections, elles-mêmes adaptées au type de corpus géré. L’ajustement à des corpus audiovisuels spécifiques complexifie potentiellement la fluidité de la navigation entre les liens des différentes entités du FRBR au sein de l’interface.   
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}[
+		node distance=1.4cm and 1.8cm,
+		font=\sffamily\small,
+		% Style des tables MLD (Index Elasticsearch virtuels)
+		table/.style={
+			draw=blue!80!black, 
+			fill=blue!3, 
+			rectangle, 
+			rounded corners=3pt, 
+			line width=1pt, 
+			align=left, 
+			inner sep=8pt,
+			text width=5.2cm
+		},
+		% Style des flèches de relation par résolution d'IDs
+		rel/.style={
+			draw=black!85, 
+			-{Stealth[length=2.5mm]}, 
+			thick
+		}
+		]
+		
+		% ==================== TABLES / INDEXES ====================
+		
+		% 1. Table AGENT
+		\node[table] (agent) {
+			\textbf{\large T\_AGENT}\\[2pt]
+			\textcolor{gray}{\scriptsize\textit{(Notice d'Autorité - Document Agent)}}\\[4pt]
+			$\bullet$ \underline{id\_agent} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
+			$\bullet$ nom\_forme\_retenue\\
+			$\bullet$ type\_agent\\
+			$\bullet$ dates\_biographie
+		};
+		
+		% 2. Table OEUVRE
+		\node[table, right=of agent] (oeuv) {
+			\textbf{\large T\_OEUVRE}\\[2pt]
+			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F1 - Document Œuvre)}}\\[4pt]
+			$\bullet$ \underline{id\_oeuvre} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
+			$\bullet$ titre\_original\\
+			$\bullet$ annee\_production\\
+			$\bullet$ genre\\
+			$\bullet$ \textit{id\_oeuvre\_variante} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur auto-réf.)}
+		};
+		
+		% 3. Table CONTRIBUTION (Jonction N,N)
+		\node[table, below=1.8cm of agent] (contrib) {
+			\textbf{\large T\_CONTRIBUTION}\\[2pt]
+			\textcolor{gray}{\scriptsize\textit{(Association N,N - Crédits / Rôles)}}\\[4pt]
+			$\bullet$ \underline{\textit{id\_agent}} \textbf{[PK, FK]}\\
+			$\bullet$ \underline{\textit{id\_oeuvre}} \textbf{[PK, FK]}\\
+			$\bullet$ role \textit{(Réalisateur, Acteur, etc.)}
+		};
+		
+		% 4. Table MANIFESTATION
+		\node[table, below=1.8cm of oeuv] (manif) {
+			\textbf{\large T\_MANIFESTATION}\\[2pt]
+			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F3 - Document Équivalent)}}\\[4pt]
+			$\bullet$ \underline{id\_manifestation} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
+			$\bullet$ titre\_distribution\\
+			$\bullet$ langue\_version\\
+			$\bullet$ date\_sortie\\
+			$\bullet$ \textit{id\_oeuvre} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur ID Parent)}
+		};
+		
+		% 5. Table ITEM
+		\node[table, right=of manif] (item) {
+			\textbf{\large T\_ITEM}\\[2pt]
+			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F5 - Document Exemplaire)}}\\[4pt]
+			$\bullet$ \underline{id\_item} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
+			$\bullet$ cote\_emplacement\\
+			$\bullet$ format\_support\\
+			$\bullet$ etat\_conservation\\
+			$\bullet$ \textit{id\_manifestation} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur ID Parent)}
+		};
+		
+		
+		% ==================== LIENS RELATIONNELS ====================
+		
+		% Item -> Manifestation (FK -> PK)
+		\draw[rel] (item.west) -- (manif.east)
+		node[pos=0.5, above, font=\scriptsize\bfseries] {Réf. ID};
+		
+		% Manifestation -> Oeuvre (FK -> PK)
+		\draw[rel] (manif.north) -- (oeuv.south)
+		node[pos=0.5, right, font=\scriptsize\bfseries] {Réf. ID};
+		
+		% Contribution -> Agent (FK -> PK)
+		\draw[rel] (contrib.north) -- (agent.south)
+		node[pos=0.5, left, font=\scriptsize\bfseries] {Réf. ID};
+		
+		% Contribution -> Oeuvre (FK -> PK)
+		\draw[rel] (contrib.north east) -- (oeuv.south west)
+		node[pos=0.5, above left, font=\scriptsize\bfseries] {Réf. ID};
+		
+		% Auto-référence Réflexive sur OEUVRE (Ligne corrigée)
+		\draw[rel] (oeuv.east) .. controls +(0:1.2cm) and +(90:1.2cm) .. (oeuv.north)
+		node[pos=0.5, above right, font=\scriptsize\bfseries] {Variante};
+		
+		
+		% ==================== LÉGENDE TECHNIQUE ====================
+		\node[draw=gray!60, fill=white, rectangle, rounded corners=3pt, 
+		below=1cm of contrib, xshift=3.5cm, text width=13.5cm, align=center, font=\scriptsize, inner sep=6pt] (legende) {
+			\textbf{Légende et Correspondance Elasticsearch / S-Movies :}\\
+			$\bullet$ \textbf{[PK]} (\textit{Primary Key}) = Champ système \texttt{\_id} généré par Elasticsearch pour chaque document.\\
+			$\bullet$ \textbf{[FK]} (\textit{Foreign Key}) = Champ de référence stockant le \texttt{\_id} d'un document tiers, résolu par l'IHM S-Movies.\\
+			$\bullet$ \textbf{Lien d'association} = Relation conceptuelle FRBR matérialisée par des requêtes applicatives de type pointeurs d'IDs.
+		};
+		
+	\end{tikzpicture}
+	\caption{Modèle Logique de Données (MLD) relationnel virtuel de l'application S-Movies}
+	\label{figMLDRelationnelSMovies}
+\end{figure}
+
+
+Toutefois, malgré la haute configurabilité de l’interface, l’hétérogénéité des corpus audiovisuels gérés d’une institution à l’autre complexifie l'adaptation à effectuer. En effet, la modélisation \gls{FRBR} préconisée par la \gls{fiaf} est un cadre qu’il s’agit d’ajuster aux pratiques spécifiques de gestion des collections, elles-mêmes adaptées au type de corpus géré. L’ajustement à des corpus audiovisuels spécifiques complexifie potentiellement la fluidité de la navigation entre les liens des différentes entités du \gls{FRBR} au sein de l’interface.   
 
 %Présentation espace S-Movies : aperçu des fonctionnalités communes et spécifiques (à placer en annexe ?): ces fonctionnalités sont chacune rattachées à un ou plusieurs niveaux du FRBR 
 
@@ -185,15 +294,11 @@ Toutefois, malgré la haute configurabilité de l’interface, l’hétérogén�
 
 %fonctionnalités communes : gestion des contrats, évènements, interventions, expositions 
 
-%Lien de la FIAF à S-Movies : mise en application du manuel de la FIAF, remodélisation, adaptable selon les corpus. tension public/privé 
-
 
 
 %à bouger dans la première sous partie 
 
 %S- Movies s'appuie sur deux normes descriptives audiovisuelles européennes : la norme EN 15744, qui définit le contenu obligatoire de description pour l'identification d'un film, ainsi que la norme EN 15907 qui découle du manuel de la FIAF et décrit une structure en couches et niveaux de données. Ces normes définissent les métadonnées essentielles pour faciliter l'échange de données et l'identification des films. \footcite{zotero-item-646} 
-
-
 
 %Au niveau de la description des archives, il s'appuie sur la norme RDA pour la description et l'accès aux ressources. \footcite{zotero-item-646} 
 
