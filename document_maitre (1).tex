@@ -40,7 +40,9 @@
 \usepackage{caption}
 \usepackage{amsmath}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE
+
 
 %%%%%% Les compteurs (sections, subsections, etc)
 
@@ -54,7 +56,6 @@
 \setcounter{secnumdepth}{3}  % La subsubsection (profondeur=3 dans la table des matières) apparait numérotée dans la TdM
 
 
-
 %%%%%  Configurer le document selon les normes de l'école
 
 \usepackage[margin=2.5cm]{geometry} %marges
@@ -66,12 +67,21 @@
 %%%%% Mise en forme des headers (haut de page)
 
 \usepackage{fancyhdr} %package utilisé pour modifier les headers
-\pagestyle{fancy} %utiliser ses propres choix de mise en page et non ceux par défaut du package
+%\pagestyle{fancy} %utiliser ses propres choix de mise en page et non ceux par défaut du package
 
 \setlength\headheight{16pt}%la hauteur des headers
 
-%%la façon dont les sections apparaissent dans les en-tête:
+% Vider tous les entêtes/pieds de page par défaut
+\pagestyle{fancy}
+\fancyhf{}
 
+% Positionnement explicite : numéro de page + marque de titre
+\fancyhead[LE]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RO]{\thepage}
+
+%sections
 \renewcommand{\sectionmark}[1]{\markright{\small\textit{\thesection~\  #1}}}%Faire apparaître dans les headers les sections en  petit et en italiques
 %\renewcommand{\sectionmark}[1]{}%Commenter la lign précédetne et mettre celle-ci pour ne pas avoir le titre des sections dans le header
 

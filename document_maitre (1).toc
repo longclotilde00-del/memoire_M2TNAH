@@ -1,33 +1,44 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Avertissement}{ix}{chapter*.4}%
-\contentsline {chapter}{Introduction}{xiii}{chapter*.6}%
+\contentsline {chapter}{Avertissement}{vii}{chapter*.4}%
+\contentsline {chapter}{Introduction}{xi}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
-\contentsline {chapter}{\numberline {1}Implémenter le FRBR adapté aux archives audiovisuelles au sein d’un outil de gestion des collections}{3}{chapter.1}%
-\contentsline {section}{\numberline {I.}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}{3}{section.1.1}%
-\contentsline {section}{\numberline {II.}L'inscription des corpus de données dans la remodélisation du FRBR}{12}{section.1.2}%
-\contentsline {section}{\numberline {III.}Vers une refonte de S-Movies}{16}{section.1.3}%
-\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{19}{part.2}%
-\contentsline {part}{III\hspace {1em}Perspectives}{21}{part.3}%
-\contentsline {chapter}{Conclusion}{23}{chapter*.17}%
-\contentsline {chapter}{\numberline {A}Titre court}{25}{appendix.A}%
-\contentsline {part}{Annexes}{29}{part*.18}%
-\contentsline {chapter}{\numberline {A} Suggestions d'améliorations pour l'espace de travail S-Movies}{29}{appendix.A}%
-\contentsline {section}{\numberline {I.}Améliorations}{29}{section.A.1}%
-\contentsline {subsection}{\numberline {1.}Amélioration des liens}{29}{subsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{29}{subsubsection.A.1.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{30}{subsubsection.A.1.1.2}%
-\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{30}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{30}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {4.}Conserver le niveau du FRBR en mode saisie sur les métas masques }{32}{subsection.A.1.4}%
-\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{32}{section.A.2}%
-\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{32}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {2.}Recherche de médias par type de format }{33}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {3.}Mise en place d’un repérage couleur pour les niveaux du FRBR }{34}{subsection.A.2.3}%
-\contentsline {subsection}{\numberline {4.}Mise en place d’une visualisation des liens entre entités du FRBR }{34}{subsection.A.2.4}%
-\contentsline {subsection}{\numberline {5.}Automatisation du catalogage en niveaux FRBR }{37}{subsection.A.2.5}%
-\contentsline {subsection}{\numberline {6.}Affichage des niveaux FRBR dans l’onglet/entête d’une notice }{37}{subsection.A.2.6}%
-\contentsline {subsection}{\numberline {7.}Repenser le mode de création de notices dans des tables individuelles}{38}{subsection.A.2.7}%
-\contentsline {chapter}{Glossaire}{41}{section*.23}%
-\contentsline {chapter}{Liste des abréviations}{43}{section*.25}%
+\contentsline {chapter}{\numberline {1}Modéliser un logiciel pour la gestion des collections audiovisuelles}{3}{chapter.1}%
+\contentsline {section}{\numberline {I.} Configuration du \gls {FRBR} au sein d'une interface logicielle}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.}Architecture du logiciel développé par Skinsoft}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {2.}L'espace de travail S-Movies}{5}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {a.}Structure fonctionnelle}{5}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Configurations spécifiques}{6}{subsubsection.1.1.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Méta-masques de saisie}{8}{subsubsection.1.1.2.3}%
+\contentsline {section}{\numberline {II.} L'inscription de corpus de données audiovisuelles au sein de S-Movies}{11}{section.1.2}%
+\contentsline {subsection}{\numberline {1.}Implémentation d'un corpus audiovisuel classique}{11}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {2.}Implémentation d'un corpus audiovisuel spécifique}{12}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {a.}Une modélisation descriptive à deux niveaux ?}{12}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Analyse des pratiques métiers}{13}{subsubsection.1.2.2.2}%
+\contentsline {section}{\numberline {III.} Les complexités d'interface soulevées par la modélisation \gls {FRBR}}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.}Affichage hiérarchique et terminologie}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {2.}Configuration et visualisation des liens}{15}{subsection.1.3.2}%
+\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{17}{part.2}%
+\contentsline {part}{III\hspace {1em}Perspectives}{19}{part.3}%
+\contentsline {chapter}{Conclusion}{21}{chapter*.15}%
+\contentsline {chapter}{\numberline {A}Titre court}{23}{appendix.A}%
+\contentsline {part}{Annexes}{27}{part*.16}%
+\contentsline {chapter}{\numberline {A} Suggestions d'améliorations pour l'espace de travail S-Movies}{27}{appendix.A}%
+\contentsline {section}{\numberline {I.}Améliorations}{27}{section.A.1}%
+\contentsline {subsection}{\numberline {1.}Amélioration des liens}{27}{subsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{27}{subsubsection.A.1.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{28}{subsubsection.A.1.1.2}%
+\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{28}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{28}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {4.}Conserver le niveau du FRBR en mode saisie sur les métas masques }{30}{subsection.A.1.4}%
+\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{30}{section.A.2}%
+\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{30}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {2.}Recherche de médias par type de format }{31}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {3.}Mise en place d’un repérage couleur pour les niveaux du FRBR }{32}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {4.}Mise en place d’une visualisation des liens entre entités du FRBR }{32}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {5.}Automatisation du catalogage en niveaux FRBR }{35}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {6.}Affichage des niveaux FRBR dans l’onglet/entête d’une notice }{35}{subsection.A.2.6}%
+\contentsline {subsection}{\numberline {7.}Repenser le mode de création de notices dans des tables individuelles}{36}{subsection.A.2.7}%
+\contentsline {chapter}{Glossaire}{39}{section*.21}%
+\contentsline {chapter}{Liste des abréviations}{41}{section*.23}%

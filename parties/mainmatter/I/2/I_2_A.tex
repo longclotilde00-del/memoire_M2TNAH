@@ -1,13 +1,13 @@
-\section{\label{I_2_A}Un espace de travail dédié à la gestion de collections audiovisuelles : S-Movies}
+\section{\label{I_2_A} Configuration du \gls{FRBR} au sein d'une interface logicielle}
+
+\subsection{Architecture du logiciel développé par Skinsoft}
 
 Si le manuel de la \gls{fiaf} pose le cadre d’une adaptation du modèle \gls{FRBR} pour la gestion des \gls{Archivesaudiovisuelles}, il s'agit désormais de confronter ce cadre à une implémentation concrète. Pour cela, nous analyserons au cours de ce chapitre l’implémentation d’une telle modélisation au sein d’un outil de gestion des collections, celui développé par Skinsoft. Nous y analyserons spécifiquement l’espace de travail développé pour la gestion des \gls{Archivesaudiovisuelles} : S-Movies. En effet, le contexte de notre étude se situe principalement dans le cadre de l’analyse de cet espace de travail, effectuée au cours de notre stage. L'analyse de la modélisation de l'espace de travail a eu pour objectif d'en proposer des améliorations afin de concrétiser le projet d'implémentation de fonctionnalités automatiques, fondées sur l’intelligence artificielle.  
 
-Présentons d’abord le fonctionnement général de l’outil de gestion des collections développé par Skinsoft. Celui-ci est divisé en espaces de travail, disponibles sous la formes d'onglets en haut de l'interface (\cref{figAccueil}). Chacun de ces espaces de travail est dédié à un type de collection \footnote{Les captures d'écran intégrées à notre mémoire sont issues d'une plateforme de test configurée par nos soins au cours du stage. Les données qui y sont intégrées et visibles sont des données fictives.}. 
+Présentons d’abord le fonctionnement général de l’outil de gestion des collections développé par Skinsoft. D'un point de vue technique, le système repose sur une base de données \textit{NoSQL} orientée documents, s'appuyant sur le moteur de recherche et d'analyse \textit{Elasticsearch} \footnote{\textit{Elasticsearch} est un moteur de recherche qui stocke des données non structurées ou semi-structurées sous forme de documents au format JSON (\textit{JavaScript Object Notation}) \cite{zotero-item-821}}. Contrairement aux bases de données relationnelles traditionnelles basée sur le langage \textit{SQL}, \textit{Elasticsearch} ne s'appuie pas sur un schéma de tables reliées les unes aux autres, mais consigne l'information sous la forme de documents \textit{JSON} au sein d'index \footcite{2025c}. Ce type d'architecture permet de gérer un grand nombre de données et de gérer l'évolutivité de leur paramétrage \footcite{2025c}. D'un point de vue métier, le paramétrage de l'interface permet de recréer la modélisation relationnelle préconisée par la \gls{fiaf}.
 
-Le système est construit à partir d'une base NoSQL Au niveau physique (Stockage NoSQL) : La base de données offre de la flexibilité en stockant des documents JSON/XML (ce qui permet à Skinsoft de proposer un paramétrage de champs très souple sans redéfinir le schéma de base de données à chaque client).  Étant donné que cette conception de base de données non relationnelle ne nécessite pas de schéma, elle offre une évolutivité rapide pour gérer des ensembles de données volumineux et généralement non structurés. En comparaison, les bases de données NoSQL sont non relationnelles, ce qui élimine le besoin de connecter des tables. Elasticsearch, une base de données nosql basée sur des documents qui inclut un moteur de recherche en texte intégral.
-Elasticsearch n'est pas une base de données relationnelle classique : c'est un moteur de recherche et d'analyse NoSQL orienté documents JSON. Dans Elasticsearch, il n'y a pas de véritables « tables », mais des index (ou types de documents).
+Concrètement, au niveau de la présentation de l'interface, le logiciel est divisé en espaces de travail, disponibles sous la formes d'onglets en haut de l'interface (\cref{figAccueil}). Chacun de ces espaces de travail est dédié à un type de collection \footnote{Les captures d'écran intégrées à notre mémoire sont issues d'une plateforme de test configurée par nos soins au cours du stage. Les données qui y sont intégrées et visibles sont des données fictives.}. 
 
-Puisque les contraintes de clés étrangères (FK) n'existent pas nativement dans Elasticsearch, l'application S-Movies (développée par Skinsoft) recrée la logique relationnelle applicativement.
 
 \begin{figure}[htbp] 
 	\centering 
@@ -19,7 +19,11 @@ Puisque les contraintes de clés étrangères (FK) n'existent pas nativement dan
 	\label{figAccueil} 
 \end{figure}
 
-Une institution cliente de l’outil peut combiner un ou plusieurs espaces de travail, selon les types de collections à gérer. Cette structure permet justement d’adapter l’interface et de la modéliser par espaces de travail, pour divers objets de collection : collections muséales, collections archéologiques, collections de films, collections bibliographiques, fonds d’archives, etc. Chaque espace de travail permet notamment la gestion des acquisitions, des collections, de leurs mouvements, de projets, d’expositions, des médias, etc. Chaque espace est structuré et modélisé selon les normes en vigueur pour le type de collection géré. L'espace de travail S-Movies est ainsi modélisé selon les préconisations de la \gls{fiaf} sur l’adaptation du \gls{fiaf}, et structuré selon les normes de descriptions \gls{rda}. Ainsi, les collections sont organisées en trois entités distinctes, conformément aux adaptations du \gls{FRBR} par la \gls{fiaf} : Films (Qui fait en réalité référence au niveau Item), Manifestations, Œuvres cinématographiques. Ces entités sont concrétisées sous la forme de trois tables de données principales, au sein du menu de l'interface (\cref{figMenu}).
+Une institution cliente de l’outil peut combiner un ou plusieurs espaces de travail, selon les types de collections à gérer. Cette structure permet justement d’adapter l’interface et de la modéliser par espaces de travail, pour divers objets de collection : collections muséales, collections archéologiques, collections de films, collections bibliographiques, fonds d’archives, etc. Chaque espace de travail permet notamment la gestion des acquisitions, des collections, de leurs mouvements, de projets, d’expositions, des médias, etc. Chaque espace est structuré et modélisé selon les normes en vigueur pour le type de collection géré. 
+
+\subsection{L'espace de travail S-Movies}
+\subsubsection{Structure fonctionnelle}
+L'espace de travail S-Movies, propre à la gestion des collections audiovisuelles, est modélisé selon les préconisations de la \gls{fiaf} sur l’adaptation du \gls{fiaf}, et structuré selon les normes de descriptions \gls{rda}. Ainsi, les collections sont organisées en trois entités distinctes, conformément aux adaptations du \gls{FRBR} par la \gls{fiaf} : Films (Qui fait en réalité référence au niveau Item), Manifestations, Œuvres cinématographiques. Ces entités sont concrétisées sous la forme de trois tables de données principales, au sein du menu de l'interface (\cref{figMenu}).
 
 \begin{figure}[htbp] 
 	
@@ -48,6 +52,8 @@ Dans chacune de ces tables, l'utilisateur peut créer de nouvelles notices, et y
 \end{figure}
 
 La Variante telle que définie dans le manuel de la \gls{fiaf}, n’est pas représentée comme une entité en tant que telle sous la forme d’une table. Elle est intégrée à la table des Œuvres, au sein de laquelle il est possible de créer une notice d'Œuvre de type variante.  
+
+\subsubsection{Configurations spécifiques}
 
 De plus, en fonction de la nature du corpus géré, un paramétrage adaptatif est prévu afin d’ajuster l’interface aux pratiques métier de chaque institution. En effet, une adaptation supplémentaire à la modélisation de données est prévue via une configuration flexible de chacun des espaces de travail. Cette configuration s'effectue à trois niveaux : le paramétrage de champs de saisie pour chaque type de notice, l'organisation de ces champs dans des grilles de résultats de recherche, et l'assemblage des champs et des grilles de recherche dans des menus navigables pour chaque type de notice. Ce paramétrage permet de concrétier la modélisation de données prévue selon le cadre de référence utilisé. 
 
@@ -137,7 +143,10 @@ Dans l'interface utilisateur, le menu affiche les éléments liés au sein d'une
 %	
 %\end{figure}
 
-Ces configurations permettent ainsi de concrétiser la modélisation prévue par le modèle \gls{FRBR}, en prévoyant une navigation des liens entre les notices via la configuration de menus et de grilles de recherche. Toutefois, les espaces de travail structurés sur le modèle \gls{FRBR}, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin de concrétiser le découpage de la description en niveaux hiérarchiques. Par conséquent, le logiciel développé par Skinsoft prévoit la configuration de méta-masques, des formulaires de masques de saisie pouvant cibler les champs de plusieurs types de notices –et donc plusieurs niveaux du \gls{FRBR} à la fois, afin d'imbriquer ces niveaux de description au sein d’une même notice. Ce système permet à l'utilisateur de saisir implicitement des éléments de description dépendants de plusieurs niveaux du \gls{FRBR} en une seule notice, permettant de surcroit au système de produire un héritage des champs d’un niveau à l’autre.  
+Ces configurations permettent ainsi de concrétiser la modélisation prévue par le modèle \gls{FRBR}, en prévoyant une navigation des liens entre les notices via la configuration de menus et de grilles de recherche. 
+
+\subsubsection{Méta-masques de saisie}
+Toutefois, les espaces de travail structurés sur le modèle \gls{FRBR}, comme c'est le cas de S-Movies, requièrent un niveau de configuration supplémentaire, afin de concrétiser le découpage de la description en niveaux hiérarchiques. Par conséquent, le logiciel développé par Skinsoft prévoit la configuration de méta-masques, des formulaires de masques de saisie pouvant cibler les champs de plusieurs types de notices –et donc plusieurs niveaux du \gls{FRBR} à la fois, afin d'imbriquer ces niveaux de description au sein d’une même notice. Ce système permet à l'utilisateur de saisir implicitement des éléments de description dépendants de plusieurs niveaux du \gls{FRBR} en une seule notice, permettant de surcroit au système de produire un héritage des champs d’un niveau à l’autre.  
 
 Concrètement, dans S-Movies, la notice d'Œuvre/Expression pointe sur les champs de l'Œuvre et de l'Expression, la notice de Manifestation pointe sur les champs de l'Œuvre, l'Expression et la Manifestation, la notice de l'Item pointe sur l'Œuvre, l'Expression, la Manifestation et l'Item (\cref{figMetamasque}). Ce mode de paramétrage de la description permet d’intégrer aux niveaux du \gls{FRBR} inférieurs des champs hérités des niveaux supérieurs \footnote{Notons que la présence du niveau Expression contredit le modèle \gls{FRBR} préconisé par la \gls{fiaf}, qui fusionne le niveau Expression dans celui d’Œuvre. Etant donné que Skinsoft possède d’autres espaces de travail modélisés sur le \gls{FRBR}, comme c’est le cas de l’espace dédié à la gestion des collections bibliographiques, le niveau Expression existe seulement en théorie, mais il est inutilisé en pratique au sein de S-Movies.}. Le réservoir de champs à droite signale à quel niveau de description les champs appartiennent, tandis que les cibles du méta-masques apparaissent à gauche de l'interface (\cref{figMetamasque}).
 
@@ -159,121 +168,171 @@ Ces masques et méta masques créent ainsi une structure pérenne qui fait l'obj
 
 Les fondements de l'architecture de S-Movies, doublement adaptée d’une part aux collections cinématographiques, et d’autre part à des pratiques métiers spécifiques, constituent la condition de la qualité des données et de l’expérience utilisateur. L'enjeu de l'espace de travail est d'offrir une interface qui permette à l'utilisateur de décrire les collections en plusieurs niveaux sans difficulté et de pouvoir circuler entre ces niveaux et les liens qu’ils entretiennent. Cette circulation est notamment permise par les grilles de recherche que nous avons évoquées dont le paramétrage permet d’afficher les entités liées pour chaque notice. De plus, les différents outils de recherche proposés par le logiciel, dont la recherche avancée, la recherche plein texte ciblée, ou la recherche par facettes, permettent de circuler au sein des éléments de description indexés. 
 
-\begin{figure}[htbp]
-	\centering
-	\begin{tikzpicture}[
-		node distance=1.4cm and 1.8cm,
-		font=\sffamily\small,
-		% Style des tables MLD (Index Elasticsearch virtuels)
-		table/.style={
-			draw=blue!80!black, 
-			fill=blue!3, 
-			rectangle, 
-			rounded corners=3pt, 
-			line width=1pt, 
-			align=left, 
-			inner sep=8pt,
-			text width=5.2cm
-		},
-		% Style des flèches de relation par résolution d'IDs
-		rel/.style={
-			draw=black!85, 
-			-{Stealth[length=2.5mm]}, 
-			thick
-		}
-		]
-		
-		% ==================== TABLES / INDEXES ====================
-		
-		% 1. Table AGENT
-		\node[table] (agent) {
-			\textbf{\large T\_AGENT}\\[2pt]
-			\textcolor{gray}{\scriptsize\textit{(Notice d'Autorité - Document Agent)}}\\[4pt]
-			$\bullet$ \underline{id\_agent} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
-			$\bullet$ nom\_forme\_retenue\\
-			$\bullet$ type\_agent\\
-			$\bullet$ dates\_biographie
-		};
-		
-		% 2. Table OEUVRE
-		\node[table, right=of agent] (oeuv) {
-			\textbf{\large T\_OEUVRE}\\[2pt]
-			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F1 - Document Œuvre)}}\\[4pt]
-			$\bullet$ \underline{id\_oeuvre} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
-			$\bullet$ titre\_original\\
-			$\bullet$ annee\_production\\
-			$\bullet$ genre\\
-			$\bullet$ \textit{id\_oeuvre\_variante} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur auto-réf.)}
-		};
-		
-		% 3. Table CONTRIBUTION (Jonction N,N)
-		\node[table, below=1.8cm of agent] (contrib) {
-			\textbf{\large T\_CONTRIBUTION}\\[2pt]
-			\textcolor{gray}{\scriptsize\textit{(Association N,N - Crédits / Rôles)}}\\[4pt]
-			$\bullet$ \underline{\textit{id\_agent}} \textbf{[PK, FK]}\\
-			$\bullet$ \underline{\textit{id\_oeuvre}} \textbf{[PK, FK]}\\
-			$\bullet$ role \textit{(Réalisateur, Acteur, etc.)}
-		};
-		
-		% 4. Table MANIFESTATION
-		\node[table, below=1.8cm of oeuv] (manif) {
-			\textbf{\large T\_MANIFESTATION}\\[2pt]
-			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F3 - Document Équivalent)}}\\[4pt]
-			$\bullet$ \underline{id\_manifestation} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
-			$\bullet$ titre\_distribution\\
-			$\bullet$ langue\_version\\
-			$\bullet$ date\_sortie\\
-			$\bullet$ \textit{id\_oeuvre} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur ID Parent)}
-		};
-		
-		% 5. Table ITEM
-		\node[table, right=of manif] (item) {
-			\textbf{\large T\_ITEM}\\[2pt]
-			\textcolor{gray}{\scriptsize\textit{(Niveau FRBR F5 - Document Exemplaire)}}\\[4pt]
-			$\bullet$ \underline{id\_item} \textbf{[PK]} \textcolor{gray}{\scriptsize(\texttt{\_id})}\\[2pt]
-			$\bullet$ cote\_emplacement\\
-			$\bullet$ format\_support\\
-			$\bullet$ etat\_conservation\\
-			$\bullet$ \textit{id\_manifestation} \textbf{[FK]} \textcolor{gray}{\scriptsize(Pointeur ID Parent)}
-		};
-		
-		
-		% ==================== LIENS RELATIONNELS ====================
-		
-		% Item -> Manifestation (FK -> PK)
-		\draw[rel] (item.west) -- (manif.east)
-		node[pos=0.5, above, font=\scriptsize\bfseries] {Réf. ID};
-		
-		% Manifestation -> Oeuvre (FK -> PK)
-		\draw[rel] (manif.north) -- (oeuv.south)
-		node[pos=0.5, right, font=\scriptsize\bfseries] {Réf. ID};
-		
-		% Contribution -> Agent (FK -> PK)
-		\draw[rel] (contrib.north) -- (agent.south)
-		node[pos=0.5, left, font=\scriptsize\bfseries] {Réf. ID};
-		
-		% Contribution -> Oeuvre (FK -> PK)
-		\draw[rel] (contrib.north east) -- (oeuv.south west)
-		node[pos=0.5, above left, font=\scriptsize\bfseries] {Réf. ID};
-		
-		% Auto-référence Réflexive sur OEUVRE (Ligne corrigée)
-		\draw[rel] (oeuv.east) .. controls +(0:1.2cm) and +(90:1.2cm) .. (oeuv.north)
-		node[pos=0.5, above right, font=\scriptsize\bfseries] {Variante};
-		
-		
-		% ==================== LÉGENDE TECHNIQUE ====================
-		\node[draw=gray!60, fill=white, rectangle, rounded corners=3pt, 
-		below=1cm of contrib, xshift=3.5cm, text width=13.5cm, align=center, font=\scriptsize, inner sep=6pt] (legende) {
-			\textbf{Légende et Correspondance Elasticsearch / S-Movies :}\\
-			$\bullet$ \textbf{[PK]} (\textit{Primary Key}) = Champ système \texttt{\_id} généré par Elasticsearch pour chaque document.\\
-			$\bullet$ \textbf{[FK]} (\textit{Foreign Key}) = Champ de référence stockant le \texttt{\_id} d'un document tiers, résolu par l'IHM S-Movies.\\
-			$\bullet$ \textbf{Lien d'association} = Relation conceptuelle FRBR matérialisée par des requêtes applicatives de type pointeurs d'IDs.
-		};
-		
-	\end{tikzpicture}
-	\caption{Modèle Logique de Données (MLD) relationnel virtuel de l'application S-Movies}
-	\label{figMLDRelationnelSMovies}
-\end{figure}
+%\begin{figure}[htbp]
+%	\centering
+%	\resizebox{\textwidth}{!}{%
+%		\begin{tikzpicture}[
+%			node distance=2.2cm and 2.5cm,
+%			font=\sffamily\small,
+%			% Style des Entités Principales (FRBR / FIAF Core Entities)
+%			core_entity/.style={
+%				draw=blue!80!black, 
+%				fill=blue!5, 
+%				rectangle, 
+%				rounded corners=4pt, 
+%				line width=1.2pt, 
+%				align=left, 
+%				inner sep=8pt,
+%				text width=5.6cm
+%			},
+%			% Style des Entités d'Autorité / Secondaires
+%			sec_entity/.style={
+%				draw=teal!80!black, 
+%				fill=teal!5, 
+%				rectangle, 
+%				rounded corners=4pt, 
+%				line width=1pt, 
+%				align=left, 
+%				inner sep=6pt,
+%				text width=4.5cm
+%			},
+%			% Style des Associations (Losanges Merise/ERD)
+%			relation/.style={
+%				draw=black!80, 
+%				fill=gray!12, 
+%				diamond, 
+%				aspect=1.8, 
+%				line width=0.8pt, 
+%				font=\sffamily\scriptsize\bfseries,
+%				inner sep=2pt,
+%				align=center
+%			},
+%			% Trait de connexion standard
+%			link/.style={draw=black!75, line width=0.8pt}
+%			]
+%			
+%			% ==================== ENTITÉS PRINCIPALES (HIÉRARCHIE FIAF) ====================
+%			
+%			% 1. OEUVRE / VARIANTE
+%			\node[core_entity] (oeuv) {
+%				\textbf{\Large 1. Œuvre / Variante}\\[3pt]
+%				\textcolor{gray}{\scriptsize\textit{Niveau Conceptuel FIAF}}\\[5pt]
+%				\textbf{\scriptsize ÉLÉMENTS (ATTRIBUTS) :}\\
+%				$\bullet$ \underline{1.3.1 Identifiant (PK)}\\
+%				$\bullet$ 1.3.3 Pays de référence\\
+%				$\bullet$ 1.3.4 Année / date de référence\\
+%				$\bullet$ 1.3.5 Langue(s)\\
+%				$\bullet$ 1.3.6 Description du contenu\\
+%				$\bullet$ 1.3.7 Notes\\
+%				$\bullet$ 1.3.8 Historique
+%			};
+%			
+%			% 2. MANIFESTATION (à droite de l'Œuvre)
+%			\node[core_entity, right=of oeuv] (manif) {
+%				\textbf{\large 2. Manifestation}\\[3pt]
+%				\textcolor{gray}{\scriptsize\textit{Niveau Équivalent / Édition FIAF}}\\[5pt]
+%				\textbf{\scriptsize ÉLÉMENTS (ATTRIBUTS) :}\\
+%				$\bullet$ \underline{2.3.1 Identifiant (PK)}\\
+%				$\bullet$ 2.3.2 Titre\\
+%				$\bullet$ 2.3.3 Langue(s)\\
+%				$\bullet$ 2.3.4 Format\\
+%				$\bullet$ 2.3.5 Étendue\\
+%				$\bullet$ 2.3.6 Notes
+%			};
+%			
+%			% 3. ITEM (à droite de la Manifestation)
+%			\node[core_entity, right=of manif] (item) {
+%				\textbf{\large 3. Item (Exemplaire)}\\[3pt]
+%				\textcolor{gray}{\scriptsize\textit{Niveau Physique FIAF}}\\[5pt]
+%				\textbf{\scriptsize ÉLÉMENTS (ATTRIBUTS) :}\\
+%				$\bullet$ \underline{3.1.1 Identifiant (PK)}\\
+%				$\bullet$ 3.1.2 Titre\\
+%				$\bullet$ 3.1.3 Établissement détenteur\\
+%				$\bullet$ 3.1.4 Type d'Item\\
+%				$\bullet$ 3.1.5 Spécificités / étendue\\
+%				$\bullet$ 3.1.6 Conditions d'accès\\
+%				$\bullet$ 3.1.7 Notes
+%			};
+%			
+%			
+%			% ==================== ENTITÉS LIÉES / AUTORITÉS ====================
+%			
+%			% 4. AGENTS (au-dessus du niveau principal)
+%			\node[sec_entity, above=2.8cm of manif] (agent) {
+%				\textbf{\large Agent}\\[2pt]
+%				\textcolor{gray}{\scriptsize\textit{(1.4.1 / 2.4.1 / 3.3.1)}}\\[4pt]
+%				$\bullet$ Personnes physiques\\
+%				$\bullet$ Personnes morales\\
+%				$\bullet$ Interprètes, techniciens...
+%			};
+%			
+%			% 5. ÉVÉNEMENTS (sous la Manifestation)
+%			\node[sec_entity, below=2.8cm of manif] (event) {
+%				\textbf{\large Événement}\\[2pt]
+%				\textcolor{gray}{\scriptsize\textit{(1.4.2 / 2.4.2 / 3.3.2)}}\\[4pt]
+%				$\bullet$ Copyright, Projections\\
+%				$\bullet$ Récompenses, Restauration...
+%			};
+%			
+%			% 6. TERMES DE SUJET / GENRE / FORME (sous l'Œuvre)
+%			\node[sec_entity, below=2.8cm of oeuv] (sujet) {
+%				\textbf{\large Sujet / Genre / Forme}\\[2pt]
+%				\textcolor{gray}{\scriptsize\textit{(1.4.3 Indexation thématique)}}\\[4pt]
+%				$\bullet$ Descripteurs, Mots-clés\\
+%				$\bullet$ Genres cinématographiques
+%			};
+%			
+%			
+%			% ==================== ASSOCIATIONS & CARDINALITÉS ====================
+%			
+%			% --- 1. Hiérarchie FIAF : Œuvre -> Manifestation ---
+%			\path (oeuv) -- node[relation] (rel_oeuv_manif) {A POUR\\MANIFESTATION\\(1.4.6 / 2.4.5)} (manif);
+%			\draw[link] (oeuv) -- (rel_oeuv_manif) node[pos=0.2, above, font=\scriptsize\bfseries] {1,1};
+%			\draw[link] (rel_oeuv_manif) -- (manif) node[pos=0.8, above, font=\scriptsize\bfseries] {1,N};
+%			
+%			% --- 2. Hiérarchie FIAF : Manifestation -> Item ---
+%			\path (manif) -- node[relation] (rel_manif_item) {EST\\MATÉRIALISÉE\\PAR (2.4.4 / 3.3.4)} (item);
+%			\draw[link] (manif) -- (rel_manif_item) node[pos=0.2, above, font=\scriptsize\bfseries] {0,N};
+%			\draw[link] (rel_manif_item) -- (item) node[pos=0.8, above, font=\scriptsize\bfseries] {1,1};
+%			
+%			% --- 3. Auto-relation : Variantes d'Œuvre (1.4.5) ---
+%			\draw[link] (oeuv.north) .. controls +(110:1.8cm) and +(160:1.8cm) .. 
+%			node[relation, pos=0.5] (rel_var) {A POUR\\VARIANTE\\(1.4.5)} (oeuv.west);
+%			\node[above left=0.1cm of oeuv.north, font=\scriptsize\bfseries] {0,N};
+%			\node[left=0.1cm of oeuv.west, font=\scriptsize\bfseries] {0,1};
+%			
+%			% --- 4. Relations avec AGENTS ---
+%			% Agent -> Oeuvre
+%			\draw[link] (agent.west) -| node[relation, pos=0.5] {LIAISON\\AGENT (1.4.1)} (oeuv.north);
+%			% Agent -> Manifestation
+%			\draw[link] (agent) -- node[relation] {LIAISON\\AGENT (2.4.1)} (manif);
+%			% Agent -> Item
+%			\draw[link] (agent.east) -| node[relation, pos=0.5] {LIAISON\\AGENT (3.3.1)} (item.north);
+%			
+%			% --- 5. Relations avec ÉVÉNEMENTS ---
+%			% Événement -> Oeuvre
+%			\draw[link] (event.west) -| node[relation, pos=0.5] {ASSOCIÉ À\\(1.4.2)} (oeuv.south);
+%			% Événement -> Manifestation
+%			\draw[link] (event) -- node[relation] {ASSOCIÉ À\\(2.4.2)} (manif);
+%			% Événement -> Item
+%			\draw[link] (event.east) -| node[relation, pos=0.5] {ASSOCIÉ À\\(3.3.2)} (item.south);
+%			
+%			% --- 6. Sujet -> Oeuvre ---
+%			\draw[link] (oeuv) -- node[relation] {A POUR\\SUJET (1.4.3)} (sujet);
+%			
+%			
+%			% ==================== ENCADRÉ CONTEXTUEL FIAF ====================
+%			\node[draw=black!40, fill=yellow!5, rectangle, dashed, rounded corners=4pt, 
+%			below=1.2cm of event, xshift=3.5cm, text width=16cm, align=center, inner sep=6pt] (note_fiaf) {
+%				\textbf{Modèle conceptuel d'indexation conforme aux recommandations de la FIAF :}\\
+%				Les relations « Autres » (\textit{1.4.4, 2.4.3, 3.3.3}) permettent de lier de manière ponctuelle toute entité à des documents d'archives, matériels accompagnants ou référentiels complémentaires.
+%			};
+%			
+%		\end{tikzpicture}
+%	}
+%	\caption{Diagramme Entité-Relation (ERD) conforme aux spécifications de catalogage de la FIAF}
+%	\label{figERDFIAF}
+%\end{figure}
 
 
 Toutefois, malgré la haute configurabilité de l’interface, l’hétérogénéité des corpus audiovisuels gérés d’une institution à l’autre complexifie l'adaptation à effectuer. En effet, la modélisation \gls{FRBR} préconisée par la \gls{fiaf} est un cadre qu’il s’agit d’ajuster aux pratiques spécifiques de gestion des collections, elles-mêmes adaptées au type de corpus géré. L’ajustement à des corpus audiovisuels spécifiques complexifie potentiellement la fluidité de la navigation entre les liens des différentes entités du \gls{FRBR} au sein de l’interface.   

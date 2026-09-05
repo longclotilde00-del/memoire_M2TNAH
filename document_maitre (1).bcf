@@ -2153,11 +2153,15 @@
     <bcf:citekey order="5" intorder="1">bachimont</bcf:citekey>
     <bcf:citekey order="6" intorder="1">bachimont</bcf:citekey>
     <bcf:citekey order="7" intorder="1">zotero-item-766</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">universalis.</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">zotero-item-646</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">zotero-item-646</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">zotero-item-801</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">zotero-item-801</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">zotero-item-821</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">2025c</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">2025c</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">zotero-item-646</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">zotero-item-646</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">zotero-item-646</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">zotero-item-646</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">zotero-item-801</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">zotero-item-801</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

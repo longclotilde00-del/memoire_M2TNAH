@@ -1,4 +1,4 @@
-\chapter{\label{I_2}Implémenter le FRBR adapté aux archives audiovisuelles au sein d’un outil de gestion des collections} 
+\chapter{\label{I_2}Modéliser un logiciel pour la gestion des collections audiovisuelles} 
 
 %I 2 
 
@@ -19,7 +19,9 @@ Comme défini en introduction, un logiciel de gestion des collections est un out
 
 Transition interface utilisateur > et projet IA : 
 
-L’analyse de l’espace de travail S-Movies a permis d’étudier la manière dont le modèle FRBR structure l’architecture des relations entre entités, permettant la description des collections. Toutefois, la qualité de ce système repose moins sur la description que sur l’indexation des collections. L’indexation désigne la mise en place d’une description contrôlée et normalisée en lien avec des thésaurus, par exemple, permettant de concrétiser les besoins utilisateurs fondateurs du modèle FRBR. En effet, c’est l’indexation qui permet à l’utilisateur d’accéder à des objets de collection via des requêtes contenant des éléments de description indexés. Cette opération d’indexation peut s’avérer complexe et chronophage dans le cas de corpus tels que nous avons analysés, poussant un éditeur d’outil de gestion des collections à proposer des outils d’assistance automatique. En effet, Skinsoft souhaite par exemple intégrer à S-Movies des fonctionnalités d’indexation fondées sur l’intelligence artificielle capables d’effectuer une segmentation d’extraits vidéo et de décrire ces extraits afin de les indexer au sein du modèle FRBR.  
+L’analyse de l’espace de travail S-Movies nous a permis d’analyser la manière dont le modèle \gls{FRBR} structure l’architecture des relations entre entités, permettant la description des collections. L'analyse de l'intégration d'un corpus audiovisuel spécifique a soulevé une complexification des liens entre les entités, qui compromet la fluidité et la navigation de l'interface. Ces enjeux d'expérience utilisateur sont en réalité le résultat d'une mise en application concrète d'un modèle de données théorique. Les enjeux de navigation au sein de l'interface logicielle, loin d'être anecdotiques, conditionnent la qualité des données saisies et leur indexation. Ainsi, les projets d'amélioration de l'interface préparent le projet d'implémentation de fonctionnalités innovantes afin d'assister l'utilisateur à l'indexation. 
+
+
 
 %Or, pour pouvoir mettre en place un modèle d'intelligence artificielle qui automatiserait des pratiques métier d'indexation, il est nécessaire de clarifier en amont la définition de la hiérarchie des niveaux FRBR au sein de l'application, et des liens qu'ils entretiennent. En effet, l'interface graphique constitue bien une définition et une traduction du modèle FRBR pour les utilisateurs. Si un modèle d'IA est mis en place alors que des incohérences subsistent, l'automatisation de l'indexation qui, de fait, accélère son processus, produira des erreurs de données à plus large échelle. 
 
