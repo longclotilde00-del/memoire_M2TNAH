@@ -3,7 +3,11 @@
 \addcontentsline{toc}{part}{Annexes}
 \setcounter{chapter}{0}
 
-\chapter{\label{annexe_suggest} Suggestions d'améliorations pour l'espace de travail S-Movies}
+\chapter{\label{annexe_A}Suggestions d'améliorations - S-Movies}
+
+Le présent document a été élaboré à la demande de Skinsoft afin de réfléchir à des évolutions d'interface pour l'espace de travail S-Movies, à partir de la structure fondée sur le \gls{FRBR}. Le document a été réduit pour les besoins de cette étude, et fait en réalité partie d'une proposition plus large, rendue en tant que livrable technique et disponible à cette adresse : 
+Le document est structuré en deux parties principales, présentant d'abord l'amélioration des éléments exitants, puis la propositions de nouvelles fonctionnalités. 
+
 
 \section{Améliorations}  
 
@@ -13,7 +17,7 @@ Actuellement, le parcours utilisateur de navigation entre les niveaux du WEMI da
 
 \subsubsection{Contraindre les liens entre les niveaux depuis les tables} 
 
-Actuellement, lorsque l’utilisateur crée un élément du WEMI depuis une table (films, manifestation, œuvre), la création supplémentaire d’un lien avec les autres niveaux du WEMI n’est pas rendue obligatoire par l’application.  
+Actuellement, lorsque l’utilisateur crée un élément du \gls{wemi} depuis une table (films, manifestation, œuvre), la création supplémentaire d’un lien avec les autres niveaux du \gls{wemi} n’est pas rendue obligatoire par l’application.  
 
 Par exemple, lorsque l’utilisateur crée une manifestation depuis la table dédiée –bien qu’il ne s’agisse pas du parcours le plus courant, la création d’un lien entre cette manifestation et une œuvre ou un item film n’est pas obligatoire. Or, une manifestation est toujours reliée, a minima, à une œuvre cinématographique. Il faudrait pouvoir contraindre l’utilisateur à relier la notice de manifestation à une œuvre, et que les champs œuvre de la notice manifestation héritent automatiquement des données de l’œuvre liée (titre, auteur, contexte de création...). 
 
@@ -21,7 +25,7 @@ C’est le même problème pour la création d’un item film et pour la créati
 
 L’encart qui apparait en haut à droite de la notice pour proposer à l’utilisateur de créer un lien avec une autre notice n’est pas suffisant. Il faudrait contraindre l’association de liens entre les niveaux du WEMI par une fenêtre pop-up qui bloquerait la saisie momentanément. Ainsi, à la création d’un item film par exemple, une fenêtre pop-up s’ouvrirait pour demander à l’utilisateur de lier cet item à une manifestation et/ou une œuvre.  
 
-Si la collection est particulière, par exemple le musée Albert Kahn ne décrit pas la manifestation, il faut permettre la possibilité d’enlever cette obligation de lien entre les trois niveaux et laisser seulement l’encart existant. 
+Si la collection est particulière, par exemple pour une institution qui ne décrit pas la manifestation, il faut permettre la possibilité d’enlever cette obligation de lien entre les trois niveaux et laisser seulement l’encart existant. 
 
 \subsubsection{Améliorer les liens depuis les notices}  
 
@@ -65,9 +69,9 @@ Cette proposition rejoint l’idée de supprimer la table œuvre cinématographi
 
 Enfin, une confusion peut également s’installer entre les termes “œuvre liée” et “œuvre associée” dans les masques qui décrivent la manifestation par exemple. Le terme d’œuvre liée pourrait être corrigé en “œuvre parente” pour que la nature du lien soit plus claire entre les deux entités.  
 
-\subsection{Conserver le niveau du FRBR en mode saisie sur les métas masques }
-
-Actuellement, lors de la configuration des méta-masques, les champs glissés et déposés dans le type de notice concernée perdent la mention du niveau FRBR auquel ils appartiennent. L’utilisateur n’a plus le moyen de savoir, une fois dans la notice, que tel champ appartient à tel niveau. Conserver la mention du niveau du FRBR sur les métas masques au sein de la saisie de la notice permettrait une meilleure compréhension et visibilité pour l’utilisateur. Ainsi, par exemple, dans une notice de manifestation, le champ Titre afficherait : Œuvre – Titre.  
+%\subsection{Conserver le niveau du FRBR en mode saisie sur les métas masques }
+%
+%Actuellement, lors de la configuration des méta-masques, les champs glissés et déposés dans le type de notice concernée perdent la mention du niveau FRBR auquel ils appartiennent. L’utilisateur n’a plus le moyen de savoir, une fois dans la notice, que tel champ appartient à tel niveau. Conserver la mention du niveau du FRBR sur les métas masques au sein de la saisie de la notice permettrait une meilleure compréhension et visibilité pour l’utilisateur. Ainsi, par exemple, dans une notice de manifestation, le champ Titre afficherait : Œuvre – Titre.  
 
 \section{Nouvelles fonctionnalités }
 
@@ -100,43 +104,43 @@ La description précise sur des séquences vidéo permettrait à la recherche d�
 
 Il est intéressant de penser également à la mise en place d’une recherche par mots clés au sein du fichier numérique vidéo. La recherche d’un mot clé amène l’utilisateur à une séquence décrite par ce mot clé.   
 
-\subsection{Recherche de médias par type de format  }
+%\subsection{Recherche de médias par type de format }
+%
+%Il serait pratique de mettre en place, dans la table médias, une recherche par type de formats.  
+%
+%L'application pourrait détecter automatiquement le format du média créé par l’utilisateur et l'indexer pour le proposer comme critère de tri/de recherche à l’utilisateur.  
+%
+%Cela permettrait notamment de pouvoir rapidement visualiser les fichiers vidéo présents dans la table, au lieu de devoir faire des albums par types de médias.  
+%
+%Deux types de filtres seraient pertinents à proposer :  
+%
+%\begin{itemize}
+%	\item Type de média : vidéo, image, son 
+%	
+%	\item Format : mp4, mpeg, jpeg, mov... 
+%\end{itemize}
+%
+%\subsection{Mise en place d’un repérage couleur pour les niveaux du FRBR }
+%
+%Il serait visuellement plus intuitif d’associer une couleur à un niveau du WEMI. Ainsi, les niveaux Oeuvre, manifestation, Item auraient chacun leur couleur, et ce, dans toute l’interface de l’application :  
+%
+%\begin{itemize}
+%\item Menu burger,  
+%
+%\item Menus des notices,  
+%
+%\item Méta-masques 
+%
+%\item Onglets des notices 
+%
+%\item Résultats de recherche 
+%\end{itemize}
+%
+%Un repérage visuel s’opère alors pour l’utilisateur, qui peut plus facilement se repérer au sein du FRBR.  
 
-Il serait pratique de mettre en place, dans la table médias, une recherche par type de formats.  
+\subsection{ \label{graphe}Mise en place d’une visualisation des liens entre entités du FRBR }
 
-L'application pourrait détecter automatiquement le format du média créé par l’utilisateur et l'indexer pour le proposer comme critère de tri/de recherche à l’utilisateur.  
-
-Cela permettrait notamment de pouvoir rapidement visualiser les fichiers vidéo présents dans la table, au lieu de devoir faire des albums par types de médias.  
-
-Deux types de filtres seraient pertinents à proposer :  
-
-\begin{itemize}
-	\item Type de média : vidéo, image, son 
-	
-	\item Format : mp4, mpeg, jpeg, mov... 
-\end{itemize}
-
-\subsection{Mise en place d’un repérage couleur pour les niveaux du FRBR }
-
-Il serait visuellement plus intuitif d’associer une couleur à un niveau du WEMI. Ainsi, les niveaux Oeuvre, manifestation, Item auraient chacun leur couleur, et ce, dans toute l’interface de l’application :  
-
-\begin{itemize}
-\item Menu burger,  
-
-\item Menus des notices,  
-
-\item Méta-masques 
-
-\item Onglets des notices 
-
-\item Résultats de recherche 
-\end{itemize}
-
-Un repérage visuel s’opère alors pour l’utilisateur, qui peut plus facilement se repérer au sein du FRBR.  
-
-\subsection{Mise en place d’une visualisation des liens entre entités du FRBR }
-
-NB : Cette idée s’inspire notamment de la “balade intuitive” proposée par la bibliothèque Kandinsky dont voici un exemple :
+Cette idée s’inspire visuellement de la “balade intuitive” proposée par la bibliothèque Kandinsky dont voici un exemple :
 
 \begin{figure}[htbp] 
 	
@@ -208,111 +212,281 @@ Concrètement, le parcours utilisateur de cet affichage serait le suivant :
 
 On pourrait également ajouter au graphe les lieux et les personnes (intervenants) liés à chaque entité du FRBR. 
 
-\subsection{Automatisation du catalogage en niveaux FRBR }
+%\subsection{Automatisation du catalogage en niveaux FRBR }
+%
+%Il serait pertinent de mettre en place une automatisation de la hiérarchie FRBR à partir de la création d’une notice. Cette fonctionnalité serait assistée par l’IA. Par exemple, depuis l’item, l’application détecterait la hiérarchie supérieure à créer depuis les actions suivantes :  
+%
+%\begin{itemize}
+%	\item Description de l’item 
+%	
+%	\item Scan du code-barres  
+%	
+%	\item Création d’une notice item depuis la table films 
+%	
+%	\item Création d’une notice item depuis la table des entrées
+%\end{itemize}  
+%
+%L’assistant IA détecterait les liens à effectuer entre l’item en question et des notices de manifestation et d’œuvre si elles existent. Si elles n’existent pas, il créerait automatiquement les notices manifestation et œuvre et proposerait à l’utilisateur de les remplir. Ces notices seraient automatiquement liées. 
+%
+%Dans le cadre de la mise en place d’un chatbot, l’utilisateur pourrait simplement décrire l’item et son contenu, et l’intelligence artificielle suggèrerait à l’utilisateur ce qu’il faut créer, ou la marche à suivre. Par exemple :  
+%
+%Cet item est issu de la manifestation de telle oeuvre. Les deux notices existent déjà, il faut y lier cet item 
+%
+%Cet item est issu d’une nouvelle manifestation de telle oeuvre, il faut la créer et la lier à l’item 
+%
+%Cet item est issu de la variante de telle oeuvre, il faut la créer et la lier à l’item. Pas besoin de créer une manifestation, cet item est l’exemplaire unique de la variante de cette oeuvre.  
+%
 
-Il serait pertinent de mettre en place une automatisation de la hiérarchie FRBR à partir de la création d’une notice. Cette fonctionnalité serait assistée par l’IA. Par exemple, depuis l’item, l’application détecterait la hiérarchie supérieure à créer depuis les actions suivantes :  
+%\subsection{Affichage des niveaux FRBR dans l’onglet/entête d’une notice }
+%
+%Cette idée s’applique aux niveaux FRBR enfants : Variante, Manifestation, Item, puisque l’œuvre n’a pas de niveau supérieur à afficher.  
+%
+%Lorsque l’utilisateur a une notice ouverte, une notice d’item-film par exemple, il n’a pas de visibilité sur les niveaux hiérarchiques parents dans lesquels s'imbrique la notice. Il serait pertinent d’afficher l’imbrication de niveaux dont fait partie la notice dans l’intitulé de son onglet.  
+%
+%Actuellement, pour le niveau Œuvre, c’est le titre qui apparait dans l’onglet de la notice, tandis que c’est l’identifiant qui apparait pour la manifestation et l’item.    
+%
+%À la manière d’une frise logique, l’onglet afficherait : œuvre > variante > manifestation > item. 
+%
+%La notice ouverte par l’utilisateur s’afficherait en gras, pour signaler qu’elle est la notice actuellement utilisée. Dans le cadre de la mise en place d’un code couleur, les couleurs respectives de l’œuvre et de la manifestation seraient affichées dans l’onglet, en clair, tandis que le niveau appartenant à la notice ouverte serait affiché dans sa couleur, de manière vive et en gras.  
+%
+%Il est important de noter que cet affichage serait plus intuitif dans le cas où les identifiants ont été paramétrés de telle sorte à pouvoir indiquer le niveau de FRBR dans l’intitulé. Par exemple : MN-0001, pour manifestation numérique 1, ou IP-0002 pour un item physique 2. Ainsi, dans l’affichage de l’onglet, cela donnerait l’intitulé suivant :  
+%
+%\begin{itemize}
+%\item Casablanca > MN-0002 > IN-0006.
+%\end{itemize}  
+%
+%Toutefois, même si le niveau du FRBR n’est pas indiqué dans les identifiants, l’affichage de gauche à droite induit une hiérarchie du haut vers le bas. Si un code couleur est mis en place, il pourrait rendre l’affichage intuitif sans la présence des niveaux dans les identifiants.  
+%
+%Nous pouvons penser également à une modification de ce qu’affiche l’onglet de la notice pour la manifestation et pour l’item. En effet, pour que cela soit encore plus clair pour l’utilisateur, la frise présente dans l’onglet d’une notice pourrait afficher, pour la manifestation, son type. Ainsi, cela donnerait la chose suivante :  
+%
+%\begin{itemize}
+%	\item Casablanca > pré diffusion > IP-0005.
+%\end{itemize}  
+%
+%Même chose pour la variante :  
+%
+%\begin{itemize}
+%	\item Casablanca > censuré > distribution en salles > IN-0007.
+%\end{itemize}
+%
+%Notons tout de même que pour que cet affichage soit fonctionnel, la taille des onglets de notice devra être agrandie.  
+%
+%\subsection{Repenser le mode de création de notices dans des tables individuelles}
+%
+%La création de notices au sein de tables individuelles n’encourage pas l’utilisateur à lier les notices entre elles, sur plusieurs niveaux. Le risque est ainsi que l’utilisateur crée des notices individuelles, elles aussi, sans les relier à d’autres niveaux du FRBR. Pour éviter cela, il pourrait être intéressant de proposer, dans le menu burger, la création de liens prédéfinis, au lieu de créer au sein de tables. Les tables pourraient être alors réservées à la consultation et à l’affichage des notices créées. Cette idée rapprocherait S-Movies d’une interface où l’utilisateur crée un réseau de liens, propre à une collection cinématographique. 
+%
+%L’idée serait d’ajouter un onglet dans le menu burger intitulé “Création/liens”, qui permettrait à l’utilisateur de créer des liens “préconçus”. Une sorte de création rapide, sans possibilité de créer des notices uniques.  
+%
+%Sous cet onglet seraient ajoutées par exemple les options suivantes (de manière non-exhaustive) :  
+%
+%\begin{itemize}
+%	\item Créer un item et sa manifestation 
+%	
+%	\item Créer un item, sa manifestation, et son oeuvre 
+%	
+%	\item Créer une manifestation d’une oeuvre 
+%	
+%	\item Lier un item à une manifestation
+%\end{itemize}
+%  
+%
+%Au risque de surcharger l’interface, on peut également imaginer qu’au sein de chacune des tables, le bouton d’action > créer une nouvelle notice soit supprimé, et remplacé par des boutons d’action de liens. Ainsi, au lieu d’avoir une liste de propositions de liens non organisée, les propositions de liens seraient propres au lien qu’entretient chaque table avec les autres. Ainsi, par exemple : 
+%
+%\begin{itemize}
+%	\item Table Œuvres :  
+%	
+%	\subitem Lier une oeuvre à une manifestation 
+%	
+%	\subitem Lier une oeuvre à un item 
+%	
+%	\subitem Lier une oeuvre à une variante  
+%	
+%	\item Table manifestations :  
+%	
+%	\subitem Lier une manifestation à une oeuvre 
+%	
+%	\subitem Lier une manifestation à un item 
+%	
+%	\item Table items-films :  
+%	
+%	\subitem Lier un film à une oeuvre 
+%	
+%	\subitem Lier un film à une manifestation 
+%\end{itemize}
+%
+%
+%Au clic, le bouton d’action propose soit à l’utilisateur de lier une entité existante à celle sélectionnée, soit d’en créer une si elle n’existe pas. Le terme “lier” dans le bouton d’action signifie ainsi également la création d’une notice en lien avec une autre, pas seulement l’ajout d’un lien entre deux notices existantes.  
+%
+%La limite de cette idée est qu’elle est contre intuitive : la création d’une notice de chaque entité se fait dans d’autres tables que celle qui lui est dédiée.  
+%
+%Cette refonte du mode de création des notices assure toutefois un lien indissociable entre les entités, qui permettra notamment d’empêcher la suppression d’une entité et des éléments qui lui sont liés par exemple. Cela faciliterait aussi la mise en place de visualisation des liens, si les entités sont toutes interconnectées. Surtout, ces nouvelles modalités suppriment la possibilité de créer des notices individuelles, sans lien avec les niveaux du FRBR. 
+
+
+\chapter{\label{annexe_B}Spécification fonctionnelle : Recherche en langage naturel à l’appui de l’intelligence artificielle } 
+
+Cette seconde annexe, présente une spécification fonctionnelle pour la mise en place d'un outil de recherche en langage naturel, fondé sur l'intelligence artificielle, rédigée à la demande de Skinsoft dans le cadre de notre stage. Cet outil est actuellement en cours de développement. L'implémentation de la recherche en langage naturel a fait l'objet de recherches et de réflexions parallèles à celles de la segmentation et de l'indexation automatisées. Cette spécification a été rédigée conjointement avec Florian Martin, également stagiaire chez Skinsoft.
+Réduite pour les besoins de notre étude, cette annexe fait en réalité partie d'une spécification plus large disponible à l'adresse suivante : 
+
+\section{Le besoin utilisateur}
+
+L’application doit proposer un mode de recherche alternatif à la recherche simple, basé sur l’intelligence artificielle. Cela doit permettre de questionner l’application en langage naturel dans un double objectif :  
+
+Rendre chaque table interrogeable sans utilisation de vocabulaire contrôlé ou de la recherche avancée : une simple phrase suffit 
+
+Par exemple : 
 
 \begin{itemize}
-	\item Description de l’item 
+	\item “Tous les films réalisés par David Lynch en 1987” 
 	
-	\item Scan du code-barres  
+	\item “Tous les films numériques” 
 	
-	\item Création d’une notice item depuis la table films 
+	\item “Toutes les photos au format dng” 
+\end{itemize} 
+
+Agir comme un générateur de requête exécutable par l’utilisateur sur la table interrogée ET la recherche fédérée.  
+
+\section{Principes d'usage}
+
+\subsubsection{Gestions des erreurs}
+
+Deux logiques : la possibilité pour le processus d’indiquer qu’il ne comprend pas la requête utilisateur afin d’éviter la création d’une requête erronée. La possibilité pour l’utilisateur de signaler un problème. 
+
+En cas d’incompréhension de la requête utilisateur et d’incertitude sur la requête à générer. La fonctionnalité doit :  
+
+Ne pas lancer la requête car il n’est pas certain.  
+
+Identifier le point bloquant  
+
+Signaler l’erreur par un code couleur : 
+
+Le mot posant un problème est surligné en rouge lorsque incompréhension totale. 
+
+Le mot pose un problème est surligné en orange lorsqu’il y a une incertitude sur le sens.  
+
+L’utilisateur doit pouvoir écrire dans la barre de recherche un complément à la requête d’origine. 
+
+Le complément s’envoie au processus comme une requête classique. C’est l’interprétation qui change.  
+
+S'il y a toujours une erreur, on revient à l’étape précédente jusqu’à résolution de l’erreur.  
+
+Si l’utilisateur tombe dans une boucle infinie et décide d’arrêter le traitement, l’absence d’activité dans la barre de recherche dans les 30 secondes met fin au processus.  
+
+Si le complément amène à résoudre l’erreur, le processus suit son cours. 
+
+
+
+En cas d’une requête générée mais invalide selon l’utilisateur, ce dernier peut la reporter afin que le modèle enregistre l’incident, comprenne l’erreur et s’affine. 
+
+À côté du résumé se trouve un bouton “Reporter une erreur”  
+
+Au clic sur le bouton, ouverture d’un formulaire afin de reporter une erreur. S’ouvre comme une notice. 
+
+4 champs sont affichés :  
+
+Champ Titre du rapport : l’utilisateur saisi un titre pour le rapport d’erreur. Permet de le rendre traçable. 
+
+Champ requêtes : rempli automatiquement, il contient la requête utilisateur (la phrase de départ) + le résumé de la recherche générée par IA. Non visible par l’utilisateur, y figure aussi la requête ElasticSearch générée.  
+
+Champ date : rempli automatiquement avec le jour de requêtage 
+
+Champ description : l’utilisateur explique pourquoi cela ne lui convient pas et ce qu’il attendait.  
+
+
+
+Deux boutons sont disponibles :  
+
+“Envoyer” 
+
+Envoie le rapport d’incident au LLM, l’historise et l’intègre dans une base de données pour entraînement. 
+
+Génère une notification verte à l’endroit habituel : “Rapport d’erreur envoyé et enregistré”. 
+
+“Annuler” 
+
+Annule l’opération en cours. 
+
+Génère une notification orange à l’endroit habituel : “Rapport d’erreur annulé”. 
+
+
+
+Note :  
+
+À terme, un système de suivi des rapports pourra être implémenté au sein du widget d’historique des rapports d’erreur. Chaque rapport d’erreur pourra être associé à un statut (ex : En attente, Pris en compte, Outil amélioré) afin que l’utilisateur puisse suivre la résolution de l'erreur et l'évolution de l'affinage de l’outil depuis son tableau de bord. Cette fonctionnalité n’est pas incluse en tant que telle dans la présente spécification en raison d’un manque de visibilité technique sur les modalités de réentraînement du modèle. 
+
+\subsubsection{Fonctionnalité détaillée}
+
+Requête mal formulée ou incertaine : 
+
+Si la requête de l’utilisateur est mal formulée ou incorrecte, empêchant la recherche augmentée d’être lancée, deux options sont possibles.  
+
+Si l’outil est incertain quant à l’interprétation d’un terme utilisé dans la requête, celui-ci est surligné en couleur orange :  
+
+\begin{figure}[htbp] 
 	
-	\item Création d’une notice item depuis la table des entrées
-\end{itemize}  
-
-L’assistant IA détecterait les liens à effectuer entre l’item en question et des notices de manifestation et d’œuvre si elles existent. Si elles n’existent pas, il créerait automatiquement les notices manifestation et œuvre et proposerait à l’utilisateur de les remplir. Ces notices seraient automatiquement liées. 
-
-Dans le cadre de la mise en place d’un chatbot, l’utilisateur pourrait simplement décrire l’item et son contenu, et l’intelligence artificielle suggèrerait à l’utilisateur ce qu’il faut créer, ou la marche à suivre. Par exemple :  
-
-Cet item est issu de la manifestation de telle oeuvre. Les deux notices existent déjà, il faut y lier cet item 
-
-Cet item est issu d’une nouvelle manifestation de telle oeuvre, il faut la créer et la lier à l’item 
-
-Cet item est issu de la variante de telle oeuvre, il faut la créer et la lier à l’item. Pas besoin de créer une manifestation, cet item est l’exemplaire unique de la variante de cette oeuvre.  
-
-
-\subsection{Affichage des niveaux FRBR dans l’onglet/entête d’une notice }
-
-Cette idée s’applique aux niveaux FRBR enfants : Variante, Manifestation, Item, puisque l’œuvre n’a pas de niveau supérieur à afficher.  
-
-Lorsque l’utilisateur a une notice ouverte, une notice d’item-film par exemple, il n’a pas de visibilité sur les niveaux hiérarchiques parents dans lesquels s'imbrique la notice. Il serait pertinent d’afficher l’imbrication de niveaux dont fait partie la notice dans l’intitulé de son onglet.  
-
-Actuellement, pour le niveau Œuvre, c’est le titre qui apparait dans l’onglet de la notice, tandis que c’est l’identifiant qui apparait pour la manifestation et l’item.    
-
-À la manière d’une frise logique, l’onglet afficherait : œuvre > variante > manifestation > item. 
-
-La notice ouverte par l’utilisateur s’afficherait en gras, pour signaler qu’elle est la notice actuellement utilisée. Dans le cadre de la mise en place d’un code couleur, les couleurs respectives de l’œuvre et de la manifestation seraient affichées dans l’onglet, en clair, tandis que le niveau appartenant à la notice ouverte serait affiché dans sa couleur, de manière vive et en gras.  
-
-Il est important de noter que cet affichage serait plus intuitif dans le cas où les identifiants ont été paramétrés de telle sorte à pouvoir indiquer le niveau de FRBR dans l’intitulé. Par exemple : MN-0001, pour manifestation numérique 1, ou IP-0002 pour un item physique 2. Ainsi, dans l’affichage de l’onglet, cela donnerait l’intitulé suivant :  
-
-\begin{itemize}
-\item Casablanca > MN-0002 > IN-0006.
-\end{itemize}  
-
-Toutefois, même si le niveau du FRBR n’est pas indiqué dans les identifiants, l’affichage de gauche à droite induit une hiérarchie du haut vers le bas. Si un code couleur est mis en place, il pourrait rendre l’affichage intuitif sans la présence des niveaux dans les identifiants.  
-
-Nous pouvons penser également à une modification de ce qu’affiche l’onglet de la notice pour la manifestation et pour l’item. En effet, pour que cela soit encore plus clair pour l’utilisateur, la frise présente dans l’onglet d’une notice pourrait afficher, pour la manifestation, son type. Ainsi, cela donnerait la chose suivante :  
-
-\begin{itemize}
-	\item Casablanca > pré diffusion > IP-0005.
-\end{itemize}  
-
-Même chose pour la variante :  
-
-\begin{itemize}
-	\item Casablanca > censuré > distribution en salles > IN-0007.
-\end{itemize}
-
-Notons tout de même que pour que cet affichage soit fonctionnel, la taille des onglets de notice devra être agrandie.  
-
-\subsection{Repenser le mode de création de notices dans des tables individuelles}
-
-La création de notices au sein de tables individuelles n’encourage pas l’utilisateur à lier les notices entre elles, sur plusieurs niveaux. Le risque est ainsi que l’utilisateur crée des notices individuelles, elles aussi, sans les relier à d’autres niveaux du FRBR. Pour éviter cela, il pourrait être intéressant de proposer, dans le menu burger, la création de liens prédéfinis, au lieu de créer au sein de tables. Les tables pourraient être alors réservées à la consultation et à l’affichage des notices créées. Cette idée rapprocherait S-Movies d’une interface où l’utilisateur crée un réseau de liens, propre à une collection cinématographique. 
-
-L’idée serait d’ajouter un onglet dans le menu burger intitulé “Création/liens”, qui permettrait à l’utilisateur de créer des liens “préconçus”. Une sorte de création rapide, sans possibilité de créer des notices uniques.  
-
-Sous cet onglet seraient ajoutées par exemple les options suivantes (de manière non-exhaustive) :  
-
-\begin{itemize}
-	\item Créer un item et sa manifestation 
+	\centering 
 	
-	\item Créer un item, sa manifestation, et son oeuvre 
+	\includegraphics[width=1.0\textwidth]{images/annexe1.png} 
 	
-	\item Créer une manifestation d’une oeuvre 
+	\caption{Incertitude quant au terme utilisé} 
 	
-	\item Lier un item à une manifestation
-\end{itemize}
-  
+	\label{figincertitude} 
+	
+\end{figure}
 
-Au risque de surcharger l’interface, on peut également imaginer qu’au sein de chacune des tables, le bouton d’action > créer une nouvelle notice soit supprimé, et remplacé par des boutons d’action de liens. Ainsi, au lieu d’avoir une liste de propositions de liens non organisée, les propositions de liens seraient propres au lien qu’entretient chaque table avec les autres. Ainsi, par exemple : 
+Si l’outil ne comprend pas la requête, parce qu’elle est incohérente ou inadaptée, celle-ci est surlignée en rouge :  
 
-\begin{itemize}
-	\item Table Œuvres :  
+\begin{figure}[htbp] 
 	
-	\subitem Lier une oeuvre à une manifestation 
+	\centering 
 	
-	\subitem Lier une oeuvre à un item 
+	\includegraphics[width=1.0\textwidth]{images/annexe2.png} 
 	
-	\subitem Lier une oeuvre à une variante  
+	\caption{Incohérence du terme utilisé} 
 	
-	\item Table manifestations :  
+	\label{figIncoherence} 
 	
-	\subitem Lier une manifestation à une oeuvre 
-	
-	\subitem Lier une manifestation à un item 
-	
-	\item Table items-films :  
-	
-	\subitem Lier un film à une oeuvre 
-	
-	\subitem Lier un film à une manifestation 
-\end{itemize}
+\end{figure}
 
+Résultats de recherche invalides :
 
-Au clic, le bouton d’action propose soit à l’utilisateur de lier une entité existante à celle sélectionnée, soit d’en créer une si elle n’existe pas. Le terme “lier” dans le bouton d’action signifie ainsi également la création d’une notice en lien avec une autre, pas seulement l’ajout d’un lien entre deux notices existantes.  
+Si les résultats de recherche retournés par la recherche augmentée sont erronés selon l’utilisateur, et ne correspondent pas à la requête qui a été formulée, il peut signaler l’incident dans un formulaire prévu à cet effet, via un bouton “reporter un problème” dans l’onglet de résumé : 
 
-La limite de cette idée est qu’elle est contre intuitive : la création d’une notice de chaque entité se fait dans d’autres tables que celle qui lui est dédiée.  
+\begin{figure}[htbp] 
+	
+	\centering 
+	
+	\includegraphics[width=1.0\textwidth]{images/annexe3.png} 
+	
+	\caption{Reporter un problème} 
+	
+	\label{figReporteunPb} 
+	
+\end{figure}
 
-Cette refonte du mode de création des notices assure toutefois un lien indissociable entre les entités, qui permettra notamment d’empêcher la suppression d’une entité et des éléments qui lui sont liés par exemple. Cela faciliterait aussi la mise en place de visualisation des liens, si les entités sont toutes interconnectées. Surtout, ces nouvelles modalités suppriment la possibilité de créer des notices individuelles, sans lien avec les niveaux du FRBR.  
+Au clic sur ce bouton, un formulaire s’ouvre sous la forme d’une notice que l’utilisateur peut remplir pour décrire le problème détecté. Les champs “date” (format calendaire) et “requête effectuée” sont automatiquement remplis :  
+
+\begin{figure}[htbp] 
+	
+	\centering 
+	
+	\includegraphics[width=1.0\textwidth]{images/annexe4.png} 
+	
+	\caption{Formulaire d'erreur} 
+	
+	\label{figFormulaire} 
+	
+\end{figure}
+
+Au clic sur “envoyer”, un message de validation apparait :  
+
+\begin{figure}[htbp] 
+	
+	\centering 
+	
+	\includegraphics[width=1.0\textwidth]{images/annexe5.png} 
+	
+	\caption{Message de validation} 
+	
+	\label{figValidation} 
+	
+\end{figure}

@@ -19,6 +19,303 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{2021}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AI tools are entering the world of audiovisual archives in great variety, serving different needs and reflecting different approaches. This blog post looks primarily at the AI tools being used for metadata creation. It includes a basic overview of algorithms, data sets, and the options for open-sour}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{{AI}} in {{Audiovisual Archives}} | {{Sound}} \& {{Vision}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
+      \endverb
+      \verb{url}
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
+      \endverb
+      \keyw{à lire}
+    \endentry
+    \entry{zotero-item-746}{misc}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{inatheque.ina.fr}
+      \field{langid}{french}
+      \field{title}{{Aide et FAQ Médiascope | INA}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
+      \endverb
+      \verb{urlraw}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+      \verb{url}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+    \endentry
+    \entry{akata2020}{article}{}{}
+      \name{author}{26}{}{%
+        {{un=0,uniquepart=base,hash=0cd48aef2686bbbbccec6d9f2193ddb5}{%
+           family={Akata},
+           familyi={A\bibinitperiod},
+           given={Zeynep},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=105912bc8a034559ecae4ba471607451}{%
+           family={Balliet},
+           familyi={B\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa1bb2117da6204085ebe982921f3bf4}{%
+           family={{de Rijke}},
+           familyi={d\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0543035ff3a90dd6957654f70262f22}{%
+           family={Dignum},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2038389dca7d321b07e82aa80cf4e902}{%
+           family={Dignum},
+           familyi={D\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd9dadd2d360278b7f0c01b3e36986f}{%
+           family={Eiben},
+           familyi={E\bibinitperiod},
+           given={Guszti},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dff63e40c01cf909497d6c47aba8525c}{%
+           family={Fokkens},
+           familyi={F\bibinitperiod},
+           given={Antske},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f757164adc2807fa457b8c55df02b13}{%
+           family={Grossi},
+           familyi={G\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33ed1df51dbfa4beb74f59c76b77fe3e}{%
+           family={Hindriks},
+           familyi={H\bibinitperiod},
+           given={Koen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05dee51e91f6e60f0f3b35b5d71a143d}{%
+           family={Hoos},
+           familyi={H\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d74b2bb4d109c7df89ce4a7c262a508}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={Hayley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc5dbf1e0c9704f207785cdf46521cb4}{%
+           family={Jonker},
+           familyi={J\bibinitperiod},
+           given={Catholijn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=593a7c6064e0b959f1197f1a531f8f64}{%
+           family={Monz},
+           familyi={M\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0eb03562acd95df201257fb74e335f6}{%
+           family={Neerincx},
+           familyi={N\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d653147a7bd7ee48df77b22e75969b74}{%
+           family={Oliehoek},
+           familyi={O\bibinitperiod},
+           given={Frans},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e796e8c5ba8f0fdc121b3dceaf1a834}{%
+           family={Prakken},
+           familyi={P\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a3386ee3e20bc2da8f01a8a56d06b05}{%
+           family={{van der Gaag}},
+           familyi={v\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdfa5d5679be18500277e13344d9bb8c}{%
+           family={{van Harmelen}},
+           familyi={v\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ea30f2b73bca42743914740198e48d8}{%
+           family={{van Hoof}},
+           familyi={v\bibinitperiod},
+           given={Herke},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f6f22aa6b93464cd74064e511fda12c}{%
+           family={{van Riemsdijk}},
+           familyi={v\bibinitperiod},
+           given={Birna},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181ce5b774a38ac48ab2d31f3772e9e3}{%
+           family={{van Wynsberghe}},
+           familyi={v\bibinitperiod},
+           given={Aimee},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e98c14b367601f8ef1a179684494cc96}{%
+           family={Verbrugge},
+           familyi={V\bibinitperiod},
+           given={Rineke},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2290f014b273af1c443c8ccd3784f47f}{%
+           family={Verheij},
+           familyi={V\bibinitperiod},
+           given={Bart},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=880e64dada21b83dc9658f06dc6a694c}{%
+           family={Vossen},
+           familyi={V\bibinitperiod},
+           given={Piek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{fullhash}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{fullhashraw}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{bibnamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authorbibnamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authornamehash}{50d4fcd231a790c7f5465b9b76edada7}
+      \strng{authorfullhash}{15fc0449b6bf65b1087d666eb099f221}
+      \strng{authorfullhashraw}{15fc0449b6bf65b1087d666eb099f221}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We define hybrid intelligence (HI) as the combination of human and machine intelligence, augmenting human intellect and capabilities instead of replacing them and achieving goals that were unreachable by either humans or machines. HI is an important new research focus for artificial intelligence, and we set a research agenda for HI by formulating four challenges.}
+      \field{issn}{1558-0814}
+      \field{journaltitle}{Computer}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shorttitle}{A {{Research Agenda}} for {{Hybrid Intelligence}}}
+      \field{title}{A {{Research Agenda}} for {{Hybrid Intelligence}}: {{Augmenting Human Intellect With Collaborative}}, {{Adaptive}}, {{Responsible}}, and {{Explainable Artificial Intelligence}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{53}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{18\bibrangedash 28}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/MC.2020.2996587
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/W4KR7SLM/Akata et al. - 2020 - A Research Agenda for Hybrid Intelligence Augmenting Human Intellect With Collaborative, Adaptive,.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9153877
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9153877
+      \endverb
+      \keyw{Adaptive systems,Artificial intelligence,Machine intelligence,Task analysis,Teamwork,Tools}
+    \endentry
+    \entry{zotero-item-584}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=581fdb9738940d5a08bac997ae102f4a}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aec844feeddee1023878e5e76a4816e4}{%
+           family={Lûpold},
+           familyi={L\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f1f5db4df32a43df70ecdbaad62493a}{%
+           family={Theilkäs},
+           familyi={T\bibinitperiod},
+           given={Lorenz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae295161b937fb4257f1da56ec0be1c6}{%
+           family={Kansy},
+           familyi={K\bibinitperiod},
+           given={Lambert},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Association des archivistes suisses}%
+      }
+      \strng{namehash}{ef343a2f59ecdfa0d45a27661045680d}
+      \strng{fullhash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{fullhashraw}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{bibnamehash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authorbibnamehash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authornamehash}{ef343a2f59ecdfa0d45a27661045680d}
+      \strng{authorfullhash}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \strng{authorfullhashraw}{471f37e1a3e50ebafb02e4ffb49f2f58}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Livre Blanc {{L}}'apprentissage Automatique Dans Les Archives : L'indexation En Profondeur Au Service de l'accès Aux Archives}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
+      \endverb
+      \verb{url}
+      \verb https://vsa-aas.ch/wp-content/uploads/2024/08/MachineLearning_im_Archiv_Whitepaper_2024-08-08_fr.pdf
+      \endverb
+    \endentry
     \entry{bachimont}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
@@ -47,6 +344,47 @@
       \verb /home/clotilde/Zotero/storage/XPAWQJIX/Bachimont - Bibliothèques numériques audiovisuelles Des enjeux scientifiques et techniques.pdf
       \endverb
     \endentry
+    \entry{bergmann2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb71d3b9a4c9e4abb8da0034e197db9a}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Cole\bibnamedelima Stryker},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0,
+           suffix={Dave},
+           suffixi={D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{fullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{fullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{bibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorbibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authornamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorfullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \strng{authorfullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Un transformer est un type de modèle d’apprentissage profond qui est rapidement devenu essentiel dans le traitement automatique du langage naturel (NLP) et d’autres tâches de machine learning (ML).}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{shorttitle}{{Qu’est-ce qu’un modèle transformer ?}}
+      \field{title}{{Qu’est-ce qu’un modèle transformer ? | IBM}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+    \endentry
     \entry{zotero-item-801}{misc}{}{}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
@@ -66,6 +404,65 @@
       \verb https://bibliothequekandinsky.centrepompidou.fr/graphe?id=23c50bed-1ab2-47ea-bfc8-26e84403cf0b##syrtis_search_page
       \endverb
     \endentry
+    \entry{colavizza2026}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0f39a6c905980f0c43b1b725c6997f80}{%
+           family={Colavizza},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a94539642ec85baec1693257a78701f7}{%
+           family={Jaillant},
+           familyi={J\bibinitperiod},
+           given={Lise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{fullhash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{fullhashraw}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{bibnamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorbibnamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authornamehash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorfullhash}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \strng{authorfullhashraw}{4e743ae96cbbccbcfa53d31a58801ecf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Artificial Intelligence (AI) and machine learning offer significant potential for archives: they can help identify sensitive content at scale, support the creation and enhancement of descriptive metadata, and enable new forms of access and interpretation. Yet AI also risks compounding long-standing challenges around archival description, bias, and power, especially where collections are fragmentary, under-described, or documented using outdated or harmful terminology. This article asks: how can archives prepare their collections for AI in ways that enhance discoverability and access, while remaining grounded in archival principles and ethical commitments? Co-authored by a computer scientist and a digital humanist with experience in cultural heritage, the article offers a cross-disciplinary literature review and practice-oriented guidelines for “AI data preparedness” in archives. Drawing on work in data documentation, data readiness, collections-as-data, and archival theory, we argue that concepts such as provenance, appraisal, authenticity, reliability, and trustworthiness should shape AI applications in records and archives. We distinguish between task-specific AI systems and generative AI, and propose workflows in which AI assists rather than replaces archivists, including description, terminology mapping, and sensitivity review. AI readiness, we argue, is an ethical and interventionist approach to data curation.}
+      \field{issn}{2325-7962}
+      \field{journaltitle}{Archives and Records}
+      \field{month}{6}
+      \field{number}{0}
+      \field{shorttitle}{{{AI}} Ready}
+      \field{title}{{{AI}} Ready: How to Prepare Archives for {{Artificial Intelligence}}, Improve Discoverability, and Enhance Access}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{0}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/23257962.2026.2675937
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/A5LICZSX/Colavizza and Jaillant - 2026 - AI ready how to prepare archives for Artificial Intelligence, improve discoverability, and enhance.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/23257962.2026.2675937
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/23257962.2026.2675937
+      \endverb
+      \keyw{access,Artificial Intelligence,data preparedness,digital archives,discoverability}
+    \endentry
     \entry{zotero-item-766}{misc}{}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
@@ -84,72 +481,129 @@
       \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
       \endverb
     \endentry
-    \entry{zotero-item-646}{misc}{}{}
+    \entry{kassel2026}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b11efe5c10dff5cd396662516fe80129}{%
-           family={{FIAF}},
-           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=51f6e6c41b9e7a690ca0df83473d3ab4}{%
+           family={Kassel},
+           familyi={K\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{fullhash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{fullhashraw}{b11efe5c10dff5cd396662516fe80129}
-      \strng{bibnamehash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{authorbibnamehash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{authornamehash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{authorfullhash}{b11efe5c10dff5cd396662516fe80129}
-      \strng{authorfullhashraw}{b11efe5c10dff5cd396662516fe80129}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{fullhash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{fullhashraw}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{bibnamehash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{authorbibnamehash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{authornamehash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{authorfullhash}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \strng{authorfullhashraw}{51f6e6c41b9e7a690ca0df83473d3ab4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Le Manuel de Catalogage Des Images Animées de La {{FIAF}}}
-      \field{urlday}{23}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.fiafnet.org/pages/E-Resources/Manuel-Catalogage-FIAF.html
-      \endverb
-      \verb{url}
-      \verb https://www.fiafnet.org/pages/E-Resources/Manuel-Catalogage-FIAF.html
-      \endverb
-    \endentry
-    \entry{zotero-item-821}{misc}{}{}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{labeltitlesource}{title}
-      \field{title}{Qu'est-Ce Qu'{{Elasticsearch}}~? | {{IBM}}}
-      \field{urlday}{5}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
-      \endverb
-    \endentry
-    \entry{2025c}{misc}{}{}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{NoSQL est une approche de la conception des bases de données qui permet de stocker et d’interroger des données en dehors des structures traditionnelles des bases de données relationnelles.}
+      \field{abstract}{Dans son article de recherche publié en mars 2021, Yann LeCun, vice-président et scientifique en chef de l’intelligence artificielle chez Facebook, décrit l’apprentissage auto-supervisé comme “l’un des moyens les plus prometteurs de construire des machines dotées de connaissances de base, ou de “bon sens”, pour s’attaquer à des tâches qui dépassent de loin les capacités de l’IA d’aujourd’hui”.}
+      \field{journaltitle}{Liora}
       \field{langid}{french}
       \field{month}{1}
-      \field{shorttitle}{{Qu’est-ce qu’une base de données NoSQL ?}}
-      \field{title}{{Qu’est-ce qu’une base de données NoSQL ? | IBM}}
-      \field{urlday}{5}
+      \field{shorttitle}{{L’apprentissage auto-supervisé}}
+      \field{title}{{L’apprentissage auto-supervisé : Qu’est-ce que c’est ? Comment ça marche ?}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/9I7BJFAU/apprentissage-auto-supervise-tout-savoir.html
+      \endverb
+      \verb{urlraw}
+      \verb https://liora.io/apprentissage-auto-supervise-tout-savoir
+      \endverb
+      \verb{url}
+      \verb https://liora.io/apprentissage-auto-supervise-tout-savoir
+      \endverb
+    \endentry
+    \entry{2025a}{misc}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alors que les usages de l’intelligence artificielle (IA) se développent massivement, le ministère de la Culture présente sa stratégie d’action pour des intelligences artificielles culturelles et responsables. Cette stratégie accompagnera les mutations dans les secteurs culturels et garantir}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{title}{{La stratégie du ministère pour des intelligences artificielles culturelles et responsables | Ministère de la Culture}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+      \verb{url}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+    \endentry
+    \entry{zotero-item-754}{misc}{}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corpus de données pour la Recherche}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Dataset | INA}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+    \endentry
+    \entry{stryker2025a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
+           family={Stryker},
+           familyi={S\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{fullhash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{fullhashraw}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{bibnamehash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{authorbibnamehash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{authornamehash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{authorfullhash}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \strng{authorfullhashraw}{3ad6590e5b4a21e93d302b7e0bf0d768}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les grands modèles de langage sont des systèmes d’IA conçus pour traiter de vastes quantités de données afin de comprendre et de générer des textes.}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{shorttitle}{{Qu’est-ce qu’un LLM (Large Language Models) ?}}
+      \field{title}{{Qu’est-ce qu’un LLM (Large Language Models) ? | IBM}}
+      \field{urlday}{6}
       \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/nosql-databases
+      \verb https://www.ibm.com/fr-fr/think/topics/large-language-models
       \endverb
       \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/nosql-databases
+      \verb https://www.ibm.com/fr-fr/think/topics/large-language-models
       \endverb
     \endentry
     \entry{zotero-item-772}{misc}{}{}
@@ -170,6 +624,109 @@
       \verb{url}
       \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
       \endverb
+    \endentry
+    \entry{zotero-item-749}{misc}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Using {{Graph Visualization}} to Enhance Representation and Evaluation of Work Clusters}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \endverb
+    \endentry
+    \entry{wise2026}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=690f0ee67bdffd668342bcf69db48331}{%
+           family={Wise},
+           familyi={W\bibinitperiod},
+           given={Nikki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=092b9d635901f256326f047eb353c62b}{%
+           family={Fenlon},
+           familyi={F\bibinitperiod},
+           given={Katrina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0249d79b71429313ab1ce73ff9421877}{%
+           family={Marsh},
+           familyi={M\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=673942d651d707db7a0f870db0b08d3a}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40079a5bdc12af3ff1ef77182138fb10}{%
+           family={Smoke},
+           familyi={S\bibinitperiod},
+           given={Ugoma},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e79f80012ffabec9ffbf176aeccc806}{%
+           family={Navarette},
+           familyi={N\bibinitperiod},
+           given={Candy},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=685397fa65a4d0967310686f790a4f2b}{%
+           family={Havens},
+           familyi={H\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9666d2d62e26736718ec517d3f17437}
+      \strng{fullhash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{fullhashraw}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{bibnamehash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authorbibnamehash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authornamehash}{c9666d2d62e26736718ec517d3f17437}
+      \strng{authorfullhash}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \strng{authorfullhashraw}{4bc1e7b5b79dc7a3fef1f54b658b325b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Introduction. We report on an evaluation of the quality of metadata generated by a general purpose chatbot using items from a community organisation archive. Method. We developed an evaluation framework adapting quality dimensions from prior work and applied it to analyse a sample of 140 Dublin Core metadata records created by ChatGPT 4o from primary sources drawn from a community organisation collection, based on informal prompts. Analysis. Using independent qualitative coders and a peer review process, we assessed accuracy, conformance, consistency, completeness, objectiveness, transparency, bias, engagement, meaning and context, understandability, and provenance. Results. We found approximately 70\% of elements to be accurate. Most records were substantially complete and objective but often vague. Records exhibited significant inconsistencies in how ChatGPT completed fields, conformed to the Dublin Core schema, and interpreted primary sources. Conclusion(s). General purpose AI chatbots have the capacity to provide substantial ‘rough draft’ descriptive records for community collections, even with minimal prompting. These records require significant human intervention to ensure quality in terms of completeness, conformance to schema, accuracy, and meaningfulness to users. We offer insights for organisations and communities working with AI chatbots for description, along with implications for broader archival practice.}
+      \field{issn}{1368-1613}
+      \field{journaltitle}{Information Research an international electronic journal}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{iConf}
+      \field{shorttitle}{‘{{Appears}} to Be About’}
+      \field{title}{‘{{Appears}} to Be about’: An Evaluation of {{AI-generated}} Metadata Quality for Community Archives}
+      \field{urlday}{31}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{31}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{417\bibrangedash 437}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.47989/ir31iConf64144
+      \endverb
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/2E7FFCU3/Wise et al. - 2026 - ‘Appears to be about’ an evaluation of AI-generated metadata quality for community archives.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://publicera.kb.se/ir/article/view/64144
+      \endverb
+      \verb{url}
+      \verb https://publicera.kb.se/ir/article/view/64144
+      \endverb
+      \keyw{Artificial intelligence,Community archives,Cultural heritage,Linked open data}
     \endentry
   \enddatalist
 \endrefsection

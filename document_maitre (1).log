@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  6 SEP 2026 10:20
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  6 SEP 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,119 +1283,142 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre (1).aux
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_1' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_1@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A' multiply defined.
+LaTeX Warning: Label `III_1_B' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
+LaTeX Warning: Label `III_1_B@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_1' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_1@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A' multiply defined.
+LaTeX Warning: Label `III_1_C' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
+LaTeX Warning: Label `III_1_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_1' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_1@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A' multiply defined.
+LaTeX Warning: Label `III_2' multiply defined.
 
 
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
+LaTeX Warning: Label `III_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_2_B' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_2_B@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B' multiply defined.
+LaTeX Warning: Label `III_2' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B@cref' multiply defined.
+LaTeX Warning: Label `III_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_2_C' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_2_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B' multiply defined.
+LaTeX Warning: Label `III_2' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B@cref' multiply defined.
+LaTeX Warning: Label `III_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_3' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_3@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_C' multiply defined.
+LaTeX Warning: Label `III_3_B' multiply defined.
 
 
-LaTeX Warning: Label `I_2_C@cref' multiply defined.
+LaTeX Warning: Label `III_3_B@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
+LaTeX Warning: Label `III_3' multiply defined.
 
 
-LaTeX Warning: Label `I_2@cref' multiply defined.
+LaTeX Warning: Label `III_3@cref' multiply defined.
 
-(./parties/mainmatter/conclusion.aux)
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `III_3_C' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `III_3_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `III_3' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `III_3@cref' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `III_3_C' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `III_3_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `III_3' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `III_3@cref' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_A' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `annexe_A@cref' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest' multiply defined.
+LaTeX Warning: Label `annexe_A' multiply defined.
 
 
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
+LaTeX Warning: Label `annexe_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_A' multiply defined.
+
+
+LaTeX Warning: Label `annexe_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_A' multiply defined.
+
+
+LaTeX Warning: Label `annexe_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_B' multiply defined.
+
+
+LaTeX Warning: Label `annexe_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `annexe_B' multiply defined.
+
+
+LaTeX Warning: Label `annexe_B@cref' multiply defined.
 
 )
 \openout1 = `"document_maitre (1).aux"'.
@@ -1604,16 +1627,23 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [4
 
 ]
+Overfull \hbox (10.67084pt too wide) in paragraph at lines 298--298
+[][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
+rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
+12 ,
+ []
+
+
 
 [5
 
 ]
 
-[6
+[6]
+
+[7
 
 ]
-
-[7]
 
 [8
 
@@ -1647,193 +1677,221 @@ LaTeX Warning: Empty bibliography on input line 310.
 
 ]
 
-[2] (./parties/mainmatter/I/2/I_2.tex
-Chapitre 1.
-(./parties/mainmatter/I/2/I_2_A.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 1.
-
-
+[2]
 
 [3
 
 ]
-File: images/accueil1.png Graphic file (type bmp)
-<images/accueil1.png>
-
 
 [4]
-File: images/menuBurger.png Graphic file (type bmp)
-<images/menuBurger.png>
-File: images/image7.png Graphic file (type bmp)
-<images/image7.png>
 
+[5
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+]
 
-
-
-[5]
-
-[6]
-File: images/image2.png Graphic file (type bmp)
-<images/image2.png>
-File: images/image3.png Graphic file (type bmp)
-<images/image3.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/image4.png Graphic file (type bmp)
-<images/image4.png>
-File: images/image8.png Graphic file (type bmp)
-<images/image8.png>
-
+[6] (./parties/mainmatter/III/1/III_1.tex
 
 [7]
 
-[8]
+[8
+
+]
+Chapitre 1.
+
+Overfull \hbox (6.48555pt too wide) in paragraph at lines 6--7
+[]\TU/lmr/m/n/12 L’intégration de l’apprentissage automatique aux processus d’a
+rchivage audiovisuel,relève
+ []
+
+(./parties/mainmatter/III/1/III_1_A.tex
 
 [9]
-File: images/imageb.png Graphic file (type bmp)
-<images/imageb.png>
+
+LaTeX Warning: Reference `II_3_A' on page 10 undefined on input line 5.
 
 
-[10]) (./parties/mainmatter/I/2/I_2_B.tex
 
-[11]
+[10]) (./parties/mainmatter/III/1/III_1_B.tex
+
+[11]) (./parties/mainmatter/III/1/III_1_C.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [12]
 
-[13]) (./parties/mainmatter/I/2/I_2_C.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 1.
+LaTeX Warning: Reference `fig:validation' on page 13 undefined on input line 5.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
 
+
+[13]) (./parties/mainmatter/III/2/III_2.tex
 
 [14]
+Chapitre 2.
+(./parties/mainmatter/III/2/III_2_A.tex
 
-[15]))
+[15
+
+]) (./parties/mainmatter/III/2/III_2_B.tex
 
 [16]
 
-[17
+[17]) (./parties/mainmatter/III/2/III_2_C.tex)
+
+[18]) (./parties/mainmatter/III/3/III_3.tex
+
+[19]
+
+[20
 
 ]
+Chapitre 3.
+(./parties/mainmatter/III/3/III_3_A.tex
 
-[18]
+LaTeX Warning: Reference `II_1' on page 21 undefined on input line 6.
 
-[19
 
-]
+LaTeX Warning: Reference `II_2' on page 21 undefined on input line 6.
 
-[20]
 
-[21
+LaTeX Warning: Reference `II_1_C' on page 21 undefined on input line 6.
 
-]
 
-[22
-
-]
-\openout2 = `parties/mainmatter/conclusion.aux'.
-
- (./parties/mainmatter/conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `II_2' on page 21 undefined on input line 6.
 
 
 
-[23
-
-
-])
-
-[24]
-Annexe A.
-(./parties/backmatter/annexe.tex
-
-[25
+[21]
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
 
 
-]
+[22]) (./parties/mainmatter/III/3/III_3_B.tex
 
-[26
+[23]
 
-]
+[24]) (./parties/mainmatter/III/3/III_3_C.tex
+
+[25]
+Overfull \hbox (6.18015pt too wide) in paragraph at lines 15--16
+[]\TU/lmr/m/n/12 Or, si ce processus centré sur la supervision humaine parait i
+déal, il impose des contraintes
+ []
+
+
+
+[26]))
 
 [27]
 
-[28]
-Annexe A.
-
-
-[29
+[28
 
 ]
 
-[30]
+[29]
+
+[30
+
+] (./parties/backmatter/annexe.tex
+
+[31
+
+]
+
+[32]
+Annexe A.
+
+
+[33
+
+]
+
+[34]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
-Underfull \vbox (badness 1655) has occurred while \output is active []
 
+[35]
 
-
-[31]
-
-[32]
-
-[33]
+[36]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[34]
+[37]
 
-[35]
+[38]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[36]
-Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
-[]\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
-ifestation, Item, puisque
- []
+[39]
 
+[40]
+Annexe B.
 
-
-[37]
-
-[38]
-
-[39])
-
-[40] (./document_maitre (1).gls
 
 [41
+
+]
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.79024pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.79024pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
+
+[42]
+File: images/annexe1.png Graphic file (type bmp)
+<images/annexe1.png>
+File: images/annexe2.png Graphic file (type bmp)
+<images/annexe2.png>
+
+
+[43]
+File: images/annexe3.png Graphic file (type bmp)
+<images/annexe3.png>
+File: images/annexe4.png Graphic file (type bmp)
+<images/annexe4.png>
+File: images/annexe5.png Graphic file (type bmp)
+<images/annexe5.png>
+)
+
+
+Package fancyhdr Warning: \headheight is too small (16.0pt): 
+(fancyhdr)                Make it at least 25.79024pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.79024pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
+
+[44]
+
+[45]
+
+[46] (./document_maitre (1).gls
+
+[47
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[42])
+[48])
 
-[43
+[49
 
 
 ]
 
-[44
+[50
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -1841,9 +1899,9 @@ ifestation, Item, puisque
 
 
 
-[45]
+[51]
 
-[46
+[52
 
 ] (./document_maitre (1).lof)
 \tf@lof=\write10
@@ -1851,38 +1909,46 @@ ifestation, Item, puisque
 
 
 
-[47]
+[53]
 
-[48
+[54
 
 ] (./document_maitre (1).toc
 
-[49])
+[55])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[50] (./document_maitre (1).aux (./parties/mainmatter/conclusion.aux))
+[56] (./document_maitre (1).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "document_maitre (1)"
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 \openout1 = `"document_maitre (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48518 strings out of 468389
- 1013266 string characters out of 5440619
- 2024825 words of memory out of 5000000
- 76372 multiletter control sequences out of 15000+600000
+ 48640 strings out of 468389
+ 1016329 string characters out of 5440619
+ 2027431 words of memory out of 5000000
+ 76478 multiletter control sequences out of 15000+600000
  632169 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,98p,2504b,7252s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (66 pages).
+Output written on document_maitre (1).pdf (72 pages).
