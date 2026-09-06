@@ -1,66 +1,48 @@
 Cette troisième partie apporte une mise en perspective au processus proposé jusqu'ici, au sein d'un logiciel de gestion des collections. En effet la priorité d'un éditeur tel que Skinsoft réside dans la fluidité de l'expérience de navigation pour un utilisateur métier. Cette priorité conditionne la mise en place de nouvelles fonctionnalités telles que nous celle que nous avons décrites, incitant le perfectionnement préalable de l'interface. 
-Replacer l'étude au coeur du rôle d'un éditeur de logiciel des collections. Mettre en perspective la proposition avec la dynamique de l'éduteur, son rôle, sa ligne éditoriale et la relation client. rôle pivot entre le monde patrimonial et l'innovation. Processus idéal à remettre en contexte. 
+Replacer l'étude au coeur du rôle d'un éditeur de logiciel des collections. Mettre en perspective la proposition avec la dynamique de l'éditeur, son rôle, sa ligne éditoriale et la relation client. rôle pivot entre le monde patrimonial et l'innovation. Processus idéal à remettre en contexte. 
+
+\chapter{\label{III_1} Une intelligence hybride}
+
+L'intégration de l'apprentissage automatique aux processus d'archivage audiovisuel,relève d'un large potentiel de découvrabilité du contenu de ces archives. Toutefois, ces outils restent difficiles à mettre en application au sein d'un tel milieu, nécessitant la mise en place d'efforts communs afin de "redéfinir en permanence la répartition du travail en l'homme et la machine dans le sens d'un partenariat" \footcite{zotero-item-584}. En effet, le processus tel que nous l'avons décrit ne saurait être entièrement automatisé, et laisserait plutôt la place à une cohabitation entre l'extraction automatique et l'indexation documentaire manuelle.
+
+Cette cohabitation est illustrée par le concept d'"intelligence hybride" définie par Zeynep Akata comme :
+
+\begin{quote}
+	La combinaison de l'intelligence humaine et de l'intelligence des machines qui complète l'intellect et les capacités humaines, plutôt que de les remplacer, afin de prendre des décisions judicieuses, d'effectuer des actions appropriées et d'atteindre des objectifs qui ne peuvent être atteints ni par les humains ni par les machines seules [Traduction personnelle]" \footnote{\textit{"the combination of human and machine intelligence, augmenting human intellect and capabilities instead of replacing them and achieving goals that were unreachable by either humans or machines."} \cite{akata2020}}.
+\end{quote}
+Ce concept implique notamment la mise en place de quatres étapes distinctes : la collaboration entre l'homme et la machine, l'adaptabilité, la responsabilité, et l'explicabilité \footcite{akata2020}.
 
 
-\chapter{\label{III_1} Pistes d'améliorations du système existant}
-
-L'implémentation de nouvelles fonctionnalités automatiques, demandant la validation de l'utilisateur, ne peut pas s'effectuer sans une amélioration de la navigation au sein de l'interface du logiciel de gestion des collections. La ligne directrice prise par un éditeur de logiciel de gestion de collections est celle des applications commerciales déjà présentes sur le web au sein desquelles nous naviguons tous. Ces applications placent au centre une expérience utlisateur ergonomique et intuitive afin d'atteindre leurs objectifs. De même, l'objectif d'un logiciel de gestion des collections est de permettre la gestion des collections via une interface ergonomique et intuitive. L'implémentation de fonctionnalités innovantes tend à faire de ces logiciels des applications web intuitives, sans toutefois compromettre leur objectif. 
-Nous l'avons évoqué en première partie, la gestion des collections rend complexe l'ergonomie de l'expérience utilisateur. En effet, la modélisation imposée par le FRBR pose des difficultés de navigation et de visualisation intuitive de la structure des données. Comme nous l'avons souligné, l'espace de travail S-Movies, dédié à la gestion des collections audiovisuelles et fondé sur le FRBR est au coeur de discussion afin d'en améliorer l'interface et la visibilité des liens entre les données.
-L'indexation automatique et massive des données risque de complexifier davantage la navigation au sein de l'interface. Or, la validation utilisateur et le contrôle qualité des données section prévue dans la partie précédente nécessite une interface indiquant de manière claire la structure globale des données et les liens qui els régissent. 
-L'éditeur logiciel aurait ainsi un rôle pivot, permettant de préparer d'une part l'interface et d'autre part les utilisateurs à l'implémentation de ces fonctionnalités automatisées.
+%It was found that entity-based indexation, spanning across archival fonds, allowed to search the archive in a more “fluid” way. \footcite{colavizza2021}
 
 
 
 \input{parties/mainmatter/III/1/III_1_A.tex}
 \input{parties/mainmatter/III/1/III_1_B.tex}
+\input{parties/mainmatter/III/1/III_1_C.tex}
+
+
+L'"intelligence hybride" telle que définie par Akata se concrétise ainsi à travers la mise en place de trois étapes intégrées à la validation du processus automatique : l'indexation du nouveau statut de données "fluides" à travers des métadonnées de processus, le contrôle de la qualité de ces données au sein de la structure logicielle, et l'explicabilité du processus afin d'assurer sa transparence \footcites{akata2020}{zotero-item-584}. Le développement actuel de \gls{llm} par Skinsoft pourra être mis à profit afin d'assister l'utilisateur dans la mise en place d'un contrôle critique. Toutefois, la mise en place de cette "intelligence hybride" au profit de la qualité des données exige une innovation de l'environnement de travail lui-même \footcite{akata2020}. Il convient ainsi d'étudier les évolutions requises au sein de S-Movies, afin d'assurer la fluidité du contrôle des données automatisées. 
+
+
+%Tant l'indexation intellectuelle traditionnelle que les méthodes assistées par ordinateur sont traversées par des grilles de lecture et des tendances implicites. Lors de l'analyse automatique d'images ou de séquences filmées, les réseaux de neurones appliquent des critères d'étiquetage (\textit{tagging}) directement hérités de leurs jeux de données d'apprentissage. Pour éviter l'effet « boîte noire », il est indispensable que les professionnels de la documentation comme les usagers connaissent les principes et les limites du modèle utilisé. Cette explicabilité permet de repérer les biais algorithmiques ou culturels et garantit une interprétation critique des métadonnées produites.
+
+%éviter les biais : 
+%Enfin, l'introduction d'outils décisionnels automatiques soulève des questions éthiques fondamentales quant à la médiation culturelle. Un algorithme de recommandation ou de classement pourrait-il, sous couvert d'optimisation ou de modération, masquer certaines informations sensibles ou controversées pour « ménager » l'utilisateur ? \footcite{zotero-item-584}. Pour prémunir le système d'information d'une telle dérive paternaliste ou censoriale, la gouvernance de l'IA doit réaffirmer la neutralité de l'archiviste : la machine doit demeurer un outil d'exposition explicite des contenus, garantissant un accès direct, transparent et impartial à l'ensemble du patrimoine documentaire.
 
 
 
+%Toutefois, la connaissance des principes d'indexation est également utile pour le travail humain. Alors que l'utilisation du ML va déjà de soi dans certains domaines, il y a des domaines dans lesquels nous devons rendre son utilisation transparente pour les utilisateur·rice·s et leur donner la possibilité d'option de retrait, par exemple lorsqu'il s'agit de données personnelles. La transparence est également requise lorsqu'il s'agit d'adapter l'offre concrète aux besoins des utilisateur·rice·s sur la base de profils d'utilisateur·rice·s (obtenus par le biais de demandes, d'autodéclaration ou de « traces d'utilisation », comme le classement d'une liste de résultats ou des propositions par des systèmes de recommandation). Une telle transparence n'est bien sûr pas toujours assurée, notamment pour le classement de pertinence. Bien entendu, il faut également s'assurer que l'utilisation du ML est conforme à la protection des données. Lorsque nos données sont intégrées dans les systèmes de fournisseurs commerciaux, nous perdons la souveraineté des données si les systèmes du fournisseur continuent à apprendre de nos données et les intègrent dans leur pool de données. Les questions éthiques peuvent potentiellement aller très loin : Que se passerait-il si la machine cachait certaines informations aux utilisateur·rice·s pour les ménager ?” 
 
-transition : toutes ces améliorations d'interface supposent une cohérence des métadonnées contenus au sein du modèle de données. Surtout une cohérence entre les métadonnées documentaires produites par l'utilisateur métier et les métadonnées produites automatiquement par les algorithmes mis en place, à terme. 
-La qualité des métadonnées est essentielle : il faut que les métadonnées soient homogènes pour être intégrées au graphe et produire une visualisation claire : mettre en relation avec les données créées par IA 
+%La gestion de la qualité dans les systèmes d'indexation automatique ne peut se cantonner à la seule dimension technique du traitement des données : elle doit impérativement intégrer l'expérience et la confiance des utilisateurs. Comme le rappelle le \textit{Livre Blanc sur l'IA dans les archives}, la transparence envers les archivistes et le grand public constitue le pilier fondamental d'une appropriation responsable des technologies d'apprentissage automatique \footcite{zotero-item-584}.
 
-%À l'aide de la plateforme culture graph, des algorithmes forment des groupes d'oeuvres avec des clés uniques regroupant les métadonnées liées. \footcite{zotero-item-749} La bibliothèque propose une visualisation en graphe fondée sur les mots-clés à l'aide du logiciel Gephi7 : 
-%\begin{quote}
-	%"Il permet de distinguer facilement visuellement les différents sous-groupes au sein d’un groupe et d’identifier les mots-clés individuels reliant les différents domaines d’un groupe. Un groupe de travaux contient des sommetsreprésentant des publications et des sommets représentant des mots-clés. Les arêtes indiquent quels mots-clés appartiennentà une publication et établi"
-%\end{quote} \footcite{zotero-item-749} \footnote{Notre traduction}
+%Tant l'indexation intellectuelle traditionnelle que les méthodes assistées par ordinateur sont traversées par des grilles de lecture et des tendances implicites. Lors de l'analyse automatique d'images ou de séquences filmées, les réseaux de neurones appliquent des critères d'étiquetage (\textit{tagging}) directement hérités de leurs jeux de données d'apprentissage. Pour éviter l'effet « boîte noire », il est indispensable que les professionnels de la documentation comme les usagers connaissent les principes et les limites du modèle utilisé. Cette explicabilité permet de repérer les biais algorithmiques ou culturels et garantit une interprétation critique des métadonnées produites.
 
+%L'application du \textit{Machine Learning} aux fonds d'archives impose un respect strict du cadre réglementaire sur la protection des données personnelles (RGPD). Dans certains domaines sensibles (reconnaissance faciale, identification de personnes dans des rushes audiovisuels modernes, analyse de profils d'utilisateurs), la transparence doit s'accompagner d'un droit de retrait (\textit{opt-out}) explicite. De même, lorsque le système d'information personnalise ses services ou adapte le classement de pertinence (\textit{ranking}) en fonction des traces d'usage ou de profils déclarés, les critères d'ordonnancement doivent rester lisibles et débrayables par l'usager, évitant ainsi la création de bulles de filtres documentaires \footcite{zotero-item-584}.
 
+%Lorsque l'utilisateur fait une recherche par image ou par concept dans une base d'archives audiovisuelles, il doit savoir si le résultat lui est proposé parce que l'IA a détecté un objet visuel ou parce qu'un chercheur a qualifié la scène.
+ 
+%Dans un catalogue d'archives audiovisuelles fondé sur une modélisation FRBR/LRM, la transparence vis-à-vis des usagers exige une lisibilité parfaite des processus d'indexation ayant permis de structurer l'information.
+%Les algorithmes d'analyse d'images, de reconnaissance faciale ou de classification sonore appliquent des critères issus de leurs jeux d'entraînement, souvent porteurs de biais culturels ou de représentations \footcite{zotero-item-584}. Dans le modèle FRBR, la transparence impose de rendre explicites les critères de détection. Lors de la restitution des résultats de recherche au niveau de l'entité \textit{Expression}, l'interface doit indiquer clairement si le résultat provient d'une analyse intellectuelle ou d'une prédiction algorithmique (assortie de son score de confiance), permettant à l'usager d'exercer sa critique d'attestations.
 
-
-%Il s’agit souvent de publications isolées reliant deux clusters par ailleurs indépendants. Elles doivent être examinées en priorité, car leur position peut en faire la source d’un vaste cluster erroné si elles sont incorrectes." \footcite{zotero-item-749}
-
-
-
-
------------
-
-%Okapi : “L’ensemble des descriptions de ressources multimédias et les entités du domaine prennent la forme de graphes sémantiques au format RDF. Le processus d’édition de ressources de la plateforme Okapi interprète les différentes contraintes logiques portées par les ontologies au format OWL pour guider l’annotateur vers la réalisation de graphes « bien formés ». À chaque nœud du graphe constituant une annotation, correspond un ensemble valide de propriétés et de valeurs de propriétés qui est spécifié dans les ontologies. Cette généricité et cette puissance d’expression impliquent en retour une compréhension certaine pour le modélisateur des logiques en œuvre au sein des langages de représentation des connaissances utilisés. Dans leur fondement, ces langages reposent en effet sur la logique des prédicats du premier ordre, la logique ensembliste et plus spécifiquement les logiques de description. À la dérivation de types et de propriétés définies précédemment s’ajoute, dans le cas du langage OWL, la possibilité de contraindre pour une classe donnée les valeurs des propriétés héritées de ses classes ascendantes.” \footcite{lalande2022} 
-
-%“Okapi offre aussi un ensemble d’outils pour la description d’images. À l’instar de la description de vidéos, les utilisateurs peuvent créer plusieurs strates de description qui agissent comme des calques pour délimiter des régions d’image différentes, suivant le type de description envisagée (thématique, visuelle, etc.). La Figure 7 montre l’interface principale de découpage virtuel d’images en plusieurs régions de différentes formes (rectangulaires, circulaires ou à main levée). Chaque région peut être décrite à l’aide d’un formulaire spécifique.” \footcite{lalande2022}
-
-%\subsubsection{Nouvelles potentialités de recherche et de navigation : systèmes de reccommandation et d’entraînement automatisé : snoop}
-
-%L'indexation fine des contenus audiovisuels par segments améliore l'intelligibilité des contenus audiovisuels. Cette amélioration repose sur les outils de recherche qui permettent aux utilisateurs d'accéder à l'indexation fine des fichiers audiovisuels. 
-%De nombreuses applications publiques proposent désormais la recherche en langage naturel aux utilisateurs. Celle-ci permet aux utilisateurs de chercher du contenu en utilisant leur vocabulaire, par opposition à un vocabulaire contrôlé. Elle permet aux utilisateurs d'accéder plus rapidement aux résultats de recherche, sans avoir à réfléchir au termes à employer. Cette fonctionnalité est au centre de l'amélioration de l'expérience utilisateur au sein d'une interface. Dans un logiciel de gestion des collections, la recherche est fondée sur l'utilisation de champs contrôlés, qui contiennent l'information indexée. La mise en place d'une recherche en langage naturelle nécessite un mapping, une table de corresponsance entre les champs du logiciel et le langage naturel potentiellement employé par l'utlisateur. Outre la difficulté de la mise en place d'une telle fonctionnalité, elle permet, à terme, de transformer l'accès aux collections, et notamment de donner accès aux segments. 
-
-%Aujourd'hui, Skinsoft, en amont d'autres éditeurs de gestion des collections, propose plusieur types de recherche dont la recherche avancée, la recherche par image, et développe actuellement la recherche en langage naturel, dont nous avons spécifié les fonctionnalités au courant de notre stage. 
-
-%La recherche en lanagage naturel, couplée à la recherche par image est intéressante dans la mise en place d'une segmentation automatique, et d'une indexation automatique, puisqu'elle pourrait permettre la découvrabilité d'un plus garnd nombre de données. L'utilisateur pourrait décrire le contenu d'une image afin d'obtenir les segments souhaités. Ce type de recherche plus fin, s'accorderait ainsi avec l'indexation fine que nous proposons. 
-
-%Toutefois, la recherche textuelle reste limitée pour pouvoir accéder à des résultats de recherche visuels. La recherche par contenu visuel pourrait améliorer la recherche de ces contenus audiovisuels segmentés, ccédant à une précison de similarité visuelle. 
-
-%Snoop v6, un moteur visuel de recherche développé par l'INA, l'inria et la BNF, permet à l'utilisateur de formuler une requête visuelle en sélectionnant un élément dans l'image à rechercher. Le moteur présente alors à l'utilisateur les résultats simiaires à l'élément sélectionné au sein d'une vaste collection. \footcite{zotero-item-744} Face aux éléments proposés par le moteur, l'utilisateur a la possibilité de valider les résutats pertinents et de rejeter les résultats non pertinents, ce qui permet d'entraîner le modèle et de l'affiner. \footcite{zotero-item-744} Tant que l'utilisateur n'est pas satisfait, le moteur propose à nouveau des résultats de recherche.\footcite{zotero-item-744}
-
-
-
-
-
------------
-
-u%n filtre strict par mot-clé risque de masquer des rushes précieux, alors qu'une recherche hybride (IA + filtres sémantiques) aide l'archiviste à explorer sans se perdre
-
-%Livre blanc : “Dans le cadre de ce dernier défi, le concept d’« intelligence hybride », c'est-à-dire d'une intelligence synergique de l'homme et de la machine qui fait plus que ce qu'un homme ou une machine pourrait faire seul(e) (Dellermann et al. 2019, Akata et al. 2020), est discuté. Ainsi, lors de la recherche dans de grandes banques de données, les humains ont souvent recours aux fonctions de filtrage disponibles, ce qui donnent un « l'effet d'entonnoir ». Ce phénomène se produit lorsque des résultats potentiellement très pertinents disparaissent du résultat de la recherche, tandis que la machine apprenante peut certes proposer de nombreux résultats filtrés en utilisant les approches les plus diverses (par exemple reconnaissance de modèles, de valeurs aberrantes et de particularités), mais elle ne peut pas atteindre le « point » avec certitude (Akata et al. 2020). Il s'agit donc ici aussi de trouver un équilibre entre le rappel et la précision” 
-
-%\footcite{zotero-item-584}
-
+%“Il est donc d'autant plus important pour les archivistes audiovisuels d'exploiter le potentiel du ML dans le domaine de l'archivage. L'objectif est de tester la mise en valeur de l'audiovisuel, de travailler à l'amélioration de la qualité et au développement d'outils basés sur le ML, mais aussi de redéfinir en permanence la répartition du travail entre l'homme et la machine dans le sens d'un partenariat.” (Livre blanc Arnold 2024) 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  5 SEP 2026 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  6 SEP 2026 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,28 +1283,10 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre (1).aux
 
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
-
-
 LaTeX Warning: Label `I_2' multiply defined.
 
 
 LaTeX Warning: Label `I_2@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A' multiply defined.
@@ -1319,18 +1301,6 @@ LaTeX Warning: Label `I_2' multiply defined.
 LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
-
-
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
@@ -1343,28 +1313,10 @@ LaTeX Warning: Label `I_2' multiply defined.
 LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
-
-
 LaTeX Warning: Label `I_2_A' multiply defined.
 
 
 LaTeX Warning: Label `I_2_A@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A' multiply defined.
-
-
-LaTeX Warning: Label `I_2_A@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2' multiply defined.
@@ -1379,18 +1331,6 @@ LaTeX Warning: Label `I_2_B' multiply defined.
 LaTeX Warning: Label `I_2_B@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_B' multiply defined.
-
-
-LaTeX Warning: Label `I_2_B@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
-
-
 LaTeX Warning: Label `I_2' multiply defined.
 
 
@@ -1401,18 +1341,6 @@ LaTeX Warning: Label `I_2_B' multiply defined.
 
 
 LaTeX Warning: Label `I_2_B@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2_B' multiply defined.
-
-
-LaTeX Warning: Label `I_2_B@cref' multiply defined.
-
-
-LaTeX Warning: Label `I_2' multiply defined.
-
-
-LaTeX Warning: Label `I_2@cref' multiply defined.
 
 
 LaTeX Warning: Label `I_2' multiply defined.
@@ -1427,47 +1355,12 @@ LaTeX Warning: Label `I_2_C' multiply defined.
 LaTeX Warning: Label `I_2_C@cref' multiply defined.
 
 
-LaTeX Warning: Label `I_2_C' multiply defined.
-
-
-LaTeX Warning: Label `I_2_C@cref' multiply defined.
-
-
 LaTeX Warning: Label `I_2' multiply defined.
 
 
 LaTeX Warning: Label `I_2@cref' multiply defined.
 
-
-LaTeX Warning: Label `annexe_suggest' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest' multiply defined.
-
-
-LaTeX Warning: Label `annexe_suggest@cref' multiply defined.
-
+(./parties/mainmatter/conclusion.aux)
 
 LaTeX Warning: Label `annexe_suggest' multiply defined.
 
@@ -1624,21 +1517,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '"document_maitre (1)".bbl' found.
 
-(./document_maitre (1).bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                universalis.
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./document_maitre (1).bbl)
 Package biblatex Info: Reference section=0 on input line 187.
 Package biblatex Info: Reference segment=0 on input line 187.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
@@ -1855,28 +1741,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [22
 
 ]
-Annexe A.
-(./parties/backmatter/annexe.tex
+\openout2 = `parties/mainmatter/conclusion.aux'.
+
+ (./parties/mainmatter/conclusion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [23
 
+
+])
+
+[24]
+Annexe A.
+(./parties/backmatter/annexe.tex
+
+[25
+
+
+
 ]
 
-[24
+[26
 
 ]
 
-[25]
+[27]
 
-[26]
+[28]
 Annexe A.
 
 
-[27
+[29
 
 ]
 
-[28]
+[30]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
@@ -1884,25 +1785,25 @@ Underfull \vbox (badness 1655) has occurred while \output is active []
 
 
 
-[29]
-
-[30]
-
 [31]
+
+[32]
+
+[33]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[32]
+[34]
 
-[33]
+[35]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[34]
+[36]
 Overfull \hbox (2.5241pt too wide) in paragraph at lines 238--239
 []\TU/lmr/m/n/12 Cette idée s’applique aux niveaux FRBR enfants : Variante, Man
 ifestation, Item, puisque
@@ -1910,29 +1811,29 @@ ifestation, Item, puisque
 
 
 
-[35]
+[37]
 
-[36]
+[38]
 
-[37])
+[39])
 
-[38] (./document_maitre (1).gls
+[40] (./document_maitre (1).gls
 
-[39
+[41
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[40])
+[42])
 
-[41
+[43
 
 
 ]
 
-[42
+[44
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -1940,9 +1841,9 @@ ifestation, Item, puisque
 
 
 
-[43]
+[45]
 
-[44
+[46
 
 ] (./document_maitre (1).lof)
 \tf@lof=\write10
@@ -1950,46 +1851,38 @@ ifestation, Item, puisque
 
 
 
-[45]
+[47]
 
-[46
+[48
 
 ] (./document_maitre (1).toc
 
-[47])
+[49])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[48] (./document_maitre (1).aux)
+[50] (./document_maitre (1).aux (./parties/mainmatter/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "document_maitre (1)"
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 \openout1 = `"document_maitre (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48494 strings out of 468389
- 1012198 string characters out of 5440619
- 2022259 words of memory out of 5000000
- 76355 multiletter control sequences out of 15000+600000
+ 48518 strings out of 468389
+ 1013266 string characters out of 5440619
+ 2024825 words of memory out of 5000000
+ 76372 multiletter control sequences out of 15000+600000
  632169 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,98p,2504b,7252s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (64 pages).
+Output written on document_maitre (1).pdf (66 pages).
