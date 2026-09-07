@@ -1,14 +1,10 @@
-\chapter{\label{I_3}Le projet d'une indexation automatisée des archives audiovisuelles, conditionnée par le modèle en place}
+\chapter{\label{I_3}Le projet d'automatiser l'indexation des archives audiovisuelles}
 
 %I 3 
 
-L’indexation désigne la mise en place d’une description contrôlée et normalisée en lien avec des thésaurus, par exemple, permettant de concrétiser les besoins utilisateurs fondateurs du modèle FRBR. En effet, c’est l’indexation qui permet à l’utilisateur d’accéder à des objets de collection via des requêtes contenant des éléments de description indexés. Cette opération d’indexation peut s’avérer complexe et chronophage dans le cas de corpus tels que nous avons analysés, poussant un éditeur d’outil de gestion des collections à proposer des outils d’assistance automatique. En effet, Skinsoft souhaite par exemple intégrer à S-Movies des fonctionnalités d’indexation fondées sur l’intelligence artificielle capables d’effectuer une segmentation d’extraits vidéo et de décrire ces extraits afin de les indexer au sein du modèle FRBR.  
+L'architecture modélisée par le \gls{FRBR} décrite jusqu'ici conditionne la structure de la description, et de fait, de l'indexation de cette description selon des normes définies. En effet, le modèle de données permet d'organiser l'indexation en couches intelligibles, permettant à l'utilisateur de se repérer au sein d'un logiciel de gestion des collections, et de faciliter les entrées de description. Les tâches d'indexation peuvent toutefois s’avérer complexe et chronophage, spécifiquement dans le cas de corpus audiovisuels tels que celui que nous avons analysé, poussant l'éditeur à émettre le projet de développement d'outils automatisés permettant d'assister l'utilisateur.
 
-L’architecture modélisée par le FRBR que nous avons décrite jusqu’ici a pour objectif de fonctionnel de permettre la recherche, la navigation et l’accès aux données dans un logiciel de gestion des collections. Le modèle définit la structure dans laquelle s’inscrivent les métadonnées issues de la description des collections. Toutefois, c’est véritablement l’indexation qui alimente les différentes entités du FRBR et qui rend les données requêtables, navigables et accessibles.  
 
-L’indexation de collections audiovisuelles implique un travail d’extraction du contenu conséquent, en particulier dans le cas de corpus audiovisuels opaques, non montés tels que nous avons décrits. Il revient à l'utilisateur métier d’identifier à partir de l’archive, des événements, des lieux, des personnes et même, dans le cas du corpus analysé, des découpages temporels et thématiques au sein du flux vidéo. Ces éléments doivent ensuite pouvoir être inclus dans une ou plusieurs entités du modèle FRBR.  Face à la masse potentielle des collections, l’indexation peut s’avérer laborieuse et chronophage, justifiant ainsi la mise en place d’une indexation automatisée afin d’assister l’utilisateur dans cette tâche. Toutefois, avant de pouvoir proposer des algorithmes adéquats, il est essentiel de comprendre les mécanismes et les tâches induits par l’indexation documentaire des images animées.  
-
-Norme de description RDA préconisée par la FIAF  
 
   
 \input{parties/mainmatter/I/3/I_3_A.tex}
@@ -16,6 +12,7 @@ Norme de description RDA préconisée par la FIAF
 \input{parties/mainmatter/I/3/I_3_C.tex}
 
 
+Le traitement des collections audiovisuelles exige une articulation entre la segmentation temporelle d'une part, et l'indexation des \gls{sequence}s produites, d'autre part. En effet, la segmentation s'impose comme la condition préalable indispensable à une description documentaire exploitable par les utilisateurs. À travers la construction d'un cadre pour le projet d'implémentation de l'\gls{ia} au sein de son logiciel, Skinsoft souhaite concevoir, à partir des besoins métier, un outil d'assistance pour le traitement massifs des fonds audiovisuels. L'identification des besoins d'une part, et du cadre théorique d'implémentation d'autre part, permet d'imaginer un processus automatique qui s'inscrit au sein de la structure documentaire du \gls{FRBR}. 
 
 
 

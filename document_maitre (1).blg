@@ -1,15 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
-[206] biber:342> INFO - === Sun Sep  6, 2026, 17:41:22
-[245] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
-[414] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
-[445] Biber.pm:4487> INFO - Processing section 0
-[469] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
-[488] bibtex.pm:1713> INFO - LaTeX decoding ...
-[992] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
-[1340] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1341] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1341] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[1341] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
-[1394] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
-[1419] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[0] Config.pm:331> INFO - Logfile is 'document_maitre (1).blg'
+[148] biber:342> INFO - === Sun Sep  6, 2026, 21:45:59
+[172] Biber.pm:421> INFO - Reading 'document_maitre (1).bcf'
+[320] Biber.pm:1002> INFO - Found 76 citekeys in bib section 0
+[341] Biber.pm:4487> INFO - Processing section 0
+[361] Biber.pm:4678> INFO - Looking for bibtex file 'memoire_tnah.bib' for section 0
+[373] bibtex.pm:1713> INFO - LaTeX decoding ...
+[706] bibtex.pm:1519> INFO - Found BibTeX data source 'memoire_tnah.bib'
+[1453] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1453] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1453] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[1453] Biber.pm:4313> INFO - No sort tailoring available for locale 'fr-FR'
+[1591] bbl.pm:676> INFO - Writing 'document_maitre (1).bbl' with encoding 'UTF-8'
+[1648] bbl.pm:779> INFO - Output to document_maitre (1).bbl
+[1648] Biber.pm:132> WARN - ISBN '978-2-200-35506-7 978-2-200-25670-8' in entry 'journot2008' is invalid - run biber with '--validate_datamodel' for details.
+[1649] Biber.pm:134> INFO - WARNINGS: 1

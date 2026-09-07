@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  6 SEP 2026 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  7 SEP 2026 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,6 +1283,366 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
  (./document_maitre (1).aux
 
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1_A' multiply defined.
+
+
+LaTeX Warning: Label `I_1_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1_B' multiply defined.
+
+
+LaTeX Warning: Label `I_1_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C' multiply defined.
+
+
+LaTeX Warning: Label `I_1_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_1' multiply defined.
+
+
+LaTeX Warning: Label `I_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A' multiply defined.
+
+
+LaTeX Warning: Label `I_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B' multiply defined.
+
+
+LaTeX Warning: Label `I_2_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2_C' multiply defined.
+
+
+LaTeX Warning: Label `I_2_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_2' multiply defined.
+
+
+LaTeX Warning: Label `I_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3_B' multiply defined.
+
+
+LaTeX Warning: Label `I_3_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C' multiply defined.
+
+
+LaTeX Warning: Label `I_3_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `I_3' multiply defined.
+
+
+LaTeX Warning: Label `I_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_A' multiply defined.
+
+
+LaTeX Warning: Label `II_1_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_A' multiply defined.
+
+
+LaTeX Warning: Label `II_1_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_B' multiply defined.
+
+
+LaTeX Warning: Label `II_1_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_B' multiply defined.
+
+
+LaTeX Warning: Label `II_1_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_C' multiply defined.
+
+
+LaTeX Warning: Label `II_1_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1_C' multiply defined.
+
+
+LaTeX Warning: Label `II_1_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_1' multiply defined.
+
+
+LaTeX Warning: Label `II_1@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2_A' multiply defined.
+
+
+LaTeX Warning: Label `II_2_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2_B' multiply defined.
+
+
+LaTeX Warning: Label `II_2_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C' multiply defined.
+
+
+LaTeX Warning: Label `II_2_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_2' multiply defined.
+
+
+LaTeX Warning: Label `II_2@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3_A' multiply defined.
+
+
+LaTeX Warning: Label `II_3_A@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3_C' multiply defined.
+
+
+LaTeX Warning: Label `II_3_C@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
 LaTeX Warning: Label `III_1' multiply defined.
 
 
@@ -1378,6 +1738,26 @@ LaTeX Warning: Label `III_3_C' multiply defined.
 
 LaTeX Warning: Label `III_3_C@cref' multiply defined.
 
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3@cref' multiply defined.
+
+(./parties/mainmatter/conclusion.aux
+
+LaTeX Warning: Label `III_3' multiply defined.
+
+
+LaTeX Warning: Label `III_3@cref' multiply defined.
+
+
+LaTeX Warning: Label `III_3_C' multiply defined.
+
+
+LaTeX Warning: Label `III_3_C@cref' multiply defined.
+
+)
 
 LaTeX Warning: Label `III_3' multiply defined.
 
@@ -1627,6 +2007,41 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [4
 
 ]
+
+[5
+
+]
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 298--298
+[][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
+ Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
+12 ​ (Roberto), «  Semantic Object Classes
+ []
+
+
+
+[6]
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 298--298
+\TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
+ [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
+[][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 298--298
+[][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
+ographic Records[]\TU/lmr/m/n/12 ​,
+ []
+
+
+
+[7]
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 298--298
+[][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
+2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
+n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
+ []
+
+
 Overfull \hbox (10.67084pt too wide) in paragraph at lines 298--298
 [][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
 rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
@@ -1634,41 +2049,83 @@ rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr
  []
 
 
-
-[5
-
-]
-
-[6]
-
-[7
-
-]
-
-[8
-
-]
-
-Package biblatex Warning: Keyword 'indexation' not found on input line 310.
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 298--298
+[][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
+field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
+s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
+oome[]\TU/lmr/m/n/12 ​ (Alice),
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 310.
 
-
+[8]
 
 [9]
 
-[10
-
-] (./parties/mainmatter/introduction.tex
+[10]
 
 [11]
 
-[12])
+[12
+
+]
 
 [13]
 
 [14
+
+]
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 314.
+
+
+LaTeX Warning: Empty bibliography on input line 314.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 318.
+
+
+LaTeX Warning: Empty bibliography on input line 318.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 322.
+
+
+LaTeX Warning: Empty bibliography on input line 322.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 326.
+
+
+LaTeX Warning: Empty bibliography on input line 326.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 331.
+
+
+LaTeX Warning: Empty bibliography on input line 331.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 335.
+
+
+LaTeX Warning: Empty bibliography on input line 335.
+
+
+
+[15]
+
+[16
+
+] (./parties/mainmatter/introduction.tex
+
+[17]
+
+[18])
+
+[19]
+
+[20
 
 ]
 
@@ -1677,26 +2134,337 @@ LaTeX Warning: Empty bibliography on input line 310.
 
 ]
 
-[2]
+[2] (./parties/mainmatter/I/1/I_1.tex
+Chapitre 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+(./parties/mainmatter/I/1/I_1_A.tex
+Overfull \hbox (15.83752pt too wide) in paragraph at lines 5--6
+[]\TU/lmr/m/n/12 Le [][]FRBR[], est un modèle conceptuel de données bibliograph
+iques élaboré par l’[][]\TU/lmr/m/it/12 International
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
 
 [3
 
 ]
+File: images/FRBRfirstgroup.png Graphic file (type bmp)
+<images/FRBRfirstgroup.png>
+
 
 [4]
+File: images/FRBRsecondgroup.png Graphic file (type bmp)
+<images/FRBRsecondgroup.png>
 
-[5
+
+[5]) (./parties/mainmatter/I/1/I_1_B.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
+[6]
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+
+
+[7]) (./parties/mainmatter/I/1/I_1_C.tex
+
+[8]
+
+[9])
+
+[10]) (./parties/mainmatter/I/2/I_2.tex
+
+[11]
+
+[12
+
+]
+Chapitre 2.
+(./parties/mainmatter/I/2/I_2_A.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
+[13]
+File: images/accueil1.png Graphic file (type bmp)
+<images/accueil1.png>
+
+
+[14]
+File: images/menuBurger.png Graphic file (type bmp)
+<images/menuBurger.png>
+File: images/image7.png Graphic file (type bmp)
+<images/image7.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[15]
+
+[16]
+File: images/image2.png Graphic file (type bmp)
+<images/image2.png>
+File: images/image3.png Graphic file (type bmp)
+<images/image3.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: images/image4.png Graphic file (type bmp)
+<images/image4.png>
+File: images/image8.png Graphic file (type bmp)
+<images/image8.png>
+
+
+[17]
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+
+
+[18]
+
+[19]
+File: images/imageb.png Graphic file (type bmp)
+<images/imageb.png>
+
+
+[20]) (./parties/mainmatter/I/2/I_2_B.tex
+
+[21]
+
+[22]
+
+[23]) (./parties/mainmatter/I/2/I_2_C.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[24]
+
+[25])) (./parties/mainmatter/I/3/I_3.tex
+
+[26]
+Chapitre 3.
+(./parties/mainmatter/I/3/I_3_A.tex
+
+[27
+
+]) (./parties/mainmatter/I/3/I_3_B.tex
+
+[28]
+
+[29]
+
+[30]) (./parties/mainmatter/I/3/I_3_C.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
+[31]
+
+[32]
+
+[33]))
+
+[34]
+
+[35
 
 ]
 
-[6] (./parties/mainmatter/III/1/III_1.tex
+[36] (./parties/mainmatter/II/1/II_1.tex
+Chapitre 4.
 
-[7]
 
-[8
+[37
+
+] (./parties/mainmatter/II/1/II_1_A.tex
+
+[38]
+Underfull \hbox (badness 1067) in paragraph at lines 20--20
+[][][][][]\TU/lmr/m/n/10 Niall O’ []Mahony[]​, Sean []Campbell[]​, Anderson []C
+arvalho[]​, Suman []Harapanahalli[]​, Gustavo []Velasco-
+ []
+
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+
+
+[39]
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[]|\TU/lmr/bx/n/10.95 Apprentissage
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 49--51
+[]|\TU/lmr/m/n/10.95 - Classification d’images fixes ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]|\TU/lmr/bx/n/10.95 Apprentissage
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 54--55
+\TU/lmr/bx/n/10.95 profond : Trans-
+ []
+
+
+Overfull \hbox (20.81282pt too wide) in paragraph at lines 36--61
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[41]) (./parties/mainmatter/II/1/II_1_B.tex
+
+[42]
+
+[43]
+
+[44]) (./parties/mainmatter/II/1/II_1_C.tex
+
+[45]
+
+[46]
+File: images/pyscene.png Graphic file (type bmp)
+<images/pyscene.png>
+)
+
+[47]
+
+[48]) (./parties/mainmatter/II/2/II_2.tex
+
+[49]
+
+[50
 
 ]
-Chapitre 1.
+Chapitre 5.
+(./parties/mainmatter/II/2/II_2_A.tex
+
+[51]
+
+[52]
+File: images/yolo.png Graphic file (type bmp)
+<images/yolo.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[53]) (./parties/mainmatter/II/2/II_2_B.tex)
+(./parties/mainmatter/II/2/II_2_C.tex
+
+[54]
+
+[55]
+
+[56]
+
+[57])
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+
+
+[58]) (./parties/mainmatter/II/3/II_3.tex
+
+[59]
+
+[60
+
+]
+Chapitre 6.
+(./parties/mainmatter/II/3/II_3_A.tex
+
+[61]
+File: images/fragment_frbr.png Graphic file (type bmp)
+<images/fragment_frbr.png>
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[63]) (./parties/mainmatter/II/3/II_3_B.tex
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+
+
+[64]
+
+[65]
+File: images/amalia.png Graphic file (type bmp)
+<images/amalia.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[66]
+File: images/validation.png Graphic file (type bmp)
+<images/validation.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[68]) (./parties/mainmatter/II/3/II_3_C.tex
+
+[69]))
+
+[70]
+
+[71
+
+]
+
+[72] (./parties/mainmatter/III/1/III_1.tex
+
+[73]
+
+[74
+
+]
+Chapitre 7.
 
 Overfull \hbox (6.48555pt too wide) in paragraph at lines 6--7
 []\TU/lmr/m/n/12 L’intégration de l’apprentissage automatique aux processus d’a
@@ -1705,78 +2473,59 @@ rchivage audiovisuel,relève
 
 (./parties/mainmatter/III/1/III_1_A.tex
 
-[9]
+[75]
 
-LaTeX Warning: Reference `II_3_A' on page 10 undefined on input line 5.
+[76]) (./parties/mainmatter/III/1/III_1_B.tex
 
-
-
-[10]) (./parties/mainmatter/III/1/III_1_B.tex
-
-[11]) (./parties/mainmatter/III/1/III_1_C.tex
+[77]) (./parties/mainmatter/III/1/III_1_C.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12]
-
-LaTeX Warning: Reference `fig:validation' on page 13 undefined on input line 5.
-
-
-)
+[78])
 Underfull \vbox (badness 2158) has occurred while \output is active []
 
 
 
-[13]) (./parties/mainmatter/III/2/III_2.tex
+[79]) (./parties/mainmatter/III/2/III_2.tex
 
-[14]
-Chapitre 2.
+[80]
+Chapitre 8.
 (./parties/mainmatter/III/2/III_2_A.tex
 
-[15
+[81
 
 ]) (./parties/mainmatter/III/2/III_2_B.tex
 
-[16]
+[82]
 
-[17]) (./parties/mainmatter/III/2/III_2_C.tex)
+[83]) (./parties/mainmatter/III/2/III_2_C.tex)
 
-[18]) (./parties/mainmatter/III/3/III_3.tex
+[84]) (./parties/mainmatter/III/3/III_3.tex
 
-[19]
+[85]
 
-[20
+[86
 
 ]
-Chapitre 3.
+Chapitre 9.
 (./parties/mainmatter/III/3/III_3_A.tex
 
-LaTeX Warning: Reference `II_1' on page 21 undefined on input line 6.
+[87]
 
-
-LaTeX Warning: Reference `II_2' on page 21 undefined on input line 6.
-
-
-LaTeX Warning: Reference `II_1_C' on page 21 undefined on input line 6.
-
-
-LaTeX Warning: Reference `II_2' on page 21 undefined on input line 6.
+[88]) (./parties/mainmatter/III/3/III_3_B.tex
+Underfull \vbox (badness 5147) has occurred while \output is active []
 
 
 
-[21]
-Underfull \vbox (badness 1838) has occurred while \output is active []
+[89]
+Underfull \vbox (badness 5787) has occurred while \output is active []
 
 
 
-[22]) (./parties/mainmatter/III/3/III_3_B.tex
+[90]) (./parties/mainmatter/III/3/III_3_C.tex
 
-[23]
-
-[24]) (./parties/mainmatter/III/3/III_3_C.tex
-
-[25]
+[91]
 Overfull \hbox (6.18015pt too wide) in paragraph at lines 15--16
 []\TU/lmr/m/n/12 Or, si ce processus centré sur la supervision humaine parait i
 déal, il impose des contraintes
@@ -1784,60 +2533,79 @@ déal, il impose des contraintes
 
 
 
-[26]))
+[92]))
 
-[27]
+[93]
 
-[28
-
-]
-
-[29]
-
-[30
-
-] (./parties/backmatter/annexe.tex
-
-[31
+[94
 
 ]
 
-[32]
+[95]
+
+[96
+
+]
+\openout2 = `parties/mainmatter/conclusion.aux'.
+
+ (./parties/mainmatter/conclusion.tex
+
+[97
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[98])
+
+[99] (./parties/backmatter/annexe.tex
+
+[100
+
+
+
+]
+
+[101]
+
+[102]
 Annexe A.
 
 
-[33
+[103
 
 ]
 
-[34]
+[104]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
 
-[35]
+[105]
 
-[36]
+[106]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[37]
+[107]
 
-[38]
+[108]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[39]
+[109]
 
-[40]
+[110]
 Annexe B.
 
 
-[41
+[111
 
 ]
 
@@ -1848,14 +2616,14 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[42]
+[112]
 File: images/annexe1.png Graphic file (type bmp)
 <images/annexe1.png>
 File: images/annexe2.png Graphic file (type bmp)
 <images/annexe2.png>
 
 
-[43]
+[113]
 File: images/annexe3.png Graphic file (type bmp)
 <images/annexe3.png>
 File: images/annexe4.png Graphic file (type bmp)
@@ -1871,27 +2639,27 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[44]
+[114]
 
-[45]
+[115]
 
-[46] (./document_maitre (1).gls
+[116] (./document_maitre (1).gls
 
-[47
+[117
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[48])
+[118])
 
-[49
+[119
 
 
 ]
 
-[50
+[120
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -1899,29 +2667,33 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 
 
-[51]
+[121]
 
-[52
+[122
 
-] (./document_maitre (1).lof)
+] (./document_maitre (1).lof
+
+[123])
 \tf@lof=\write10
 \openout10 = `"document_maitre (1).lof"'.
 
 
 
-[53]
+[124] (./document_maitre (1).toc
 
-[54
+[125
 
-] (./document_maitre (1).toc
+]
 
-[55])
+[126]
+
+[127])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[56] (./document_maitre (1).aux)
+[128] (./document_maitre (1).aux (./parties/mainmatter/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1943,12 +2715,12 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48640 strings out of 468389
- 1016329 string characters out of 5440619
- 2027431 words of memory out of 5000000
- 76478 multiletter control sequences out of 15000+600000
- 632169 words of font info for 83 fonts, out of 8000000 for 9000
+ 49831 strings out of 468389
+ 1046665 string characters out of 5440619
+ 2056741 words of memory out of 5000000
+ 77567 multiletter control sequences out of 15000+600000
+ 633317 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,98p,2504b,7252s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,101p,2504b,7256s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre (1).pdf (72 pages).
+Output written on document_maitre (1).pdf (150 pages).
