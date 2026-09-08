@@ -1,84 +1,99 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Avertissement}{xiii}{chapter*.4}%
-\contentsline {chapter}{Introduction}{xvii}{chapter*.7}%
+\contentsline {chapter}{Introduction}{xv}{chapter*.6}%
 \contentsline {part}{I\hspace {1em}Indexer les archives audiovisuelles}{1}{part.1}%
-\contentsline {chapter}{\numberline {1}Le \gls {FRBR}, un modèle de données bibliographique}{3}{chapter.1}%
-\contentsline {section}{\numberline {I.} Un modèle conceptuel fondé sur les besoins utilisateurs}{3}{section.1.1}%
-\contentsline {section}{\numberline {II.} Extension et adaptation du \gls {FRBR}}{6}{section.1.2}%
-\contentsline {section}{\numberline {III.} Une adaptation spécifique aux archives audiovisuelles }{8}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Modéliser un logiciel pour la gestion des collections audiovisuelles}{13}{chapter.2}%
-\contentsline {section}{\numberline {I.} Configuration du \gls {FRBR} au sein d'une interface logicielle}{13}{section.2.1}%
-\contentsline {subsection}{\numberline {1.}Architecture du logiciel développé par Skinsoft}{13}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.}L'espace de travail S-Movies}{15}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {a.}Structure fonctionnelle}{15}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Configurations spécifiques}{16}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {c.}Méta-masques de saisie}{18}{subsubsection.2.1.2.3}%
-\contentsline {section}{\numberline {II.} L'inscription de corpus de données audiovisuelles au sein de S-Movies}{21}{section.2.2}%
-\contentsline {subsection}{\numberline {1.}Implémentation d'un corpus audiovisuel classique}{21}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.}Implémentation d'un corpus audiovisuel spécifique}{22}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {a.}Une modélisation descriptive à deux niveaux ?}{22}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {b.}Analyse des pratiques métiers}{23}{subsubsection.2.2.2.2}%
-\contentsline {section}{\numberline {III.} Les complexités d'interface soulevées par la modélisation \gls {FRBR}}{25}{section.2.3}%
-\contentsline {subsection}{\numberline {1.}Affichage hiérarchique et terminologie}{25}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.}Configuration et visualisation des liens}{25}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Le projet d'automatiser l'indexation des archives audiovisuelles}{27}{chapter.3}%
-\contentsline {section}{\numberline {I.}Les enjeux de l'indexation audiovisuelle}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {1.}Définition de l'indexation}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {2.}Indexer les collections audiovisuelles}{28}{subsection.3.1.2}%
-\contentsline {section}{\numberline {II.}La nécessité de segmenter}{29}{section.3.2}%
-\contentsline {subsection}{\numberline {1.}Une tâche préalable à l'indexation}{29}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {2.}Une segmentation temporelle}{30}{subsection.3.2.2}%
-\contentsline {section}{\numberline {III.}Le projet \gls {ia} chez Skinsoft}{31}{section.3.3}%
-\contentsline {subsection}{\numberline {1.}Un projet global}{31}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {2.}Identifier le besoin pour instaurer un cadre éthique}{32}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.}Le besoin d'une segmentation et d'une indexation automatisées}{33}{subsection.3.3.3}%
-\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{35}{part.2}%
-\contentsline {chapter}{\numberline {4}Traitement audiovisuel}{37}{chapter.4}%
-\contentsline {section}{\numberline {I.}Machine learning et deep learning}{38}{section.4.1}%
-\contentsline {section}{\numberline {II.}Outils et modèles disponibles}{42}{section.4.2}%
-\contentsline {section}{\numberline {III.}Mise en application}{46}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Description et indexation automatique}{51}{chapter.5}%
-\contentsline {section}{\numberline {I.}Outils utilisés}{51}{section.5.1}%
-\contentsline {section}{\numberline {II.}Entraînement}{54}{section.5.2}%
-\contentsline {section}{\numberline {III.}Processus de validation technique}{57}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Comment indexer les données automatiquement produites ? : interface d’indexation}{61}{chapter.6}%
-\contentsline {section}{\numberline {I.}Reversement des données au sein du FRBR}{61}{section.6.1}%
-\contentsline {section}{\numberline {II.}Interface de validation pour l'utilisateur}{65}{section.6.2}%
-\contentsline {section}{\numberline {III.}Rendre les données recherchables et découvrables}{69}{section.6.3}%
-\contentsline {part}{III\hspace {1em}Perspectives}{71}{part.3}%
-\contentsline {chapter}{\numberline {7} Une intelligence hybride}{75}{chapter.7}%
-\contentsline {section}{\numberline {I.} Le nouveau statut des données}{76}{section.7.1}%
-\contentsline {section}{\numberline {II.} Assurer la qualité des données}{77}{section.7.2}%
-\contentsline {section}{\numberline {III.} Explicabilité et transparence}{79}{section.7.3}%
-\contentsline {chapter}{\numberline {8} Évolutions du système existant}{81}{chapter.8}%
-\contentsline {section}{\numberline {I.}Visualisation en graphe}{81}{section.8.1}%
-\contentsline {section}{\numberline {II.}Segmentation et indexation manuelles}{83}{section.8.2}%
-\contentsline {section}{\numberline {III.}Vers un nouveau modèle de données ?}{84}{section.8.3}%
-\contentsline {chapter}{\numberline {9} Généraliser le processus}{87}{chapter.9}%
-\contentsline {section}{\numberline {I.} Proposer un processus modulable}{87}{section.9.1}%
-\contentsline {section}{\numberline {II.} Constituer des données d'entraînement patrimoniales}{89}{section.9.2}%
-\contentsline {section}{\numberline {III.} Une automatisation nécesaire ?}{91}{section.9.3}%
-\contentsline {subsection}{\numberline {1.}La réalité des besoins}{91}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {2.}Le coût matériel et humain de la supervision humaine}{92}{subsection.9.3.2}%
-\contentsline {subsection}{\numberline {3.}Proposer un module paramétrable}{92}{subsection.9.3.3}%
-\contentsline {chapter}{Conclusion}{95}{chapter*.26}%
-\contentsline {part}{Annexes}{103}{part*.28}%
-\contentsline {chapter}{\numberline {A}Suggestions d'améliorations - S-Movies}{103}{appendix.A}%
-\contentsline {section}{\numberline {I.}Améliorations}{103}{section.A.1}%
-\contentsline {subsection}{\numberline {1.}Amélioration des liens}{103}{subsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{103}{subsubsection.A.1.1.1}%
-\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{104}{subsubsection.A.1.1.2}%
-\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{104}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{105}{subsection.A.1.3}%
-\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{106}{section.A.2}%
-\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{106}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {2.} Mise en place d’une visualisation des liens entre entités du FRBR }{107}{subsection.A.2.2}%
-\contentsline {chapter}{\numberline {B}Spécification fonctionnelle : Recherche en langage naturel à l’appui de l’intelligence artificielle }{111}{appendix.B}%
-\contentsline {section}{\numberline {I.}Le besoin utilisateur}{111}{section.B.1}%
-\contentsline {section}{\numberline {II.}Principes d'usage}{112}{section.B.2}%
-\contentsline {subsubsection}{\numberline {a.}Gestions des erreurs}{112}{subsubsection.B.2.0.1}%
-\contentsline {subsubsection}{\numberline {b.}Fonctionnalité détaillée}{113}{subsubsection.B.2.0.2}%
-\contentsline {chapter}{Glossaire}{117}{section*.38}%
-\contentsline {chapter}{Liste des abréviations}{119}{section*.40}%
+\contentsline {chapter}{\numberline {1}Le \gls {FRBR}, un modèle de données bibliographique}{5}{chapter.1}%
+\contentsline {section}{\numberline {I.} Un modèle conceptuel fondé sur les besoins utilisateurs}{5}{section.1.1}%
+\contentsline {section}{\numberline {II.} Extension et adaptation du \gls {FRBR}}{8}{section.1.2}%
+\contentsline {section}{\numberline {III.} Une adaptation spécifique aux archives audiovisuelles }{10}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Modéliser un logiciel pour la gestion des collections audiovisuelles}{15}{chapter.2}%
+\contentsline {section}{\numberline {I.} Configuration du \gls {FRBR} au sein d'une interface logicielle}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {1.}Architecture du logiciel développé par Skinsoft}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.}L'espace de travail S-Movies}{17}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {a.}Structure fonctionnelle}{17}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Configurations spécifiques}{18}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {c.}Méta-masques de saisie}{20}{subsubsection.2.1.2.3}%
+\contentsline {section}{\numberline {II.} L'inscription de corpus de données audiovisuelles au sein de S-Movies}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {1.}Implémentation d'un corpus audiovisuel classique}{23}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.}Implémentation d'un corpus audiovisuel spécifique}{24}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {a.}Une modélisation descriptive à deux niveaux ?}{24}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {b.}Analyse des pratiques métiers}{25}{subsubsection.2.2.2.2}%
+\contentsline {section}{\numberline {III.} Les complexités d'interface soulevées par la modélisation \gls {FRBR}}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {1.}Affichage hiérarchique et terminologie}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.}Configuration et visualisation des liens}{27}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Le projet d'automatiser l'indexation des archives audiovisuelles}{29}{chapter.3}%
+\contentsline {section}{\numberline {I.}Les enjeux de l'indexation audiovisuelle}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {1.}Définition de l'indexation}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {2.}Indexer les collections audiovisuelles}{30}{subsection.3.1.2}%
+\contentsline {section}{\numberline {II.}La nécessité de segmenter}{31}{section.3.2}%
+\contentsline {subsection}{\numberline {1.}Une tâche préalable à l'indexation}{31}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.}Une segmentation temporelle}{32}{subsection.3.2.2}%
+\contentsline {section}{\numberline {III.}Le projet \gls {ia} chez Skinsoft}{33}{section.3.3}%
+\contentsline {subsection}{\numberline {1.}Un projet global}{33}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {2.}Identifier le besoin pour instaurer un cadre éthique}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.}Le besoin d'une segmentation et d'une indexation automatisées}{35}{subsection.3.3.3}%
+\contentsline {part}{II\hspace {1em}Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}{37}{part.2}%
+\contentsline {chapter}{\numberline {4}Application d'un segmentation temporelle automatique}{39}{chapter.4}%
+\contentsline {section}{\numberline {I.}Traitement audiovisuel automatique}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {1.}État des lieux}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {2.}La \gls {Vision par ordinateur}}{41}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {a.}La \gls {Vision par ordinateur} classique}{41}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {b.}\gls {Vision par ordinateur} fondée sur l'\gls {Apprentissage profond}}{42}{subsubsection.4.1.2.2}%
+\contentsline {subsection}{\numberline {3.}\gls {Transformers} et \gls {cnn}}{42}{subsection.4.1.3}%
+\contentsline {section}{\numberline {II.} Outils de segmentation automatique}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {1.}Décomposer le mouvement}{45}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {2.}\gls {pyscene}}{46}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {3.}Fonctionnement}{47}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {a.}Paramétrages}{47}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {b.}Limites}{48}{subsubsection.4.2.3.2}%
+\contentsline {section}{\numberline {III.}Mise en application}{48}{section.4.3}%
+\contentsline {subsection}{\numberline {1.}Spécificités du corpus traité}{48}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {a.}Paramètres appliqués}{49}{subsubsection.4.3.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Données produites}{50}{subsubsection.4.3.1.2}%
+\contentsline {chapter}{\numberline {5}Décrire et indexer automatiquement les \gls {sequence}s}{53}{chapter.5}%
+\contentsline {section}{\numberline {I.}Choisir un modèle d'\gls {ia} adapté}{53}{section.5.1}%
+\contentsline {subsection}{\numberline {1.}Appliquer les algorithmes aux données}{53}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {2.}\gls {yolo}}{54}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {3.}Intégration au processus}{55}{subsection.5.1.3}%
+\contentsline {section}{\numberline {II.}Entraînement}{56}{section.5.2}%
+\contentsline {section}{\numberline {III.}Processus de validation technique}{59}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Comment indexer les données automatiquement produites ? : interface d’indexation}{63}{chapter.6}%
+\contentsline {section}{\numberline {I.}Reversement des données au sein du FRBR}{63}{section.6.1}%
+\contentsline {section}{\numberline {II.}Interface de validation pour l'utilisateur}{67}{section.6.2}%
+\contentsline {section}{\numberline {III.}Rendre les données recherchables et découvrables}{71}{section.6.3}%
+\contentsline {part}{III\hspace {1em}Perspectives}{73}{part.3}%
+\contentsline {chapter}{\numberline {7} Une intelligence hybride}{77}{chapter.7}%
+\contentsline {section}{\numberline {I.} Le nouveau statut des données}{78}{section.7.1}%
+\contentsline {section}{\numberline {II.} Assurer la qualité des données}{79}{section.7.2}%
+\contentsline {section}{\numberline {III.} Explicabilité et transparence}{81}{section.7.3}%
+\contentsline {chapter}{\numberline {8} Évolutions du système existant}{83}{chapter.8}%
+\contentsline {section}{\numberline {I.}Visualisation en graphe}{83}{section.8.1}%
+\contentsline {section}{\numberline {II.}Segmentation et indexation manuelles}{85}{section.8.2}%
+\contentsline {section}{\numberline {III.}Vers un nouveau modèle de données ?}{86}{section.8.3}%
+\contentsline {chapter}{\numberline {9} Généraliser le processus}{89}{chapter.9}%
+\contentsline {section}{\numberline {I.} Proposer un processus modulable}{89}{section.9.1}%
+\contentsline {section}{\numberline {II.} Constituer des données d'entraînement patrimoniales}{91}{section.9.2}%
+\contentsline {section}{\numberline {III.} Une automatisation nécesaire ?}{93}{section.9.3}%
+\contentsline {subsection}{\numberline {1.}La réalité des besoins}{93}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {2.}Le coût matériel et humain de la supervision humaine}{94}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {3.}Proposer un module paramétrable}{94}{subsection.9.3.3}%
+\contentsline {chapter}{Conclusion}{97}{chapter*.25}%
+\contentsline {part}{Annexes}{105}{part*.27}%
+\contentsline {chapter}{\numberline {A}Suggestions d'améliorations - S-Movies}{105}{appendix.A}%
+\contentsline {section}{\numberline {I.}Améliorations}{105}{section.A.1}%
+\contentsline {subsection}{\numberline {1.}Amélioration des liens}{105}{subsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{105}{subsubsection.A.1.1.1}%
+\contentsline {subsubsection}{\numberline {b.}Améliorer les liens depuis les notices}{106}{subsubsection.A.1.1.2}%
+\contentsline {subsection}{\numberline {2.}Modifier la hiérarchie d’affichage}{106}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {3.}Corrections terminologiques }{107}{subsection.A.1.3}%
+\contentsline {section}{\numberline {II.}Nouvelles fonctionnalités }{108}{section.A.2}%
+\contentsline {subsection}{\numberline {1.}Annotation de séquences sur un fichier vidéo numérique }{108}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {2.} Mise en place d’une visualisation des liens entre entités du FRBR }{109}{subsection.A.2.2}%
+\contentsline {chapter}{\numberline {B}Spécification fonctionnelle : Recherche en langage naturel à l’appui de l’intelligence artificielle }{113}{appendix.B}%
+\contentsline {section}{\numberline {I.}Le besoin utilisateur}{113}{section.B.1}%
+\contentsline {section}{\numberline {II.}Principes d'usage}{114}{section.B.2}%
+\contentsline {subsubsection}{\numberline {a.}Gestions des erreurs}{114}{subsubsection.B.2.0.1}%
+\contentsline {subsubsection}{\numberline {b.}Fonctionnalité détaillée}{115}{subsubsection.B.2.0.2}%
+\contentsline {chapter}{Glossaire}{119}{section*.37}%
+\contentsline {chapter}{Liste des abréviations}{121}{section*.39}%

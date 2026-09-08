@@ -1,9 +1,8 @@
-\chapter{\label{II_2}Description et indexation automatique} 
+\chapter{\label{II_2}Décrire et indexer les \gls{sequence}s automatiquement} 
 
 %à rajouter pour faire la transition : %L'apport de l'IA (Vers la classification sémantique) : La détection brute des coupures ne suffit plus ; l'enjeu actuel est la Shot semantics (décrire le contenu d'un plan et sa typologie) (Arnold  Tilton, 2019).
 
-La description automatique d’images peut être centrée sur de nombreux éléments au sein d'une \gls{sequence} de film : dialogues, ambiance sonore, visages, objets, spatialité des éléments, actions, émotions... Toutefois, la définition d’un processus au sein d’un logiciel de gestion des collections impose un cadrage défini des fonctionnalités. Le corpus patrimonial retenu pour notre étude, constitué de \gls{rush} muets des premiers temps, exclue d’emblée l’analyse automatique de caractéristiques sonores. L’analyse automatique se concentre donc exclusivement sur les caractéristiques visuelles de l’image. Deux approches coexistent alors, celle de l’identification des éléments dans l’image de manière précise, ou celle d’éventuellement générer des résumés automatiques sur ces séquences, à une échelle plus globale. Or, la seconde approche, fondée sur des grands modèles de langage, implique des architectures génératives couteuses et lourdes. Nous choisissons ainsi d’adopter la première, afin de garantir une indexation fiable et stable, plus légère, à travers la détection et l’identification d’objets sur les \gls{imgcle}préalablement extraites. Cette tâche peut être réalisée par des architectures de réseaux de neurones relativement légers, pouvant extraire des concepts directement indexables au sein du logiciel.  
-
+La valeur d'une \gls{sequence}, au sein d'un flux audiovisuel, réside non seulement dans sa délimitation temporelle mais également sémantique. Ainsi, une description sémantique doit être articulée à la segmentation dont elles sont issues, afin de la justifier. Dans le contexte du corpus choisi, le besoin, articulé à une segmentation automatique, est celui d'une description automatisées des \gls{sequence}s produites par mots-clés. Ainsi, ce chapitre propose un second processus de description et d'indexation, fondé sur le modèle \gls{yolo}.
 
 
 
@@ -13,11 +12,7 @@ La description automatique d’images peut être centrée sur de nombreux élém
 
 
 
-
-
-
-
-La \gls{segtemp} ne se suffit pas à elle-même, mais nécessite une description du contenu des segments, afin d'en rétablir la qualité de \gls{sequence}, unité audiovisuelle à la fois syntaxique et sémiotique. L'approche retenue afin de décrire automatiquement le contenu de ces segments est celle de l'implémentation du modèle YOLOv8, dont le temps de calcul et de prédiction est réduit par son application aux \gls{imgcle} produites par la segmentation. L'efficacité du processus repose sur la supervision et la validation humaine, côté technique, des prédictions produites par le modèle, en accord avec les règles métier du logiciel. Toutefois, l'indexation définitive au sein du logiciel doit être validée par l'utilisateur métier via une interface dédiée, et au sein du modèle de données FRBR. 
+L'approche retenue afin de décrire automatiquement le contenu des \gls{sequence}s est celle de l'implémentation du modèle \gls{yolo}, dont le temps de calcul et de prédiction est réduit par son application aux \gls{imgcle} issues de la segmentation. L'efficacité du processus repose sur la supervision et la validation humaine, côté technique, des prédictions produites par le modèle, en accord avec les règles métier du logiciel. Toutefois, l'indexation définitive au sein du logiciel doit être validée par l'utilisateur métier via une interface dédiée, et au sein du modèle de données \gls{FRBR}. 
 
 
 

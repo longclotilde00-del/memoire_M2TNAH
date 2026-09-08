@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  7 SEP 2026 20:25
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  8 SEP 2026 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2011,7 +2011,7 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [5
 
 ]
-Overfull \hbox (2.77263pt too wide) in paragraph at lines 298--298
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 301--301
 [][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
  Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
 12 ​ (Roberto), «  Semantic Object Classes
@@ -2020,14 +2020,14 @@ Overfull \hbox (2.77263pt too wide) in paragraph at lines 298--298
 
 
 [6]
-Overfull \hbox (4.37076pt too wide) in paragraph at lines 298--298
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 301--301
 \TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
 [][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
  []
 
 
-Overfull \hbox (11.73682pt too wide) in paragraph at lines 298--298
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 301--301
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
  []
@@ -2035,21 +2035,21 @@ ographic Records[]\TU/lmr/m/n/12 ​,
 
 
 [7]
-Overfull \hbox (15.5349pt too wide) in paragraph at lines 298--298
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 301--301
 [][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
 2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
 n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (10.67084pt too wide) in paragraph at lines 298--298
+Overfull \hbox (10.67084pt too wide) in paragraph at lines 301--301
 [][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
 rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
 12 ,
  []
 
 
-Overfull \hbox (0.90454pt too wide) in paragraph at lines 298--298
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 301--301
 [][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
 field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
 s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
@@ -2070,28 +2070,28 @@ oome[]\TU/lmr/m/n/12 ​ (Alice),
 
 ]
 
-[13]
-
-[14
-
-]
-
-Package biblatex Warning: Keyword 'nlp' not found on input line 314.
+Package biblatex Warning: Keyword 'nlp' not found on input line 309.
 
 
-LaTeX Warning: Empty bibliography on input line 314.
+LaTeX Warning: Empty bibliography on input line 309.
 
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 318.
+Package biblatex Warning: Keyword 'nlp' not found on input line 313.
 
 
-LaTeX Warning: Empty bibliography on input line 318.
+LaTeX Warning: Empty bibliography on input line 313.
 
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 322.
+Package biblatex Warning: Keyword 'nlp' not found on input line 317.
 
 
-LaTeX Warning: Empty bibliography on input line 322.
+LaTeX Warning: Empty bibliography on input line 317.
+
+
+Package biblatex Warning: Keyword 'nlp' not found on input line 321.
+
+
+LaTeX Warning: Empty bibliography on input line 321.
 
 
 Package biblatex Warning: Keyword 'nlp' not found on input line 326.
@@ -2100,32 +2100,26 @@ Package biblatex Warning: Keyword 'nlp' not found on input line 326.
 LaTeX Warning: Empty bibliography on input line 326.
 
 
-Package biblatex Warning: Keyword 'nlp' not found on input line 331.
+Package biblatex Warning: Keyword 'nlp' not found on input line 330.
 
 
-LaTeX Warning: Empty bibliography on input line 331.
-
-
-Package biblatex Warning: Keyword 'nlp' not found on input line 335.
-
-
-LaTeX Warning: Empty bibliography on input line 335.
+LaTeX Warning: Empty bibliography on input line 330.
 
 
 
-[15]
+[13]
 
-[16
+[14
 
 ] (./parties/mainmatter/introduction.tex
 
+[15]
+
+[16])
+
 [17]
 
-[18])
-
-[19]
-
-[20
+[18
 
 ]
 
@@ -2135,6 +2129,12 @@ LaTeX Warning: Empty bibliography on input line 335.
 ]
 
 [2] (./parties/mainmatter/I/1/I_1.tex
+
+[3]
+
+[4
+
+]
 Chapitre 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2153,41 +2153,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 
 
-[3
-
-]
+[5]
 File: images/FRBRfirstgroup.png Graphic file (type bmp)
 <images/FRBRfirstgroup.png>
 
 
-[4]
+[6]
 File: images/FRBRsecondgroup.png Graphic file (type bmp)
 <images/FRBRsecondgroup.png>
 
 
-[5]) (./parties/mainmatter/I/1/I_1_B.tex
+[7]) (./parties/mainmatter/I/1/I_1_B.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 1.
 
 
 
-[6]
+[8]
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
 
 
-[7]) (./parties/mainmatter/I/1/I_1_C.tex
+[9]) (./parties/mainmatter/I/1/I_1_C.tex
 
-[8]
+[10]
 
-[9])
+[11])
 
-[10]) (./parties/mainmatter/I/2/I_2.tex
+[12]) (./parties/mainmatter/I/2/I_2.tex
 
-[11]
+[13]
 
-[12
+[14
 
 ]
 Chapitre 2.
@@ -2198,12 +2196,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[13]
+[15]
 File: images/accueil1.png Graphic file (type bmp)
 <images/accueil1.png>
 
 
-[14]
+[16]
 File: images/menuBurger.png Graphic file (type bmp)
 <images/menuBurger.png>
 File: images/image7.png Graphic file (type bmp)
@@ -2214,9 +2212,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[15]
+[17]
 
-[16]
+[18]
 File: images/image2.png Graphic file (type bmp)
 <images/image2.png>
 File: images/image3.png Graphic file (type bmp)
@@ -2231,25 +2229,25 @@ File: images/image8.png Graphic file (type bmp)
 <images/image8.png>
 
 
-[17]
+[19]
 Underfull \vbox (badness 2409) has occurred while \output is active []
 
 
 
-[18]
+[20]
 
-[19]
+[21]
 File: images/imageb.png Graphic file (type bmp)
 <images/imageb.png>
 
 
-[20]) (./parties/mainmatter/I/2/I_2_B.tex
+[22]) (./parties/mainmatter/I/2/I_2_B.tex
 
-[21]
+[23]
 
-[22]
+[24]
 
-[23]) (./parties/mainmatter/I/2/I_2_C.tex
+[25]) (./parties/mainmatter/I/2/I_2_C.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 1.
@@ -2259,122 +2257,167 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[24]
-
-[25])) (./parties/mainmatter/I/3/I_3.tex
-
 [26]
+
+[27])) (./parties/mainmatter/I/3/I_3.tex
+
+[28]
 Chapitre 3.
 (./parties/mainmatter/I/3/I_3_A.tex
 
-[27
+[29
 
 ]) (./parties/mainmatter/I/3/I_3_B.tex
 
-[28]
+[30]
 
-[29]
+[31]
 
-[30]) (./parties/mainmatter/I/3/I_3_C.tex
+[32]) (./parties/mainmatter/I/3/I_3_C.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 1.
 
 
 
-[31]
-
-[32]
-
-[33]))
+[33]
 
 [34]
 
-[35
+[35]))
 
-]
-
-[36] (./parties/mainmatter/II/1/II_1.tex
-Chapitre 4.
-
+[36]
 
 [37
 
-] (./parties/mainmatter/II/1/II_1_A.tex
+]
 
-[38]
-Underfull \hbox (badness 1067) in paragraph at lines 20--20
+[38] (./parties/mainmatter/II/1/II_1.tex
+Chapitre 4.
+(./parties/mainmatter/II/1/II_1_A.tex
+
+[39
+
+]
+
+[40]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 28.
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 32--32
 [][][][][]\TU/lmr/m/n/10 Niall O’ []Mahony[]​, Sean []Campbell[]​, Anderson []C
 arvalho[]​, Suman []Harapanahalli[]​, Gustavo []Velasco-
  []
 
 
-Underfull \vbox (badness 1057) has occurred while \output is active []
+
+[41]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 40.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 40.
 
 
 
-[39]
+[42]
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 []|\TU/lmr/bx/n/10.95 Apprentissage
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 49--51
+Underfull \hbox (badness 1509) in paragraph at lines 70--72
 []|\TU/lmr/m/n/10.95 - Classification d’images fixes ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 []|\TU/lmr/bx/n/10.95 Apprentissage
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 54--55
+Underfull \hbox (badness 2790) in paragraph at lines 75--76
 \TU/lmr/bx/n/10.95 profond : Trans-
  []
 
 
-Overfull \hbox (20.81282pt too wide) in paragraph at lines 36--61
+Overfull \hbox (20.81282pt too wide) in paragraph at lines 57--82
  [][] 
  []
 
+
+
+[44]) (./parties/mainmatter/II/1/II_1_B.tex
+
+[45]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 15.
+
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+
+
+[46]
+
+[47]) (./parties/mainmatter/II/1/II_1_C.tex
+
+[48]
+
+[49]
+File: images/pyscene.png Graphic file (type bmp)
+<images/pyscene.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[41]) (./parties/mainmatter/II/1/II_1_B.tex
+[50])
 
-[42]
-
-[43]
-
-[44]) (./parties/mainmatter/II/1/II_1_C.tex
-
-[45]
-
-[46]
-File: images/pyscene.png Graphic file (type bmp)
-<images/pyscene.png>
-)
-
-[47]
-
-[48]) (./parties/mainmatter/II/2/II_2.tex
-
-[49]
-
-[50
-
-]
-Chapitre 5.
-(./parties/mainmatter/II/2/II_2_A.tex
-
-[51]
+[51]) (./parties/mainmatter/II/2/II_2.tex
 
 [52]
+Chapitre 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+(./parties/mainmatter/II/2/II_2_A.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
+[53
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 10.
+
+
+
+[54]
 File: images/yolo.png Graphic file (type bmp)
 <images/yolo.png>
 
@@ -2382,31 +2425,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[53]) (./parties/mainmatter/II/2/II_2_B.tex)
+[55]) (./parties/mainmatter/II/2/II_2_B.tex)
 (./parties/mainmatter/II/2/II_2_C.tex
-
-[54]
-
-[55]
 
 [56]
 
-[57])
+[57]
+
+[58]
+
+[59])
 Underfull \vbox (badness 1067) has occurred while \output is active []
 
 
 
-[58]) (./parties/mainmatter/II/3/II_3.tex
+[60]) (./parties/mainmatter/II/3/II_3.tex
 
-[59]
+[61]
 
-[60
+[62
 
 ]
 Chapitre 6.
 (./parties/mainmatter/II/3/II_3_A.tex
 
-[61]
+[63]
 File: images/fragment_frbr.png Graphic file (type bmp)
 <images/fragment_frbr.png>
 
@@ -2414,19 +2457,19 @@ Underfull \vbox (badness 1838) has occurred while \output is active []
 
 
 
-[62]
+[64]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[63]) (./parties/mainmatter/II/3/II_3_B.tex
+[65]) (./parties/mainmatter/II/3/II_3_B.tex
 Underfull \vbox (badness 1466) has occurred while \output is active []
 
 
 
-[64]
+[66]
 
-[65]
+[67]
 File: images/amalia.png Graphic file (type bmp)
 <images/amalia.png>
 
@@ -2434,7 +2477,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[66]
+[68]
 File: images/validation.png Graphic file (type bmp)
 <images/validation.png>
 
@@ -2442,26 +2485,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[67]
+[69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[68]) (./parties/mainmatter/II/3/II_3_C.tex
+[70]) (./parties/mainmatter/II/3/II_3_C.tex
 
-[69]))
+[71]))
 
-[70]
+[72]
 
-[71
+[73
 
 ]
 
-[72] (./parties/mainmatter/III/1/III_1.tex
+[74] (./parties/mainmatter/III/1/III_1.tex
 
-[73]
+[75]
 
-[74
+[76
 
 ]
 Chapitre 7.
@@ -2473,59 +2516,59 @@ rchivage audiovisuel,relève
 
 (./parties/mainmatter/III/1/III_1_A.tex
 
-[75]
+[77]
 
-[76]) (./parties/mainmatter/III/1/III_1_B.tex
+[78]) (./parties/mainmatter/III/1/III_1_B.tex
 
-[77]) (./parties/mainmatter/III/1/III_1_C.tex
+[79]) (./parties/mainmatter/III/1/III_1_C.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[78])
+[80])
 Underfull \vbox (badness 2158) has occurred while \output is active []
 
 
 
-[79]) (./parties/mainmatter/III/2/III_2.tex
+[81]) (./parties/mainmatter/III/2/III_2.tex
 
-[80]
+[82]
 Chapitre 8.
 (./parties/mainmatter/III/2/III_2_A.tex
 
-[81
+[83
 
 ]) (./parties/mainmatter/III/2/III_2_B.tex
 
-[82]
+[84]
 
-[83]) (./parties/mainmatter/III/2/III_2_C.tex)
+[85]) (./parties/mainmatter/III/2/III_2_C.tex)
 
-[84]) (./parties/mainmatter/III/3/III_3.tex
+[86]) (./parties/mainmatter/III/3/III_3.tex
 
-[85]
+[87]
 
-[86
+[88
 
 ]
 Chapitre 9.
 (./parties/mainmatter/III/3/III_3_A.tex
 
-[87]
+[89]
 
-[88]) (./parties/mainmatter/III/3/III_3_B.tex
+[90]) (./parties/mainmatter/III/3/III_3_B.tex
 Underfull \vbox (badness 5147) has occurred while \output is active []
 
 
 
-[89]
+[91]
 Underfull \vbox (badness 5787) has occurred while \output is active []
 
 
 
-[90]) (./parties/mainmatter/III/3/III_3_C.tex
+[92]) (./parties/mainmatter/III/3/III_3_C.tex
 
-[91]
+[93]
 Overfull \hbox (6.18015pt too wide) in paragraph at lines 15--16
 []\TU/lmr/m/n/12 Or, si ce processus centré sur la supervision humaine parait i
 déal, il impose des contraintes
@@ -2533,82 +2576,82 @@ déal, il impose des contraintes
 
 
 
-[92]))
-
-[93]
-
-[94
-
-]
+[94]))
 
 [95]
 
 [96
 
 ]
+
+[97]
+
+[98
+
+]
 \openout2 = `parties/mainmatter/conclusion.aux'.
 
  (./parties/mainmatter/conclusion.tex
-Underfull \vbox (badness 3302) has occurred while \output is active []
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
 
 
-[97
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[98])
-
-[99] (./parties/backmatter/annexe.tex
-
-[100
-
+[99
 
 
 ]
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
-[101]
 
-[102]
+
+[100])
+
+[101] (./parties/backmatter/annexe.tex
+
+[102
+
+
+
+]
+
+[103]
+
+[104]
 Annexe A.
 
 
-[103
+[105
 
 ]
 
-[104]
+[106]
 File: images/terminologie.png Graphic file (type bmp)
 <images/terminologie.png>
 
 
-[105]
+[107]
 
-[106]
+[108]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
 
-[107]
+[109]
 
-[108]
+[110]
 File: images/vue.png Graphic file (type bmp)
 <images/vue.png>
 
 
-[109]
+[111]
 
-[110]
+[112]
 Annexe B.
 
 
-[111
+[113
 
 ]
 
@@ -2619,14 +2662,14 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[112]
+[114]
 File: images/annexe1.png Graphic file (type bmp)
 <images/annexe1.png>
 File: images/annexe2.png Graphic file (type bmp)
 <images/annexe2.png>
 
 
-[113]
+[115]
 File: images/annexe3.png Graphic file (type bmp)
 <images/annexe3.png>
 File: images/annexe4.png Graphic file (type bmp)
@@ -2642,27 +2685,27 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-9.79024pt}.
 
-[114]
+[116]
 
-[115]
+[117]
 
-[116] (./document_maitre (1).gls
+[118] (./document_maitre (1).gls
 
-[117
+[119
 
 
 
 
 ]) (./document_maitre (1).acr
 
-[118])
+[120])
 
-[119
+[121
 
 
 ]
 
-[120
+[122
 
 ] (./document_maitre (1).lot)
 \tf@lot=\write9
@@ -2670,33 +2713,33 @@ Package fancyhdr Warning: \headheight is too small (16.0pt):
 
 
 
-[121]
+[123]
 
-[122
+[124
 
 ] (./document_maitre (1).lof
 
-[123])
+[125])
 \tf@lof=\write10
 \openout10 = `"document_maitre (1).lof"'.
 
 
 
-[124] (./document_maitre (1).toc
+[126] (./document_maitre (1).toc
 
-[125
+[127
 
 ]
 
-[126]
+[128]
 
-[127])
+[129])
 \tf@toc=\write11
 \openout11 = `"document_maitre (1).toc"'.
 
 
 
-[128] (./document_maitre (1).aux (./parties/mainmatter/conclusion.aux))
+[130] (./document_maitre (1).aux (./parties/mainmatter/conclusion.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -2718,11 +2761,11 @@ Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49832 strings out of 468389
- 1046679 string characters out of 5440619
+ 49849 strings out of 468389
+ 1046826 string characters out of 5440619
  2056768 words of memory out of 5000000
- 77568 multiletter control sequences out of 15000+600000
- 633317 words of font info for 88 fonts, out of 8000000 for 9000
+ 77584 multiletter control sequences out of 15000+600000
+ 633325 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,101p,2504b,7256s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

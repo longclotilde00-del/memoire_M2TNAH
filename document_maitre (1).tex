@@ -34,7 +34,7 @@
 %RAJOUTEZ ICI VOS PACKAGES
 
 \usepackage{xcolor} %à supprimr après, sert juste à m'aider pour le brouillon 
-\usepackage{float} %pour la position des tableaux 
+\usepackage{float} %pour la position des figures et tableaux 
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{caption}
@@ -246,9 +246,9 @@
 
 	\chapter{Résumé}
 \medskip
-	Résumé du mémoire en français. Cette page ne doit pas dépasser une page.\\
+	Ce mémoire a été réalisé dans le cadre du Master Technologies numériques appliquées à l’histoire de l’École nationale des chartes. Il est rédigé dans le cadre d'un stage de six mois au sein de l'entreprise Skinsoft, éditrice de solutions logicielles pour la gestion des collections et dédié au projet d'implémentation de l'intelligence artificielle, notamment pour l'indexation des archives audiovisuelles. Ce mémoire expose la proposition d'un processus de segmentation et d'indexation des archives audiovisuelles en lien avec le modèle de données qui structure l'interface d'un logiciel de gestion des collections.\\
 	
-	\textbf{Mots-clés:} une liste de mots-clés~; séparés par des points-virgules.
+	\textbf{Mots-clés:} Archives audiovisuelles; gestion des collections; modélisation de données; intelligence artificielle; segmentation temporelle; indexation automatique; interface; vision par ordinateur; \textit{YOLO}; \textit{Pyscenedetect}; FRBR.
 	
 	\textbf{Informations bibliographiques:} Clotilde Long, \textit{Segmentation et indexation automatiques des archives audiovisuelles. L'enjeu du modèle de données au sein d'un logiciel de gestion des collections}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. Maxime Challon, École nationale des chartes, 2026.
 	
@@ -289,21 +289,16 @@
 	
 	\chapter{Remerciements}
 	
-\lettrine{M}es remerciements vont tout d'abord à\dots
+\lettrine{M}es remerciements vont tout d'abord à mon directeur de recherche, Maxime Challon, pour ses précieux conseils tout au long de l'écriture du mémoire. 
+Je tiens également à remercier l'ensemble de l'équipe métier chez Skinsoft pour sa bienveillance, qui a permis à mon stage d'être riche d'apprentissages. 
+Je remercie également ma famille et mes amies pour leur soutien lors de la rédaction, et tout particulièrement Florence et Xavier pour leurs relectures. 
+
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
 %\nocite{*} %pour afficher la bibliographie sans que les sources soient citées dans le texte%
 \printbibliography
 
-\chapter{Avertissement}
-Ce mémoire traite du suivi des productions au sein d’Ubisoft et s’appuie sur des données et des processus internes à l’entreprise. En raison de leur nature sensible et stratégique,
-certaines informations, outils ou détails techniques ne peuvent être divulgués dans leur intégralité.
-Les analyses présentées respectent les contraintes de confidentialité imposées par l’entreprise, et les exemples fournis, notamment les extraits de code en annexe, ont été adaptés
-afin de préserver la propriété intellectuelle et les secrets industriels. Ainsi, les noms de tables,
-variables ou procédures ont été anonymisés, et les processus décrits le sont à un niveau conceptuel, sans entrer dans des spécificités opérationnelles réservées à un usage interne. Ce travail
-reste néanmoins représentatif des enjeux et des méthodes abordés, et permet d’illustrer les
-défis liés à la qualité des données dans un contexte industriel complexe.
 
 \chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
 
@@ -350,16 +345,22 @@ title={Outils et plateformes techniques}]
 	
 
 \part{Indexer les archives audiovisuelles}
+Blablabla une intro
+
 \input{parties/mainmatter/I/1/I_1.tex}
 \input{parties/mainmatter/I/2/I_2.tex}
 \input{parties/mainmatter/I/3/I_3.tex}
 
+blablabla une conclusion
 	
 \part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
 
 \input{parties/mainmatter/II/1/II_1.tex}
 \input{parties/mainmatter/II/2/II_2.tex}
 \input{parties/mainmatter/II/3/II_3.tex}
+
+La seconde partie de cette étude a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des archives audiovisuelles au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de vision par ordinateur classique, et une classification par mots-clés avec un outil de fondé sur la vision par ordinateur et l'apprentissage profond. Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur est décisionnaire de l'indexation. 
+Toutefois, l'opérationnalité d'un tel processus réside moins dans la performance des outils employés que dans l'adaptation aux contraintes de développement d'un éditeur de logiciels pour la navigation fluide de l'utilisateur et la personnalisation des interfaces. 
 
 \part{Perspectives}
 
