@@ -368,20 +368,33 @@ Dès lors, nous nous pencherons sur le processus d'automatisation en lui-même, 
 	
 \part{Implémenter une segmentation et une indexation automatiques des archives audiovisuelles}
 
+%intro partie
+Cette seconde partie est consacrée à la mise en œuvre theorique d'une chaine de traitement automatique pour la segmentation en séquences du flux audiovisuel, et l'indexation de ces séquences par mots-clés. L'enjeu fondamental de notre réflexion est d'adapter des outils techniques fondés sur l'intelligence artificielle, tout en prenant en compte les exigences de structure documentaire, ainsi que la complexité des archives audiovisuelles.
+
+Le premier chapitre analyse la mise en place théorique d'une segmentation automatique à travers l'outil \gls{pyscene}, fondé sur la \gls{Vision par ordinateur}. Le second chapitre analyse par ailleurs la description automatique des séquences produites via des mots-clés, à l'aide de l'outil \gls{yolo}. Nous évaluerons les besoins d'entraînement de ce modèle, fondé sur un réseau de neurones convolutif, ainsi que la mise en place d'un dispositif de validation technique pour les prédictions produites. Enfin, nous évaluerons les enjeux de reversement des données produites au sein du modèle de données décrit en première partie, nécessitant une supervision de l'utilisateur à chaque étape. 
+
 \input{parties/mainmatter/II/1/II_1.tex}
 \input{parties/mainmatter/II/2/II_2.tex}
 \input{parties/mainmatter/II/3/II_3.tex}
 
-La seconde partie de cette étude a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des archives audiovisuelles au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de vision par ordinateur classique, et une classification par mots-clés avec un outil de fondé sur la vision par ordinateur et l'apprentissage profond. Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur est décisionnaire de l'indexation. 
-Toutefois, l'opérationnalité d'un tel processus réside moins dans la performance des outils employés que dans l'adaptation aux contraintes de développement d'un éditeur de logiciels pour la navigation fluide de l'utilisateur et la personnalisation des interfaces. 
+%conclu partie
+Cette seconde partie a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des \gls{Archivesaudiovisuelles} au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de \gls{Vision par ordinateur} classique (\gls{pyscene}), et une classification par mots-clés avec un outil de fondé sur la \gls{Vision par ordinateur} et l'\gls{Apprentissage profond} (\gls{yolo}). Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur reste décisionnaire de l'indexation. 
+Toutefois, l'opérationnalité d'un tel processus réside moins dans la performance des outils employés que dans leur adaptation aux besoins documentaires. Ainsi, l'introduction de l'utilisateur au sein de toutes les étapes d'implémentation et de traitement automatique, permettrait la mise en place d'un processus modulable. 
 
 \part{Perpectives d'une intelligence hybride}
+
+Cette troisième partie explore les conditions d'implémentation du processus automatisé à une échelle plus globale que celle analysée, à celle de l'éditeur de logiciel et de l'ensemble des clients concernés. La généralisation de cette implémentation implique la mise en place d'une \gls{Intelhyb}, qui articule l'efficacité technique aux besoins documentaire du milieu patrimonial. 
+Le premier chapitre analyse le statut des données produites au cours du processus automatique, dont le statut fluide nécessite la traçabilité et un suivi exigeant. Le second chapitre analyse les évolutions de l'interface existante, afin d'impliquer l'utilisateur dans l'implémentation du processus, à travers l'annotation manuelle de donénes et une visualisation des données en graphe. Enfin, le troisième chapitre questionne la généralisation du processus proposé, via la constitution d'un jeux de données d'enraînement par l'éditeur, et par la proposition d'un module automatique paramétrable en détails.
+
 
 \input{parties/mainmatter/III/1/III_1.tex}
 \input{parties/mainmatter/III/2/III_2.tex}
 \input{parties/mainmatter/III/3/III_3.tex}
 
-	
+L'implémentation de l'intelligence artificielle au sein d'un logiciel de gestion des collections, ne se substitue pas au rôle de l'utilisateur technique ou métier, mais elle redéfinit de nouvelles tâches, notamment pour assurer la qualité des données produites. Les améliorations d'interface pour la gestion des archives audiovisuelles, développées en parallèle, contribuent à mettre en place un rôle décisif pour l'utilisateur, en amont de l'implémentation de fonctionnalités automatiques. Le processus implémenté serait alors le fruit d'une \gls{Intelhyb} qui permet de mettre en application de nouvelles fonctionnalités en accord avec les besoins métier, notamment de modélisation. Si la généralisation du processus soulève des enjeux de coûts et de besoins, l'implémentation du processus comme module paramétrable, en dialogue avec l'institution concernée, peut constituer une solution durable, plaçant encore l'utilisateur métier au coeur des choix. 
+
+
+
 
 %	\addcontentsline{toc}{chapter}{Conclusion}
 %\newpage{\pagestyle{empty}\cleardoublepage}

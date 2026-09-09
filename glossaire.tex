@@ -3,26 +3,28 @@
 	description={Ensemble des épreuves brutes de tournage, non montées et non sélectionnées, constituant généralement le matériau source d'un film.}
 	}
 
-\newglossaryentry{Oeuvre}{
-	name={Oeuvre},
+\newglossaryentry{oeuvre}{
+	name={Œuvre},
 	description={D'après le manuel de la \gls{fiaf}, l'OEuvre est une entité comprenant le contenu intellectuel ou artistique ainsi que le processus de réalisation sous une forme cinématographique.}
 }
 
-\newglossaryentry{Expression}{
+\newglossaryentry{expression}{
 	name={Expression},
-	description={Selon l'\gls{IFLA}, l'Expression a réalisation intellectuelle ou artis-
-		tique d’une œuvre}
+	description={Selon l'\gls{IFLA}, l'Expression est la réalisation intellectuelle ou artistique d’une œuvre}
 }
 
-\newglossaryentry{variante}{name={Variante}}, description={D'après le
-	manuel de la \gls{fiaf}, une entité qui peut être utilisée pour indiquer tout changement dans les caractéristiques liées au contenu mais qui n’affecte pas de manière significative le contenu global d'une Œuvre dans son ensemble.}
+\newglossaryentry{variante}{
+	name={Variante}, 
+	description={D'après le
+	manuel de la FIAF, une entité qui peut être utilisée pour indiquer tout changement dans les caractéristiques liées au contenu mais qui n’affecte pas de manière significative le contenu global d'une Œuvre dans son ensemble.}
+}
 
-\newglossaryentry{Manifestation}{
+\newglossaryentry{manifestation}{
 	name={Manifestation},
 	description={D'après le manuel de la \gls{fiaf}, une Manifestation est la matérialisation d'une Œuvre/Variante. Les Manifestations englobent tous les médias analogiques, numériques et en ligne. L'information sur la Manifestation peut comprendre une description de ce que la Manifestation devrait idéalement contenir quels que soient les Items conservés par l'institution.}
 }
 
-\newglossaryentry{Item}{
+\newglossaryentry{item}{
 	name={Item},
 	description={D'après le manuel de la \gls{fiaf}, un Item est l'exemplaire physique de la Manifestation d'une Œuvre ou d'une Variante, c'est-à-dire la copie physique d'une Œuvre ou d'une Variante.}
 }
@@ -32,85 +34,85 @@
 	description={}
 }
 
-\newglossaryentry{AudiovisualProcessing}{
-	name={Audiovisual Processing},
-	description={}
+\newglossaryentry{Traitement audiovisuel}{
+	name={traitement audiovisuel},
+	description={Désigne l'ensembe des technologies appliquées à l'analyse de contenus audiovisuels.}
 }
 
 \newglossaryentry{Vision par ordinateur}{
 	name={vision par ordinateur},
-	description={}
+	description={Désigne l’application des technologies d’intelligence artificielle au domaine des images (images fixe ou vidéo).}
 }
 
 \newglossaryentry{Apprentissage machine}{
 	name={apprentissage machine},
-	description={}
+	description={Désigne une branche de l'\gls{ia} regroupant les techniques, méthodes et processus nécessaires afin de rendre une machine ou un système informatique plus intelligent.
 }
 
 \newglossaryentry{Réseaux de neurones profonds}{
 	name={réseaux de neurones profonds},
-	description={}
+	description={Modèle informatique composé de plusieurs couches de "neurones" interconnectées qui imitent le cerveau humaine afin de traiter des données complexes}
 }
 
 \newglossaryentry{Apprentissage profond}{
 	name={apprentissage profond},
-	description={}
+	description={L'apprentissage profond est un sous-domaine de l'intelligence artificielle qui utilise des réseaux de neurones artificiels afin d'entraîner des machines à apprendre à partir de données complexes}
 }
 
 \newglossaryentry{Transformers}{
 	name={\textit{transformers}},
-	description={}
+	description={Type d'architecture de réseaux de neurones profonds basé sur un mécanisme d’auto-attention qui permet notamment de détecter les relations et dépendances entre les données.}
 }
 
 \newglossaryentry{pyscene}{
 	name={\textit{Pyscenedetect}},
-	description={}
+	description={Outil en accès libre fondé sur des tâches de \gls{Vision par ordinateur} classique, permettant la détection automatique de changements de plans ou de scènes dans un fichier vidéo}
 }
 
 \newglossaryentry{sequence}{
 	name={séquence},
-	description={}
+	description={Unité syntaxique cinématographique au sein d'un flux audiovisuel. La séquence déisgne une unité d’action, un fragment du film qui raconte en plusieurs plans une suite d’événements isolable dans la construction narrative. Elle est à la fois sémantique et temporelle.}
 }
 
 \newglossaryentry{plan}{
 	name={plans},
-	description={}
+	description={Le plan désigne la plus petit unité syntaxique au cinéma, délimité par deux coupes au montage ou au tournage.}
 }
 
 \newglossaryentry{segtemp}{
 	name={segmentation temporelle},
-	description={}
+	description={Désigne un type de segmentation automatique prenant en compte la temporalité du flux audiovisuel (à l'inverse d'une segmentation sémantique qui isole les éléments au sein même de l'image). Dans le cadre de notre étude, elle désigne une segmentation en différentes séquences.}
 }
 
 \newglossaryentry{imgcle}{
 	name={images-clés},
-	description={}
+	description={Image fixe extraite d'un flux audiovisuel et représentative d'une séquence segmentée par l'outil \gls{pyscene}.}
 }
 
 
 \newglossaryentry{labels}{
 	name={\textit{Label Studio}},
-	description={}
+	description={Plateforme en libre accès d'annotation de données. Elle permet de préparer des jeux de données d'entrainement pour l'apprentissage des modèles d'IA.}
 }
 
 \newglossaryentry{appsup}{
 	name={apprentissage supervisé},
-	description={}
+	description={Technique d'apprentissage machine fondée sur l'utilisation de données annotées pour entraîner des modèles d'IA}
 }
 
 \newglossaryentry{appnonsup}{
 	name={apprentissage non supervisé},
-	description={}
+	description={Technique d'apprentissage machine fondée sur l'analyse, par des modèles d'IA, de jeux de données bruts, non annotés. }
 }
 
-\newglossaryentry{hil}{
-	name={Human-in-the-Loop},
-	description={}
+\newglossaryentry{Intelhyb}{
+	name={Intelligence hybride},
+	description={Désigne la combinaison de l’intelligence humaine et de l’intelligence des machines qui complète l’intellect et les capacités humaines, plutôt que de les remplacer, afin de prendre des décisions judicieuses, d’effectuer des actions appropriées et d’atteindre des objectifs qui ne peuvent être atteints ni par les humains ni par les machines seules}
 }
 
 \newglossaryentry{ssl}{
 	name={apprentissage auto-supervisé},
-	description={}
+	description={Technique d'apprentissage machine qui préconise l'entraînement et les prédictions de modèles d'IA à partir de données brutes, non annotées, pour des tâches qui, habituellement nécessitent une supervision.}
 }
 
 
