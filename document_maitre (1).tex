@@ -332,7 +332,7 @@ heading=subbibliography,
 title={Outils et plateformes techniques}]
 
 	
-\chapter{Introduction}	
+	
 \input{parties/mainmatter/introduction.tex}
 %si l'introduction est longue, elle peut être importée avec input
 
@@ -344,16 +344,29 @@ title={Outils et plateformes techniques}]
 
 	
 
-\part{Indexer les archives audiovisuelles}
-Blablabla une intro
+\part{Modéliser les données archivistiques audiovisuelles}
+
+%intro de la partie
+La modélisation des données constitue le fondement de la gestion structurée de fonds patrimoniaux. Appliquée aux \gls{Archivesaudiovisuelles}, la modélisation se heurte toutefois à la nature temporelle de tels objets de collection. Cette partie explore la modélisation théorique des données puis son application logicielle, condition de toute implémentation de fonctionnalité automatique.
+
+Le premier chapitre examine les fondements théoriques de la modélisation en s'appuyant sur le modèle \gls{FRBR} (\textit{Functional Requirements for Bibliographic Records}). Fondé sur les besoins d'accès des utilisateurs, il offre une structure verticale de nature entité-relation, que la \gls{fiaf} (Fédération internationales des archives audiovisuelles) adapte aux \gls{Archivesaudiovisuelles}.
+
+Le second chapitre étudie la mise en œuvre de l'adaptation du \gls{FRBR} aux \gls{Archivesaudiovisuelles} au sein de l'architecture logicielle développée par l'éditeur Skinsoft, à travers l'analyse de l'espace de travail S-Movies. Nous évaluerons l'adaptation du modèle aux normes métier documentaires via l'analyse d'un corpus audiovisuel spécifique.
+
+Enfin, le troisième chapitre évoque le projet d'automatisation de l'indexation pensé par Skinsoft. Nous analyserons la nécessité documentaire de la tâche de segmentation, préalable à l'indexation dans le cas du corpus étudié, afin de prévoir l'inscription d'un processus adapté aux besoins.
 
 \input{parties/mainmatter/I/1/I_1.tex}
 \input{parties/mainmatter/I/2/I_2.tex}
 \input{parties/mainmatter/I/3/I_3.tex}
 
-blablabla une conclusion
+%conclu de la partie 
+L'analyse du modèle \gls{FRBR} a démontré la pertinence d'une approche entités-relations afin de rendre compte de la complexité des œuvres audiovisuelles. Toutefois, à travers l'analyse de S-Movies, il a été constaté que l'intégration du \gls{FRBR} exige des efforts d'ergonomie afin de garantir une expérience utilisateur fluide, sans pour autant perdre l'intelligibilité du modèle.
+
+Dans ce contexte, afin d'améliorer l'efficacité du traitement, le projet d'automatisation de l'indexation vient ajouter une difficulté à une modélisation déjà complexe. L'analyse théorique des pratiques d'indexation via la tâche de segmentation a permis d'instaurer les fondements d'un processus automatique, qui place l'utilisateur au centre.
+
+Dès lors, nous nous pencherons sur le processus d'automatisation en lui-même, inscrit dans une modélisation de données adaptative, à travers les questionnements suivants : quels outils permettent de segmenter et d'indexer les archives audiovisuelles automatiquement ? Comment intégrer ce processus au modèle de données actuel ? 
 	
-\part{Implémenter l’indexation automatique des archives audiovisuelles au sein d’une remodélisation du FRBR}
+\part{Implémenter une segmentation et une indexation automatiques des archives audiovisuelles}
 
 \input{parties/mainmatter/II/1/II_1.tex}
 \input{parties/mainmatter/II/2/II_2.tex}
@@ -362,16 +375,16 @@ blablabla une conclusion
 La seconde partie de cette étude a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des archives audiovisuelles au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de vision par ordinateur classique, et une classification par mots-clés avec un outil de fondé sur la vision par ordinateur et l'apprentissage profond. Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur est décisionnaire de l'indexation. 
 Toutefois, l'opérationnalité d'un tel processus réside moins dans la performance des outils employés que dans l'adaptation aux contraintes de développement d'un éditeur de logiciels pour la navigation fluide de l'utilisateur et la personnalisation des interfaces. 
 
-\part{Perspectives}
+\part{Perpectives d'une intelligence hybride}
 
 \input{parties/mainmatter/III/1/III_1.tex}
 \input{parties/mainmatter/III/2/III_2.tex}
 \input{parties/mainmatter/III/3/III_3.tex}
 
 	
-\chapter*{Conclusion}
-	\addcontentsline{toc}{chapter}{Conclusion}
-\newpage{\pagestyle{empty}\cleardoublepage}
+
+%	\addcontentsline{toc}{chapter}{Conclusion}
+%\newpage{\pagestyle{empty}\cleardoublepage}
 \include{parties/mainmatter/conclusion.tex}
 
 

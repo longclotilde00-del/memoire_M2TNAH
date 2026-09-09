@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  8 SEP 2026 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  9 SEP 2026 07:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1631,6 +1631,18 @@ LaTeX Warning: Label `II_3' multiply defined.
 LaTeX Warning: Label `II_3@cref' multiply defined.
 
 
+LaTeX Warning: Label `II_3_B' multiply defined.
+
+
+LaTeX Warning: Label `II_3_B@cref' multiply defined.
+
+
+LaTeX Warning: Label `II_3' multiply defined.
+
+
+LaTeX Warning: Label `II_3@cref' multiply defined.
+
+
 LaTeX Warning: Label `II_3_C' multiply defined.
 
 
@@ -1738,12 +1750,6 @@ LaTeX Warning: Label `III_3_C' multiply defined.
 
 LaTeX Warning: Label `III_3_C@cref' multiply defined.
 
-
-LaTeX Warning: Label `III_3' multiply defined.
-
-
-LaTeX Warning: Label `III_3@cref' multiply defined.
-
 (./parties/mainmatter/conclusion.aux
 
 LaTeX Warning: Label `III_3' multiply defined.
@@ -1751,19 +1757,7 @@ LaTeX Warning: Label `III_3' multiply defined.
 
 LaTeX Warning: Label `III_3@cref' multiply defined.
 
-
-LaTeX Warning: Label `III_3_C' multiply defined.
-
-
-LaTeX Warning: Label `III_3_C@cref' multiply defined.
-
 )
-
-LaTeX Warning: Label `III_3' multiply defined.
-
-
-LaTeX Warning: Label `III_3@cref' multiply defined.
-
 
 LaTeX Warning: Label `annexe_A' multiply defined.
 
@@ -2105,13 +2099,13 @@ Package biblatex Warning: Keyword 'nlp' not found on input line 330.
 
 LaTeX Warning: Empty bibliography on input line 330.
 
-
+(./parties/mainmatter/introduction.tex
 
 [13]
 
 [14
 
-] (./parties/mainmatter/introduction.tex
+]
 
 [15]
 
@@ -2425,21 +2419,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[55]) (./parties/mainmatter/II/2/II_2_B.tex)
-(./parties/mainmatter/II/2/II_2_C.tex
+[55]) (./parties/mainmatter/II/2/II_2_B.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 3.
+
+
 
 [56]
 
-[57]
+[57]) (./parties/mainmatter/II/2/II_2_C.tex
 
 [58]
 
-[59])
-Underfull \vbox (badness 1067) has occurred while \output is active []
+[59]
 
-
-
-[60]) (./parties/mainmatter/II/3/II_3.tex
+[60])) (./parties/mainmatter/II/3/II_3.tex
 
 [61]
 
@@ -2449,35 +2448,33 @@ Underfull \vbox (badness 1067) has occurred while \output is active []
 Chapitre 6.
 (./parties/mainmatter/II/3/II_3_A.tex
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 1.
+
+
+
 [63]
 File: images/fragment_frbr.png Graphic file (type bmp)
 <images/fragment_frbr.png>
 
-Underfull \vbox (badness 1838) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [64]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [65]) (./parties/mainmatter/II/3/II_3_B.tex
-Underfull \vbox (badness 1466) has occurred while \output is active []
-
-
 
 [66]
 
 [67]
+
+[68]
 File: images/amalia.png Graphic file (type bmp)
 <images/amalia.png>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[68]
+[69]
 File: images/validation.png Graphic file (type bmp)
 <images/validation.png>
 
@@ -2485,26 +2482,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[69]
+[70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[70]) (./parties/mainmatter/II/3/II_3_C.tex
+[71]) (./parties/mainmatter/II/3/II_3_C.tex
 
-[71]))
+[72]))
 
-[72]
+[73]
 
-[73
+[74]
+
+[75
 
 ]
 
-[74] (./parties/mainmatter/III/1/III_1.tex
+[76] (./parties/mainmatter/III/1/III_1.tex
 
-[75]
+[77]
 
-[76
+[78
 
 ]
 Chapitre 7.
@@ -2516,59 +2515,59 @@ rchivage audiovisuel,relève
 
 (./parties/mainmatter/III/1/III_1_A.tex
 
-[77]
+[79]
 
-[78]) (./parties/mainmatter/III/1/III_1_B.tex
+[80]) (./parties/mainmatter/III/1/III_1_B.tex
 
-[79]) (./parties/mainmatter/III/1/III_1_C.tex
+[81]) (./parties/mainmatter/III/1/III_1_C.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[80])
+[82])
 Underfull \vbox (badness 2158) has occurred while \output is active []
 
 
 
-[81]) (./parties/mainmatter/III/2/III_2.tex
+[83]) (./parties/mainmatter/III/2/III_2.tex
 
-[82]
+[84]
 Chapitre 8.
 (./parties/mainmatter/III/2/III_2_A.tex
 
-[83
+[85
 
 ]) (./parties/mainmatter/III/2/III_2_B.tex
 
-[84]
+[86]
 
-[85]) (./parties/mainmatter/III/2/III_2_C.tex)
+[87]) (./parties/mainmatter/III/2/III_2_C.tex)
 
-[86]) (./parties/mainmatter/III/3/III_3.tex
+[88]) (./parties/mainmatter/III/3/III_3.tex
 
-[87]
+[89]
 
-[88
+[90
 
 ]
 Chapitre 9.
 (./parties/mainmatter/III/3/III_3_A.tex
 
-[89]
+[91]
 
-[90]) (./parties/mainmatter/III/3/III_3_B.tex
+[92]) (./parties/mainmatter/III/3/III_3_B.tex
 Underfull \vbox (badness 5147) has occurred while \output is active []
 
 
 
-[91]
+[93]
 Underfull \vbox (badness 5787) has occurred while \output is active []
 
 
 
-[92]) (./parties/mainmatter/III/3/III_3_C.tex
+[94]) (./parties/mainmatter/III/3/III_3_C.tex
 
-[93]
+[95]
 Overfull \hbox (6.18015pt too wide) in paragraph at lines 15--16
 []\TU/lmr/m/n/12 Or, si ce processus centré sur la supervision humaine parait i
 déal, il impose des contraintes
@@ -2576,31 +2575,23 @@ déal, il impose des contraintes
 
 
 
-[94]))
-
-[95]
-
-[96
-
-]
+[96]))
 
 [97]
-
-[98
-
-]
 \openout2 = `parties/mainmatter/conclusion.aux'.
 
  (./parties/mainmatter/conclusion.tex
+
+[98
+
+
+]
 Underfull \vbox (badness 1394) has occurred while \output is active []
 
 
 
-[99
-
-
-]
-Underfull \vbox (badness 1033) has occurred while \output is active []
+[99]
+Underfull \vbox (badness 2020) has occurred while \output is active []
 
 
 
@@ -2746,26 +2737,18 @@ L3 programming layer <2025-09-02>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "document_maitre (1)"
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 \openout1 = `"document_maitre (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49849 strings out of 468389
- 1046826 string characters out of 5440619
- 2056768 words of memory out of 5000000
- 77584 multiletter control sequences out of 15000+600000
- 633325 words of font info for 89 fonts, out of 8000000 for 9000
+ 49865 strings out of 468389
+ 1046978 string characters out of 5440619
+ 2044891 words of memory out of 5000000
+ 77599 multiletter control sequences out of 15000+600000
+ 633333 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  84i,13n,101p,2504b,7256s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
