@@ -88,20 +88,20 @@
 %% réglages propres à frontmatter
 
 \appto\frontmatter{\pagestyle{fancy}%
-	\renewcommand{\chaptermark}[1]{\markboth{\small\textit{#1}}{}}% ne pas faire apparaître de <<numéro>> de chapitre dans les chapitres non numérotés (front: l'introduction, els remerciement, etc)
+	\renewcommand{\chaptermark}[1]{\markboth{\small\textit{\MakeUppercase{#1}}}{}}% ne pas faire apparaître de <<numéro>> de chapitre dans les chapitres non numérotés (front: l'introduction, els remerciement, etc)
 }
 
 %% réglages propres à mainmatter
 
 \appto\mainmatter{
-\renewcommand{\chaptermark}[1]{\markboth{\small\chaptername~\thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers les sections en  petit et en italiques
+\renewcommand{\chaptermark}[1]{\markboth{\small\chaptername~\thechapter\ -- \textit{\MakeUppercase{#1}}}{}}%%faire apparaître dans les headers les sections en  petit et en italiques
 %\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
 }
 
 %% réglages propres aux annexes
 
 \appto\appendix{
-	\renewcommand{\chaptermark}[1]{\markboth{\small~Annexe \thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers le nom des annexes
+\renewcommand{\chaptermark}[1]{\markboth{\small Annexe~\thechapter\ -- \textit{\MakeUppercase{#1}}}{}}%%faire apparaître dans les headers le nom des annexes
 	%\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
 }
 
@@ -154,9 +154,13 @@
 %%%%%%%%%%%%%%%%%%%% Package glossaries
 
 %Exception: il faut le charger APRÈS hyperref
-\usepackage[automake, toc=true, acronym]{glossaries} %chargement du package acronym pour inclure à mon glossaire une liste d'acronymes qui e nécessitent pas de définition
+\usepackage[automake, toc=true, acronym, sort=use]{glossaries} %chargement du package acronym pour inclure à mon glossaire une liste d'acronymes qui e nécessitent pas de définition
+
+
 \makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
+
+
 
 %mettre les entrées du glossaire ici ou les mettre dans un fichier à part que l'on appelle ici par 
 \loadglsentries{glossaire.tex}
@@ -171,8 +175,10 @@
 
 %%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 
-
-
+\newcommand{\titreEntete}[1]{%
+	\markboth{\slshape\chaptername~\thechapter\ -- \MakeUppercase{#1}}{%
+		\slshape\chaptername~\thechapter\ -- \MakeUppercase{#1}}%
+} %affichage des titres de chapitre troplongs dans les entêtes 
 
 
 
@@ -302,34 +308,34 @@ Je remercie également ma famille et mes amies pour leur soutien lors de la réd
 
 \chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
 
-\printbibliography[keyword=indexation,
-heading=subbibliography,
-title={Indexation automatique}]
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={NLP}]
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={Modélisation de données}]
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={Indexation et archivistique}]
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={Intelligence artificielle}]
-
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={Segmentation temporelle et analyse vidéo automatique}]
-
-\printbibliography[keyword=nlp,
-heading=subbibliography,
-title={Outils et plateformes techniques}]
+%\printbibliography[keyword=indexation,
+%heading=subbibliography,
+%title={Indexation automatique}]
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={NLP}]
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={Modélisation de données}]
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={Indexation et archivistique}]
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={Intelligence artificielle}]
+%
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={Segmentation temporelle et analyse vidéo automatique}]
+%
+%\printbibliography[keyword=nlp,
+%heading=subbibliography,
+%title={Outils et plateformes techniques}]
 
 	
 	
@@ -383,6 +389,7 @@ Toutefois, l'opérationnalité d'un tel processus réside moins dans la performa
 
 \part{Perpectives d'une intelligence hybride}
 
+%intro
 Cette troisième partie explore les conditions d'implémentation du processus automatisé à une échelle plus globale que celle analysée, à celle de l'éditeur de logiciel et de l'ensemble des clients concernés. La généralisation de cette implémentation implique la mise en place d'une \gls{Intelhyb}, qui articule l'efficacité technique aux besoins documentaire du milieu patrimonial. 
 Le premier chapitre analyse le statut des données produites au cours du processus automatique, dont le statut fluide nécessite la traçabilité et un suivi exigeant. Le second chapitre analyse les évolutions de l'interface existante, afin d'impliquer l'utilisateur dans l'implémentation du processus, à travers l'annotation manuelle de donénes et une visualisation des données en graphe. Enfin, le troisième chapitre questionne la généralisation du processus proposé, via la constitution d'un jeux de données d'enraînement par l'éditeur, et par la proposition d'un module automatique paramétrable en détails.
 
@@ -391,6 +398,7 @@ Le premier chapitre analyse le statut des données produites au cours du process
 \input{parties/mainmatter/III/2/III_2.tex}
 \input{parties/mainmatter/III/3/III_3.tex}
 
+%conclu
 L'implémentation de l'intelligence artificielle au sein d'un logiciel de gestion des collections, ne se substitue pas au rôle de l'utilisateur technique ou métier, mais elle redéfinit de nouvelles tâches, notamment pour assurer la qualité des données produites. Les améliorations d'interface pour la gestion des archives audiovisuelles, développées en parallèle, contribuent à mettre en place un rôle décisif pour l'utilisateur, en amont de l'implémentation de fonctionnalités automatiques. Le processus implémenté serait alors le fruit d'une \gls{Intelhyb} qui permet de mettre en application de nouvelles fonctionnalités en accord avec les besoins métier, notamment de modélisation. Si la généralisation du processus soulève des enjeux de coûts et de besoins, l'implémentation du processus comme module paramétrable, en dialogue avec l'institution concernée, peut constituer une solution durable, plaçant encore l'utilisateur métier au coeur des choix. 
 
 

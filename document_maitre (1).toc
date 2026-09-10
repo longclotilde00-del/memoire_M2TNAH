@@ -1,7 +1,7 @@
 \xpg@aux {}{french}
 \contentsline {chapter}{Résumé}{i}{chapter*.1}%
 \contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
-\contentsline {chapter}{Introduction}{xv}{chapter*.6}%
+\contentsline {chapter}{Introduction}{xv}{chapter*.5}%
 \contentsline {part}{I\hspace {1em}Modéliser les données archivistiques audiovisuelles}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}Le \gls {FRBR}, un modèle de données bibliographique}{5}{chapter.1}%
 \contentsline {section}{\numberline {I.} Un modèle conceptuel fondé sur les besoins utilisateurs}{5}{section.1.1}%
@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {2.}Identifier le besoin pour instaurer un cadre éthique}{34}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.}Le besoin d'une segmentation et d'une indexation automatisées}{35}{subsection.3.3.3}%
 \contentsline {part}{II\hspace {1em}Implémenter une segmentation et une indexation automatiques des archives audiovisuelles}{37}{part.2}%
-\contentsline {chapter}{\numberline {4}Application d'un segmentation temporelle automatique}{41}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Application d'une segmentation temporelle automatique}{41}{chapter.4}%
 \contentsline {section}{\numberline {I.}Traitement audiovisuel automatique}{41}{section.4.1}%
 \contentsline {subsection}{\numberline {1.}État des lieux}{41}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {2.}La \gls {Vision par ordinateur}}{43}{subsection.4.1.2}%
@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {1.}Spécificités du corpus traité}{50}{subsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {a.}Paramètres appliqués}{51}{subsubsection.4.3.1.1}%
 \contentsline {subsubsection}{\numberline {b.}Données produites}{52}{subsubsection.4.3.1.2}%
-\contentsline {chapter}{\numberline {5}Décrire et indexer les \gls {sequence}s automatiquement}{55}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Décrire et indexer les séquences automatiquement}{55}{chapter.5}%
 \contentsline {section}{\numberline {I.}Choisir un modèle d'\gls {ia} adapté}{55}{section.5.1}%
 \contentsline {subsection}{\numberline {1.}Appliquer les algorithmes aux données}{55}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {2.}\gls {yolo}}{56}{subsection.5.1.2}%
@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {1.}Un enjeu de transparence}{69}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {2.}Développer une interface dédiée à la validation de l'utilisateur}{70}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {3.}Déroulé du processus de validation}{72}{subsection.6.2.3}%
-\contentsline {section}{\numberline {III.} Requêter les données produites }{74}{section.6.3}%
+\contentsline {section}{\numberline {III.} Requêter les données produites}{74}{section.6.3}%
 \contentsline {subsection}{\numberline {1.}Une indexation fine du contenu}{74}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {2.}Requêter le contenu audiovisuel}{74}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {3.}Perspectives d'outils de recherche innovants}{75}{subsection.6.3.3}%
@@ -111,8 +111,8 @@
 \contentsline {subsection}{\numberline {1.}La réalité des besoins}{97}{subsection.9.3.1}%
 \contentsline {subsection}{\numberline {2.}Le coût matériel et humain de la supervision humaine}{98}{subsection.9.3.2}%
 \contentsline {subsection}{\numberline {3.}Proposer un module paramétrable}{99}{subsection.9.3.3}%
-\contentsline {chapter}{Conclusion}{101}{chapter*.25}%
-\contentsline {part}{Annexes}{107}{part*.26}%
+\contentsline {chapter}{Conclusion}{101}{chapter*.24}%
+\contentsline {part}{Annexes}{107}{part*.25}%
 \contentsline {chapter}{\numberline {A}Suggestions d'améliorations - S-Movies}{107}{appendix.A}%
 \contentsline {section}{\numberline {I.}Améliorations}{107}{section.A.1}%
 \contentsline {subsection}{\numberline {1.}Amélioration des liens}{107}{subsection.A.1.1}%
@@ -126,7 +126,11 @@
 \contentsline {chapter}{\numberline {B}Spécification fonctionnelle : Recherche en langage naturel à l’appui de l’intelligence artificielle }{115}{appendix.B}%
 \contentsline {section}{\numberline {I.}Le besoin utilisateur}{115}{section.B.1}%
 \contentsline {section}{\numberline {II.}Principes d'usage}{116}{section.B.2}%
-\contentsline {subsubsection}{\numberline {a.}Gestions des erreurs}{116}{subsubsection.B.2.0.1}%
-\contentsline {subsubsection}{\numberline {b.}Fonctionnalité détaillée}{117}{subsubsection.B.2.0.2}%
-\contentsline {chapter}{Glossaire}{121}{section*.36}%
-\contentsline {chapter}{Liste des abréviations}{123}{section*.38}%
+\contentsline {subsection}{\numberline {1.}Mode de "recherche augmentée" alternatif }{116}{subsection.B.2.1}%
+\contentsline {subsection}{\numberline {2.}Gestions des erreurs}{116}{subsection.B.2.2}%
+\contentsline {section}{\numberline {III.}Fonctionnalité détaillée}{118}{section.B.3}%
+\contentsline {subsection}{\numberline {1.}Infobulle}{118}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {2.}Requête mal formulée ou incertaine}{118}{subsection.B.3.2}%
+\contentsline {subsection}{\numberline {3.}Résultats de recherche invalides :}{119}{subsection.B.3.3}%
+\contentsline {chapter}{Glossaire}{123}{section*.36}%
+\contentsline {chapter}{Liste des abréviations}{127}{section*.38}%
