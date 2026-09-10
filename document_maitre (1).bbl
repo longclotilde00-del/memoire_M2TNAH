@@ -19,51 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{2021}{misc}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{abstract}{AI tools are entering the world of audiovisual archives in great variety, serving different needs and reflecting different approaches. This blog post looks primarily at the AI tools being used for metadata creation. It includes a basic overview of algorithms, data sets, and the options for open-sour}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{title}{{{AI}} in {{Audiovisual Archives}} | {{Sound}} \& {{Vision}}}
-      \field{urlday}{7}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
-      \endverb
-      \verb{url}
-      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
-      \endverb
-      \keyw{à lire}
-    \endentry
-    \entry{zotero-item-746}{misc}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{inatheque.ina.fr}
-      \field{langid}{french}
-      \field{title}{{Aide et FAQ Médiascope | INA}}
-      \field{urlday}{3}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
-      \endverb
-      \verb{urlraw}
-      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
-      \endverb
-      \verb{url}
-      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
-      \endverb
-    \endentry
     \entry{akata2020}{article}{}{}
       \name{author}{26}{}{%
         {{un=0,uniquepart=base,hash=0cd48aef2686bbbbccec6d9f2193ddb5}{%
@@ -264,63 +219,6 @@
       \endverb
       \keyw{Adaptive systems,Artificial intelligence,Machine intelligence,Task analysis,Teamwork,Tools}
     \endentry
-    \entry{zotero-item-740}{misc}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
-      \field{urlday}{3}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/WAZM29E9/guide-plugin-timeline-options.html
-      \endverb
-      \verb{urlraw}
-      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
-      \endverb
-      \verb{url}
-      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
-      \endverb
-    \endentry
-    \entry{zotero-item-794}{misc}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
-      \field{urlday}{30}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/3VYZHL8L/guide-plugin-editor-options.html
-      \endverb
-      \verb{urlraw}
-      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
-      \endverb
-      \verb{url}
-      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
-      \endverb
-    \endentry
-    \entry{zotero-item-787}{misc}{}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeltitlesource}{title}
-      \field{title}{Analyse Des Tendances {{Médias}} Par l’{{IA}} - {{Les}} Traitements Réalisés Par Les Outils d'intelligence Artificielle Utilisés Sur Data.Ina.Fr | Data.Ina.Fr}
-      \field{urlday}{29}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/T4CPW3KP/traitements-ia.html
-      \endverb
-      \verb{urlraw}
-      \verb https://data.ina.fr/traitements-ia
-      \endverb
-      \verb{url}
-      \verb https://data.ina.fr/traitements-ia
-      \endverb
-    \endentry
     \entry{zotero-item-584}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=581fdb9738940d5a08bac997ae102f4a}{%
@@ -431,6 +329,36 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition}
     \endentry
+    \entry{bachimont1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
+           family={Bachimont},
+           familyi={B\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{fullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \strng{bibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorbibnamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
+      \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Document Numérique}
+      \field{shorttitle}{Bibliothèques Numériques Audiovisuelles}
+      \field{title}{Bibliothèques Numériques Audiovisuelles : Des Enjeux Scientifiques et Techniques}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{219\bibrangedash 242}
+      \range{pages}{24}
+    \endentry
     \entry{bachimont2007}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
@@ -454,7 +382,7 @@
       \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -486,7 +414,7 @@
       \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
       \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -511,35 +439,6 @@
       \endverb
       \keyw{cinema,Indexation}
     \endentry
-    \entry{bachimont}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=321b0ae46329e91dd558c72555696ccc}{%
-           family={Bachimont},
-           familyi={B\bibinitperiod},
-           given={Bruno},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{fullhash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{fullhashraw}{321b0ae46329e91dd558c72555696ccc}
-      \strng{bibnamehash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{authorbibnamehash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{authornamehash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{authorfullhash}{321b0ae46329e91dd558c72555696ccc}
-      \strng{authorfullhashraw}{321b0ae46329e91dd558c72555696ccc}
-      \field{extraname}{3}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Two major evolutions occurs today in audiovisual affairs : on one hand, audiovisual contents are more and more considered to be valuable documents of highhest patrimonial and cultural interest. On the other hand, digital technologies are today pervasive in the technical audiovisual system. In particular access and consultation tools of audiovisual documents are deeply modified by those technics. As a result, we face now with the new problem of building and managing vaste bases made up of digital audiovisual documents. This problem motivates technical and scientific issues that are not yet well understood. This paper proposes some of these issues and shows how they come from the very nature of audiovisual and how digital technics can contribute to solve them.}
-      \field{langid}{french}
-      \field{title}{{Bibliothèques numériques audiovisuelles Des enjeux scientifiques et techniques}}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/XPAWQJIX/Bachimont - Bibliothèques numériques audiovisuelles Des enjeux scientifiques et techniques.pdf
-      \endverb
-    \endentry
     \entry{zotero-item-669}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b5d39b16d16760e0e4573a45fc6f9f97}{%
@@ -561,49 +460,8 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{L'oeuvre d'art à l'époque de Sa Reproductibilité Technique}
+      \field{title}{L'oeuvre d'art à l'époque de sa reproductibilité technique}
       \field{year}{1935}
-    \endentry
-    \entry{bergmann2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fb71d3b9a4c9e4abb8da0034e197db9a}{%
-           family={Bergmann},
-           familyi={B\bibinitperiod},
-           given={Cole\bibnamedelima Stryker},
-           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0,
-           suffix={Dave},
-           suffixi={D\bibinitperiod},
-           suffixun=0}}%
-      }
-      \strng{namehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{fullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{fullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{bibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{authorbibnamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{authornamehash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{authorfullhash}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \strng{authorfullhashraw}{fb71d3b9a4c9e4abb8da0034e197db9a}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Un transformer est un type de modèle d’apprentissage profond qui est rapidement devenu essentiel dans le traitement automatique du langage naturel (NLP) et d’autres tâches de machine learning (ML).}
-      \field{langid}{french}
-      \field{month}{3}
-      \field{shorttitle}{{Qu’est-ce qu’un modèle transformer ?}}
-      \field{title}{{Qu’est-ce qu’un modèle transformer ? | IBM}}
-      \field{urlday}{8}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
-      \endverb
     \endentry
     \entry{bhargav2019}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -671,8 +529,22 @@
       \endverb
     \endentry
     \entry{zotero-item-801}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93d2de6a87c4f27e5179afb010c228c3}{%
+           family={{Bibliothèque Kandinsky}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{fullhash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{fullhashraw}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{bibnamehash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{authorbibnamehash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{authornamehash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{authorfullhash}{93d2de6a87c4f27e5179afb010c228c3}
+      \strng{authorfullhashraw}{93d2de6a87c4f27e5179afb010c228c3}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bibliothèque {{Kandinsky}}}
       \field{urlday}{1}
@@ -687,6 +559,42 @@
       \endverb
       \verb{url}
       \verb https://bibliothequekandinsky.centrepompidou.fr/graphe?id=23c50bed-1ab2-47ea-bfc8-26e84403cf0b##syrtis_search_page
+      \endverb
+    \endentry
+    \entry{zotero-item-651}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5394fae87f443f706dc858269f759705}{%
+           family={{BnF}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bibliothèque nationale de France}%
+      }
+      \strng{namehash}{5394fae87f443f706dc858269f759705}
+      \strng{fullhash}{5394fae87f443f706dc858269f759705}
+      \strng{fullhashraw}{5394fae87f443f706dc858269f759705}
+      \strng{bibnamehash}{5394fae87f443f706dc858269f759705}
+      \strng{authorbibnamehash}{5394fae87f443f706dc858269f759705}
+      \strng{authornamehash}{5394fae87f443f706dc858269f759705}
+      \strng{authorfullhash}{5394fae87f443f706dc858269f759705}
+      \strng{authorfullhashraw}{5394fae87f443f706dc858269f759705}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BnF - Site institutionnel}
+      \field{journaltitle}{BnF - Site institutionnel}
+      \field{langid}{french}
+      \field{title}{{Modèles FRBR, FRAD et FRSAD}}
+      \field{urlday}{30}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
+      \endverb
+      \verb{url}
+      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
       \endverb
     \endentry
     \entry{boeuf2008}{incollection}{}{}
@@ -874,7 +782,7 @@
       \endverb
       \keyw{Label propagation,Object recognition,Semantic segmentation,Video database,Video understanding}
     \endentry
-    \entry{carrive2014}{article}{}{}
+    \entry{carrive2014}{incollection}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=12f742b4208879084d5f82e621ae9aad}{%
            family={Carrive},
@@ -882,6 +790,9 @@
            given={Jean},
            giveni={J\bibinitperiod},
            givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {De Boeck Supérieur}%
       }
       \strng{namehash}{12f742b4208879084d5f82e621ae9aad}
       \strng{fullhash}{12f742b4208879084d5f82e621ae9aad}
@@ -895,9 +806,9 @@
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Information et stratégie}
+      \field{booktitle}{{Big data : Information et stratégie}}
       \field{langid}{french}
-      \field{title}{{Chapitre 4. Analyse automatique de l’image et du son pour l’enrichissement de contenus audiovisuels}}
+      \field{title}{{Analyse automatique de l'image et du son pour l'enrichissement de contenus audiovisuels}}
       \field{urlday}{21}
       \field{urlmonth}{6}
       \field{urlyear}{2026}
@@ -913,6 +824,77 @@
       \endverb
       \verb{url}
       \verb https://shs-cairn-info.portail.psl.eu/big-data--9782804189150-page-61
+      \endverb
+    \endentry
+    \entry{zotero-item-813}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5a2f4aa3e9e3f273c57e27383842e070}{%
+           family={{CIDOC CRM}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CIDOC CRM}%
+      }
+      \strng{namehash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{fullhash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{fullhashraw}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{bibnamehash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{authorbibnamehash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{authornamehash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{authorfullhash}{5a2f4aa3e9e3f273c57e27383842e070}
+      \strng{authorfullhashraw}{5a2f4aa3e9e3f273c57e27383842e070}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{LRMoo Home}} | {{CIDOC CRM}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/KZS34F75/lrmoo.html
+      \endverb
+      \verb{urlraw}
+      \verb https://cidoc-crm.org/lrmoo
+      \endverb
+      \verb{url}
+      \verb https://cidoc-crm.org/lrmoo
+      \endverb
+    \endentry
+    \entry{zotero-item-729}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=462a5b8b0d8424a1f8b01793217155f4}{%
+           family={{CNIL}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CNIL}%
+      }
+      \strng{namehash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{fullhash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{fullhashraw}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{bibnamehash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{authorbibnamehash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{authornamehash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{authorfullhash}{462a5b8b0d8424a1f8b01793217155f4}
+      \strng{authorfullhashraw}{462a5b8b0d8424a1f8b01793217155f4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L'intelligence artificielle «~générative~» désigne la classe des systèmes capables de créer des contenus (texte, code informatique, images, musique, audio, vidéos, etc.). Ces systèmes sont qualifiables de systèmes d’IA à usage général lorsqu’ils permettent de réaliser tout un ensemble de tâches~: c’est le cas notamment des systèmes qui reposent sur des grands modèles de langage (LLM).}
+      \field{langid}{french}
+      \field{title}{{Les questions-réponses de la CNIL sur l’utilisation d’un système d’IA générative}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
+      \endverb
+      \verb{url}
+      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
       \endverb
     \endentry
     \entry{colavizza2026}{article}{}{}
@@ -975,6 +957,9 @@
       \keyw{access,Artificial Intelligence,data preparedness,digital archives,discoverability}
     \endentry
     \entry{zotero-item-708}{misc}{}{}
+      \list{publisher}{1}{%
+        {PySceneDetect}%
+      }
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeltitlesource}{title}
@@ -1036,8 +1021,8 @@
         {{un=0,uniquepart=base,hash=4244cd8ed423c4fef2d82d2d78163a07}{%
            family={Development},
            familyi={D\bibinitperiod},
-           given={S.\bibnamedelimi O.},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={SO},
+           giveni={S\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{4244cd8ed423c4fef2d82d2d78163a07}
@@ -1072,92 +1057,6 @@
       \verb https://sodevelopment.medium.com/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1
       \endverb
     \endentry
-    \entry{dialogue2017}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2aad94339466b12fba7ff04365dfa03a}{%
-           family={Dialogue},
-           familyi={D\bibinitperiod},
-           given={IFLA\bibnamedelimb Working\bibnamedelimb Group\bibnamedelimb on\bibnamedelima FRBR/CRM},
-           giveni={I\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {International Federation of Library Associations and Institutions (IFLA)}%
-      }
-      \strng{namehash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{fullhash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{fullhashraw}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{bibnamehash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{authorbibnamehash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{authornamehash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{authorfullhash}{2aad94339466b12fba7ff04365dfa03a}
-      \strng{authorfullhashraw}{2aad94339466b12fba7ff04365dfa03a}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Commonly known as FRBRoo, this model is closely related to IFLA’s FRBR family of conceptual models. It is the object-oriented version of these models. FRBRoo version 1 was based on FRBR alone, while FRBRoo version 2 is based on the three models: FRBR, FRAD and FRSAD. FRBRoo is superseded by LRMoo version 1.0 (2024). FRBRoo remains true to the original models. It does not change the concepts expressed in the original three models, nor does it transform any aspect. It provides an alternative view or interpretation of the FRBR family of models. It is an object-oriented model, that is, the ontology described in FRBRoo uses an object oriented formalism instead of entity-relationship modelling. Thus, FRBRoo is better suited for the implementation of FRBR concepts in object oriented tools. It also makes explicit some concepts that were implicit in the original models, thus making it easier to move from conceptual model to real-life applications.}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{shorttitle}{Definition of {{FRBRoo}}}
-      \field{title}{Definition of {{FRBRoo}}: {{A Conceptual Model}} for {{Bibliographic Information}} in {{Object-Oriented Formalism}}}
-      \field{urlday}{22}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/GQQYBWES/Dialogue - 2017 - Definition of FRBRoo A Conceptual Model for Bibliographic Information in Object-Oriented Formalism.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://repository.ifla.org/handle/20.500.14598/659
-      \endverb
-      \verb{url}
-      \verb https://repository.ifla.org/handle/20.500.14598/659
-      \endverb
-    \endentry
-    \entry{zotero-item-766}{misc}{}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-~S-T-U-V-W-X-Y-ZAAcquisitionLes acquisitions patrimoniales se répartissent entre achats onéreux (achat de gré à gré, en vente publique), et libéralités (dons et legs, don manuel, donation notariée, donation sous réserve d’usufruit…). «~Dans chaque}
-      \field{langid}{french}
-      \field{title}{{Dico des musées | Ministère de la Culture}}
-      \field{urlday}{15}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
-      \endverb
-      \verb{url}
-      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
-      \endverb
-    \endentry
-    \entry{2023c}{misc}{}{}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Découvre Ultralytics YOLOv8, une avancée dans la détection d'objets en temps réel, optimisant les performances avec une gamme de modèles pré-entraînés pour diverses tâches.}
-      \field{journaltitle}{Ultralytics Docs}
-      \field{langid}{french}
-      \field{month}{11}
-      \field{title}{{Explorer Ultralytics YOLOv8}}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/J8GE4DV4/yolov8.html
-      \endverb
-      \verb{urlraw}
-      \verb https://docs.ultralytics.com/fr/models/yolov8
-      \endverb
-      \verb{url}
-      \verb https://docs.ultralytics.com/fr/models/yolov8
-      \endverb
-    \endentry
     \entry{zotero-item-646}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b11efe5c10dff5cd396662516fe80129}{%
@@ -1176,7 +1075,7 @@
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Le Manuel de Catalogage Des Images Animées de La {{FIAF}}}
+      \field{title}{Le manuel de catalogage des images animées de La {{FIAF}}}
       \field{urlday}{23}
       \field{urlmonth}{6}
       \field{urlyear}{2026}
@@ -1189,48 +1088,39 @@
       \verb https://www.fiafnet.org/pages/E-Resources/Manuel-Catalogage-FIAF.html
       \endverb
     \endentry
-    \entry{zotero-item-636}{misc}{}{}
+    \entry{zotero-item-675}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e98c1506fa157e78592be0e353b54c9}{%
+           family={{FranceArchives}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {France archives}%
+      }
+      \strng{namehash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{fullhash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{fullhashraw}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{bibnamehash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{authorbibnamehash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{authornamehash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{authorfullhash}{8e98c1506fa157e78592be0e353b54c9}
+      \strng{authorfullhashraw}{8e98c1506fa157e78592be0e353b54c9}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Le président de la République, Emmanuel Macron, dévoilait il y a deux ans le plan d’investissement France 2030. Avec 54 milliards d’euros, ce plan doit}
-      \field{langid}{french}
-      \field{shorttitle}{{France 2030}}
-      \field{title}{{France 2030 : un plan d'investissement pour la France | economie.gouv.fr}}
-      \field{urlday}{20}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.economie.gouv.fr/france-2030
-      \endverb
-      \verb{url}
-      \verb https://www.economie.gouv.fr/france-2030
-      \endverb
-    \endentry
-    \entry{zotero-item-811}{misc}{}{}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{FRBRoo: A Conceptual Model for Bibliographic Information in Object-Oriented Formalism 	\&nbsp; 	FRBROO\&nbsp;is an ontology or high-level conceptual model for bibliographic data. I...}
-      \field{journaltitle}{IFLA}
-      \field{langid}{american}
-      \field{title}{{{FRBRoo}} as {{IFLA}} Standard}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
+      \field{journaltitle}{FranceArchives}
+      \field{langid}{french}
+      \field{title}{{Outils pour l'indexation des archives à l'heure du web}}
+      \field{urlday}{13}
+      \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/BKS3J54X/frbroo-as-ifla-standard.html
-      \endverb
       \verb{urlraw}
-      \verb https://www.ifla.org/news/frbroo-as-ifla-standard/
+      \verb https://francearchives.gouv.fr/fr/article/37832
       \endverb
       \verb{url}
-      \verb https://www.ifla.org/news/frbroo-as-ifla-standard/
+      \verb https://francearchives.gouv.fr/fr/article/37832
       \endverb
     \endentry
     \entry{gillis2015}{inproceedings}{}{}
@@ -1253,21 +1143,19 @@
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
+      \field{labeltitlesource}{title}
       \field{abstract}{Abstract This is an updated version of a paper, “FRBR and TMS: Applying a Conceptual Organizational Model for Cataloguing Photographic Archives,” presented at Collective Imagination 2014 in Vienna, Austria. In order to manage the visual archive, containing analog photographic material as well as born-digital images, the Worcester Art Museum has been cataloguing images of objects from the permanent collection into the Media Module of TMS following the guidance of several conceptual models of organization. By referencing the digital preservation guidelines of the Digital Curation Center Lifecycle Model (DCC) and conceptual organizational models of the OAIS Reference Model and the Functional Requirements of Bibliographic Reference (FRBR) method of organization, an organizational model was implemented to better assist with the cataloguing to represent digital assets with their analogue parents. This paper looks at the archival cataloguing workflow and areas of CIDOC Conceptual Reference model's application in a collection management system, including advantages in clarity of metadata for analog and born-digital images.}
-      \field{month}{5}
-      \field{shorttitle}{{{FRBR}} and {{TMS}}}
-      \field{title}{{{FRBR}} and {{TMS}}: {{Applying}} a {{Conceptual Organizational Model}} for {{Cataloguing Photographic Archives}}}
+      \field{title}{FRBR and TMS: Applying a Conceptual Organizational Model for Cataloguing Photographic Archives}
       \field{urlday}{8}
       \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{year}{2015}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/FRBR-and-TMS%3A-Applying-a-Conceptual-Organizational-Gillis/f306103f1832cda79e27676bfce58a5329098cf2
+      \verb https://api.semanticscholar.org/CorpusID:58358915
       \endverb
       \verb{url}
-      \verb https://www.semanticscholar.org/paper/FRBR-and-TMS%3A-Applying-a-Conceptual-Organizational-Gillis/f306103f1832cda79e27676bfce58a5329098cf2
+      \verb https://api.semanticscholar.org/CorpusID:58358915
       \endverb
     \endentry
     \entry{herve2015}{inproceedings}{}{}
@@ -1342,23 +1230,140 @@
       \verb https://dl.acm.org/doi/10.1145/2733373.2807406
       \endverb
     \endentry
-    \entry{zotero-item-706}{misc}{}{}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+    \entry{zotero-item-821}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IBM}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Home - {{PySceneDetect}}}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
+      \field{title}{Qu'est-Ce Qu'{{Elasticsearch}}~?}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
+      \endverb
+    \endentry
+    \entry{zotero-item-816}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statement on {{FRBRoo}} | {{CIDOC CRM}}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /home/clotilde/Zotero/storage/TJH86T92/www.scenedetect.com.html
+      \verb /home/clotilde/Zotero/storage/H7VBLIKE/statement-on-frbroo.html
       \endverb
       \verb{urlraw}
-      \verb https://www.scenedetect.com/
+      \verb https://cidoc-crm.org/Resources/statement-on-frbroo
       \endverb
       \verb{url}
-      \verb https://www.scenedetect.com/
+      \verb https://cidoc-crm.org/Resources/statement-on-frbroo
+      \endverb
+    \endentry
+    \entry{zotero-item-811}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00e3b94cecc5ecb56866adf922f8b5c5}{%
+           family={IFLA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{fullhash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{fullhashraw}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{bibnamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorbibnamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authornamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorfullhash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorfullhashraw}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{FRBRoo: A Conceptual Model for Bibliographic Information in Object-Oriented Formalism 	\&nbsp; 	FRBROO\&nbsp;is an ontology or high-level conceptual model for bibliographic data. I...}
+      \field{journaltitle}{IFLA}
+      \field{langid}{american}
+      \field{title}{{{FRBRoo}} as {{IFLA}} Standard}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/BKS3J54X/frbroo-as-ifla-standard.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ifla.org/news/frbroo-as-ifla-standard/
+      \endverb
+      \verb{url}
+      \verb https://www.ifla.org/news/frbroo-as-ifla-standard/
+      \endverb
+    \endentry
+    \entry{zotero-item-749}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00e3b94cecc5ecb56866adf922f8b5c5}{%
+           family={{IFLA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{fullhash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{fullhashraw}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{bibnamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorbibnamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authornamehash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorfullhash}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \strng{authorfullhashraw}{00e3b94cecc5ecb56866adf922f8b5c5}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using {{Graph Visualization}} to Enhance Representation and Evaluation of Work Clusters}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
       \endverb
     \endentry
     \entry{zotero-item-657}{misc}{}{}
@@ -1392,6 +1397,47 @@
       \endverb
       \verb{url}
       \verb https://repository.ifla.org/items/7303960c-35d1-41c0-9a50-a1ce3136b03b
+      \endverb
+    \endentry
+    \entry{dialogue2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3a224163b204dfab96a3d9e5c8174e18}{%
+           family={{IFLA Working Group on FRBR/CRM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {International Federation of Library Associations and Institutions (IFLA)}%
+      }
+      \strng{namehash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{fullhash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{fullhashraw}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{bibnamehash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{authorbibnamehash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{authornamehash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{authorfullhash}{3a224163b204dfab96a3d9e5c8174e18}
+      \strng{authorfullhashraw}{3a224163b204dfab96a3d9e5c8174e18}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Commonly known as FRBRoo, this model is closely related to IFLA’s FRBR family of conceptual models. It is the object-oriented version of these models. FRBRoo version 1 was based on FRBR alone, while FRBRoo version 2 is based on the three models: FRBR, FRAD and FRSAD. FRBRoo is superseded by LRMoo version 1.0 (2024). FRBRoo remains true to the original models. It does not change the concepts expressed in the original three models, nor does it transform any aspect. It provides an alternative view or interpretation of the FRBR family of models. It is an object-oriented model, that is, the ontology described in FRBRoo uses an object oriented formalism instead of entity-relationship modelling. Thus, FRBRoo is better suited for the implementation of FRBR concepts in object oriented tools. It also makes explicit some concepts that were implicit in the original models, thus making it easier to move from conceptual model to real-life applications.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shorttitle}{Definition of {{FRBRoo}}}
+      \field{title}{Definition of {{FRBRoo}}: {{A Conceptual Model}} for {{Bibliographic Information}} in {{Object-Oriented Formalism}}}
+      \field{urlday}{22}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/GQQYBWES/Dialogue - 2017 - Definition of FRBRoo A Conceptual Model for Bibliographic Information in Object-Oriented Formalism.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://repository.ifla.org/handle/20.500.14598/659
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/handle/20.500.14598/659
       \endverb
     \endentry
     \entry{iflastandards.info2026}{misc}{}{}
@@ -1430,6 +1476,262 @@
       \endverb
       \verb{url}
       \verb https://www.iflastandards.info/fr/frbr/frbroo.html
+      \endverb
+    \endentry
+    \entry{zotero-item-746}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={INA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{inatheque.ina.fr}
+      \field{langid}{french}
+      \field{title}{{Aide et FAQ Médiascope}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/LE9VAEC3/aide-et-faq-mediascope.html
+      \endverb
+      \verb{urlraw}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+      \verb{url}
+      \verb https://inatheque.ina.fr/aide-a-la-recherche/aide-et-faq-mediascope
+      \endverb
+    \endentry
+    \entry{zotero-item-740}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={{INA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WAZM29E9/guide-plugin-timeline-options.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
+      \endverb
+      \verb{url}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-timeline-options.html
+      \endverb
+    \endentry
+    \entry{zotero-item-794}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={INA},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Amalia.Js - {{Metadata}} Enriched {{HTML5}} Video Player}
+      \field{urlday}{30}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/3VYZHL8L/guide-plugin-editor-options.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
+      \endverb
+      \verb{url}
+      \verb https://ina-foss.github.io/amalia.js/guide-plugin-editor-options.html
+      \endverb
+    \endentry
+    \entry{zotero-item-787}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={{INA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INA}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analyse des tendances {{médias}} par l’{{IA}} - {{Les}} traitements téalisés par les outils d'intelligence artificielle utilisés sur Data.Ina.Fr}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/T4CPW3KP/traitements-ia.html
+      \endverb
+      \verb{urlraw}
+      \verb https://data.ina.fr/traitements-ia
+      \endverb
+      \verb{url}
+      \verb https://data.ina.fr/traitements-ia
+      \endverb
+    \endentry
+    \entry{zotero-item-754}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={{INA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INA}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{5}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Corpus de données pour la Recherche}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Dataset}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \endverb
+    \endentry
+    \entry{zotero-item-744}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b36ecc4a178b3b00a974ecaa1947d130}{%
+           family={{INA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INA}%
+      }
+      \strng{namehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{fullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{bibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorbibnamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authornamehash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhash}{b36ecc4a178b3b00a974ecaa1947d130}
+      \strng{authorfullhashraw}{b36ecc4a178b3b00a974ecaa1947d130}
+      \field{extraname}{6}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Moteur de recherche de classes d’objets visuels pour l’accès et la découvrabilité au sein d’archives audiovisuelles de très grande taille}
+      \field{journaltitle}{ina.fr}
+      \field{langid}{french}
+      \field{title}{{Projet Snoop}}
+      \field{urlday}{3}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/2FU57C38/projet-snoop.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
+      \verb{url}
+      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
+      \endverb
+    \endentry
+    \entry{zotero-item-818}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1791374a559898dfcfebacf932b1fc4e}{%
+           family={{Institut audiovisuel de Monaco}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{fullhash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{fullhashraw}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{bibnamehash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{authorbibnamehash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{authornamehash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{authorfullhash}{1791374a559898dfcfebacf932b1fc4e}
+      \strng{authorfullhashraw}{1791374a559898dfcfebacf932b1fc4e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{INSTITUT AUDIOVISUEL DE MONACO}
+      \field{langid}{french}
+      \field{title}{{L'Aigle à deux têtes}}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/3NUPZS4A/laigle-deux-tete.html
+      \endverb
+      \verb{urlraw}
+      \verb https://institut-audiovisuel.mc/evenement/laigle-deux-tete/
+      \endverb
+      \verb{url}
+      \verb https://institut-audiovisuel.mc/evenement/laigle-deux-tete/
       \endverb
     \endentry
     \entry{jocher2022}{misc}{}{}
@@ -1547,7 +1849,7 @@
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-2-200-35506-7 978-2-200-25670-8}
+      \field{isbn}{978-2-200-35506-7}
       \field{langid}{french}
       \field{month}{1}
       \field{title}{{Le vocabulaire du cinéma}}
@@ -1721,53 +2023,24 @@
       \verb https://link.springer.com/chapter/10.1007/978-3-031-47508-5_14
       \endverb
     \endentry
-    \entry{zotero-item-818}{misc}{}{}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{INSTITUT AUDIOVISUEL DE MONACO}
-      \field{langid}{french}
-      \field{title}{{L'Aigle à deux têtes}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/3NUPZS4A/laigle-deux-tete.html
-      \endverb
-      \verb{urlraw}
-      \verb https://institut-audiovisuel.mc/evenement/laigle-deux-tete/
-      \endverb
-      \verb{url}
-      \verb https://institut-audiovisuel.mc/evenement/laigle-deux-tete/
-      \endverb
-    \endentry
-    \entry{2025a}{misc}{}{}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Alors que les usages de l’intelligence artificielle (IA) se développent massivement, le ministère de la Culture présente sa stratégie d’action pour des intelligences artificielles culturelles et responsables. Cette stratégie accompagnera les mutations dans les secteurs culturels et garantir}
-      \field{langid}{french}
-      \field{month}{7}
-      \field{title}{{La stratégie du ministère pour des intelligences artificielles culturelles et responsables | Ministère de la Culture}}
-      \field{urlday}{20}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
-      \endverb
-      \verb{url}
-      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
-      \endverb
-    \endentry
     \entry{zotero-item-785}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5fe38adf32a63a2135274dadc6102a45}{%
+           family={{Label Studio}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{fullhash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{fullhashraw}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{bibnamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorbibnamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authornamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorfullhash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorfullhashraw}{5fe38adf32a63a2135274dadc6102a45}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Customize Label Studio with multiple choice labels for machine learning and data science projects.}
       \field{langid}{english}
@@ -1784,6 +2057,46 @@
       \endverb
       \verb{url}
       \verb https://labelstud.io/tags/choices
+      \endverb
+    \endentry
+    \entry{zotero-item-783}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5fe38adf32a63a2135274dadc6102a45}{%
+           family={{Label Studio}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Label Studio}%
+      }
+      \strng{namehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{fullhash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{fullhashraw}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{bibnamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorbibnamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authornamehash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorfullhash}{5fe38adf32a63a2135274dadc6102a45}
+      \strng{authorfullhashraw}{5fe38adf32a63a2135274dadc6102a45}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multi-modal data labeling and annotation platform for agent traces, LLM evals, RLHF, computer vision, document AI, NLP, audio transcription, and more.}
+      \field{journaltitle}{Label Studio}
+      \field{langid}{english}
+      \field{title}{Open {{Source Data Labeling}} and {{AI Evaluation}}}
+      \field{urlday}{29}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/26Y63GA3/labelstud.io.html
+      \endverb
+      \verb{urlraw}
+      \verb https://labelstud.io/
+      \endverb
+      \verb{url}
+      \verb https://labelstud.io/
       \endverb
     \endentry
     \entry{lalande2022}{incollection}{}{}
@@ -1863,43 +2176,6 @@
       \endverb
       \verb{url}
       \verb https://eac.ac/articles/5702
-      \endverb
-    \endentry
-    \entry{zotero-item-729}{misc}{}{}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labeltitlesource}{title}
-      \field{abstract}{L'intelligence artificielle «~générative~» désigne la classe des systèmes capables de créer des contenus (texte, code informatique, images, musique, audio, vidéos, etc.). Ces systèmes sont qualifiables de systèmes d’IA à usage général lorsqu’ils permettent de réaliser tout un ensemble de tâches~: c’est le cas notamment des systèmes qui reposent sur des grands modèles de langage (LLM).}
-      \field{langid}{french}
-      \field{title}{{Les questions-réponses de la CNIL sur l’utilisation d’un système d’IA générative}}
-      \field{urlday}{26}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
-      \endverb
-      \verb{url}
-      \verb https://www.cnil.fr/fr/les-questions-reponses-de-la-cnil-sur-lutilisation-dun-systeme-dia-generative
-      \endverb
-    \endentry
-    \entry{zotero-item-813}{misc}{}{}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labeltitlesource}{title}
-      \field{title}{{{LRMoo Home}} | {{CIDOC CRM}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/KZS34F75/lrmoo.html
-      \endverb
-      \verb{urlraw}
-      \verb https://cidoc-crm.org/lrmoo
-      \endverb
-      \verb{url}
-      \verb https://cidoc-crm.org/lrmoo
       \endverb
     \endentry
     \entry{mahony2020}{book}{}{}
@@ -2005,23 +2281,117 @@
       \verb https://github.com/MeMAD-project/mmca
       \endverb
     \endentry
-    \entry{zotero-item-651}{misc}{}{}
+    \entry{zotero-item-636}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=38cbbddf077b068cbe1065483a2f9a71}{%
+           family={{Ministère de l'Économie}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ministère de l'économie}%
+      }
+      \strng{namehash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{fullhash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{fullhashraw}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{bibnamehash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{authorbibnamehash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{authornamehash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{authorfullhash}{38cbbddf077b068cbe1065483a2f9a71}
+      \strng{authorfullhashraw}{38cbbddf077b068cbe1065483a2f9a71}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labeltitlesource}{title}
-      \field{abstract}{BnF - Site institutionnel}
-      \field{journaltitle}{BnF - Site institutionnel}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Le président de la République, Emmanuel Macron, dévoilait il y a deux ans le plan d’investissement France 2030. Avec 54 milliards d’euros, ce plan doit}
       \field{langid}{french}
-      \field{title}{{Modèles FRBR, FRAD et FRSAD}}
-      \field{urlday}{30}
+      \field{shorttitle}{{France 2030}}
+      \field{title}{{France 2030 : un plan d'investissement pour la France}}
+      \field{urlday}{20}
       \field{urlmonth}{6}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/5UVVFI8N/france-2030.html
+      \endverb
       \verb{urlraw}
-      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
+      \verb https://www.economie.gouv.fr/france-2030
       \endverb
       \verb{url}
-      \verb https://www.bnf.fr/fr/modeles-frbr-frad-et-frsad
+      \verb https://www.economie.gouv.fr/france-2030
+      \endverb
+    \endentry
+    \entry{2025a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f01ed98bbd81682b0ac4533193374bf}{%
+           family={{Ministère de la Culture}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{fullhash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{fullhashraw}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{bibnamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorbibnamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authornamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorfullhash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorfullhashraw}{3f01ed98bbd81682b0ac4533193374bf}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alors que les usages de l’intelligence artificielle (IA) se développent massivement, le ministère de la Culture présente sa stratégie d’action pour des intelligences artificielles culturelles et responsables. Cette stratégie accompagnera les mutations dans les secteurs culturels et garantir}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{title}{{La stratégie du ministère pour des intelligences artificielles culturelles et responsables}}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/STQKXGDF/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+      \verb{url}
+      \verb https://www.culture.gouv.fr/thematiques/innovation-numerique/la-strategie-du-ministere-pour-des-intelligences-artificielles-culturelles-et-responsables
+      \endverb
+    \endentry
+    \entry{zotero-item-766}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f01ed98bbd81682b0ac4533193374bf}{%
+           family={{Ministère de la Culture}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ministère de la culture}%
+      }
+      \strng{namehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{fullhash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{fullhashraw}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{bibnamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorbibnamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authornamehash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorfullhash}{3f01ed98bbd81682b0ac4533193374bf}
+      \strng{authorfullhashraw}{3f01ed98bbd81682b0ac4533193374bf}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-~S-T-U-V-W-X-Y-ZAAcquisitionLes acquisitions patrimoniales se répartissent entre achats onéreux (achat de gré à gré, en vente publique), et libéralités (dons et legs, don manuel, donation notariée, donation sous réserve d’usufruit…). «~Dans chaque}
+      \field{langid}{french}
+      \field{title}{{Dico des musées}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
+      \endverb
+      \verb{url}
+      \verb https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-musees-de-france/dico-des-musees
       \endverb
     \endentry
     \entry{noord2021}{inproceedings}{}{}
@@ -2115,46 +2485,6 @@
       \verb https://dumas.ccsd.cnrs.fr/dumas-04255677
       \endverb
     \endentry
-    \entry{zotero-item-783}{misc}{}{}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Multi-modal data labeling and annotation platform for agent traces, LLM evals, RLHF, computer vision, document AI, NLP, audio transcription, and more.}
-      \field{journaltitle}{Label Studio}
-      \field{langid}{english}
-      \field{title}{Open {{Source Data Labeling}} and {{AI Evaluation}}}
-      \field{urlday}{29}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/26Y63GA3/labelstud.io.html
-      \endverb
-      \verb{urlraw}
-      \verb https://labelstud.io/
-      \endverb
-      \verb{url}
-      \verb https://labelstud.io/
-      \endverb
-    \endentry
-    \entry{zotero-item-675}{misc}{}{}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{FranceArchives}
-      \field{langid}{french}
-      \field{title}{{Outils pour l'indexation des archives à l'heure du web}}
-      \field{urlday}{13}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://francearchives.gouv.fr/fr/article/37832
-      \endverb
-      \verb{url}
-      \verb https://francearchives.gouv.fr/fr/article/37832
-      \endverb
-    \endentry
     \entry{pattichis2023}{misc}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=89dc43b07ca52494038415699b632bb4}{%
@@ -2216,64 +2546,40 @@
       \endverb
       \keyw{audiovisual processing,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Image and Video Processing}
     \endentry
-    \entry{zotero-item-754}{misc}{}{}
+    \entry{zotero-item-706}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2e8f4ada51b9e7b0d16a0780eee9afe1}{%
+           family={{PySceneDetect}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PySceneDetect}%
+      }
+      \strng{namehash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{fullhash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{fullhashraw}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{bibnamehash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{authorbibnamehash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{authornamehash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{authorfullhash}{2e8f4ada51b9e7b0d16a0780eee9afe1}
+      \strng{authorfullhashraw}{2e8f4ada51b9e7b0d16a0780eee9afe1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Corpus de données pour la Recherche}
-      \field{journaltitle}{ina.fr}
-      \field{langid}{french}
-      \field{title}{{Projet Dataset | INA}}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
+      \field{title}{Home - {{PySceneDetect}}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
       \field{urlyear}{2026}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /home/clotilde/Zotero/storage/WFG7T2FK/projet-dataset.html
+      \verb /home/clotilde/Zotero/storage/TJH86T92/www.scenedetect.com.html
       \endverb
       \verb{urlraw}
-      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
+      \verb https://www.scenedetect.com/
       \endverb
       \verb{url}
-      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-dataset
-      \endverb
-    \endentry
-    \entry{zotero-item-744}{misc}{}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Moteur de recherche de classes d’objets visuels pour l’accès et la découvrabilité au sein d’archives audiovisuelles de très grande taille}
-      \field{journaltitle}{ina.fr}
-      \field{langid}{french}
-      \field{title}{{Projet Snoop | INA}}
-      \field{urlday}{3}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/2FU57C38/projet-snoop.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
-      \endverb
-      \verb{url}
-      \verb https://www.ina.fr/institut-national-audiovisuel/equipe-recherche/projet-snoop
-      \endverb
-    \endentry
-    \entry{zotero-item-821}{misc}{}{}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{labeltitlesource}{title}
-      \field{title}{Qu'est-Ce Qu'{{Elasticsearch}}~? | {{IBM}}}
-      \field{urlday}{5}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
+      \verb https://www.scenedetect.com/
       \endverb
     \endentry
     \entry{2025c}{misc}{}{}
@@ -2426,10 +2732,11 @@
       \field{abstract}{PDF | Je présente mes activités de recherche en indexation video et en reconnaissance d'actions, et je propose un programme de recherche permettant... | Find, read and cite all the research you need on ResearchGate}
       \field{journaltitle}{ResearchGate}
       \field{langid}{english}
-      \field{title}{({{PDF}}) {{Analyse}} Automatique de Film - {{Des}} Séquences d'images Aux Séquences d'actions.}
+      \field{title}{Analyse Automatique de Film - {{Des}} Séquences d'images Aux Séquences d'actions.}
       \field{urlday}{21}
       \field{urlmonth}{6}
       \field{urlyear}{2026}
+      \field{year}{2009}
       \field{urldateera}{ce}
       \verb{file}
       \verb /home/clotilde/Zotero/storage/4YQUQEDE/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions.html
@@ -2441,24 +2748,43 @@
       \verb https://www.researchgate.net/publication/41117180_Analyse_automatique_de_film_-_Des_sequences_d'images_aux_sequences_d'actions
       \endverb
     \endentry
-    \entry{zotero-item-816}{misc}{}{}
+    \entry{2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e448cbded55eb5252d5f9be28e2c219}{%
+           family={{Sound \& Vision}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{fullhash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{fullhashraw}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{bibnamehash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{authorbibnamehash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{authornamehash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{authorfullhash}{0e448cbded55eb5252d5f9be28e2c219}
+      \strng{authorfullhashraw}{0e448cbded55eb5252d5f9be28e2c219}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Statement on {{FRBRoo}} | {{CIDOC CRM}}}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
+      \field{abstract}{AI tools are entering the world of audiovisual archives in great variety, serving different needs and reflecting different approaches. This blog post looks primarily at the AI tools being used for metadata creation. It includes a basic overview of algorithms, data sets, and the options for open-sour}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{{AI}} in {{Audiovisual Archives}}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
       \field{urlyear}{2026}
+      \field{year}{2021}
       \field{urldateera}{ce}
       \verb{file}
-      \verb /home/clotilde/Zotero/storage/H7VBLIKE/statement-on-frbroo.html
+      \verb /home/clotilde/Zotero/storage/S2F9IITH/2021 - AI in Audiovisual Archives Sound & Vision.html
       \endverb
       \verb{urlraw}
-      \verb https://cidoc-crm.org/Resources/statement-on-frbroo
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
       \endverb
       \verb{url}
-      \verb https://cidoc-crm.org/Resources/statement-on-frbroo
+      \verb https://www.beeldengeluid.nl/en/research/blog/ai-audiovisual-archives
       \endverb
+      \keyw{à lire}
     \endentry
     \entry{stockinger2011}{book}{}{}
       \name{author}{1}{}{%
@@ -2499,12 +2825,12 @@
     \endentry
     \entry{stryker2025a}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
+        {{un=0,uniquepart=base,hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
            family={Stryker},
            familyi={S\bibinitperiod},
            given={Cole},
            giveni={C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{3ad6590e5b4a21e93d302b7e0bf0d768}
       \strng{fullhash}{3ad6590e5b4a21e93d302b7e0bf0d768}
@@ -2535,26 +2861,73 @@
       \verb https://www.ibm.com/fr-fr/think/topics/large-language-models
       \endverb
     \endentry
-    \entry{stryker2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=ece737ebd926d66ad9425f5520ef340e}{%
+    \entry{bergmann2025}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
            family={Stryker},
            familyi={S\bibinitperiod},
-           given={Rina\bibnamedelimb Diane\bibnamedelima Caballar},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=1,
-           suffix={Cole},
-           suffixi={C\bibinitperiod},
-           suffixun=0}}%
+           given={Cole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=145cb942e2c6e0e141b825eb8cebbdb1}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{fullhash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{fullhashraw}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{bibnamehash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{authorbibnamehash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{authornamehash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{authorfullhash}{ece737ebd926d66ad9425f5520ef340e}
-      \strng{authorfullhashraw}{ece737ebd926d66ad9425f5520ef340e}
+      \strng{namehash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{fullhash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{fullhashraw}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{bibnamehash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{authorbibnamehash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{authornamehash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{authorfullhash}{13bccba7a3fef60e615038607dfe4b46}
+      \strng{authorfullhashraw}{13bccba7a3fef60e615038607dfe4b46}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Un transformer est un type de modèle d’apprentissage profond qui est rapidement devenu essentiel dans le traitement automatique du langage naturel (NLP) et d’autres tâches de machine learning (ML).}
+      \field{langid}{french}
+      \field{month}{3}
+      \field{shorttitle}{{Qu’est-ce qu’un modèle transformer ?}}
+      \field{title}{{Qu’est-ce qu’un modèle transformer ? | IBM}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/transformer-model
+      \endverb
+    \endentry
+    \entry{stryker2025}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3ad6590e5b4a21e93d302b7e0bf0d768}{%
+           family={Stryker},
+           familyi={S\bibinitperiod},
+           given={Cole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1d857c71509d8a88955d39829988dce}{%
+           family={Caballar},
+           familyi={C\bibinitperiod},
+           given={Rina\bibnamedelima Diane},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{fullhash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{fullhashraw}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{bibnamehash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{authorbibnamehash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{authornamehash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{authorfullhash}{fb6bbbcb609583e5e86aaa0a0d17a80a}
+      \strng{authorfullhashraw}{fb6bbbcb609583e5e86aaa0a0d17a80a}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
@@ -2649,6 +3022,88 @@
       \verb https://www.loc.gov/catdir/cpso/frbreng.pdf
       \endverb
     \endentry
+    \entry{2023c}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88f069848482a556e416f713d2819905}{%
+           family={{Ultralytics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ultralytics}%
+      }
+      \strng{namehash}{88f069848482a556e416f713d2819905}
+      \strng{fullhash}{88f069848482a556e416f713d2819905}
+      \strng{fullhashraw}{88f069848482a556e416f713d2819905}
+      \strng{bibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorbibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authornamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhashraw}{88f069848482a556e416f713d2819905}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Découvre Ultralytics YOLOv8, une avancée dans la détection d'objets en temps réel, optimisant les performances avec une gamme de modèles pré-entraînés pour diverses tâches.}
+      \field{journaltitle}{Ultralytics Docs}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{title}{{Explorer Ultralytics YOLOv8}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/J8GE4DV4/yolov8.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/fr/models/yolov8
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/fr/models/yolov8
+      \endverb
+    \endentry
+    \entry{2025b}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=88f069848482a556e416f713d2819905}{%
+           family={{Ultralytics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{88f069848482a556e416f713d2819905}
+      \strng{fullhash}{88f069848482a556e416f713d2819905}
+      \strng{fullhashraw}{88f069848482a556e416f713d2819905}
+      \strng{bibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorbibnamehash}{88f069848482a556e416f713d2819905}
+      \strng{authornamehash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhash}{88f069848482a556e416f713d2819905}
+      \strng{authorfullhashraw}{88f069848482a556e416f713d2819905}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Découvre YOLO12, doté d'une architecture révolutionnaire centrée sur l'attention pour une détection d'objets de pointe avec une précision et une efficacité inégalées.}
+      \field{journaltitle}{Ultralytics Docs}
+      \field{langid}{french}
+      \field{month}{2}
+      \field{shorttitle}{{YOLO12}}
+      \field{title}{{YOLO12 : Détection d'objets centrée sur l'attention}}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/448JAI2E/yolo12.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.ultralytics.com/fr/models/yolo12
+      \endverb
+      \verb{url}
+      \verb https://docs.ultralytics.com/fr/models/yolo12
+      \endverb
+    \endentry
     \entry{zotero-item-772}{misc}{}{}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
@@ -2668,21 +3123,43 @@
       \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
       \endverb
     \endentry
-    \entry{zotero-item-749}{misc}{}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+    \entry{2023b}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6eec1f3de853b52c089075b5b05634cc}{%
+           family={{V7 Darwin}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {v7darwin}%
+      }
+      \strng{namehash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{fullhash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{fullhashraw}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{bibnamehash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{authorbibnamehash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{authornamehash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{authorfullhash}{6eec1f3de853b52c089075b5b05634cc}
+      \strng{authorfullhashraw}{6eec1f3de853b52c089075b5b05634cc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Using {{Graph Visualization}} to Enhance Representation and Evaluation of Work Clusters}
-      \field{urlday}{3}
-      \field{urlmonth}{8}
+      \field{abstract}{What is YOLO architecture and how does it work? Learn about different YOLO algorithm versions and start training your own YOLO object detection models.}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{{{YOLO Algorithm}} for {{Object Detection Explained}} [+{{Examples}}]}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
       \field{urlyear}{2026}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
       \verb{url}
-      \verb https://repository.ifla.org/items/325e74e8-42b1-4c89-9248-f987afed63ef
+      \verb https://www.v7darwin.com/blog/yolo-object-detection
       \endverb
+      \keyw{IA,object detection}
     \endentry
     \entry{wise2026}{article}{}{}
       \name{author}{7}{}{%
@@ -2888,52 +3365,6 @@
       \verb http://arxiv.org/abs/2408.15857
       \endverb
       \keyw{Computer Science - Computer Vision and Pattern Recognition}
-    \endentry
-    \entry{2023b}{misc}{}{}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{labeltitlesource}{title}
-      \field{abstract}{What is YOLO architecture and how does it work? Learn about different YOLO algorithm versions and start training your own YOLO object detection models.}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{title}{{{YOLO Algorithm}} for {{Object Detection Explained}} [+{{Examples}}]}
-      \field{urlday}{6}
-      \field{urlmonth}{6}
-      \field{urlyear}{2026}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.v7darwin.com/blog/yolo-object-detection
-      \endverb
-      \verb{url}
-      \verb https://www.v7darwin.com/blog/yolo-object-detection
-      \endverb
-      \keyw{IA,object detection}
-    \endentry
-    \entry{2025b}{misc}{}{}
-      \field{sortinit}{Y}
-      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Découvre YOLO12, doté d'une architecture révolutionnaire centrée sur l'attention pour une détection d'objets de pointe avec une précision et une efficacité inégalées.}
-      \field{journaltitle}{Ultralytics Docs}
-      \field{langid}{french}
-      \field{month}{2}
-      \field{shorttitle}{{YOLO12}}
-      \field{title}{{YOLO12 : Détection d'objets centrée sur l'attention}}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/448JAI2E/yolo12.html
-      \endverb
-      \verb{urlraw}
-      \verb https://docs.ultralytics.com/fr/models/yolo12
-      \endverb
-      \verb{url}
-      \verb https://docs.ultralytics.com/fr/models/yolo12
-      \endverb
     \endentry
     \entry{yuan2025}{article}{}{}
       \name{author}{3}{}{%

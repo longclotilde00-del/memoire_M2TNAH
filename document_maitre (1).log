@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  10 SEP 2026 11:47
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.21)  10 SEP 2026 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1650,13 +1650,14 @@ LaTeX Warning: Label `III_3_C' multiply defined.
 
 LaTeX Warning: Label `III_3_C@cref' multiply defined.
 
+(./parties/mainmatter/conclusion.aux
 
 LaTeX Warning: Label `III_3' multiply defined.
 
 
 LaTeX Warning: Label `III_3@cref' multiply defined.
 
-(./parties/mainmatter/conclusion.aux)
+)
 
 LaTeX Warning: Label `annexe_A' multiply defined.
 
@@ -1888,27 +1889,34 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 [4
 
 ]
+Overfull \hbox (18.80292pt too wide) in paragraph at lines 309--309
+[][][]\TU/lmr/m/sc/12 Bibliothèque Kandinsky[]\TU/lmr/m/n/12 ​, \TU/lmr/m/it/12
+ Bibliothèque Kandinsky\TU/lmr/m/n/12 , \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []
+$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
 
 [5
 
 ]
-Overfull \hbox (2.77263pt too wide) in paragraph at lines 307--307
+Overfull \hbox (2.77263pt too wide) in paragraph at lines 309--309
 [][][]\TU/lmr/m/sc/12 Brostow[]\TU/lmr/m/n/12 ​ (Gabriel J.), []\TU/lmr/m/sc/12
  Fauqueur[]\TU/lmr/m/n/12 ​ (Julien) et []\TU/lmr/m/sc/12 Cipolla[]\TU/lmr/m/n/
 12 ​ (Roberto), «  Semantic Object Classes
  []
 
 
-
-[6]
-Overfull \hbox (4.37076pt too wide) in paragraph at lines 307--307
+Overfull \hbox (4.37076pt too wide) in paragraph at lines 309--309
 \TU/lmr/m/n/12 mars 2024, \TU/lmr/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] []
  [] [] [][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][][] [] [][][][][][]
 [][][][] [][] [][] [][] [][][][][][][][][][][][] [][]
  []
 
 
-Overfull \hbox (11.73682pt too wide) in paragraph at lines 307--307
+
+[6]
+Overfull \hbox (11.73682pt too wide) in paragraph at lines 309--309
 [][][]\TU/lmr/m/sc/12 IFLA Study Group on the Functional Requirements for Bibli
 ographic Records[]\TU/lmr/m/n/12 ​,
  []
@@ -1916,21 +1924,21 @@ ographic Records[]\TU/lmr/m/n/12 ​,
 
 
 [7]
-Overfull \hbox (15.5349pt too wide) in paragraph at lines 307--307
+Overfull \hbox (15.5349pt too wide) in paragraph at lines 309--309
 [][][]\TU/lmr/m/sc/12 Journot[]\TU/lmr/m/n/12 ​ (Marie-Thérèse), \TU/lmr/m/it/1
 2 Le vocabulaire du cinéma\TU/lmr/m/n/12 , 2008, \TU/lmr/m/sc/12 doi \TU/lmr/m/
 n/12 : []$[][] [] [][][][][] [] [][] [] [][][][][][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (10.67084pt too wide) in paragraph at lines 307--307
+Overfull \hbox (10.67084pt too wide) in paragraph at lines 309--309
 [][][]\TU/lmr/m/sc/12 Kassel[]\TU/lmr/m/n/12 ​ (Raphael), \TU/lmr/m/it/12 L’app
 rentissage auto-supervisé : Qu’est-ce que c’est? Comment ça marche?\TU/lmr/m/n/
 12 ,
  []
 
 
-Overfull \hbox (0.90454pt too wide) in paragraph at lines 307--307
+Overfull \hbox (0.90454pt too wide) in paragraph at lines 309--309
 [][][]\TU/lmr/m/sc/12 Kasturi[]\TU/lmr/m/n/12 ​ (Surya), []\TU/lmr/m/sc/12 Shen
 field[]\TU/lmr/m/n/12 ​ (Alex), []\TU/lmr/m/sc/12 Roast[]\TU/lmr/m/n/12 ​ (Chri
 s), []\TU/lmr/m/sc/12 Le Page[]\TU/lmr/m/n/12 ​ (Danny) et []\TU/lmr/m/sc/12 Br
@@ -1940,6 +1948,20 @@ oome[]\TU/lmr/m/n/12 ​ (Alice),
 
 
 [8]
+Overfull \hbox (12.05743pt too wide) in paragraph at lines 309--309
+\TU/lmr/m/it/12 culturelles et responsables\TU/lmr/m/n/12 , juill. 2025, \TU/lm
+r/m/sc/12 url \TU/lmr/m/n/12 : []$[][][][][] [] [] [] [][][] [] [][][][][][][] 
+[] [][][][] [] [][] [] [][][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (5.45486pt too wide) in paragraph at lines 309--309
+[][][]\TU/lmr/m/sc/12 Sound & Vision[]\TU/lmr/m/n/12 ​, \TU/lmr/m/it/12 AI in A
+udiovisual Archives\TU/lmr/m/n/12 , mai 2021, \TU/lmr/m/sc/12 url \TU/lmr/m/n/1
+2 : []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] []
+ []
+
+
 
 [9]
 
@@ -1958,6 +1980,9 @@ oome[]\TU/lmr/m/n/12 ​ (Alice),
 ]
 
 [15]
+Underfull \vbox (badness 1902) has occurred while \output is active []
+
+
 
 [16])
 
@@ -2208,6 +2233,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 [44]
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+
 
 [45]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
@@ -2234,17 +2262,14 @@ Overfull \hbox (20.81282pt too wide) in paragraph at lines 57--82
  [][] 
  []
 
+) (./parties/mainmatter/II/1/II_1_B.tex
 
-
-[46]) (./parties/mainmatter/II/1/II_1_B.tex
+[46]
 
 [47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 15.
-
-
-Underfull \vbox (badness 2334) has occurred while \output is active []
 
 
 
@@ -2491,6 +2516,13 @@ File: images/terminologie.png Graphic file (type bmp)
 [110]
 File: images/kandinsky1.png Graphic file (type bmp)
 <images/kandinsky1.png>
+
+Underfull \hbox (badness 2103) in paragraph at lines 151--151
+[][][][][]\TU/lmr/m/n/10 Bibliothèque Kandinsky[]​, \TU/lmr/m/it/10 Bibliothèqu
+e Kandinsky\TU/lmr/m/n/10 , \TU/lmr/m/sc/10 url \TU/lmr/m/n/10 : []$[][][][][] 
+[] [] [] [][][][][][][][][][][][][][][][][][][][][] []
+ []
+
 File: images/kandinsky2.png Graphic file (type bmp)
 <images/kandinsky2.png>
 
@@ -2584,6 +2616,13 @@ onte-
 [130
 
 ] (./document_maitre (1).lof
+Underfull \hbox (badness 2103) in paragraph at lines 30--30
+[][][][][]\TU/lmr/m/n/10 Bibliothèque Kandinsky[]​, \TU/lmr/m/it/10 Bibliothèqu
+e Kandinsky\TU/lmr/m/n/10 , \TU/lmr/m/sc/10 url \TU/lmr/m/n/10 : $[][][][][] []
+ [] [] [][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
 
 [131])
 \tf@lof=\write10
@@ -2614,19 +2653,27 @@ L3 programming layer <2025-09-02>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "document_maitre (1)"
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to '"document_maitre (1)".run.xml'.
 \openout1 = `"document_maitre (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49924 strings out of 468389
- 1047992 string characters out of 5440619
- 2051667 words of memory out of 5000000
- 77660 multiletter control sequences out of 15000+600000
+ 49659 strings out of 468389
+ 1044564 string characters out of 5440619
+ 2048822 words of memory out of 5000000
+ 77395 multiletter control sequences out of 15000+600000
  633333 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,13n,101p,2489b,7256s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,102p,2489b,7263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on document_maitre (1).pdf (157 pages).

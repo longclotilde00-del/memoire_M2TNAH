@@ -51,8 +51,8 @@
 \contentsline {section}{\numberline {II.} Outils de segmentation automatique}{47}{section.4.2}%
 \contentsline {subsection}{\numberline {1.}Décomposer le mouvement}{47}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {2.}\gls {pyscene}}{48}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {3.}Fonctionnement}{49}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {a.}Paramétrages}{49}{subsubsection.4.2.3.1}%
+\contentsline {subsection}{\numberline {3.}Fonctionnement}{48}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {a.}Paramétrages}{48}{subsubsection.4.2.3.1}%
 \contentsline {subsubsection}{\numberline {b.}Limites}{50}{subsubsection.4.2.3.2}%
 \contentsline {section}{\numberline {III.}Mise en application}{50}{section.4.3}%
 \contentsline {subsection}{\numberline {1.}Spécificités du corpus traité}{50}{subsection.4.3.1}%
@@ -113,7 +113,7 @@
 \contentsline {subsection}{\numberline {3.}Proposer un module paramétrable}{99}{subsection.9.3.3}%
 \contentsline {chapter}{Conclusion}{101}{chapter*.24}%
 \contentsline {part}{Annexes}{107}{part*.25}%
-\contentsline {chapter}{\numberline {A}Suggestions d'améliorations - S-Movies}{107}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Améliorations fonctionnelles - S-Movies}{107}{appendix.A}%
 \contentsline {section}{\numberline {I.}Améliorations}{107}{section.A.1}%
 \contentsline {subsection}{\numberline {1.}Amélioration des liens}{107}{subsection.A.1.1}%
 \contentsline {subsubsection}{\numberline {a.}Contraindre les liens entre les niveaux depuis les tables}{107}{subsubsection.A.1.1.1}%
