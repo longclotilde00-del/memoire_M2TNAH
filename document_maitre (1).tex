@@ -19,6 +19,8 @@
 %\listoffigures % génère la liste des figures en début ou fin de mémoire
 \usepackage{tikz} %package tikz pour la création de graphiques
 \usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
+\usepackage{placeins}
+
 
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 \addbibresource{memoire_tnah.bib} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
@@ -299,7 +301,7 @@
 
 Je tiens également à remercier l'ensemble de l'équipe métier chez Skinsoft pour sa bienveillance, qui a permis à mon stage d'être riche d'apprentissages. 
 
-Je remercie également ma famille et mes amies pour leur soutien lors de la rédaction, et tout particulièrement Florence et Xavier pour leurs relectures. 
+Je remercie également ma famille et mes amies, Anouck, Zoé et Ambre pour leur soutien lors de la rédaction, et tout particulièrement Florence et Xavier pour leurs relectures. 
 
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
@@ -308,7 +310,7 @@ Je remercie également ma famille et mes amies pour leur soutien lors de la réd
 \printbibliography
 
 
-\chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
+%\chapter*{Sources par notions} %impression de la bibliographie par mots clés défiis dans zotero%
 
 %\printbibliography[keyword=indexation,
 %heading=subbibliography,
@@ -352,20 +354,24 @@ Je remercie également ma famille et mes amies pour leur soutien lors de la réd
 
 	
 
-\part{Modéliser les données archivistiques audiovisuelles}
+\part{Modéliser les données audiovisuelles}
 
 %intro de la partie
-La modélisation des données constitue le fondement de la gestion structurée de fonds patrimoniaux. Appliquée aux \gls{Archivesaudiovisuelles}, la modélisation se heurte toutefois à la nature temporelle de tels objets de collection. Cette partie explore la modélisation théorique des données puis son application logicielle, condition de toute implémentation de fonctionnalité automatique.
+La modélisation des données constitue le fondement d'un gestion structurée de fonds patrimoniaux. Appliquée aux \gls{Archivesaudiovisuelles}, la modélisation se heurte toutefois à la nature temporelle de tels objets. Cette partie explore la modélisation théorique des données documentaires, puis son application aux \gls{Archivesaudiovisuelles}, qui constitue le contexte de toute implémentation de fonctionnalité automatique.
 
-Le premier chapitre examine les fondements théoriques de la modélisation en s'appuyant sur le modèle \gls{FRBR} (\textit{Functional Requirements for Bibliographic Records}). Fondé sur les besoins d'accès des utilisateurs, il offre une structure verticale de nature entité-relation, que la \gls{fiaf} (Fédération internationales des archives audiovisuelles) adapte aux \gls{Archivesaudiovisuelles}.
+Le premier chapitre examine les fondements théoriques de la modélisation en s'appuyant sur le modèle \gls{FRBR}. Fondé sur les besoins d'accès des utilisateurs, il offre une structure verticale de nature entité-relation pour les systèmes documentaires bibliographiques, que la \gls{fiaf} (Fédération internationale des archives audiovisuelles) adapte aux \gls{Archivesaudiovisuelles}.
 
 Le second chapitre étudie la mise en œuvre de l'adaptation du \gls{FRBR} aux \gls{Archivesaudiovisuelles} au sein de l'architecture logicielle développée par l'éditeur Skinsoft, à travers l'analyse de l'espace de travail S-Movies. Nous évaluerons l'adaptation du modèle aux normes métier documentaires via l'analyse d'un corpus audiovisuel spécifique.
 
-Enfin, le troisième chapitre évoque le projet d'automatisation de l'indexation pensé par Skinsoft. Nous analyserons la nécessité documentaire de la tâche de segmentation, préalable à l'indexation dans le cas du corpus étudié, afin de prévoir l'inscription d'un processus adapté aux besoins.
+Enfin, le troisième chapitre évoque le projet d'automatisation de l'indexation pensé par Skinsoft. Nous y analyserons la nécessité documentaire de la tâche de segmentation, préalable à l'indexation afin de prévoir l'inscription d'un processus adapté aux besoins.
+
+
 
 \input{parties/mainmatter/I/1/I_1.tex}
 \input{parties/mainmatter/I/2/I_2.tex}
 \input{parties/mainmatter/I/3/I_3.tex}
+
+
 
 %conclu de la partie 
 L'analyse du modèle \gls{FRBR} a démontré la pertinence d'une approche entités-relations afin de rendre compte de la complexité des œuvres audiovisuelles. Toutefois, à travers l'analyse de S-Movies, il a été constaté que l'intégration du \gls{FRBR} exige des efforts d'ergonomie afin de garantir une expérience utilisateur fluide, sans pour autant perdre l'intelligibilité du modèle.
@@ -377,13 +383,19 @@ Dès lors, nous nous pencherons sur le processus d'automatisation en lui-même, 
 \part{Implémenter une segmentation et une indexation automatiques des archives audiovisuelles}
 
 %intro partie
-Cette seconde partie est consacrée à la mise en œuvre theorique d'une chaine de traitement automatique pour la segmentation en séquences du flux audiovisuel, et l'indexation de ces séquences par mots-clés. L'enjeu fondamental de notre réflexion est d'adapter des outils techniques fondés sur l'intelligence artificielle, tout en prenant en compte les exigences de structure documentaire, ainsi que la complexité des archives audiovisuelles.
+Cette seconde partie est consacrée à la mise en œuvre théorique d'une chaine de traitement automatique pour la segmentation en \gls{sequence}s du flux audiovisuel, et l'indexation de ces \gls{sequence}s par mots-clés. L'enjeu fondamental de notre réflexion est d'adapter des outils techniques fondés sur l'intelligence artificielle, tout en prenant en compte les exigences de structure documentaire, ainsi que la complexité des archives audiovisuelles.
 
-Le premier chapitre analyse la mise en place théorique d'une segmentation automatique à travers l'outil \gls{pyscene}, fondé sur la \gls{Vision par ordinateur}. Le second chapitre analyse par ailleurs la description automatique des séquences produites via des mots-clés, à l'aide de l'outil \gls{yolo}. Nous évaluerons les besoins d'entraînement de ce modèle, fondé sur un réseau de neurones convolutif, ainsi que la mise en place d'un dispositif de validation technique pour les prédictions produites. Enfin, nous évaluerons les enjeux de reversement des données produites au sein du modèle de données décrit en première partie, nécessitant une supervision de l'utilisateur à chaque étape. 
+Le premier chapitre analyse d'abord la mise en place théorique d'une segmentation automatique à travers l'outil \gls{pyscene}, fondé sur la \gls{Vision par ordinateur}. 
+Le second chapitre analyse par ailleurs la description automatique des séquences produites via des mots-clés, à l'aide de l'outil \gls{yolo}. Nous évaluerons les besoins d'entraînement de ce modèle, fondé sur un réseau de neurones convolutif, ainsi que la mise en place d'un dispositif de validation technique pour les prédictions produites. 
+Enfin, nous évaluerons les enjeux de reversement des données produites au sein du modèle de données décrit en première partie, nécessitant une supervision de l'utilisateur à chaque étape. 
+
+
 
 \input{parties/mainmatter/II/1/II_1.tex}
 \input{parties/mainmatter/II/2/II_2.tex}
-\input{parties/mainmatter/II/3/II_3.tex}
+\input{parties/mainmatter/II/3/II_3.tex} 
+
+
 
 %conclu partie
 Cette seconde partie a permis de poser les fondements d'une proposition d'un processus automatisé pour la segmentation et l'indexation des \gls{Archivesaudiovisuelles} au sein d'un logiciel de gestion des collections. Afin de répondre aux contraintes de sécurité des données et de la réduction du temps de traitement, nous avons proposé un processus en deux temps: une segmentation automatique exécutée par un outil de \gls{Vision par ordinateur} classique (\gls{pyscene}), et une classification par mots-clés avec un outil de fondé sur la \gls{Vision par ordinateur} et l'\gls{Apprentissage profond} (\gls{yolo}). Enfin, l'adaptation du modèle de données afin d'accueillir ces nouvelles fonctionnalités automatiques a permis d'imaginer un processus de validation au sein duquel l'utilisateur reste décisionnaire de l'indexation. 
@@ -392,13 +404,18 @@ Toutefois, l'opérationnalité d'un tel processus réside moins dans la performa
 \part{Perpectives d'une intelligence hybride}
 
 %intro
-Cette troisième partie explore les conditions d'implémentation du processus automatisé à une échelle plus globale que celle analysée, à celle de l'éditeur de logiciel et de l'ensemble des clients concernés. La généralisation de cette implémentation implique la mise en place d'une \gls{Intelhyb}, qui articule l'efficacité technique aux besoins documentaire du milieu patrimonial. 
+Cette troisième partie explore les conditions d'implémentation du processus automatisé à une échelle plus globale que celle analysée, à celle de l'éditeur de logiciel et de l'ensemble des clients concernés. La généralisation de cette implémentation implique la mise en place d'une \gls{Intelhyb}, qui articule l'efficacité technique aux besoins documentaires du milieu patrimonial. 
 Le premier chapitre analyse le statut des données produites au cours du processus automatique, dont le statut fluide nécessite la traçabilité et un suivi exigeant. Le second chapitre analyse les évolutions de l'interface existante, afin d'impliquer l'utilisateur dans l'implémentation du processus, à travers l'annotation manuelle de donénes et une visualisation des données en graphe. Enfin, le troisième chapitre questionne la généralisation du processus proposé, via la constitution d'un jeux de données d'enraînement par l'éditeur, et par la proposition d'un module automatique paramétrable en détails.
+
+
 
 
 \input{parties/mainmatter/III/1/III_1.tex}
 \input{parties/mainmatter/III/2/III_2.tex}
 \input{parties/mainmatter/III/3/III_3.tex}
+
+
+
 
 %conclu
 L'implémentation de l'intelligence artificielle au sein d'un logiciel de gestion des collections, ne se substitue pas au rôle de l'utilisateur technique ou métier, mais elle redéfinit de nouvelles tâches, notamment pour assurer la qualité des données produites. Les améliorations d'interface pour la gestion des archives audiovisuelles, développées en parallèle, contribuent à mettre en place un rôle décisif pour l'utilisateur, en amont de l'implémentation de fonctionnalités automatiques. Le processus implémenté serait alors le fruit d'une \gls{Intelhyb} qui permet de mettre en application de nouvelles fonctionnalités en accord avec les besoins métier, notamment de modélisation. Si la généralisation du processus soulève des enjeux de coûts et de besoins, l'implémentation du processus comme module paramétrable, en dialogue avec l'institution concernée, peut constituer une solution durable, plaçant encore l'utilisateur métier au coeur des choix. 
@@ -432,7 +449,7 @@ L'implémentation de l'intelligence artificielle au sein d'un logiciel de gestio
 %\printindex
 %\glsaddall
 \printglossary[title=Glossaire]
-\printglossary[type=\acronymtype, title={Liste des abréviations}]
+\printglossary[type=\acronymtype, title={Liste des acronymes}]
 \listoftables
 \listoffigures
 \tableofcontents

@@ -1,7 +1,8 @@
-\section{\label{III_3_C} Une automatisation nécesaire ?}
+\section{\label{III_3_C} Une automatisation nécessaire ?}
 
 \subsection{La réalité des besoins}
-Au delà des contraintes posées par la segmentation et l'indexation automatisées, se pose la question de la pertinence du déploiement de telles fonctionnalités, en lien avec les besoins professionnels actuels. En effet, un éditeur tel que Skinsoft est animé par une logique commerciale d'innovation qui contraste avec les habitudes métier de gestion des collections. Au sein d'un \textit{guide pour une IA responsable dans le secteur culturel}, le Ministère de la Culture rappelle que dans le cadre d'une mise en place de fonctionnalités fondées sur l'IA, il s'agit "d’examiner le besoin à couvrir et de vérifier la capacité des systèmes d’IA à satisfaire ce besoin dans des conditions optimales" ; le cas échéant, de favoriser des alternatives moins consommatrices que l’IA si elles sont suffisantes à répondre au besoin." \footcite{2025a}.
+Au delà des contraintes posées par la segmentation et l'indexation automatisées, se pose la question de la pertinence du déploiement de telles fonctionnalités, en lien avec les besoins professionnels actuels. En effet, un éditeur tel que Skinsoft est animé par une logique commerciale d'innovation qui contraste avec les habitudes métier de gestion des collections. Au sein d'un \textit{guide pour une IA responsable dans le secteur culturel}, le Ministère de la Culture rappelle que dans le cadre d'une mise en place de fonctionnalités fondées sur l'\gls{ia}, il s'agit "d’examiner le besoin à couvrir et de vérifier la capacité des systèmes d’\gls{ia} à satisfaire ce besoin dans des conditions optimales" ; le cas échéant, de favoriser des alternatives moins consommatrices que l’IA si elles sont suffisantes à répondre au besoin." \footcite{2025a}.
+
 Dans le cadre de notre étude, notre proposition se limite à l'expérimentation d'un processus à partir d'un besoin précis identifié sur un corpus spécifique. Or, ce besoin fait partie d'une réalité globale documentaire, celle de la nécessité d'exploiter davantage le contenu des archives audiovisuelles, dont le caractère temporel rend les caractéristiques inexploitées, inadaptées aux outils de recherche existants. Comme l'explique le chercheur Bruno Bachimont, 
 \begin{quote} 
 	La temporalité des séquences audiovisuelles a pour conséquence qu’il est impossible de consulter rapidement un document, de le "feuilleter" pour trouver un élément que l’on recherche : pour feuilleter une heure de vidéo, il faut une heure. \footcite{bachimont1998}. 
@@ -14,15 +15,12 @@ Toutefois, nous avons pu observer au cours de notre stage certaines institutions
 
 Or, si ce processus centré sur la supervision humaine parait idéal, il impose des contraintes matérielles et financières importantes. D'une part, l'éditeur devra superviser le développement du processus via l'annotation de larges jeux de données, pour entraîner un modèle comme \gls{yolo}. D'autre part, l'institution cliente devra mettre en place des ressources dédiées à la validation du processus et au contrôle qualité des données automatiquement produites. L'implémentation de la segmentation et de l'indexation automatiques, devra ainsi s'effectuer au cas par cas, selon les besoins identifiés par les retours clients. Nous pouvons dès lors nous demander si l'implémentation du processus idéal tel que nous l'avons décrit, constitue un gain de temps de travail ou une charge supplémentaire.
 
+Afin de satisfaire un besoin plus global, il est justement pertinent de mettre le modèle de données au premier plan de l'implémentation, afin de rapeller la capacité d'un modèle d'\gls{ia} à s'adapter à des pratiques métier.
 
-
-Afin de satisfaire un besoin plus global, il est justement pertinent de mettre le modèle de données au premier plan de l'implémentation, afin de rapeller la capacité d'un modèle d'IA à s'adapter à des pratiques métier.
- 
-
-%Vers une publication conforme sur le web 
-%éditeur comme vecteur de du web de données liées : préparer les données à leur publication sur lweb via des référentiels et une structuration frbr 
 
 \subsection{Proposer un module paramétrable}
+
 Afin de faire face à la disparité des besoins et des moyens entre les institutions, l'implémentation d'une segmentation et d'une indexation automatiques pourra s'effectuer sous la forme d'un module paramétrable et optionnel. En effet, étant donné la variabilité du modèle de données d'une institution à une autre, et des différences de configurations entre les espaces de travail, l'automatisation décrite pourra être intégrée à l'image du fonctionnement du logiciel, sous une forme paramétrable au cas par cas. De la même manière que l'éditeur propose la configurabilité de l'espace de travail par des masques, méta masques et menus, un dialogue en amont pourra être établi afin de définir les modalités d'implantation de la fonctionnalité. La modification du modèle de données par l'ajout d'une nouvelle entité pouvant recueillir les séquences pourra notamment être proposée comme une option. De plus, l'éditeur pourra prévoir un environnement logiciel de test afin de garantir une appropriation des fonctionnalités et d'en modifier le paramétrage au cours des pratiques. 
+
 Ainsi, la segmentation et l'indexation automatiques pourront être fondées sur une architecture paramétrable, de la même manière que l'ensemble du logiciel. Le mode configurable de ces fonctionnalités par l'éditeur auront pour but d'une part de soulager les institutions de la mise en place de moyens couteux, et d'autre part de garantir la mise en place d'une IA comme outil d'assistance pour l'utilisateur.  
 

@@ -1057,6 +1057,39 @@
       \verb https://sodevelopment.medium.com/fine-tuning-yolo-models-with-an-automated-data-labeling-pipeline-3704b6472aa1
       \endverb
     \endentry
+    \entry{zotero-item-772}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ccf29c2d7d013a8c785b076286370fb}{%
+           family={{Edmonson, Ray}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{fullhash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{fullhashraw}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{bibnamehash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{authorbibnamehash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{authornamehash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{authorfullhash}{6ccf29c2d7d013a8c785b076286370fb}
+      \strng{authorfullhashraw}{6ccf29c2d7d013a8c785b076286370fb}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Une {{Philosophie}} de l'archivistique Audiovisuelle - {{UNESCO Bibliothèque Numérique}}}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/H42NIKYI/pf0000113127_fre.html
+      \endverb
+      \verb{urlraw}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
+      \endverb
+      \verb{url}
+      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
+      \endverb
+    \endentry
     \entry{zotero-item-646}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b11efe5c10dff5cd396662516fe80129}{%
@@ -1230,6 +1263,42 @@
       \verb https://dl.acm.org/doi/10.1145/2733373.2807406
       \endverb
     \endentry
+    \entry{2021d}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La modélisation de données est le processus qui consiste à créer une représentation visuelle d’un système d’information afin de communiquer les connexions entre les points de données et les structures.}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{shorttitle}{{Qu’est-ce que la modélisation de données ?}}
+      \field{title}{{Qu’est-ce que la modélisation de données ?}}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
+      \endverb
+    \endentry
     \entry{zotero-item-821}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -1247,7 +1316,7 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
@@ -1264,6 +1333,40 @@
       \verb https://www.ibm.com/fr-fr/think/topics/elasticsearch
       \endverb
     \endentry
+    \entry{zotero-item-702}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Qu’est-Ce Que Le Machine Learning~({{ML}})?}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/clotilde/Zotero/storage/FR7EECI2/machine-learning.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
+      \endverb
+    \endentry
     \entry{zotero-item-816}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -1278,7 +1381,7 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{labelnamesource}{author}
@@ -2603,46 +2706,6 @@
       \verb https://www.ibm.com/fr-fr/think/topics/nosql-databases
       \endverb
     \endentry
-    \entry{2021d}{misc}{}{}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{La modélisation de données est le processus qui consiste à créer une représentation visuelle d’un système d’information afin de communiquer les connexions entre les points de données et les structures.}
-      \field{langid}{french}
-      \field{month}{9}
-      \field{shorttitle}{{Qu’est-ce que la modélisation de données ?}}
-      \field{title}{{Qu’est-ce que la modélisation de données ? | IBM}}
-      \field{urlday}{6}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/data-modeling
-      \endverb
-    \endentry
-    \entry{zotero-item-702}{misc}{}{}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{labeltitlesource}{title}
-      \field{title}{Qu’est-Ce Que Le Machine Learning~({{ML}})? | {{IBM}}}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/FR7EECI2/machine-learning.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/fr-fr/think/topics/machine-learning
-      \endverb
-    \endentry
     \entry{redmon2016}{misc}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
@@ -2892,7 +2955,7 @@
       \field{langid}{french}
       \field{month}{3}
       \field{shorttitle}{{Qu’est-ce qu’un modèle transformer ?}}
-      \field{title}{{Qu’est-ce qu’un modèle transformer ? | IBM}}
+      \field{title}{{Qu’est-ce qu’un modèle transformer ?}}
       \field{urlday}{8}
       \field{urlmonth}{6}
       \field{urlyear}{2026}
@@ -3102,25 +3165,6 @@
       \endverb
       \verb{url}
       \verb https://docs.ultralytics.com/fr/models/yolo12
-      \endverb
-    \endentry
-    \entry{zotero-item-772}{misc}{}{}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{labeltitlesource}{title}
-      \field{title}{Une {{Philosophie}} de l'archivistique Audiovisuelle - {{UNESCO Bibliothèque Numérique}}}
-      \field{urlday}{15}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /home/clotilde/Zotero/storage/H42NIKYI/pf0000113127_fre.html
-      \endverb
-      \verb{urlraw}
-      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
-      \endverb
-      \verb{url}
-      \verb https://unesdoc.unesco.org/ark:/48223/pf0000113127_fre
       \endverb
     \endentry
     \entry{2023b}{misc}{}{}

@@ -3,10 +3,6 @@
 
 L’objet de notre étude est le reversement des données produites par l’indexation automatique au sein du modèle FRBR, adapté aux archives audiovisuelles. Si les outils d’extraction automatique tels que YOLOv8, nécessitent un réentrainement spécifique au corpus étudié, une seconde difficulté s'impose, celle de l'alignement de ces données avec un modèle de données personnalisé. Le modèle de données FRBR est, en effet, configuré selon les besoins métier de chaque institution et conditionne l’organisation des données pour l’utilisateur au sein de l’interface. Dès lors, comment reverser des données produites automatiquement, au sein d’un modèle de données configurable ? Ce reversement concrétise en effet l’indexation automatique, puisque les données deviennent visibles et requêtables par les utilisateurs, au sein de l'interface du logiciel. 
 
-%Faire le lien avec le NLP le plus possible : le NLP pourra être étendu pour la recherche de contenus visuels  
-
-%Yolo est une IA discriminative 
-
 
 \input{parties/mainmatter/II/3/II_3_A.tex}
 \input{parties/mainmatter/II/3/II_3_B.tex}
@@ -15,22 +11,4 @@ L’objet de notre étude est le reversement des données produites par l’inde
 
 \textit{In fine}, l'intégration de l'indexation automtique au sein d'un logiciel de gestion des collections exige une réadaptation du modèle de données via la création d'une nouvelle entité qui permet d'accueillir adéquatement les nouvelles métadonnées produites. De plus, l'implémentation du processus automatique implique la mise en place d'une interface de validation qui place l'utilisateur au centre de l'indexation définitive. Une fois indexées, la masse de données produites permet de concrétiser la finalité du \gls{FRBR}, celle de la découvrabilité, via des outils de recherche innovants qui permettent d'explorer directement le contenu de l'image. 
 
-
-
-%"Si l’utilisation envisagée consiste à fournir des données personnelles (données des clients ou des collaborateurs) ou de la documentation sensible ou stratégique (par exemple pour le RAG), il semble généralement plus opportun et plus sécurisé de privilégier le déploiement de solutions « sur site » (on premise) qui présentent l’avantage de limiter les risques d’extraction de données auprès d’un tiers" \footcite{zotero-item-729}
-%"s’il est envisagé d’utiliser un système sous forme d’API, il faut souligner que la maîtrise du système est alors quasi exclusivement dans les mains du fournisseur. Il convient donc d’être particulièrement vigilant sur les données soumises au système d’IA" \footcite{zotero-item-729}
-
-%Le besoin à l'origine d'Amalia.js est de permettre de visualiser les résultats de pipelines d'automatisation, avec leur lot de métadonnées produites : « Whatever the field of analysis, we always need to be able to quickly and easily view the results of the methods we are developing. This problem is particularly true as we often manipulate large amount of videos. Developing visualization and annotation tools is often a tedious task that deserves to be pooled. »\footcite{herve2015}
-%« The analysis being at different levels (keyframes, video segments, audio channels, associated synopses, one video alone or relative to a corpus...) results are obtained in very different natures, often needing quite specific approaches to be presented to the end user. »\footcite{herve2015} L'indexation utomatique regroupe tout un tas de métadonnées issues d'algorithmes et d'outils différents qu'il faut réunir dans ne interface de présentation. 
-
-%"A major challenge for making AVP tools available
-%is that the underlying algorithms need direct access to the data, yet due to strict IPR regulation this data often cannot leave the archives’ digital environment. A side effect of this is that for the analysis of AV material commercially available tools cannot be used, as these are primarily cloud based. it is necessary that any AVP infrastructure can be integrated with a local archival infrastructure, i.e., we need to bring the algorithms to the data, rather than the data to the algorithms." \footcite{noord2021}. Solution : projet CLARIAH 
-
-%"Moreover, DANE is designed
-%to be able to function in environments where there are fewer compute resources, or environments where access to the data is rate limited, as is typical for AV archives. To make this possible, the DANE architecture (as shown in Figure 2) divides the tasks to be performed over different workers that perform one specific type of analysis, where the work is assigned to a worker by means of message broker queuing system. The results of the analyses are communicated back to the server by the workers, and made available via an API to clients (e.g., other services or individual users)." \footcite{noord2021} (+ schéma qui montre l'architecture)
-
-%"To enrich the AV collections in the Media Suite with automatically generated (and time-coded) metadata an assortment of AVP tools had been added to DANE, ranging from Semantic Object Detection, to colour analysis, to Automatic Speech Recognition."\footcite{noord2021}
-
-%"These tools generate two types of metadata: (i) structured data which can be integrated into the existing metadata systems, and (ii) feature vectors which describe the data on a more abstract level, but which can be integrated in new types of interfaces and search systems. For instance, with an Object Recognition model it is possible to recognise which objects are present in an image, but the output of such a model can also be used to perform more abstract visual similarity queries" \footcite{noord2021}
-
-%exemple d'indexation automatique à la bibliothèque nationale de finlande "L’API « suggest » est au cœur de ce web service : en fournissant un document textuel en entrée, on obtient en sortie une liste (au format JSON) de suggestions de concepts pour l’indexer ainsi que l’appréciation quantifiée de leur niveau de pertinence. Autre fonctionnalité importante, « learn » est capable de mettre à jour les programmes en exploitant des correspondances vérifiées entre des documents décrits et les mots sujets choisis."\footcite{suominen2019a}ss
+\clearpage
