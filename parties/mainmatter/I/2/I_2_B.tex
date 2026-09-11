@@ -30,15 +30,20 @@ La table des items, quant à elle, est répartie en trois catégories d'objets :
 Enfin, les films numériques décrivent le support original depuis lequel la numérisation a été effectuée, les raisons de la numérisation ---par exemple, copie de sauvegarde---, et l'item physique qui a fait l'objet de cette numérisation.  
 Par ailleurs, un élément précis de description a retenu notre attention dans le cadre de notre étude. En effet, la présence de  marqueurs temporels au sein des notices de films numériques, traduisant l'inscription de la copie numérisée dans une œuvre plus large. En effet, certaines \gls{oeuvre}s (\gls{rush}), dont les modalités matérielles sont décrites dans une notice de film physique, ont été séquencées en extraits puis numérisées. Étant donné que les \gls{oeuvre}s conservées sont des \gls{rush} non montés, cette division en extraits a pour but de réaliser une forme de montage a posteriori, afin de rendre le contenu de ces films intelligibles via une diffusion en ligne. Ainsi, la plupart des films numériques gérés au sein de S-Movies sont issus de ce découpage depuis les \gls{rush} originaux. Les repères temporels expriment le rattachement précis de l'item numérique au sein d'un item physique.  
 
-Ce séquençage complexifie les liens entre les entités et modélise plutôt la structure suivante : 
+Ce séquençage complexifie les liens entre les entités. Ainsi, la structure du \gls{FRBR} peut être modélisée de la manière suivante, appliquée au corpus\footnote{Des attributs ont été ajoutés aux entités afin de représenter leur valeur descriptive au sein de la structure}  : 
 
 
-schéma à placer 
-
-
-Par exemple : Une notice \gls{oeuvre} est liée à un item numérique, lui- même lié à un ou plusieurs films physiques : cassette, bobine, avec le time code mentionné pour traduire la place de l’extrait/film numérique au sein de ces supports physiques.  
-
-Les films physiques : contiennent la liste des films numériques qu’ils ont pour extrait + les différentes reproductions du film physique sur d’autres supports physiques : plusieurs bobines, plusieurs cassettes (à des fins de conservation)  
+\begin{figure}[htbp] 
+	
+	\centering 
+	
+	\includegraphics[width=1.0\textwidth]{images/modelisation_AK.png} 
+	
+	\caption{Modélisation des relations entre les tables de données} 
+	
+	\label{figmodelisation} 
+	
+\end{figure}
 
 Si l'espace de travail S-Movies parvient à maintenir le modèle \gls{FRBR} à travers trois tables de données principales pour les corpus audiovisuels classique, la description d'un corpus plus spécifique éclipse notamment le niveau \gls{manifestation} pour ne conserver qu'une hiérarchie à deux niveaux. De plus, l’analyse de pratiques de saisie complexes au sein de l'interface soulève des enjeux de fluidité de navigation et de compréhension pour l'utilisateur. En effet, le caractère documentaire et brut du corpus observé nécessite une description fine de son contenu afin d'en restituer l'intelligibilité. 
 Afin d’adapter l’espace de travail à des corpus spécifiques, Skinsoft engage notamment une démarche de refonte et d'améliorations, dont l’objectif est de repenser d’une part l’interface complexe fondée sur le \gls{FRBR}, et d’autre part d’intégrer des fonctionnalités innovantes d’indexation automatique afin de faciliter les pratiques métier. 
